@@ -1,7 +1,52 @@
-<!DOCTYPE html>
 <html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+  
+  <style type="text/css">
+    body { border:0px; margin:0px; background: rgba(74,140,191,1); background: -moz-linear-gradient(top, rgba(74,140,191,1) 0%, rgba(117,169,209,1) 59%, rgba(146,189,221,1) 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(74,140,191,1)), color-stop(59%, rgba(117,169,209,1)), color-stop(100%, rgba(146,189,221,1))); background: -webkit-linear-gradient(top, rgba(74,140,191,1) 0%, rgba(117,169,209,1) 59%, rgba(146,189,221,1) 100%); background: -o-linear-gradient(top, rgba(74,140,191,1) 0%, rgba(117,169,209,1) 59%, rgba(146,189,221,1) 100%); background: -ms-linear-gradient(top, rgba(74,140,191,1) 0%, rgba(117,169,209,1) 59%, rgba(146,189,221,1) 100%); background: linear-gradient(to bottom, rgba(74,140,191,1) 0%, rgba(117,169,209,1) 59%, rgba(146,189,221,1) 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a8cbf', endColorstr='#92bddd', GradientType=0 ); }
+
+    #image img {position:fixed; border:0px; margin:0px; width:284px; height:284px; bottom:0px; right:25%;}
+    #bottomBar {position:fixed; border:0px; margin:0px; background:#0f0f0f; width:100%; height:26px; bottom:0px;}
+    a {color:#ddd; text-decoration:none; border-bottom:none;}
+    a:hover { color:#aaa; }
+    
+    #cloud {font-size:500px; color: #fff; position:fixed; right:25%; bottom:345px;}
+    #bubble1 {font-size:30px; color: #fff; position:fixed; right:calc(25% + 55px); bottom:245px;}
+    #bubble2 {font-size:60px; color: #fff; position:fixed; right:calc(25% + 25px); bottom:270px;}
+    #bubble3 {font-size:100px; color: #fff; position:fixed; right:calc(25% + 5px); bottom:325px;}
+
+    #facebook {font-size:100px; color: #ddd; position:fixed; right:calc(25% + 120px); bottom:600px; }
+    #twitter {font-size:100px; position:fixed; right:calc(25% + 400px); bottom:500px; }
+    #instagram {font-size:100px; position:fixed; right:calc(25% + 300px); bottom:670px; }
+    #linkedin {font-size:100px; position:fixed; right:calc(25% + 250px); bottom:540px; }
+    #github {font-size:100px; position:fixed; right:calc(25% + 120px); bottom:460px; }
+    #keybase {font-size:100px; position:fixed; right:calc(25% + 310px); bottom:420px; }
+
+  </style>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div id="cloud"><i class="fa fa-cloud" aria-hidden="true"></i></div>
+    <div id="bubble1"><i class="fa fa-circle" aria-hidden="true"></i></div>
+    <div id="bubble2"><i class="fa fa-circle" aria-hidden="true"></i></div>
+    <div id="bubble3"><i class="fa fa-circle" aria-hidden="true"></i></div>
+
+    <div id="facebook"><a href="https://facebook.com/transilluminate" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true" title="Facebook" aria-label="Facebook"></i></a></div>
+    
+    <div id="twitter"><a href="https://twitter.com/transilluminate" target="_blank"><i class="fa fa-twitter" aria-hidden="true" title="Twitter" aria-label="Twitter"></i></a></div>
+    
+    <div id="instagram"><a href="https://www.instagram.com/transilluminate/" target="_blank"><i class="fa fa-instagram" aria-hidden="true" title="Instagram" aria-label="Instagram"></i></a></div>
+    
+    <div id="github"><a href="https://github.com/transilluminate" target="_blank"><i class="fa fa-github" aria-hidden="true" title="Github" aria-label="Github"></i></a></div>
+    
+    <div id="linkedin"><a href="https://www.linkedin.com/in/transilluminate/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" title="LinkedIn" aria-label="LinkedIn"></i></a></div>
+    
+    <div id="keybase"><a href="https://keybase.io/transilluminate" target="_blank" title="Keybase"><i class="fa fa-lock" aria-hidden="true" title="Keybase" aria-label="Keybase"></i></a></div>
+
+    <div id="image"><img src="me.png"/></div>
+    <div id="bottomBar"></div>
+  </div>
 </body>
+
 </html>
