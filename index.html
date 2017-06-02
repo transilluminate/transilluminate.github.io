@@ -8,7 +8,11 @@
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 		<style type="text/css">
 			* {margin: 0; padding: 0; border:0; overflow: visible;}
+			html { height: 100%; } // fixing background gradient bug on chrome
 			body {
+				height: 100%;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
 				background: rgba(115,167,221,1);
 				background: -moz-linear-gradient(top, rgba(115,167,221,1) 0%, rgba(204,225,245,1) 100%);
 				background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(115,167,221,1)), color-stop(100%, rgba(204,225,245,1)));
