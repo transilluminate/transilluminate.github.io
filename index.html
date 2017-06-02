@@ -72,7 +72,7 @@
 			$(document).ready( function() {
 
 				var facebookHTML = "<a href='https://facebook.com/transilluminate' target='_blank'><i class='fa fa-facebook-official' aria-hidden='true' title='Facebook' aria-label='Facebook'></i></a>";
-				var twitterHTML = "<a href='https://twitter.com/transilluminate' target='_blank'><i class='fa fa-twitter' aria-hidden='true' title='Twitter' aria-label='Twitter' ></i></a>";
+				var twitterHTML = "<a href='https://twitter.com/transilluminate' target='_blank'><i class='fa fa-twitter' aria-hidden='true' title='Twitter' aria-label='Twitter'></i></a>";
 				var instagramHTML = "<a href='https://www.instagram.com/transilluminate/' target='_blank'><i class='fa fa-instagram' aria-hidden='true' title='Instagram' aria-label='Instagram'></i></a>";
 				var githubHTML = "<a href='https://github.com/transilluminate' target='_blank'><i class='fa fa-github' aria-hidden='true' title='Github' aria-label='Github'></i></a>";
 				var linkedinHTML = "<a href='https://www.linkedin.com/in/transilluminate/' target='_blank'><i class='fa fa-linkedin-square' aria-hidden='true' title='LinkedIn' aria-label='LinkedIn'></i></a>";
@@ -82,29 +82,30 @@
 				addCloud(80,80,10,0.3); addCloud(70,60,10,0.7);
 
 				// dense clouds covering the social media places
-				addCloud(10,8,20,1);  // twitter
+				addCloud(10,14,20,1);  // twitter
 				addCloud(30,28,20,1); // facebook
 				addCloud(33,3,20,1);	  // instagram
 				addCloud(50,15,20,1); // github
-				addCloud(68,12,20,1); // linkedin
+				addCloud(68,5,20,1); // linkedin
 				addCloud(90,10,20,1); // keybase
 				
 				// some random 'fluffiness'
 				addCloud(0,0,5,0.5);
-				addCloud(30,10,5,2);
-				addCloud(50,25,5,1.2);
-				addCloud(40,20,5,0.8);
-				addCloud(50,10,5,0.6);
+				addCloud(30,10,3,2);
+				addCloud(50,25,3,1.6);
+				addCloud(40,20,5,1.2);
+				addCloud(50,10,5,1.2);
 				addCloud(70,10,5,0.8);
-				addCloud(80,15,5,1.2);
+				addCloud(80,15,3,1.4);
 
 				// social icons
-				addText(10,8,twitterHTML); addText(30,28,facebookHTML); addText(33,3,instagramHTML);
-				addText(50,15,githubHTML); addText(68,12,linkedinHTML); addText(90,10,keybaseHTML);
+				addText(10,14,twitterHTML); addText(30,28,facebookHTML); addText(33,3,instagramHTML);
+				addText(50,15,githubHTML); addText(68,5,linkedinHTML); addText(90,10,keybaseHTML);
 			});
 		</script>
 	</body>
 </html>
+
 <!--
 Thanks for looking! I used inspiration from a CSS 3D clouds tutorial from https://www.clicktorelease.com/code/css3dclouds/,
 but with many modifications mostly to use jQuery instead of a DOM model. The background gradient was generated using the
