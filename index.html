@@ -15,10 +15,10 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 		<style type="text/css">
-			html { height: 100%; } // fixing background gradient bug on chrome
-			* {margin: 0; padding: 0; border:0; overflow: visible;}
+			html { height: 100%; width: 100%; } // fixing background gradient bug on chrome
+			* {margin: 0px; padding: 0px; border:0px; overflow: visible;}
 			body {
-				height: 100%;
+				height: 100%; width: 100%; margin:0px; padding: 0px; border: 0px;
 				background-repeat: no-repeat;
 				background-attachment: fixed;
 				background: rgba(115,167,221,1);
@@ -33,7 +33,7 @@
 			#bottomBar {position:fixed; width:100%; height:126px; bottom:-100px; background:#0f0f0f;}
 			#bottomBarText {
 				position:absolute; top:0; width: auto; right: 384px; left: 0px; height: 26px;
-				font-family:Tahoma; font-size:14px; text-align: center;
+				font-family:Tahoma; font-size:14px; text-align: left; padding-left: 20px;
 			}
 			a {color:rgba(145,197,251,1); text-decoration:none; border-bottom:none;} a:hover {color:rgba(115,167,221,1);}
 			#lookingUp img {position:fixed; width:284px; height:284px; bottom:0px; right:100px;}
@@ -110,6 +110,8 @@
 				addText(10,14,twitterHTML); addText(30,28,facebookHTML); addText(33,3,instagramHTML);
 				addText(50,15,githubHTML); addText(68,5,linkedinHTML); addText(90,10,keybaseHTML);
 			});
+
+			$(cloudContainer).hide().fadeIn(3000);
 		</script>
 	</body>
 </html>
