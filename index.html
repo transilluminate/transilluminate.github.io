@@ -2,13 +2,12 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="description" content="">
 		<meta name="author" content="Adrian Robinson">
 		<title>transilluminate.org</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 		<style type="text/css">
-			* { margin: 0; padding: 0; border:0 }
+			* {margin: 0; padding: 0; border:0; overflow: visible;}
 			body {
 				background: rgba(115,167,221,1);
 				background: -moz-linear-gradient(top, rgba(115,167,221,1) 0%, rgba(204,225,245,1) 100%);
@@ -19,63 +18,94 @@
 				background: linear-gradient(to bottom, rgba(115,167,221,1) 0%, rgba(204,225,245,1) 100%);
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73a7dd', endColorstr='#cce1f5', GradientType=0 );
 			}
-			#bottomBar {position:fixed; background:#0f0f0f; width:100%; height:126px; bottom:-100px;}
-			#bottomBarText {position:fixed; bottom:0; width: auto; right: 384px; left: 0px; height: 26px; font-family:Tahoma; font-size:18px; color:#606f78; text-align: center;}
-			a {color:#606f78; text-decoration:none; border-bottom:none;}
-			#image img {position:fixed; border:0px; margin:0px; width:284px; height:284px; bottom:0px; right:100px;}
+			#bottomBar {position:fixed; width:100%; height:126px; bottom:-100px; background:#0f0f0f;}
+			#bottomBarText {
+				position:absolute; top:0; width: auto; right: 384px; left: 0px; height: 26px;
+				font-family:Tahoma; font-size:14px; text-align: center;
+			}
+			a {color:rgba(145,197,251,1); text-decoration:none; border-bottom:none;} a:hover {color:rgba(115,167,221,1);}
+			#lookingUp img {position:fixed; width:284px; height:284px; bottom:0px; right:100px;}
 			#cloudContainer {position: absolute; width: auto; height: auto; left: 100px; right: 100px; top: 50px; bottom: 200px;}
-			.cloudBase {position: absolute; width: 10px; height: 10px;}
-			.cloudLayer {position: absolute; width: 256px; height: 256px; left: -128px; top: -128px;}
+			#cloudBase {position: absolute;}
+			#cloudLayer {position: absolute; width: 256px; height: 256px; left: -128px; top: -128px;}
+			#cloudText {position: absolute; font-size:100px; line-height:0px; top: 0px;}
 		</style>
 	</head>
 	<body>
 		<div id="cloudContainer"></div>
-		<div id="bottomBar"></div>
-		<div id="image"><img src="me.png"/></div>
-    <div id="bottomBarText">
-      <a href="http://transilluminate.org">transilluminate.org</a>
-			|
-			<a href="https://facebook.com/transilluminate" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true" title="Facebook" aria-label="Facebook"></i></a>      
-      <a href="https://twitter.com/transilluminate" target="_blank"><i class="fa fa-twitter" aria-hidden="true" title="Twitter" aria-label="Twitter"></i></a>
-      <a href="https://www.instagram.com/transilluminate/" target="_blank"><i class="fa fa-instagram" aria-hidden="true" title="Instagram" aria-label="Instagram"></i></a>
-      <a href="https://github.com/transilluminate" target="_blank"><i class="fa fa-github" aria-hidden="true" title="Github" aria-label="Github"></i></a>
-      <a href="https://www.linkedin.com/in/transilluminate/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" title="LinkedIn" aria-label="LinkedIn"></i></a>
-      <a href="https://keybase.io/transilluminate" target="_blank" title="Keybase"><i class="fa fa-lock" aria-hidden="true" title="Keybase" aria-label="Keybase"></i></a>
-    </div>		
+		<div id="bottomBar"><div id="bottomBarText"><a href="http://transilluminate.org">transilluminate.org</a></div></div>
+		<div id="lookingUp"><img src="lookingUp.png"/></div>
 		
 		<script type="application/javascript">
 			function addCloud(positionX,positionY,density,scale) {
-				var cloudDiv = document.createElement('div');
-				$(cloudDiv).addClass("cloudBase");
-				$(cloudDiv).css( {left: positionX + '%'});
-				$(cloudDiv).css( {top: positionY + '%'});
+				var cloudDiv = document.createElement("div");
+				$(cloudDiv).attr("id","cloudBase");
+				$(cloudDiv).css( {left: positionX+"%"});
+				$(cloudDiv).css( {top: positionY+"%"});
 				$(cloudContainer).append(cloudDiv);
 				for( var i = 0; i < density + Math.round( Math.random() * 10 ); i++ ) {
-					var cloudLayer = document.createElement('img');
-					$(cloudLayer).addClass("cloudLayer");
-					$(cloudLayer).css('opacity', '0.2');      
+					var cloudLayer = document.createElement("img");
+					$(cloudLayer).attr("id","cloudLayer");
+					$(cloudLayer).css("opacity","0.2");
 					$(cloudLayer).attr("src","cloud.png");
 					var x = ( Math.random() * 100 * scale);
 					var y = ( Math.random() * 100 * scale);
 					var z = ( Math.floor( Math.random() * 360 ));
-					$(cloudLayer).css('transform', 'translateX(' + x + 'px) translateY(' + y + 'px) rotate(' + z + 'deg) scale(' + scale + ',' + scale + ')');
+					$(cloudLayer).css("transform","translateX("+x+"px) translateY("+y+"px) rotate("+z+"deg) scale("+scale+","+scale+")");
 					$(cloudDiv).append(cloudLayer);
 				}
 			}
-			$( document ).ready(function() {
-				addCloud(80,80,10,0.3);
-				addCloud(70,60,10,0.7);
-				addCloud(0,0,10,0.5);
-				addCloud(10,10,10,1);
-				addCloud(30,10,10,2);
-				addCloud(50,25,10,1.2);
-				addCloud(40,20,10,0.8);
-				addCloud(50,10,10,1);
-				addCloud(60,15,10,0.6);
-				addCloud(70,10,10,0.8);
-				addCloud(80,15,10,1.2);
-				addCloud(90,10,10,1);
+			function addText(positionX,positionY,html) {
+				var textDiv = document.createElement("div");
+				$(textDiv).attr("id","cloudText");
+				$(textDiv).css( {left: positionX+"%"});
+				$(textDiv).css( {top: positionY+"%"});
+				$(textDiv).css("opacity","0.6");
+				$(textDiv).html(html)
+				$(cloudContainer).append(textDiv);
+			}
+			
+			$(document).ready( function() {
+
+				var facebookHTML = "<a href='https://facebook.com/transilluminate' target='_blank'><i class='fa fa-facebook-official' aria-hidden='true' title='Facebook' aria-label='Facebook'></i></a>";
+				var twitterHTML = "<a href='https://twitter.com/transilluminate' target='_blank'><i class='fa fa-twitter' aria-hidden='true' title='Twitter' aria-label='Twitter' ></i></a>";
+				var instagramHTML = "<a href='https://www.instagram.com/transilluminate/' target='_blank'><i class='fa fa-instagram' aria-hidden='true' title='Instagram' aria-label='Instagram'></i></a>";
+				var githubHTML = "<a href='https://github.com/transilluminate' target='_blank'><i class='fa fa-github' aria-hidden='true' title='Github' aria-label='Github'></i></a>";
+				var linkedinHTML = "<a href='https://www.linkedin.com/in/transilluminate/' target='_blank'><i class='fa fa-linkedin-square' aria-hidden='true' title='LinkedIn' aria-label='LinkedIn'></i></a>";
+				var keybaseHTML = "<a href='https://keybase.io/transilluminate' target='_blank' title='Keybase'><i class='fa fa-lock' aria-hidden='true' title='Keybase' aria-label='Keybase'></i></a>";
+
+				// 2 thought bubbles
+				addCloud(80,80,10,0.3); addCloud(70,60,10,0.7);
+
+				// dense clouds covering the social media places
+				addCloud(10,8,20,1);  // twitter
+				addCloud(30,28,20,1); // facebook
+				addCloud(33,3,20,1);	  // instagram
+				addCloud(50,15,20,1); // github
+				addCloud(68,12,20,1); // linkedin
+				addCloud(90,10,20,1); // keybase
+				
+				// some random 'fluffiness'
+				addCloud(0,0,5,0.5);
+				addCloud(30,10,5,2);
+				addCloud(50,25,5,1.2);
+				addCloud(40,20,5,0.8);
+				addCloud(50,10,5,0.6);
+				addCloud(70,10,5,0.8);
+				addCloud(80,15,5,1.2);
+
+				// social icons
+				addText(10,8,twitterHTML); addText(30,28,facebookHTML); addText(33,3,instagramHTML);
+				addText(50,15,githubHTML); addText(68,12,linkedinHTML); addText(90,10,keybaseHTML);
 			});
 		</script>
 	</body>
 </html>
+<!--
+Thanks for looking! I used inspiration from a CSS 3D clouds tutorial from https://www.clicktorelease.com/code/css3dclouds/,
+but with many modifications mostly to use jQuery instead of a DOM model. The background gradient was generated using the
+http://www.cssmatic.com/gradient-generator, the social media icons are from http://fontawesome.io, and the PNG cloud
+was used from http://www.scri8e.com/stars/PNG_Clouds/. As they don't have any copyright info on scri8e and the cloud is
+drastically changed from the original, I believe this to be fair use! Any issues, please get in contact on any of the social
+media sites above. Much love <3
+-->
