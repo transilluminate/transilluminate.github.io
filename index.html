@@ -14,6 +14,7 @@
 		<meta name="theme-color" content="#ffffff">
 		<link rel="stylesheet" href="fontawesome-4.7.0.css">
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
 		<style type="text/css">
 			html { height: 100%; width: 100%; } // fixing background gradient bug on chrome
 			* {margin: 0px; padding: 0px; border:0px; overflow: visible;}
@@ -38,9 +39,9 @@
 			a {color:rgba(145,197,251,1); text-decoration:none; border-bottom:none;} a:hover {color:rgba(115,167,221,1);}
 			#lookingUp img {position:fixed; width:284px; height:284px; bottom:0px; right:100px;}
 			#cloudContainer {position: absolute; width: auto; height: auto; left: 100px; right: 100px; top: 50px; bottom: 200px;}
-			#cloudBase {position: absolute;}
-			#cloudLayer {position: absolute; width: 256px; height: 256px; left: -128px; top: -128px;}
-			#cloudText {position: absolute; font-size:100px; line-height:0px; top: 0px;}
+			#cloudBase {position: absolute; width:20px; height:20px; margin-left:-10px; margin-top:-10px;}
+			#cloudLayer {position: absolute; width: 256px; height: 256px; margin-left: -128px; margin-top: -128px;}
+			#cloudText {position: absolute; width: 80px; height: 80px; margin-top:-40px; margin-left:-40px; font-size:80px; line-height:0px; top: 0px;}
 		</style>
 	</head>
 	<body>
@@ -53,64 +54,73 @@
 				$(cloudDiv).attr("id","cloudBase");
 				$(cloudDiv).css( {left: positionX+"%"});
 				$(cloudDiv).css( {top: positionY+"%"});
+				// if (spin) { $(cloudDiv).velocity({  rotateZ:-360 }, { duration: 50000, easing: "linear", loop: true,});	};
+				$(cloudDiv).velocity("fadeIn", { duration: 3000 });
+
 				$(cloudContainer).append(cloudDiv);
-				for( var i = 0; i < density + Math.round( Math.random() * 10 ); i++ ) {
+				for( var i = 0; i < density; i++ ) {
 					var cloudLayer = document.createElement("img");
 					$(cloudLayer).attr("id","cloudLayer");
-					$(cloudLayer).css("opacity","0.2");
-					$(cloudLayer).attr("src","cloud.png");
-					var x = ( Math.random() * 100 * scale);
-					var y = ( Math.random() * 100 * scale);
+					$(cloudLayer).attr("src","cloud_transparent.png"); // hard code the .png with transparency 0.2%
+					var x = (50 - (Math.floor( Math.random() * 100))) * scale;
+					var y = (50 - (Math.floor( Math.random() * 100))) * scale;
 					var z = ( Math.floor( Math.random() * 360 ));
 					$(cloudLayer).css("transform","translateX("+x+"px) translateY("+y+"px) rotate("+z+"deg) scale("+scale+","+scale+")");
 					$(cloudDiv).append(cloudLayer);
-				}
-			}
+				};
+			};
 			function addText(positionX,positionY,html) {
 				var textDiv = document.createElement("div");
 				$(textDiv).attr("id","cloudText");
 				$(textDiv).css( {left: positionX+"%"});
 				$(textDiv).css( {top: positionY+"%"});
-				$(textDiv).css("opacity","0.6");
+//				$(textDiv).css("opacity","0.6");
 				$(textDiv).html(html)
+				$(textDiv).velocity("fadeIn", { duration: 1500 });
 				$(cloudContainer).append(textDiv);
-			}
-			
-			$(document).ready( function() {
+			};
+			function buildClouds() {
+				// 2 thought bubbles
+				addCloud(80,90,10,0.3);
+				addCloud(70,70,10,0.7);
 
+				// dense clouds covering the social media places
+				addCloud(10,24,10,1); // twitter
+				addCloud(30,38,10,1); // facebook
+				addCloud(33,13,10,1);	  // instagram
+				addCloud(50,45,10,1); // reddit
+				addCloud(54,20,6,1);  // github
+				addCloud(68,15,10,1);  // linkedin
+				addCloud(90,20,10,1); // keybase
+				
+				// some random 'fluffiness'
+				addCloud(0,10,4,0.5);
+				addCloud(30,20,6,2);
+				addCloud(50,35,6,1.6);
+				addCloud(40,30,6,1.2);
+				addCloud(50,20,6,1.2);
+				addCloud(70,20,4,0.8);
+				addCloud(80,25,6,1.4);
+			};
+			function buildIcons() {
 				var facebookHTML = "<a href='https://facebook.com/transilluminate' target='_blank'><i class='fa fa-ffaacceebbooookk-official' aria-hidden='true' title='Facebook: facebook.com/transilluminate' aria-label='Facebook'></i></a>";
 				var twitterHTML = "<a href='https://twitter.com/transilluminate' target='_blank'><i class='fa fa-ttwwiitttteerr' aria-hidden='true' title='Twitter: twitter.com/transilluminate' aria-label='Twitter'></i></a>";
 				var instagramHTML = "<a href='https://www.instagram.com/transilluminate/' target='_blank'><i class='fa fa-iinnssttaaggrraamm' aria-hidden='true' title='Instagram: instagram.com/transilluminate' aria-label='Instagram'></i></a>";
 				var githubHTML = "<a href='https://github.com/transilluminate' target='_blank'><i class='fa fa-ggiitthhuubb' aria-hidden='true' title='Github: github.com/transilluminate' aria-label='Github'></i></a>";
 				var linkedinHTML = "<a href='https://www.linkedin.com/in/transilluminate/' target='_blank'><i class='fa fa-lliinnkkeeddiinn-square' aria-hidden='true' title='LinkedIn linkedin.com/in/transilluminate' aria-label='LinkedIn'></i></a>";
-				var keybaseHTML = "<a href='https://keybase.io/transilluminate' target='_blank' title='Keybase'><i class='fa fa-lock' aria-hidden='true' title='Keybase: keybase.io/transilluminate' aria-label='Keybase'></i></a>";
-
-				// 2 thought bubbles
-				addCloud(80,80,10,0.3); addCloud(70,60,10,0.7);
-
-				// dense clouds covering the social media places
-				addCloud(10,14,20,1);  // twitter
-				addCloud(30,28,20,1); // facebook
-				addCloud(33,3,20,1);	  // instagram
-				addCloud(50,15,20,1); // github
-				addCloud(68,5,20,1); // linkedin
-				addCloud(90,10,20,1); // keybase
-				
-				// some random 'fluffiness'
-				addCloud(0,0,5,0.5);
-				addCloud(30,10,3,2);
-				addCloud(50,25,3,1.6);
-				addCloud(40,20,5,1.2);
-				addCloud(50,10,5,1.2);
-				addCloud(70,10,5,0.8);
-				addCloud(80,15,3,1.4);
-
+				var keybaseHTML = "<a href='https://keybase.io/transilluminate' target='_blank' title='Keybase'><i class='fa fa-lock' aria-hidden='true' title='Keybase: keybase.io/transilluminate' aria-label='Keybase'></i></a>";			
+				var redditHTML = "<a href='https://www.reddit.com/user/transilluminate' target='_blank' title='Reddit'><i class='fa fa-reddit-alien' aria-hidden='true' title='Reddit: reddit.com/u/transilluminate' aria-label='Reddit'></i></a>";
 				// social icons
-				addText(10,14,twitterHTML); addText(30,28,facebookHTML); addText(33,3,instagramHTML);
-				addText(50,15,githubHTML); addText(68,5,linkedinHTML); addText(90,10,keybaseHTML);
+				addText(10,24,twitterHTML); addText(30,38,facebookHTML); addText(33,13,instagramHTML);
+				addText(50,45,redditHTML); addText(68,15,linkedinHTML); addText(90,20,keybaseHTML);
+				addText(54,20,githubHTML);
+			};
+			
+			$(document).ready(function(){
+				buildClouds();
+				buildIcons();
 			});
-
-			$(cloudContainer).hide().fadeIn(3000);
+			
 		</script>
 	</body>
 </html>
