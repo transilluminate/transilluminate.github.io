@@ -11,13 +11,12 @@
 		<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
 		<link rel="shortcut icon" href="/icons/favicon.ico">
 		<meta name="msapplication-config" content="/icons/browserconfig.xml">
-		<meta name="theme-color" content="#ffffff">
 		<link rel="stylesheet" href="fontawesome-4.7.0.css">
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
 		<style type="text/css">
 			html { height: 100%; width: 100%; } // fixing background gradient bug on chrome
-			* {margin: 0px; padding: 0px; border:0px; overflow: visible;}
+			* { margin: 0px; padding: 0px; border:0px; overflow: visible; }
 			body {
 				height: 100%; width: 100%; margin:0px; padding: 0px; border: 0px;
 				background-repeat: no-repeat;
@@ -31,18 +30,17 @@
 				background: linear-gradient(to bottom, rgba(115,167,221,1) 0%, rgba(204,225,245,1) 100%);
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73a7dd', endColorstr='#cce1f5', GradientType=0 );
 			}
-			#bottomBar {position:fixed; width:100%; height:126px; bottom:-100px; background:#0f0f0f;}
+			#bottomBar { position:fixed; width:100%; height:126px; bottom:-100px; background:#0f0f0f; }
 			#bottomBarText {
 				position:absolute; top:0; width: auto; right: 384px; left: 0px; height: 26px;
 				font-family:Tahoma; font-size:12px; text-align: left; padding-left: 20px;
 			}
-			a {color:rgba(145,197,251,1); text-decoration:none; border-bottom:none;}
-			//a:hover {color:rgba(115,167,221,1);}
-			#lookingUp img {position:fixed; width:284px; height:284px; bottom:0px; right:100px;}
-			#cloudContainer {position: absolute; width: auto; height: auto; left: 100px; right: 100px; top: 50px; bottom: 200px;}
-			#cloudBase {position: absolute; width:20px; height:20px; margin-left:-10px; margin-top:-10px;}
-			#cloudLayer {position: absolute; width: 256px; height: 256px; margin-left: -128px; margin-top: -128px;}
-			#cloudText {position: absolute; width: 80px; height: 80px; margin-top:-40px; margin-left:-40px; font-size:80px; line-height:0px; top: 0px;}
+			a { color:rgba(145,197,251,1); text-decoration:none; border-bottom:none; }
+			#lookingUp img { position:fixed; width:284px; height:284px; bottom:0px; right:100px; }
+			#cloudContainer { position: absolute; width: auto; height: auto; left: 100px; right: 100px; top: 50px; bottom: 200px; }
+			#cloudBase { position: absolute; width:20px; height:20px; margin-left:-10px; margin-top:-10px; }
+			#cloudLayer { position: absolute; width: 256px; height: 256px; margin-left: -128px; margin-top: -128px; }
+			#cloudText { position: absolute; width: 80px; height: 80px; margin-top:-40px; margin-left:-40px; font-size:80px; line-height:0px; top: 0px; }
 		</style>
 	</head>
 	<body>
@@ -55,12 +53,11 @@
 				$(cloudDiv).attr("id","cloudBase");
 				$(cloudDiv).css( {left: positionX+"%"});
 				$(cloudDiv).css( {top: positionY+"%"});
-				// if (spin) { $(cloudDiv).velocity({  rotateZ:-360 }, { duration: 50000, easing: "linear", loop: true,});	};
 				$(cloudContainer).append(cloudDiv);
 				for( var i = 0; i < density; i++ ) {
 					var cloudLayer = document.createElement("img");
 					$(cloudLayer).attr("id","cloudLayer");
-					$(cloudLayer).attr("src","cloud_transparent.png"); // hard code the .png with transparency 0.2%
+					$(cloudLayer).attr("src","cloud_transparent.png"); // hard code the .png with transparency at 20%
 					var x = (50 - (Math.floor( Math.random() * 100))) * scale;
 					var y = (50 - (Math.floor( Math.random() * 100))) * scale;
 					var z = ( Math.floor( Math.random() * 360 ));
@@ -84,7 +81,7 @@
 				// dense clouds covering the social media places
 				addCloud(10,24,8,1); // twitter
 				addCloud(30,38,8,1); // facebook
-				addCloud(33,13,8,1);	 // instagram
+				addCloud(33,13,8,1); // instagram
 				addCloud(50,45,8,1); // reddit
 				addCloud(54,20,8,1); // github
 				addCloud(68,15,8,1); // linkedin
@@ -114,17 +111,14 @@
 			$(document).ready(function(){
 				buildClouds();
 				buildIcons();
-
-				$(cloudContainer).	hide().velocity("fadeIn", { duration: 1500 });
-				
+				$(cloudContainer).hide().velocity("fadeIn", {duration: 1500} );
 				$(cloudText).hover(onOver,onOut);        
-        function onOver(){ $(this).velocity( {scale: 1.6} ); };
-        function onOut(){  $(this).velocity("reverse"); }; 
+				function onOver(){ $(this).velocity( {opacity:1, scale: 1.6} ); };
+				function onOut(){ $(this).velocity("reverse"); }; 
 			});
 		</script>
 	</body>
 </html>
-
 <!--
 Thanks for looking! I used inspiration from a CSS 3D clouds tutorial from https://www.clicktorelease.com/code/css3dclouds/,
 but with many modifications mostly to use jQuery instead of a DOM model. The background gradient was generated using the
