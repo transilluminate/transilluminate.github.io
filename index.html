@@ -3,7 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="author" content="Adrian Robinson">
-		<title>transilluminate.org</title>
+		<title>@transilluminate</title>
+		
+		<!-- Google analytics -->
+		<script type="application/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-100645523-1', 'auto');ga('send', 'pageview');</script>
+
+		<!-- Icons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
@@ -11,9 +16,14 @@
 		<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
 		<link rel="shortcut icon" href="/icons/favicon.ico">
 		<meta name="msapplication-config" content="/icons/browserconfig.xml">
+
+		<!-- Local hosted css with custom classes to avoid adblocking social icons -->
 		<link rel="stylesheet" href="fontawesome-4.7.0.css">
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
+
+		<!-- jQuery and Velocity.js javascript libraries -->
+		<script  type="application/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script  type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
+
 		<style type="text/css">
 			html { height: 100%; width: 100%; } // fixing background gradient bug on chrome
 			* { margin: 0px; padding: 0px; border:0px; overflow: visible; }
@@ -33,59 +43,47 @@
 			#bottomBar { position:fixed; width:100%; height:126px; bottom:-100px; background:#0f0f0f; }
 			#bottomBarText {
 				position:absolute; top:0; width: auto; right: 384px; left: 0px; height: 26px;
-				font-family:Tahoma; font-size:12px; text-align: left; padding-left: 20px;
+				font-family:Tahoma; font-size:12px; text-align: left; padding-left: 20px; color:rgba(115,167,221,1);
 			}
 			a { color:rgba(145,197,251,1); text-decoration:none; border-bottom:none; }
 			#lookingUp img { position:fixed; width:284px; height:284px; bottom:0px; right:100px; }
 			#cloudContainer { position: absolute; width: auto; height: auto; left: 100px; right: 100px; top: 50px; bottom: 200px; }
-			#cloudBase { position: absolute; width:20px; height:20px; margin-left:-10px; margin-top:-10px; }
-			#cloudLayer { position: absolute; width: 256px; height: 256px; margin-left: -128px; margin-top: -128px; }
-			#cloudText { position: absolute; width: 80px; height: 80px; margin-top:-40px; margin-left:-40px; font-size:80px; line-height:0px; top: 0px; }
+			#cloudDiv { position: absolute; width:20px; height:20px; margin-left:-10px; margin-top:-10px; }
+			#cloudImg { position: absolute; width: 256px; height: 256px; margin-left: -128px; margin-top: -128px; }
+			#cloudTxt { position: absolute; width: 80px; height: 80px; margin-top:-40px; margin-left:-40px; font-size:80px; line-height:0px; top: 0px; }
 		</style>
-	</head>
-	<body>
-		<div id="cloudContainer"></div>
-		<div id="bottomBar"><div id="bottomBarText"><a href="http://transilluminate.org">transilluminate.org</a></div></div>
-		<div id="lookingUp"><img alt="me looking up" src="lookingUp.png"/></div>
+
 		<script type="application/javascript">
 			function addCloud(positionX,positionY,density,scale) {
 				var cloudDiv = document.createElement("div");
-				$(cloudDiv).attr("id","cloudBase");
-				$(cloudDiv).css( {left: positionX+"%"});
-				$(cloudDiv).css( {top: positionY+"%"});
+				$(cloudDiv).attr("id","cloudDiv");
+				$(cloudDiv).css( {left: positionX+"%"} );
+				$(cloudDiv).css( {top: positionY+"%"} );
 				$(cloudContainer).append(cloudDiv);
 				for( var i = 0; i < density; i++ ) {
-					var cloudLayer = document.createElement("img");
-					$(cloudLayer).attr("id","cloudLayer");
-					$(cloudLayer).attr("src","cloud_transparent.png"); // hard code the .png with transparency at 20%
+					var cloudImg = document.createElement("img");
+					$(cloudImg).attr("id","cloudImg");
+					$(cloudImg).attr("src","cloud_transparent.png"); // hard code the .png with transparency at 20%
 					var x = (50 - (Math.floor( Math.random() * 100))) * scale;
 					var y = (50 - (Math.floor( Math.random() * 100))) * scale;
 					var z = ( Math.floor( Math.random() * 360 ));
-					$(cloudLayer).css("transform","translateX("+x+"px) translateY("+y+"px) rotate("+z+"deg) scale("+scale+","+scale+")");
-					$(cloudDiv).append(cloudLayer);
+					$(cloudImg).css("transform","translateX("+x+"px) translateY("+y+"px) rotate("+z+"deg) scale("+scale+","+scale+")");
+					$(cloudDiv).append(cloudImg);
 				};
 			};
 			function addText(positionX,positionY,html) {
-				var textDiv = document.createElement("div");
-				$(textDiv).attr("id","cloudText");
-				$(textDiv).css( {left: positionX+"%"});
-				$(textDiv).css( {top: positionY+"%"});
-				$(textDiv).css("opacity","0.6");
-				$(textDiv).html(html);
-				$(cloudContainer).append(textDiv);
+				var cloudTxt = document.createElement("div");
+				$(cloudTxt).attr("id","cloudTxt");
+				$(cloudTxt).css( {left: positionX+"%"} );
+				$(cloudTxt).css( {top: positionY+"%"} );
+				$(cloudTxt).css("opacity","0.6");
+				$(cloudTxt).html(html);
+				$(cloudContainer).append(cloudTxt);
 			};
 			function buildClouds() {
 				// 2 thought bubbles
 				addCloud(80,90,8,0.3);
 				addCloud(70,70,8,0.7);
-				// dense clouds covering the social media places
-				addCloud(10,24,8,1); // twitter
-				addCloud(30,38,8,1); // facebook
-				addCloud(33,13,8,1); // instagram
-				addCloud(50,45,8,1); // reddit
-				addCloud(54,20,8,1); // github
-				addCloud(68,15,8,1); // linkedin
-				addCloud(90,20,8,1); // keybase
 				// some random 'fluffiness'
 				addCloud(0,10,4,0.5);
 				addCloud(30,20,4,2.0);
@@ -94,6 +92,14 @@
 				addCloud(50,20,4,1.2);
 				addCloud(70,20,4,0.8);
 				addCloud(80,25,4,1.4);
+				// dense clouds covering the social media places
+				addCloud(10,24,8,1); // twitter
+				addCloud(25,38,8,1); // facebook
+				addCloud(33,13,8,1); // instagram
+				addCloud(40,45,8,1); // reddit
+				addCloud(54,25,8,1); // linkedin
+				addCloud(68,15,8,1); // github
+				addCloud(90,20,8,1); // keybase
 			};
 			function buildIcons() {
 				var facebookHTML = "<a href='https://facebook.com/transilluminate' target='_blank'><i class='fa fa-ffaacceebbooookk-official' aria-hidden='true' title='Facebook: facebook.com/transilluminate' aria-label='Facebook'></i></a>";
@@ -101,23 +107,34 @@
 				var instagramHTML = "<a href='https://www.instagram.com/transilluminate/' target='_blank'><i class='fa fa-iinnssttaaggrraamm' aria-hidden='true' title='Instagram: instagram.com/transilluminate' aria-label='Instagram'></i></a>";
 				var githubHTML = "<a href='https://github.com/transilluminate' target='_blank'><i class='fa fa-ggiitthhuubb' aria-hidden='true' title='Github: github.com/transilluminate' aria-label='Github'></i></a>";
 				var linkedinHTML = "<a href='https://www.linkedin.com/in/transilluminate/' target='_blank'><i class='fa fa-lliinnkkeeddiinn-square' aria-hidden='true' title='LinkedIn linkedin.com/in/transilluminate' aria-label='LinkedIn'></i></a>";
-				var keybaseHTML = "<a href='https://keybase.io/transilluminate' target='_blank' title='Keybase'><i class='fa fa-lock' aria-hidden='true' title='Keybase: keybase.io/transilluminate' aria-label='Keybase'></i></a>";			
+				var keybaseHTML = "<a href='https://keybase.io/transilluminate' target='_blank' title='Keybase'><i class='fa fa-lock' aria-hidden='true' title='Keybase: keybase.io/transilluminate' aria-label='Keybase'></i></a>";
 				var redditHTML = "<a href='https://www.reddit.com/user/transilluminate' target='_blank' title='Reddit'><i class='fa fa-reddit-alien' aria-hidden='true' title='Reddit: reddit.com/u/transilluminate' aria-label='Reddit'></i></a>";
+				var mediumHTML = "<a href='https://medium.com/@transilluminate' target='_blank' title='Medium'><i class='fa fa-medium' aria-hidden='true' title='Medium: medium.com/@transilluminate' aria-label='Medium'></i></a>";
 				// social icons
-				addText(10,24,twitterHTML); addText(30,38,facebookHTML); addText(33,13,instagramHTML);
-				addText(50,45,redditHTML); addText(68,15,linkedinHTML); addText(90,20,keybaseHTML);
-				addText(54,20,githubHTML);
+				addText(10,24,twitterHTML);
+				addText(25,38,facebookHTML);
+				addText(33,13,instagramHTML);
+				addText(40,45,redditHTML);
+				addText(54,25,linkedinHTML);
+				addText(68,15,githubHTML);
+				addText(90,20,keybaseHTML);
 			};
 			$(document).ready(function(){
 				buildClouds();
 				buildIcons();
+
 				$(cloudContainer).hide().velocity("fadeIn", {duration: 1500} );
-				$(cloudText).hover(onOver,onOut);        
-				function onOver(){ $(this).velocity( {opacity:1, scale: 1.6} ); };
-				function onOut(){ $(this).velocity("reverse"); }; 
-			});
+
+				$(cloudTxt).hover(zoomIn,zoomOut);        
+				function zoomIn(){ $(this).velocity( {opacity:1, scale: 1.6} ); };
+				function zoomOut(){ $(this).velocity("reverse") };
+			});			
 		</script>
-		<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-100645523-1', 'auto');ga('send', 'pageview');</script>
+	</head>
+	<body>
+		<div id="cloudContainer"></div>
+		<div id="bottomBar"><div id="bottomBarText"><a href="http://transilluminate.org">transilluminate.org</a></div></div>
+		<div id="lookingUp"><img alt="@transilluminate looking up" src="lookingUp.png"/></div>
 	</body>
 </html>
 <!--
