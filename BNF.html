@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<title>BNF Interactions Test</title>
+	</head>
+	<body>
+		<main role="main">
+			<section class="jumbotron text-center">
+				<div class="container">
+					<h1 class="jumbotron-heading"><a href="https://bnf.nice.org.uk/">BNF</a> Interactions Page Redesign</h1>
+					<p class="lead">An example to show how the <a href="https://bnf.nice.org.uk/interaction/">BNF interactions section</a> can be improved...</p>
+					<p>
+						Currently, the user has to scroll through a list of <a href="https://bnf.nice.org.uk/interaction/simvastatin-2.html" target="_new"> interactions</a> to find the other drug. <br>Instead we build a matrix of drugs, showing at a glance if they interact.
+					</p>
+					<p>
+						<button type="button" class="btn btn-primary" id="addAmiodarone">Amiodarone</button>
+						<button type="button" class="btn btn-primary" id="addClarithromycin">Clarithromycin</button>
+						<button type="button" class="btn btn-primary" id="addSimvastatin">Simvastatin</button>
+						<button type="button" class="btn btn-primary" id="addVerapamil">Verapamil</button>
+						<button type="button" class="btn btn-primary" id="addWarfarin">Warfarin</button>
+					</p>
+				</div>
+			</section>
+			<div class="container"><table class="table table-bordered text-center" id="dataTable"></table></div>
+		</main>
+		<footer class="text-muted">
+			<p class="text-center">
+				Copyright &copy; Adrian Robinson 2019 <a href="http://transilluminate.org/">@transilluminate</a>
+				||
+				Data used from the <a href="https://bnf.nice.org.uk/">British National Formulary</a> &#x2764
+			</p>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		
+		<script>
+		jQuery(document).ready(function(){
+			
+			var medicationsArray = new Array();			// empty array of the meds we are going to add
+			var interactionDetails = new Object();		// this stores the details of the interactions
+			
+			function addDrug(url) {						// gets called when a button is pressed
+				$.getJSON(url, function(jsonObject){
+					
+					// the JSON tree is fairly complex, use an online explorer to understand (i.e. https://jsonformatter.org/json-viewer)
+					var title = jsonObject['@graph'][0]['hasTitle']['@value'].replace(/(<([^>]+)>)/ig,"").trim().toString();	// strip the HTML tags
+					var link = jsonObject['@graph'][0]['@id'].toString() + ".html";												// append .html
+					var interactionsArray = jsonObject['@graph'][0]['hasInteraction'];											// grab the array of interactions
+					
+					medicationsArray.push(title);										// push into simple 1 dimensional array for quick iteration later
+					interactionDetails[title] = {'url': link, 'interactions': {} };		// the 'url' is a link to further details on the drug, the 'interactions'
+																						//  is currently empty, we look at each one below and grab the details
+					$.each(interactionsArray, function( index, object ) {
+						
+						interactionTitle	= object['hasTitle']['@value'].replace(/(<([^>]+)>)/g,"").toString();	// again, strip the HTML tags
+						interactionLink		= object['@id'].replace(/#/,".html#").toString();						// add .html within the sctring, before '#'
+						interactionSeverity	= object['hasMessage'][0]['hasImportance'].toString();					// grab the severity of interaction
+						interactionInfo		= object['hasMessage'][0]['hasTextContent'].replace(/\r?\n|\r/g,"").replace(/ {1,}/g," ").toString();	// and the details
+						
+						// then push this into a fairly complex data structure, that can be expanded later with more details:
+						interactionDetails[title]['interactions'][interactionTitle] = { 'url': interactionLink, 'severity': interactionSeverity, 'info': interactionInfo };
+						// for example:	interactionDetails['Simvastatin']['interactions']['Clarithromycin'][severity] = 'Severe'
+						//				interactionDetails['Simvastatin']['url'] = 'https://bnf.nice.org.uk/...'
+					});
+					redrawTable();	// redraw the table after $.getJSON has successfully completed 
+				});
+			};
+			
+			function redrawTable() {
+				
+				medicationsArray.sort();												// sort the array alphabetically
+				var tableSize = medicationsArray.length + 1;							// add 1 to the array length, so the table can have headers
+				var tableMatrix = [...Array(tableSize)].map(e => Array(tableSize));		// https://stackoverflow.com/a/38213067
+				var dataTable = $("#dataTable");										// shortcut to the HTML DOM object
+				dataTable.empty();														// start with empty table
+								
+				for (var y = 0; y < tableSize; y++) {									// step down line by line...
+					dataTable.append("<tr>");											// build a table row
+					
+					for (var x = 0; x < tableSize; x++) {								// then per column
+						
+						if (x == 0 && y == 0) {											// top left...
+							dataTable.append("<td></td>");								// ... is white
+						}
+						else if (x == y) {												// diagonals...
+							dataTable.append("<td class='table-active'></td>");			// ... are grey
+						}
+						else {
+							
+							rowTitle = medicationsArray[x - 1];							// get the row header
+							columnTitle = medicationsArray[y - 1];						// and the column header
+							
+							if (x == 0) {		// create row headers
+								dataTable.append("<th scope='col'><a target='_new' href='" + interactionDetails[columnTitle]['url'] + "'>" + columnTitle + "</a></th>");
+							}
+							else if (y == 0) {	// create column headers
+								dataTable.append("<th scope='col'><a target='_new' href='" + interactionDetails[rowTitle]['url'] + "'>" + rowTitle + "</a></th>");
+							}
+							else { 				// build the interaction cells
+								
+								if (interactionDetails[rowTitle]['interactions'][columnTitle]) {	// if an interaction actually exists, if so
+									var url = interactionDetails[rowTitle]['interactions'][columnTitle]['url'];				// get the details, link
+									var severity = interactionDetails[rowTitle]['interactions'][columnTitle]['severity'];	// ... severity ...
+									var info = interactionDetails[rowTitle]['interactions'][columnTitle]['info'];			// and info about the interaction
+									var cellClass = (severity == "Severe") ? "table-danger" : "table-warning";				// conditionally format the colour of cells
+									
+									dataTable.append("<td class='" + cellClass + "' data-placement='right' data-toggle='tooltip' title='" + info + "'><a target='_new' href='" + url + "'>" + rowTitle + " &amp; " + columnTitle + "</a></td>");										// append the cell
+								}
+								else {																// no interaction found, colour a blank cell green
+									dataTable.append("<td class='table-success'>&nbsp;</td>");
+								}
+							}
+						}
+					};
+					dataTable.append("</tr>");	// finish the row tag
+				};
+				$('[data-toggle="tooltip"]').tooltip();	// enable tooltips on the new table
+			};
+			
+			// assign actions to the button clicks
+			// could have built a drop down menu, or search field, but this is a quick example!
+			
+			$("#addAmiodarone").click(function(){
+				addDrug('https://bnf.nice.org.uk/interaction/amiodarone.json');
+				$(this).prop('disabled', true);	// disable the button after pressing
+				$(this).addClass('disabled');	// change the css to match
+			});
+
+			$("#addClarithromycin").click(function(){
+				addDrug('https://bnf.nice.org.uk/interaction/clarithromycin-2.json');	// not sure what the criteria is for the '-2' suffix, possibly version?
+				$(this).prop('disabled', true);
+				$(this).addClass('disabled');
+			});
+			
+			$("#addSimvastatin").click(function(){
+				addDrug('https://bnf.nice.org.uk/interaction/simvastatin-2.json');
+				$(this).prop('disabled', true);
+				$(this).addClass('disabled');
+			});
+
+			$("#addVerapamil").click(function(){
+				addDrug('https://bnf.nice.org.uk/interaction/verapamil.json');
+				$(this).prop('disabled', true);
+				$(this).addClass('disabled');
+			});
+
+			$("#addWarfarin").click(function(){
+				addDrug('https://bnf.nice.org.uk/interaction/warfarin.json');
+				$(this).prop('disabled', true);
+				$(this).addClass('disabled');
+			});
+		});	
+		</script>
+	</body>
+</html>
