@@ -1,0 +1,2093 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722393",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722393_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"aceclofenac\" outputclass=\"int-drug\">aceclofenac</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  aceclofenac  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aceclofenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722394",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722394_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"aciclovir\" outputclass=\"int-drug\">aciclovir</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  aciclovir  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722395",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722395_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"adefovir\" outputclass=\"int-drug\">adefovir</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  adefovir  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Adefovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722396",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722396_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">Gentamicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"agalsidase\" outputclass=\"int-drug\">agalsidase</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gentamicin   is predicted to   decrease   the effects of   agalsidase .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Agalsidase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722397",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722397_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">Gentamicin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypocalcaemia when given with</ph> <ph otherprops=\"alendronic acid\" outputclass=\"int-drug\">alendronic acid</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gentamicin   increases   the risk of hypocalcaemia when given with   alendronic acid .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alendronic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722398",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722398_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"amphotericin\" outputclass=\"int-drug\">amphotericin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  amphotericin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amphotericin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722399",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722399_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ataluren\" outputclass=\"int-drug\">Ataluren</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of nephrotoxicity when given with</ph> <ph outputclass=\"int-route\">intravenous</ph> <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ataluren   is predicted to   increase   the risk of nephrotoxicity when given with   intravenous   gentamicin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ataluren</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722400",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722400_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"atracurium\" outputclass=\"int-drug\">atracurium</ph> have neuromuscular blocking effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  atracurium  have neuromuscular blocking effects. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atracurium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722401",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722401_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"bacitracin\" outputclass=\"int-drug\">bacitracin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  bacitracin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bacitracin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722402",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722402_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"botulinum toxin type A\" outputclass=\"int-drug\">botulinum toxin type A</ph> have neuromuscular blocking effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  botulinum toxin type A  have neuromuscular blocking effects. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Botulinum toxin type A</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722403",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722403_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"botulinum toxin type B\" outputclass=\"int-drug\">botulinum toxin type B</ph> have neuromuscular blocking effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  botulinum toxin type B  have neuromuscular blocking effects. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Botulinum toxin type B</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722404",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722404_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"bumetanide\" outputclass=\"int-drug\">bumetanide</ph> can increase the risk of ototoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  bumetanide  can increase the risk of ototoxicity. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722404_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"bumetanide\" outputclass=\"int-drug\">Bumetanide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of nephrotoxicity when given with</ph> <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Bumetanide   increases   the risk of nephrotoxicity when given with   gentamicin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bumetanide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722405",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722405_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"capreomycin\" outputclass=\"int-drug\">capreomycin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  capreomycin  can increase the risk of nephrotoxicity. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722405_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"capreomycin\" outputclass=\"int-drug\">capreomycin</ph> can increase the risk of ototoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  gentamicin  and  capreomycin  can increase the risk of ototoxicity. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Capreomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722406",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722406_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"carboplatin\" outputclass=\"int-drug\">carboplatin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  carboplatin  can increase the risk of nephrotoxicity. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722406_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"carboplatin\" outputclass=\"int-drug\">carboplatin</ph> can increase the risk of ototoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  gentamicin  and  carboplatin  can increase the risk of ototoxicity. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carboplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722407",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722407_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"cefaclor\" outputclass=\"int-drug\">cefaclor</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  cefaclor  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cefaclor</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722408",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722408_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"cefadroxil\" outputclass=\"int-drug\">cefadroxil</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  cefadroxil  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cefadroxil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722409",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722409_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"cefalexin\" outputclass=\"int-drug\">cefalexin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  cefalexin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cefalexin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722410",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722410_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"cefixime\" outputclass=\"int-drug\">cefixime</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  cefixime  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cefixime</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722411",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722411_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"cefotaxime\" outputclass=\"int-drug\">cefotaxime</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  cefotaxime  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cefotaxime</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722412",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722412_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"cefradine\" outputclass=\"int-drug\">cefradine</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  cefradine  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cefradine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722413",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722413_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"ceftaroline\" outputclass=\"int-drug\">ceftaroline</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  ceftaroline  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceftaroline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722414",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722414_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"ceftazidime\" outputclass=\"int-drug\">ceftazidime</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  ceftazidime  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceftazidime</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722415",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722415_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"ceftobiprole\" outputclass=\"int-drug\">ceftobiprole</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  ceftobiprole  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceftobiprole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722416",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722416_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"ceftolozane\" outputclass=\"int-drug\">ceftolozane</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  ceftolozane  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceftolozane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722417",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722417_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"ceftriaxone\" outputclass=\"int-drug\">ceftriaxone</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  ceftriaxone  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceftriaxone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722418",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722418_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"cefuroxime\" outputclass=\"int-drug\">cefuroxime</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  cefuroxime  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cefuroxime</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722419",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722419_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"celecoxib\" outputclass=\"int-drug\">celecoxib</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  celecoxib  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Celecoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722420",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722420_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"ciclosporin\" outputclass=\"int-drug\">ciclosporin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  ciclosporin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciclosporin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722421",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722421_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"cidofovir\" outputclass=\"int-drug\">cidofovir</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  cidofovir  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cidofovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722422",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722422_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"cisatracurium\" outputclass=\"int-drug\">cisatracurium</ph> have neuromuscular blocking effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  cisatracurium  have neuromuscular blocking effects. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cisatracurium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722423",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722423_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"cisplatin\" outputclass=\"int-drug\">cisplatin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  cisplatin  can increase the risk of nephrotoxicity. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722423_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"cisplatin\" outputclass=\"int-drug\">cisplatin</ph> can increase the risk of ototoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  gentamicin  and  cisplatin  can increase the risk of ototoxicity. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cisplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722424",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722424_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"colistimethate\" outputclass=\"int-drug\">colistimethate</ph> have neuromuscular blocking effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  colistimethate  have neuromuscular blocking effects. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722424_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colistimethate\" outputclass=\"int-drug\">Colistimethate</ph> <ph outputclass=\"int-substanceQualifier\">(particularly intravenous)</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of nephrotoxicity when given with</ph> <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Colistimethate   (particularly intravenous)   potentially   increases   the risk of nephrotoxicity when given with   gentamicin .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Colistimethate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722425",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722425_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"dexibuprofen\" outputclass=\"int-drug\">dexibuprofen</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  dexibuprofen  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexibuprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722426",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722426_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"dexketoprofen\" outputclass=\"int-drug\">dexketoprofen</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  dexketoprofen  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexketoprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722427",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722427_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"diclofenac\" outputclass=\"int-drug\">diclofenac</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  diclofenac  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diclofenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722428",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722428_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">Gentamicin</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Gentamicin   potentially   increases   the concentration of   digoxin .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Digoxin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722429",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722429_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"etodolac\" outputclass=\"int-drug\">etodolac</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  etodolac  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etodolac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722430",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722430_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"etoricoxib\" outputclass=\"int-drug\">etoricoxib</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  etoricoxib  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etoricoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722431",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722431_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"flurbiprofen\" outputclass=\"int-drug\">flurbiprofen</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  flurbiprofen  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flurbiprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722432",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722432_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"foscarnet\" outputclass=\"int-drug\">foscarnet</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  foscarnet  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Foscarnet</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722433",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722433_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"furosemide\" outputclass=\"int-drug\">furosemide</ph> can increase the risk of ototoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  furosemide  can increase the risk of ototoxicity. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722433_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"furosemide\" outputclass=\"int-drug\">Furosemide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of nephrotoxicity when given with</ph> <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Furosemide   increases   the risk of nephrotoxicity when given with   gentamicin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Furosemide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722434",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722434_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"ganciclovir\" outputclass=\"int-drug\">ganciclovir</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  ganciclovir  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722435",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722435_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">Gentamicin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypocalcaemia when given with</ph> <ph otherprops=\"ibandronic acid\" outputclass=\"int-drug\">ibandronic acid</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gentamicin   increases   the risk of hypocalcaemia when given with   ibandronic acid .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibandronic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722436",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722436_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"ibuprofen\" outputclass=\"int-drug\">ibuprofen</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  ibuprofen  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibuprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722437",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722437_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"ifosfamide\" outputclass=\"int-drug\">ifosfamide</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  ifosfamide  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ifosfamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722438",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722438_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"indometacin\" outputclass=\"int-drug\">indometacin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  indometacin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Indometacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722439",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722439_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"ketoprofen\" outputclass=\"int-drug\">ketoprofen</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  ketoprofen  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketoprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722440",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722440_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"ketorolac\" outputclass=\"int-drug\">ketorolac</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  ketorolac  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketorolac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722441",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722441_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"mefenamic acid\" outputclass=\"int-drug\">mefenamic acid</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  mefenamic acid  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mefenamic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722442",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722442_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"meloxicam\" outputclass=\"int-drug\">meloxicam</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  meloxicam  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Meloxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722443",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722443_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"methotrexate\" outputclass=\"int-drug\">methotrexate</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  methotrexate  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methotrexate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722444",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722444_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"mivacurium\" outputclass=\"int-drug\">mivacurium</ph> have neuromuscular blocking effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  mivacurium  have neuromuscular blocking effects. \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mivacurium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722445",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722445_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"nabumetone\" outputclass=\"int-drug\">nabumetone</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  nabumetone  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nabumetone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722446",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722446_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"naproxen\" outputclass=\"int-drug\">naproxen</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  naproxen  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Naproxen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722447",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722447_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"neomycin\" outputclass=\"int-drug\">neomycin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  neomycin  can increase the risk of nephrotoxicity. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722447_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"neomycin\" outputclass=\"int-drug\">neomycin</ph> can increase the risk of ototoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  gentamicin  and  neomycin  can increase the risk of ototoxicity. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722447_message_2",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"neomycin\" outputclass=\"int-drug\">neomycin</ph> have neuromuscular blocking effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "3",
+							"hasTextContent": "Both  gentamicin  and  neomycin  have neuromuscular blocking effects. \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Neomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722448",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722448_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">Gentamicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"neostigmine\" outputclass=\"int-drug\">neostigmine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gentamicin   is predicted to   decrease   the effects of   neostigmine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Neostigmine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722449",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722449_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"oxaliplatin\" outputclass=\"int-drug\">oxaliplatin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  oxaliplatin  can increase the risk of nephrotoxicity. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722449_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"oxaliplatin\" outputclass=\"int-drug\">oxaliplatin</ph> can increase the risk of ototoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  gentamicin  and  oxaliplatin  can increase the risk of ototoxicity. \n\n"
+						}
+					],
+					"hasOrder": "57",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxaliplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722450",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722450_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">Gentamicin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypocalcaemia when given with</ph> <ph otherprops=\"pamidronate\" outputclass=\"int-drug\">pamidronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gentamicin   increases   the risk of hypocalcaemia when given with   pamidronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pamidronate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722451",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722451_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"pancuronium\" outputclass=\"int-drug\">pancuronium</ph> have neuromuscular blocking effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  pancuronium  have neuromuscular blocking effects. \n\n"
+						}
+					],
+					"hasOrder": "59",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pancuronium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722452",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722452_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"parecoxib\" outputclass=\"int-drug\">parecoxib</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  parecoxib  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "60",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Parecoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722453",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722453_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"pemetrexed\" outputclass=\"int-drug\">pemetrexed</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  pemetrexed  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "61",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pemetrexed</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722454",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722454_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"penicillamine\" outputclass=\"int-drug\">penicillamine</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  penicillamine  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "62",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Penicillamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722455",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722455_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"pentamidine\" outputclass=\"int-drug\">pentamidine</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  pentamidine  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "63",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentamidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722456",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722456_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"piroxicam\" outputclass=\"int-drug\">piroxicam</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  piroxicam  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "64",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Piroxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722457",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722457_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"polymyxins\" outputclass=\"int-drug\">polymyxins</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  polymyxins  can increase the risk of nephrotoxicity. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722457_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"polymyxins\" outputclass=\"int-drug\">polymyxins</ph> have neuromuscular blocking effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  gentamicin  and  polymyxins  have neuromuscular blocking effects. \n\n"
+						}
+					],
+					"hasOrder": "65",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Polymyxins</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722458",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722458_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">Gentamicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"pyridostigmine\" outputclass=\"int-drug\">pyridostigmine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gentamicin   is predicted to   decrease   the effects of   pyridostigmine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "66",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pyridostigmine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722459",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722459_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">Gentamicin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypocalcaemia when given with</ph> <ph otherprops=\"risedronate\" outputclass=\"int-drug\">risedronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gentamicin   increases   the risk of hypocalcaemia when given with   risedronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "67",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Risedronate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722460",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722460_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"rocuronium\" outputclass=\"int-drug\">rocuronium</ph> have neuromuscular blocking effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  rocuronium  have neuromuscular blocking effects. \n\n"
+						}
+					],
+					"hasOrder": "68",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rocuronium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722461",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722461_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">Gentamicin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypocalcaemia when given with</ph> <ph otherprops=\"sodium clodronate\" outputclass=\"int-drug\">sodium clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gentamicin   increases   the risk of hypocalcaemia when given with   sodium clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "69",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sodium clodronate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722462",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722462_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"streptozocin\" outputclass=\"int-drug\">streptozocin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  streptozocin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "70",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Streptozocin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722463",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722463_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"sulindac\" outputclass=\"int-drug\">sulindac</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  sulindac  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "71",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulindac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722464",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722464_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"suxamethonium\" outputclass=\"int-drug\">suxamethonium</ph> have neuromuscular blocking effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  suxamethonium  have neuromuscular blocking effects. \n\n"
+						}
+					],
+					"hasOrder": "72",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Suxamethonium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722465",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722465_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"tacrolimus\" outputclass=\"int-drug\">tacrolimus</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  tacrolimus  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "73",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tacrolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722466",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722466_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"telavancin\" outputclass=\"int-drug\">telavancin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  telavancin  can increase the risk of nephrotoxicity. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722466_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"telavancin\" outputclass=\"int-drug\">telavancin</ph> can increase the risk of ototoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  gentamicin  and  telavancin  can increase the risk of ototoxicity. \n\n"
+						}
+					],
+					"hasOrder": "74",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Telavancin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722467",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722467_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"tenofovir disoproxil\" outputclass=\"int-drug\">tenofovir disoproxil</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  tenofovir disoproxil  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "75",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tenofovir disoproxil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722468",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722468_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"tenoxicam\" outputclass=\"int-drug\">tenoxicam</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  tenoxicam  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "76",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tenoxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722469",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722469_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"tiaprofenic acid\" outputclass=\"int-drug\">tiaprofenic acid</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  tiaprofenic acid  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "77",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tiaprofenic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722470",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722470_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"tolfenamic acid\" outputclass=\"int-drug\">tolfenamic acid</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  tolfenamic acid  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "78",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolfenamic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722471",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722471_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"torasemide\" outputclass=\"int-drug\">torasemide</ph> can increase the risk of ototoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  torasemide  can increase the risk of ototoxicity. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722471_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"torasemide\" outputclass=\"int-drug\">Torasemide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of nephrotoxicity when given with</ph> <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Torasemide   increases   the risk of nephrotoxicity when given with   gentamicin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "79",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Torasemide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722472",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722472_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"trimethoprim\" outputclass=\"int-drug\">trimethoprim</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  trimethoprim  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "80",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trimethoprim</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722473",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722473_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"valaciclovir\" outputclass=\"int-drug\">valaciclovir</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  valaciclovir  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "81",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Valaciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722474",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722474_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"valganciclovir\" outputclass=\"int-drug\">valganciclovir</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  valganciclovir  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "82",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Valganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722475",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722475_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"vancomycin\" outputclass=\"int-drug\">vancomycin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  vancomycin  can increase the risk of nephrotoxicity. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722475_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"vancomycin\" outputclass=\"int-drug\">vancomycin</ph> can increase the risk of ototoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  gentamicin  and  vancomycin  can increase the risk of ototoxicity. \n\n"
+						}
+					],
+					"hasOrder": "83",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vancomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722476",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722476_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"vinblastine\" outputclass=\"int-drug\">vinblastine</ph> can increase the risk of ototoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  vinblastine  can increase the risk of ototoxicity. \n\n"
+						}
+					],
+					"hasOrder": "84",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinblastine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722477",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722477_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"vincristine\" outputclass=\"int-drug\">vincristine</ph> can increase the risk of ototoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  vincristine  can increase the risk of ototoxicity. \n\n"
+						}
+					],
+					"hasOrder": "85",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vincristine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722478",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722478_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"vindesine\" outputclass=\"int-drug\">vindesine</ph> can increase the risk of ototoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  vindesine  can increase the risk of ototoxicity. \n\n"
+						}
+					],
+					"hasOrder": "86",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vindesine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722479",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722479_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"vinflunine\" outputclass=\"int-drug\">vinflunine</ph> can increase the risk of ototoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  vinflunine  can increase the risk of ototoxicity. \n\n"
+						}
+					],
+					"hasOrder": "87",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinflunine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722480",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722480_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"vinorelbine\" outputclass=\"int-drug\">vinorelbine</ph> can increase the risk of ototoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  vinorelbine  can increase the risk of ototoxicity. \n\n"
+						}
+					],
+					"hasOrder": "88",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinorelbine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722481",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722481_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"zidovudine\" outputclass=\"int-drug\">zidovudine</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  zidovudine  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "89",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zidovudine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722482",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722482_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">gentamicin</ph> and <ph otherprops=\"zoledronic acid\" outputclass=\"int-drug\">zoledronic acid</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gentamicin  and  zoledronic acid  can increase the risk of nephrotoxicity. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2#bnf_i1557280722482_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gentamicin\" outputclass=\"int-heading-drug\">Gentamicin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypocalcaemia when given with</ph> <ph otherprops=\"zoledronic acid\" outputclass=\"int-drug\">zoledronic acid</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Gentamicin   increases   the risk of hypocalcaemia when given with   zoledronic acid .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "90",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zoledronic acid</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Gentamicin  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/gentamicin-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Gentamicin </title>"
+			},
+			"rdfs:label": "gentamicin"
+		}
+	]
+}

@@ -1,0 +1,763 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722359",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722359_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"acenocoumarol\" outputclass=\"int-drug\">acenocoumarol</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor INR and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the anticoagulant effect of   acenocoumarol .  Manufacturer advises monitor INR and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acenocoumarol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722360",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722360_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"alitretinoin\" outputclass=\"int-drug\">alitretinoin</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"alitretinoin\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/alitretinoin.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP7695\">alitretinoin</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the exposure to   alitretinoin .  Manufacturer advises adjust  alitretinoin  dose .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alitretinoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722361",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722361_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"aluminium hydroxide\" outputclass=\"int-drug\">Aluminium hydroxide</ph> <ph outputclass=\"int-magnitude\">slightly to moderately</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">gemfibrozil</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Aluminium hydroxide   slightly to moderately   decreases   the exposure to   gemfibrozil .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aluminium hydroxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722362",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722362_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"apalutamide\" outputclass=\"int-drug\">apalutamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the exposure to   apalutamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722363",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722363_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"atorvastatin\" outputclass=\"int-drug\">atorvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   increases   the risk of rhabdomyolysis when given with   atorvastatin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atorvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722364",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722364_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"bexarotene\" outputclass=\"int-drug\">bexarotene</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   increases   the concentration of   bexarotene .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bexarotene</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722365",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722365_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colchicine\" outputclass=\"int-drug\">Colchicine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">gemfibrozil</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Colchicine   increases   the risk of rhabdomyolysis when given with   gemfibrozil .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Colchicine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722366",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722366_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dabrafenib\" outputclass=\"int-drug\">dabrafenib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the exposure to   dabrafenib .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dabrafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722367",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722367_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"daptomycin\" outputclass=\"int-drug\">daptomycin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the risk of rhabdomyolysis when given with   daptomycin .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Daptomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722368",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722368_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">very markedly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dasabuvir\" outputclass=\"int-drug\">dasabuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   very markedly   increase   the exposure to   dasabuvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dasabuvir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722369",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722369_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"enzalutamide\" outputclass=\"int-drug\">enzalutamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"enzalutamide\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/enzalutamide.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33817\">enzalutamide</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   moderately   increases   the exposure to   enzalutamide .  Manufacturer advises avoid or adjust  enzalutamide  dose .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enzalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722370",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722370_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gallstones when given with</ph> <ph otherprops=\"ezetimibe\" outputclass=\"int-drug\">ezetimibe</ph>. <ph outputclass=\"int-action\">Manufacturer advises discontinue if gallstones develops</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the risk of gallstones when given with   ezetimibe .  Manufacturer advises discontinue if gallstones develops .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ezetimibe</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722371",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722371_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"fluvastatin\" outputclass=\"int-drug\">fluvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   increases   the risk of rhabdomyolysis when given with   fluvastatin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722372",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722372_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the risk of hypoglycaemia when given with   glibenclamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glibenclamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722373",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722373_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"gliclazide\" outputclass=\"int-drug\">gliclazide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the risk of hypoglycaemia when given with   gliclazide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gliclazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722374",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722374_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"glimepiride\" outputclass=\"int-drug\">glimepiride</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the risk of hypoglycaemia when given with   glimepiride .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glimepiride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722375",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722375_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"glipizide\" outputclass=\"int-drug\">glipizide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the risk of hypoglycaemia when given with   glipizide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glipizide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722376",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722376_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"insulins\" outputclass=\"int-drug\">insulins</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the risk of hypoglycaemia when given with   insulins .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Insulins</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722377",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722377_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"irinotecan\" outputclass=\"int-drug\">irinotecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the exposure to   irinotecan .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Irinotecan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722378",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722378_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"letermovir\" outputclass=\"int-drug\">letermovir</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the concentration of   letermovir .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Letermovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722379",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722379_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium carbonate\" outputclass=\"int-drug\">Magnesium carbonate</ph> <ph outputclass=\"int-magnitude\">slightly to moderately</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">gemfibrozil</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Magnesium carbonate   slightly to moderately   decreases   the exposure to   gemfibrozil .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Magnesium carbonate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722380",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722380_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium trisilicate\" outputclass=\"int-drug\">Magnesium trisilicate</ph> <ph outputclass=\"int-magnitude\">slightly to moderately</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">gemfibrozil</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Magnesium trisilicate   slightly to moderately   decreases   the exposure to   gemfibrozil .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Magnesium trisilicate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722381",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722381_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"montelukast\" outputclass=\"int-drug\">montelukast</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor side effects</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   moderately   increase   the exposure to   montelukast .  Manufacturer advises monitor side effects .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Montelukast</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722382",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722382_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"paclitaxel\" outputclass=\"int-drug\">paclitaxel</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the concentration of   paclitaxel .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paclitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722383",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722383_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"phenindione\" outputclass=\"int-drug\">phenindione</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor INR and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the anticoagulant effect of   phenindione .  Manufacturer advises monitor INR and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenindione</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722384",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722384_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pioglitazone\" outputclass=\"int-drug\">pioglitazone</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor blood glucose and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   increases   the exposure to   pioglitazone .  Manufacturer advises monitor blood glucose and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pioglitazone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722385",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722385_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"pravastatin\" outputclass=\"int-drug\">pravastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   increases   the risk of rhabdomyolysis when given with   pravastatin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pravastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722386",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722386_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"repaglinide\" outputclass=\"int-drug\">repaglinide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   increases   the exposure to   repaglinide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Repaglinide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722387",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722387_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"rosuvastatin\" outputclass=\"int-drug\">rosuvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   increases   the risk of rhabdomyolysis when given with   rosuvastatin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rosuvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722388",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722388_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"selexipag\" outputclass=\"int-drug\">selexipag</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   increases   the exposure to   selexipag .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Selexipag</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722389",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722389_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"simvastatin\" outputclass=\"int-drug\">simvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   increases   the risk of rhabdomyolysis when given with   simvastatin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Simvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722390",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722390_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the risk of hypoglycaemia when given with   tolbutamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolbutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722391",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722391_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"ursodeoxycholic acid\" outputclass=\"int-drug\">ursodeoxycholic acid</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   decrease   the efficacy of   ursodeoxycholic acid .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ursodeoxycholic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722392",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2#bnf_i1557280722392_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-heading-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"warfarin\" outputclass=\"int-drug\">warfarin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor INR and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the anticoagulant effect of   warfarin .  Manufacturer advises monitor INR and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Warfarin</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Gemfibrozil  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/gemfibrozil-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Gemfibrozil </title>"
+			},
+			"rdfs:label": "gemfibrozil"
+		}
+	]
+}

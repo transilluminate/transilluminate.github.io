@@ -1,0 +1,679 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717773",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717773_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"aluminium hydroxide\" outputclass=\"int-drug\">Aluminium hydroxide</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">ferrous gluconate</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph> should be taken 1 hour before or 2 hours after <ph otherprops=\"aluminium hydroxide\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/aluminium-hydroxide.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP287\">aluminium hydroxide</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Aluminium hydroxide   decreases   the absorption of   ferrous gluconate .  Manufacturer advises  ferrous gluconate  should be taken 1 hour before or 2 hours after  aluminium hydroxide .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aluminium hydroxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717774",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717774_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"bictegravir\" outputclass=\"int-drug\">bictegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"bictegravir\" outputclass=\"int-drug\">bictegravir</ph> should be taken 2 hours before <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the exposure to   bictegravir .  Manufacturer advises  bictegravir  should be taken 2 hours before  ferrous gluconate .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bictegravir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717775",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717775_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">ferrous gluconate</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"calcium carbonate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph> should be taken 1 hour before or 2 hours after <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Calcium carbonate   decreases   the absorption of   ferrous gluconate .  Manufacturer advises  calcium carbonate  should be taken 1 hour before or 2 hours after  ferrous gluconate .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium carbonate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717776",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717776_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"carbidopa\" outputclass=\"int-drug\">carbidopa</ph>. <ph outputclass=\"int-action\">Manufacturer advises separating administration</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   is predicted to   decreases   the exposure to   carbidopa .  Manufacturer advises separating administration .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbidopa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717777",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717777_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">ferrous gluconate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   decreases   the efficacy of   oral   ferrous gluconate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chloramphenicol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717778",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717778_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ciprofloxacin\" outputclass=\"int-drug\">ciprofloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the exposure to   ciprofloxacin .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciprofloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717779",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717779_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"demeclocycline\" outputclass=\"int-drug\">demeclocycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"demeclocycline\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/demeclocycline-hydrochloride.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3442\">demeclocycline</xref></ph> should be taken 2 to 3 hours after <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the absorption of   demeclocycline .  Manufacturer advises  demeclocycline  should be taken 2 to 3 hours after  ferrous gluconate .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Demeclocycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717780",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717780_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dolutegravir\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/dolutegravir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP34479\">dolutegravir</xref></ph> should be taken 2 hours before or 6 hours after <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the absorption of   dolutegravir .  Manufacturer advises  dolutegravir  should be taken 2 hours before or 6 hours after  ferrous gluconate .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dolutegravir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717781",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717781_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"doxycycline\" outputclass=\"int-drug\">doxycycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"doxycycline\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/doxycycline.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3445\">doxycycline</xref></ph> should be taken 2 to 3 hours after <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the absorption of   doxycycline .  Manufacturer advises  doxycycline  should be taken 2 to 3 hours after  ferrous gluconate .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxycycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717782",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717782_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   is predicted to   decreases   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  ferrous gluconate .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eltrombopag</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717783",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717783_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"entacapone\" outputclass=\"int-drug\">entacapone</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   is predicted to   decreases   the absorption of   entacapone .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Entacapone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717784",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717784_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"ibandronic acid\" outputclass=\"int-drug\">ibandronic acid</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph> for at least 6 hours before or 1 hour after <ph otherprops=\"ibandronic acid\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ibandronic-acid.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4671\">ibandronic acid</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   is predicted to   decreases   the absorption of   oral   ibandronic acid .  Manufacturer advises avoid  ferrous gluconate  for at least 6 hours before or 1 hour after  ibandronic acid .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibandronic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717785",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717785_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"levodopa\" outputclass=\"int-drug\">levodopa</ph>. <ph outputclass=\"int-action\">Manufacturer advises separating administration</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the absorption of   levodopa .  Manufacturer advises separating administration .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levodopa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717786",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717786_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"levofloxacin\" outputclass=\"int-drug\">levofloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the exposure to   levofloxacin .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levofloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717787",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717787_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"levothyroxine\" outputclass=\"int-drug\">levothyroxine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 4 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the absorption of   levothyroxine .  Manufacturer advises separate administration by at least 4 hours .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levothyroxine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717788",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717788_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"lymecycline\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/lymecycline.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3451\">lymecycline</xref></ph> should be taken 2 to 3 hours after <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the absorption of   lymecycline .  Manufacturer advises  lymecycline  should be taken 2 to 3 hours after  ferrous gluconate .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lymecycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717789",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717789_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium carbonate\" outputclass=\"int-drug\">Magnesium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">ferrous gluconate</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph> should be taken 1 hour before or 2 hours after <ph otherprops=\"magnesium carbonate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/magnesium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP298\">magnesium carbonate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Magnesium carbonate   decreases   the absorption of   ferrous gluconate .  Manufacturer advises  ferrous gluconate  should be taken 1 hour before or 2 hours after  magnesium carbonate .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Magnesium carbonate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717790",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717790_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium trisilicate\" outputclass=\"int-drug\">Magnesium trisilicate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">ferrous gluconate</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph> should be taken 1 hour before or 2 hours after <ph otherprops=\"magnesium trisilicate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/magnesium-trisilicate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP304\">magnesium trisilicate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Magnesium trisilicate   decreases   the absorption of   ferrous gluconate .  Manufacturer advises  ferrous gluconate  should be taken 1 hour before or 2 hours after  magnesium trisilicate .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Magnesium trisilicate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717791",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717791_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"methyldopa\" outputclass=\"int-drug\">methyldopa</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the effects of   methyldopa .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methyldopa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717792",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717792_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"minocycline\" outputclass=\"int-drug\">minocycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"minocycline\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/minocycline.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3453\">minocycline</xref></ph> should be taken 2 to 3 hours after <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the absorption of   minocycline .  Manufacturer advises  minocycline  should be taken 2 to 3 hours after  ferrous gluconate .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Minocycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717793",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717793_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"moxifloxacin\" outputclass=\"int-drug\">moxifloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the exposure to   moxifloxacin .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Moxifloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717794",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717794_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ofloxacin\" outputclass=\"int-drug\">ofloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the exposure to   ofloxacin .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ofloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717795",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717795_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"oxytetracycline\" outputclass=\"int-drug\">oxytetracycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"oxytetracycline\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/oxytetracycline.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3460\">oxytetracycline</xref></ph> should be taken 2 to 3 hours after <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the absorption of   oxytetracycline .  Manufacturer advises  oxytetracycline  should be taken 2 to 3 hours after  ferrous gluconate .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxytetracycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717796",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717796_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-drug\">penicillamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   is predicted to   decreases   the absorption of   penicillamine .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Penicillamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717797",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717797_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"risedronate\" outputclass=\"int-drug\">risedronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the absorption of   risedronate .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Risedronate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717798",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717798_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"sodium clodronate\" outputclass=\"int-drug\">sodium clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph> for 2 hours before or 1 hour after <ph otherprops=\"sodium clodronate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/sodium-clodronate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4681\">sodium clodronate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the absorption of   sodium clodronate .  Manufacturer advises avoid  ferrous gluconate  for 2 hours before or 1 hour after  sodium clodronate .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sodium clodronate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717799",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717799_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"tetracycline\" outputclass=\"int-drug\">tetracycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"tetracycline\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/tetracycline.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3439\">tetracycline</xref></ph> should be taken 2 to 3 hours after <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the absorption of   tetracycline .  Manufacturer advises  tetracycline  should be taken 2 to 3 hours after  ferrous gluconate .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tetracycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717800",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717800_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"tigecycline\" outputclass=\"int-drug\">tigecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"tigecycline\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/tigecycline.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3463\">tigecycline</xref></ph> should be taken 2 to 3 hours after <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the absorption of   tigecycline .  Manufacturer advises  tigecycline  should be taken 2 to 3 hours after  ferrous gluconate .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tigecycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717801",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717801_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"trientine\" outputclass=\"int-drug\">Trientine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">ferrous gluconate</ph>. <ph outputclass=\"int-action\">Manufacturer advises separating administration</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Trientine   potentially   decreases   the absorption of   ferrous gluconate .  Manufacturer advises separating administration .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trientine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717802",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2#bnf_i1557280717802_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"zinc\" outputclass=\"int-drug\">Zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">ferrous gluconate</ph> and <ph otherprops=\"ferrous gluconate\" outputclass=\"int-heading-drug\">ferrous gluconate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"zinc\" outputclass=\"int-drug\">zinc</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Zinc   is predicted to   decrease   the efficacy of   ferrous gluconate  and  ferrous gluconate   is predicted to   decreases   the efficacy of   zinc .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zinc</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Ferrous gluconate  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/ferrous-gluconate-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Ferrous gluconate </title>"
+			},
+			"rdfs:label": "ferrous gluconate"
+		}
+	]
+}

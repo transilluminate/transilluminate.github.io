@@ -1,0 +1,154 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/fusidic-acid-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fusidic-acid-2#bnf_i1557280721613",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fusidic-acid-2#bnf_i1557280721613_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fusidic acid\" outputclass=\"int-heading-drug\">Fusidic acid</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"atorvastatin\" outputclass=\"int-drug\">atorvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fusidic acid   increases   the risk of rhabdomyolysis when given with   atorvastatin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atorvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fusidic-acid-2#bnf_i1557280721614",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fusidic-acid-2#bnf_i1557280721614_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fusidic acid\" outputclass=\"int-heading-drug\">Fusidic acid</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"fluvastatin\" outputclass=\"int-drug\">fluvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fusidic acid   increases   the risk of rhabdomyolysis when given with   fluvastatin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fusidic-acid-2#bnf_i1557280721615",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fusidic-acid-2#bnf_i1557280721615_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fusidic acid\" outputclass=\"int-heading-drug\">Fusidic acid</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"pravastatin\" outputclass=\"int-drug\">pravastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fusidic acid   increases   the risk of rhabdomyolysis when given with   pravastatin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pravastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fusidic-acid-2#bnf_i1557280721616",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fusidic-acid-2#bnf_i1557280721616_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fusidic acid\" outputclass=\"int-heading-drug\">Fusidic acid</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"rosuvastatin\" outputclass=\"int-drug\">rosuvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fusidic acid   increases   the risk of rhabdomyolysis when given with   rosuvastatin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rosuvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fusidic-acid-2#bnf_i1557280721617",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fusidic-acid-2#bnf_i1557280721617_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fusidic acid\" outputclass=\"int-heading-drug\">Fusidic acid</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"simvastatin\" outputclass=\"int-drug\">simvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fusidic acid   increases   the risk of rhabdomyolysis when given with   simvastatin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Simvastatin</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Fusidic acid  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/fusidic-acid-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Fusidic acid </title>"
+			},
+			"rdfs:label": "fusidic acid"
+		}
+	]
+}
