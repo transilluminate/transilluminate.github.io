@@ -5,48 +5,47 @@ var availableMedications = [];	// array for all medications listed in the BNF ( 
 var displayMedications   = [];	// empty array of the meds we are going to add via the search box
 var medicationDetails    = {};	// this stores the details of the interactions of the medications
 
-function buildAvailableMedications() {	// scrapes the BNF and builds a JSON object for saving locally to avoid CORS issues
-	$.ajax({ url:'https://bnf.nice.org.uk/interaction/index.html', type:'get', dataType:'html',
-		success:function(data){
-			var medications = {};
-			var jsonLinks = [];
-			// successfully got the url
-			var html = $.parseHTML(data);
-			var medicationsList = $(html).find('#A,#B,#C,#D,#E,#F,#G,#H,#I,#J,#K,#L,#M,#N,#O,#P,#Q,#R,#S,#T,#U,#V,#W,#X,#Y,#Z').find('li');
-			medicationsList.each( function(){
-				var title = $(this)[0].textContent.toLowerCase().trim();	// put this lowercase to make matching easier
-				var link = $(this)[0].innerHTML.replace(/<a href=\"(.+).html.*/,"interaction/$1.json"); // grab the json url
-				medications[title] = link;	// build local relative urls
-				
-				// list the medication urls, one per line, cut and paste into 'interaction' folder 'urls.txt'
-				// run 'wget -i urls.txt' or 'xargs -n 1 curl -O < urls.txt' in the 'interaction' folder to download:
-				// $("#results pre code").append("https://bnf.nice.org.uk/" + link + "<br>");
-
-			});
-			// cut and paste, save as 'medicationsList.json' in the root folder:
-			// $("#results pre code").append( JSON.stringify(medications) );
-		}
-	});
-}
-//buildAvailableMedications();
+// function buildAvailableMedications() {	// scrapes the BNF and builds a JSON object for saving locally to avoid C.O.R.S. issues
+// 	$.ajax({ url:'https://bnf.nice.org.uk/interaction/index.html', type:'get', dataType:'html',
+// 		success:function(data){
+// 			var medications = {};	// data hash for medicationsList.json
+// 			var jsonLinks = [];		// json links to download the json files (sorry for scraping, no other way around C.O.R.S. unless hosted by NICE!)
+// 			var html = $.parseHTML(data);
+// 			var medicationsList = $(html).find('#A,#B,#C,#D,#E,#F,#G,#H,#I,#J,#K,#L,#M,#N,#O,#P,#Q,#R,#S,#T,#U,#V,#W,#X,#Y,#Z').find('li');
+// 			medicationsList.each( function(){
+// 				var title = $(this)[0].textContent.toLowerCase().trim();	// put this lowercase to make matching easier
+// 				var link = $(this)[0].innerHTML.replace(/<a href=\"(.+).html.*/,"interaction/$1.json"); // grab the json url
+// 				medications[title] = link;	// build local relative urls
+// 				
+// 				// list of the medication urls, one per line... cut and paste into 'interaction' folder 'urls.txt',
+// 				// then run 'wget -i urls.txt' or 'xargs -n 1 curl -O < urls.txt' in the 'interaction' folder to download:
+// 				// $("#results pre code").append("https://bnf.nice.org.uk/" + link + "<br>");
+// 
+// 			});
+// 			// cut and paste, save as 'medicationsList.json' in the root folder:
+// 			//$("#results pre code").append( JSON.stringify( medications ) );
+// 		}
+// 	});
+// }
+// buildAvailableMedications(); // uncomment block to run
 
 function loadAvailableMedications(){	// load the medication list for the search terms
 	$.getJSON('medicationsList.json', function(data) {					// localfile, built using buildAvailableMedications()
 		$.each( data, function( title, jsonLink ) {
 			availableMedications.push(title);							// push this into the array of medications
 			medicationDetails[title] = { 'json': jsonLink };			// and store the urls to the JSON separately (local)
-			//medicationDetails[title] = { 'json': 'https://bnf.nice.org.uk/interaction/' + jsonLink };	// and store the urls to the JSON separately (remote)			
-			// console.log("Loading: '" + title + "' => '" + jsonLink + "'");	// uncomment to display the loading of the availableMedications
+			//medicationDetails[title] = { 'json': 'https://bnf.nice.org.uk/interaction/' + jsonLink };	// or use the remote ones (works with Safari for local scripts)
+			//console.log("Loading: '" + title + "' => '" + jsonLink + "'");	// uncomment to display the loading of the availableMedications
 		});
 		// once searchArray has been loaded, initialise the typeahead
 		var searchSuggestions = new Bloodhound({					// initialise a new search engine...
- 										datumTokenizer:Bloodhound.tokenizers.whitespace,		// voodoo
- 										queryTokenizer:Bloodhound.tokenizers.whitespace,		// magic
+ 										datumTokenizer:Bloodhound.tokenizers.whitespace,		// voodoo!
+ 										queryTokenizer:Bloodhound.tokenizers.whitespace,		// magic!
  										local:availableMedications	// ... based on the array we just built
 									});
 		// attach the typeahead actions to the search box
 		$("#searchBox").typeahead({ hint:false, highlight:true, minLength:1 },{ source:searchSuggestions, limit:10 });
-		// once finished focus on the search box
+		// focus on the text entry box
 		$("#searchBox").focus();
 	});
 }
@@ -68,6 +67,7 @@ $("#searchForm").submit( function(event) {
 // add the data
 function addMedication(term) {
 	if (term && availableMedications.includes(term) && !displayMedications.includes(term) && medicationDetails[term]['json']) {	// sanity checks
+
 		$.getJSON(medicationDetails[term]['json'], function(jsonObject){		// async call
 			// the JSON tree is fairly complex, use an online explorer to understand (i.e. https://jsonformatter.org/json-viewer)
 			var title = jsonObject['@graph'][0]['hasTitle']['@value'].replace(/(<([^>]+)>)/ig,"").trim().toLowerCase().toString();	// strip html
@@ -88,11 +88,8 @@ function addMedication(term) {
 			});
 			redrawTable();	// now we have data, redraw the table
 		});
+
 	}
-	// clear up and get ready for more!
-	$("#searchBox").focus();
-	$("#searchBox").val('');
-	$(".typeahead").typeahead('val','');
 };
 
 function deleteMedication(entry) {
@@ -128,13 +125,14 @@ function redrawTable() {
 			else {
 				var rowTitle = displayMedications[y - 1];		// get the row header
 				var columnTitle = displayMedications[x - 1];	// and the column header
+				
 				if (x == 0) {		// create row headers
 					row += ("<th class='elementRow' scope='row' style='text-align:right'>");
-					row +=   ("<a class='btn btn-outline-secondary deleteThisEntry'  data-toggle='tooltip' title='" + rowTitle + "' role='button' target='_new' href='" + medicationDetails[rowTitle]['url'] + "'>");
+					row +=   ("<a class='btn btn-outline-secondary deleteThisEntry' data-toggle='tooltip' title='" + rowTitle + "' role='button' target='_blank' href='" + medicationDetails[rowTitle]['url'] + "#'>");
 					row +=     (rowTitle);
 					row +=   ("</a>");
 					row +=   ("&nbsp;");
-					row +=   ("<button class='btn btn-outline-danger deleteButton'>");
+					row +=   ("<button class='btn btn-outline-danger deleteButton' data-toggle='tooltip' title='Remove " + rowTitle + "'>");
 					row +=     ("<i class='far fa-trash-alt'></i>");
 					row +=   ("</button>");
 					row += ("</th>");
@@ -142,7 +140,7 @@ function redrawTable() {
 				else if (y == 0) {	// create column headers
 					row += ("<th scope='column' class='rotate col-xs-2'>");
 					row +=   ("<div class='rotated'>");
-					row +=     ("<a class='btn btn-outline-secondary' data-toggle='tooltip' title='" + columnTitle + "' role='button' target='_new' href='" + medicationDetails[columnTitle]['url'] + "'>");
+					row +=     ("<a class='btn btn-outline-secondary' data-toggle='tooltip' title='" + columnTitle + "' role='button' target='_blank' href='" + medicationDetails[columnTitle]['url'] + "#'>");
 					row +=       (columnTitle);
 					row +=     ("</a>");
 					row +=   ("</div>");
@@ -150,16 +148,19 @@ function redrawTable() {
 				}
 				else { 				// build the interaction cells
 					if (medicationDetails[rowTitle]['interactions'][columnTitle]) {						// check if an interaction actually exists, if so:
+						
 						var url = medicationDetails[rowTitle]['interactions'][columnTitle]['url'];				// get the details, link
-						var severity = medicationDetails[rowTitle]['interactions'][columnTitle]['severity'];	// ... severity ...
+						var severity = medicationDetails[rowTitle]['interactions'][columnTitle]['severity'];		// ... severity ...
 						var details = medicationDetails[rowTitle]['interactions'][columnTitle]['details'];		// and info about the interaction
+														
 						var button = (severity == "Severe") ? "btn-danger" : "btn-warning";						// conditionally format the cell colour...
 						var icon = (severity == "Severe") ? "fas fa-exclamation-triangle" : "fas fa-balance-scale";	// ... and icon from font awesome
 									// cells have colourized button, link to the interaction details, and a tooltip
 						row += ("<td>");
-						row +=   ("<a class='btn " + button + "' role='button' target='_new' href='" + url + "' data-toggle='tooltip' title='" + details + "'>");
+						row +=   ("<a class='btn " + button + "' role='button' target='_blank' href='" + url + "' data-toggle='tooltip' title='" + details + "'>");
 						row +=     ("<i class='" + icon + "'></i>");
-						row +=   ("</a>");								row += ("</td>");
+						row +=   ("</a>");
+						row += ("</td>");
 					}
 					else {			// no interaction found, colour a blank cell green with a thumbs up!
 						row += ("<td>");
@@ -179,6 +180,11 @@ function redrawTable() {
 		var entry = $(this).prev(".deleteThisEntry").text();	// we added the deleteThisEntry class to find the entry easily
    		deleteMedication(entry);								// pass the entry to the deleteRow code
 	});
+	// clear up and get ready for more!
+	$('.tooltip').tooltip('hide');	
+	$("#searchBox").focus();
+	$("#searchBox").val('');
+	$(".typeahead").typeahead('val','');	
 };
 
 // bind jQuery to the many ways to change the selection
