@@ -1,0 +1,343 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697930",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697930_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloroquine\" outputclass=\"int-heading-drug\">Chloroquine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"agalsidase\" outputclass=\"int-drug\">agalsidase</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloroquine   is predicted to   decrease   the effects of   agalsidase .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Agalsidase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697931",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697931_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"aluminium hydroxide\" outputclass=\"int-drug\">Aluminium hydroxide</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"chloroquine\" outputclass=\"int-heading-drug\">chloroquine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 4 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Aluminium hydroxide   decreases   the absorption of   chloroquine .  Manufacturer advises separate administration by at least 4 hours .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aluminium hydroxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697932",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697932_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"chloroquine\" outputclass=\"int-heading-drug\">chloroquine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 4 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Calcium carbonate   decreases   the absorption of   chloroquine .  Manufacturer advises separate administration by at least 4 hours .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium carbonate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697933",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697933_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloroquine\" outputclass=\"int-heading-drug\">Chloroquine</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"cholera vaccine\" outputclass=\"int-drug\">cholera vaccine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloroquine   decreases   the efficacy of   oral   cholera vaccine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cholera vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697934",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697934_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cimetidine\" outputclass=\"int-drug\">Cimetidine</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the clearance of</ph> <ph otherprops=\"chloroquine\" outputclass=\"int-heading-drug\">chloroquine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cimetidine   decreases   the clearance of   chloroquine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cimetidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697935",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697935_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chloroquine\" outputclass=\"int-heading-drug\">Chloroquine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of methaemoglobinaemia when given with</ph> <ph otherprops=\"dapsone\" outputclass=\"int-drug\">dapsone</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Chloroquine   is predicted to   increase   the risk of methaemoglobinaemia when given with   dapsone .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dapsone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697936",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697936_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-drug\">Lanthanum</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"chloroquine\" outputclass=\"int-heading-drug\">chloroquine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   is predicted to   decrease   the absorption of   chloroquine .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lanthanum</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697937",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697937_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chloroquine\" outputclass=\"int-heading-drug\">Chloroquine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"laronidase\" outputclass=\"int-drug\">laronidase</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid simultaneous administration</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Chloroquine   is predicted to   decrease   the exposure to   laronidase .  Manufacturer advises avoid simultaneous administration .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Laronidase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697938",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697938_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium carbonate\" outputclass=\"int-drug\">Magnesium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"chloroquine\" outputclass=\"int-heading-drug\">chloroquine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 4 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Magnesium carbonate   decreases   the absorption of   chloroquine .  Manufacturer advises separate administration by at least 4 hours .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Magnesium carbonate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697939",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697939_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium trisilicate\" outputclass=\"int-drug\">Magnesium trisilicate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"chloroquine\" outputclass=\"int-heading-drug\">chloroquine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 4 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Magnesium trisilicate   decreases   the absorption of   chloroquine .  Manufacturer advises separate administration by at least 4 hours .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Magnesium trisilicate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697940",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697940_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chloroquine\" outputclass=\"int-heading-drug\">Chloroquine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of haematological toxicity when given with</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-drug\">penicillamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Chloroquine   is predicted to   increase   the risk of haematological toxicity when given with   penicillamine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Penicillamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697941",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697941_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloroquine\" outputclass=\"int-heading-drug\">Chloroquine</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"praziquantel\" outputclass=\"int-drug\">praziquantel</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloroquine   moderately   decreases   the exposure to   praziquantel .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Praziquantel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697942",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697942_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chloroquine\" outputclass=\"int-heading-drug\">Chloroquine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of methaemoglobinaemia when given with</ph> <ph outputclass=\"int-route\">topical</ph> <ph otherprops=\"prilocaine\" outputclass=\"int-drug\">prilocaine</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Chloroquine   is predicted to   increase   the risk of methaemoglobinaemia when given with   topical   prilocaine .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prilocaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697943",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2#bnf_i1557280697943_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloroquine\" outputclass=\"int-heading-drug\">Chloroquine</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"rabies vaccine\" outputclass=\"int-drug\">rabies vaccine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloroquine   decreases   the efficacy of   rabies vaccine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rabies vaccine</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Chloroquine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/chloroquine-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Chloroquine </title>"
+			},
+			"rdfs:label": "chloroquine"
+		}
+	]
+}

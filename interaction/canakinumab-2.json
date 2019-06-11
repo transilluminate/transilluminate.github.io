@@ -1,0 +1,2653 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693752",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693752_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"afatinib\" outputclass=\"int-drug\">afatinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  afatinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Afatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693753",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693753_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"aflibercept\" outputclass=\"int-drug\">aflibercept</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  aflibercept  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aflibercept</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693754",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693754_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"amsacrine\" outputclass=\"int-drug\">amsacrine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  amsacrine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amsacrine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693755",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693755_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"anakinra\" outputclass=\"int-drug\">anakinra</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  anakinra  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Anakinra</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693756",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693756_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"arsenic trioxide\" outputclass=\"int-drug\">arsenic trioxide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  arsenic trioxide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Arsenic trioxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693757",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693757_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"asparaginase\" outputclass=\"int-drug\">asparaginase</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  asparaginase  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Asparaginase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693758",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693758_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"axitinib\" outputclass=\"int-drug\">axitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  axitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Axitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693759",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693759_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"azacitidine\" outputclass=\"int-drug\">azacitidine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  azacitidine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Azacitidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693760",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693760_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"azathioprine\" outputclass=\"int-drug\">azathioprine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  azathioprine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Azathioprine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693761",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693761_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"Bacillus Calmette-Guérin vaccine\" outputclass=\"int-drug\">Bacillus Calmette-Guérin vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bacillus Calmette-Guérin vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   canakinumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bacillus Calmette-Guérin vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693762",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693762_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"balsalazide\" outputclass=\"int-drug\">balsalazide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  balsalazide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Balsalazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693763",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693763_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"bendamustine\" outputclass=\"int-drug\">bendamustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  bendamustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bendamustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693764",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693764_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"bleomycin\" outputclass=\"int-drug\">bleomycin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  bleomycin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bleomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693765",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693765_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"bortezomib\" outputclass=\"int-drug\">bortezomib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  bortezomib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bortezomib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693766",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693766_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"bosutinib\" outputclass=\"int-drug\">bosutinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  bosutinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosutinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693767",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693767_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"busulfan\" outputclass=\"int-drug\">busulfan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  busulfan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Busulfan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693768",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693768_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"cabazitaxel\" outputclass=\"int-drug\">cabazitaxel</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  cabazitaxel  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabazitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693769",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693769_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"cabozantinib\" outputclass=\"int-drug\">cabozantinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  cabozantinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabozantinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693770",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693770_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"capecitabine\" outputclass=\"int-drug\">capecitabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  capecitabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Capecitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693771",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693771_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"carbimazole\" outputclass=\"int-drug\">carbimazole</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  carbimazole  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbimazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693772",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693772_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"carboplatin\" outputclass=\"int-drug\">carboplatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  carboplatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carboplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693773",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693773_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"carfilzomib\" outputclass=\"int-drug\">carfilzomib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  carfilzomib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carfilzomib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693774",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693774_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"carmustine\" outputclass=\"int-drug\">carmustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  carmustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carmustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693775",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693775_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"ceritinib\" outputclass=\"int-drug\">ceritinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  ceritinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceritinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693776",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693776_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"chlorambucil\" outputclass=\"int-drug\">chlorambucil</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  chlorambucil  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorambucil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693777",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693777_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"cisplatin\" outputclass=\"int-drug\">cisplatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  cisplatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cisplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693778",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693778_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"cladribine\" outputclass=\"int-drug\">cladribine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  cladribine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cladribine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693779",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693779_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"clofarabine\" outputclass=\"int-drug\">clofarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  clofarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clofarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693780",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693780_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"clozapine\" outputclass=\"int-drug\">clozapine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  clozapine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clozapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693781",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693781_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"co-trimoxazole\" outputclass=\"int-drug\">co-trimoxazole</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  co-trimoxazole  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Co-trimoxazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693782",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693782_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"crisantaspase\" outputclass=\"int-drug\">crisantaspase</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  crisantaspase  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crisantaspase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693783",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693783_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"crizotinib\" outputclass=\"int-drug\">crizotinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  crizotinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crizotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693784",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693784_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"cyclophosphamide\" outputclass=\"int-drug\">cyclophosphamide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  cyclophosphamide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyclophosphamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693785",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693785_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"cytarabine\" outputclass=\"int-drug\">cytarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  cytarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cytarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693786",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693786_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"dabrafenib\" outputclass=\"int-drug\">dabrafenib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  dabrafenib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dabrafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693787",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693787_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"dacarbazine\" outputclass=\"int-drug\">dacarbazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  dacarbazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dacarbazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693788",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693788_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"dactinomycin\" outputclass=\"int-drug\">dactinomycin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  dactinomycin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dactinomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693789",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693789_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"dasatinib\" outputclass=\"int-drug\">dasatinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  dasatinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dasatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693790",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693790_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"daunorubicin\" outputclass=\"int-drug\">daunorubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  daunorubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Daunorubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693791",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693791_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"decitabine\" outputclass=\"int-drug\">decitabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  decitabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Decitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693792",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693792_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"deferiprone\" outputclass=\"int-drug\">deferiprone</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  deferiprone  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Deferiprone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693793",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693793_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"docetaxel\" outputclass=\"int-drug\">docetaxel</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  docetaxel  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Docetaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693794",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693794_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"doxorubicin\" outputclass=\"int-drug\">doxorubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  doxorubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxorubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693795",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693795_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"epirubicin\" outputclass=\"int-drug\">epirubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  epirubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Epirubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693796",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693796_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"eribulin\" outputclass=\"int-drug\">eribulin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  eribulin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eribulin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693797",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693797_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"estramustine\" outputclass=\"int-drug\">estramustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  estramustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Estramustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693798",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693798_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"ethosuximide\" outputclass=\"int-drug\">ethosuximide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  ethosuximide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ethosuximide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693799",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693799_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"etoposide\" outputclass=\"int-drug\">etoposide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  etoposide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etoposide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693800",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693800_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"everolimus\" outputclass=\"int-drug\">everolimus</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  everolimus  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Everolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693801",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693801_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"fludarabine\" outputclass=\"int-drug\">fludarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  fludarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fludarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693802",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693802_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"fluorouracil\" outputclass=\"int-drug\">fluorouracil</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  fluorouracil  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluorouracil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693803",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693803_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"ganciclovir\" outputclass=\"int-drug\">ganciclovir</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  ganciclovir  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693804",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693804_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"gefitinib\" outputclass=\"int-drug\">gefitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  gefitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gefitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693805",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693805_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"gemcitabine\" outputclass=\"int-drug\">gemcitabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  gemcitabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gemcitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693806",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693806_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"hydroxycarbamide\" outputclass=\"int-drug\">hydroxycarbamide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  hydroxycarbamide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroxycarbamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693807",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693807_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"ibrutinib\" outputclass=\"int-drug\">ibrutinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  ibrutinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibrutinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693808",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693808_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"idarubicin\" outputclass=\"int-drug\">idarubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  idarubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "57",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Idarubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693809",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693809_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"idelalisib\" outputclass=\"int-drug\">idelalisib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  idelalisib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Idelalisib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693810",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693810_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"ifosfamide\" outputclass=\"int-drug\">ifosfamide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  ifosfamide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "59",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ifosfamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693811",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693811_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"imatinib\" outputclass=\"int-drug\">imatinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  imatinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "60",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693812",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693812_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"influenza vaccine (live)\" outputclass=\"int-drug\">Influenza vaccine (live)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Influenza vaccine (live)   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   canakinumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "61",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Influenza vaccine (live)</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693813",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693813_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"interferon alfa\" outputclass=\"int-drug\">interferon alfa</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  interferon alfa  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "62",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Interferon alfa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693814",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693814_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"interferon beta\" outputclass=\"int-drug\">interferon beta</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  interferon beta  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "63",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Interferon beta</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693815",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693815_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"irinotecan\" outputclass=\"int-drug\">irinotecan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  irinotecan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "64",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Irinotecan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693816",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693816_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"leflunomide\" outputclass=\"int-drug\">leflunomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  leflunomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "65",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Leflunomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693817",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693817_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"lenalidomide\" outputclass=\"int-drug\">lenalidomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  lenalidomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "66",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lenalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693818",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693818_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"linezolid\" outputclass=\"int-drug\">linezolid</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  linezolid  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "67",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Linezolid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693819",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693819_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"lomustine\" outputclass=\"int-drug\">lomustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  lomustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "68",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lomustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693820",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693820_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"measles, mumps and rubella vaccine, live\" outputclass=\"int-drug\">Measles, mumps and rubella vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Measles, mumps and rubella vaccine, live   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   canakinumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "69",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Measles, mumps and rubella vaccine, live</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693821",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693821_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"melphalan\" outputclass=\"int-drug\">melphalan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  melphalan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "70",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Melphalan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693822",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693822_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"mercaptopurine\" outputclass=\"int-drug\">mercaptopurine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  mercaptopurine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "71",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mercaptopurine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693823",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693823_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"methotrexate\" outputclass=\"int-drug\">methotrexate</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  methotrexate  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "72",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methotrexate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693824",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693824_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"mitomycin\" outputclass=\"int-drug\">mitomycin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  mitomycin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "73",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693825",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693825_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"mitotane\" outputclass=\"int-drug\">mitotane</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  mitotane  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "74",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitotane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693826",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693826_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"mitoxantrone\" outputclass=\"int-drug\">mitoxantrone</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  mitoxantrone  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "75",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitoxantrone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693827",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693827_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"mycophenolate\" outputclass=\"int-drug\">mycophenolate</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  mycophenolate  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "76",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mycophenolate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693828",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693828_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"nelarabine\" outputclass=\"int-drug\">nelarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  nelarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "77",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nelarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693829",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693829_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"nilotinib\" outputclass=\"int-drug\">nilotinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  nilotinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "78",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nilotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693830",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693830_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"olanzapine\" outputclass=\"int-drug\">olanzapine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  olanzapine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "79",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olanzapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693831",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693831_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"olaparib\" outputclass=\"int-drug\">olaparib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  olaparib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "80",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olaparib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693832",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693832_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"olsalazine\" outputclass=\"int-drug\">olsalazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  olsalazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "81",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olsalazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693833",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693833_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"oxaliplatin\" outputclass=\"int-drug\">oxaliplatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  oxaliplatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "82",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxaliplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693834",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693834_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"paclitaxel\" outputclass=\"int-drug\">paclitaxel</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  paclitaxel  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "83",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paclitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693835",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693835_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"panobinostat\" outputclass=\"int-drug\">panobinostat</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  panobinostat  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "84",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Panobinostat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693836",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693836_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"pazopanib\" outputclass=\"int-drug\">pazopanib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  pazopanib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "85",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pazopanib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693837",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693837_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"pegaspargase\" outputclass=\"int-drug\">pegaspargase</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  pegaspargase  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "86",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pegaspargase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693838",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693838_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"peginterferon alfa\" outputclass=\"int-drug\">peginterferon alfa</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  peginterferon alfa  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "87",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Peginterferon alfa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693839",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693839_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"peginterferon beta-1a\" outputclass=\"int-drug\">peginterferon beta-1a</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  peginterferon beta-1a  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "88",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Peginterferon beta-1a</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693840",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693840_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"pemetrexed\" outputclass=\"int-drug\">pemetrexed</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  pemetrexed  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "89",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pemetrexed</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693841",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693841_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"pentamidine\" outputclass=\"int-drug\">pentamidine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  pentamidine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "90",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentamidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693842",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693842_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"pentostatin\" outputclass=\"int-drug\">pentostatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  pentostatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "91",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentostatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693843",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693843_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"pixantrone\" outputclass=\"int-drug\">pixantrone</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  pixantrone  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "92",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pixantrone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693844",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693844_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"pomalidomide\" outputclass=\"int-drug\">pomalidomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  pomalidomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "93",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pomalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693845",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693845_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"primaquine\" outputclass=\"int-drug\">primaquine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  primaquine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "94",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primaquine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693846",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693846_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"procarbazine\" outputclass=\"int-drug\">procarbazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  procarbazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "95",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Procarbazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693847",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693847_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"propylthiouracil\" outputclass=\"int-drug\">propylthiouracil</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  propylthiouracil  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "96",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propylthiouracil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693848",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693848_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"pyrimethamine\" outputclass=\"int-drug\">pyrimethamine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  pyrimethamine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "97",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pyrimethamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693849",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693849_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"raltitrexed\" outputclass=\"int-drug\">raltitrexed</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  raltitrexed  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "98",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Raltitrexed</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693850",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693850_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"regorafenib\" outputclass=\"int-drug\">regorafenib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  regorafenib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "99",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Regorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693851",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693851_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rotavirus vaccine\" outputclass=\"int-drug\">Rotavirus vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rotavirus vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   canakinumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "100",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rotavirus vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693852",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693852_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"ruxolitinib\" outputclass=\"int-drug\">ruxolitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  ruxolitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "101",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ruxolitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693853",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693853_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"sorafenib\" outputclass=\"int-drug\">sorafenib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  sorafenib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "102",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693854",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693854_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"sulfadiazine\" outputclass=\"int-drug\">sulfadiazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  sulfadiazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "103",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfadiazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693855",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693855_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"sulfasalazine\" outputclass=\"int-drug\">sulfasalazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  sulfasalazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "104",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfasalazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693856",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693856_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"sunitinib\" outputclass=\"int-drug\">sunitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  sunitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "105",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sunitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693857",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693857_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"temozolomide\" outputclass=\"int-drug\">temozolomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  temozolomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "106",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Temozolomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693858",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693858_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"temsirolimus\" outputclass=\"int-drug\">temsirolimus</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  temsirolimus  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "107",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Temsirolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693859",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693859_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"thalidomide\" outputclass=\"int-drug\">thalidomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  thalidomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "108",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693860",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693860_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"thiotepa\" outputclass=\"int-drug\">thiotepa</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  thiotepa  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "109",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thiotepa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693861",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693861_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"tioguanine\" outputclass=\"int-drug\">tioguanine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  tioguanine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "110",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tioguanine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693862",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693862_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"topotecan\" outputclass=\"int-drug\">topotecan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  topotecan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "111",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Topotecan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693863",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693863_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"trabectedin\" outputclass=\"int-drug\">trabectedin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  trabectedin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "112",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trabectedin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693864",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693864_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"treosulfan\" outputclass=\"int-drug\">treosulfan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  treosulfan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "113",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Treosulfan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693865",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693865_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"typhoid vaccine, oral\" outputclass=\"int-drug\">Typhoid vaccine, oral</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Typhoid vaccine, oral   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   canakinumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "114",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Typhoid vaccine, oral</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693866",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693866_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"valganciclovir\" outputclass=\"int-drug\">valganciclovir</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  valganciclovir  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "115",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Valganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693867",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693867_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"varicella-zoster vaccine\" outputclass=\"int-drug\">Varicella-zoster vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Varicella-zoster vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   canakinumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "116",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Varicella-zoster vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693868",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693868_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"vinblastine\" outputclass=\"int-drug\">vinblastine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  vinblastine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "117",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinblastine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693869",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693869_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"vincristine\" outputclass=\"int-drug\">vincristine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  vincristine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "118",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vincristine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693870",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693870_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"vindesine\" outputclass=\"int-drug\">vindesine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  vindesine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "119",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vindesine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693871",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693871_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"vinflunine\" outputclass=\"int-drug\">vinflunine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  vinflunine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "120",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinflunine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693872",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693872_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"vinorelbine\" outputclass=\"int-drug\">vinorelbine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  vinorelbine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "121",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinorelbine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693873",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693873_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"vismodegib\" outputclass=\"int-drug\">vismodegib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  vismodegib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "122",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vismodegib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693874",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693874_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"yellow fever vaccine, live\" outputclass=\"int-drug\">Yellow fever vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Yellow fever vaccine, live   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   canakinumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "123",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Yellow fever vaccine, live</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693875",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2#bnf_i1557280693875_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"canakinumab\" outputclass=\"int-heading-drug\">canakinumab</ph> and <ph otherprops=\"zidovudine\" outputclass=\"int-drug\">zidovudine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  canakinumab  and  zidovudine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "124",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zidovudine</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Canakinumab  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/canakinumab-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Canakinumab </title>"
+			},
+			"rdfs:label": "canakinumab"
+		}
+	]
+}

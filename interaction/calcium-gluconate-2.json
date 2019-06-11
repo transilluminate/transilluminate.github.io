@@ -1,0 +1,448 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693521",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693521_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"alendronic acid\" outputclass=\"int-drug\">alendronic acid</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"alendronic acid\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/alendronic-acid.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4656\">alendronic acid</xref></ph> should be taken at least 30 minutes before <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93600\">calcium gluconate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium gluconate   decreases   the absorption of   alendronic acid .  Manufacturer advises  alendronic acid  should be taken at least 30 minutes before  calcium gluconate .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alendronic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693522",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693522_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bendroflumethiazide\" outputclass=\"int-drug\">Bendroflumethiazide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bendroflumethiazide   increases   the risk of hypercalcaemia when given with   calcium gluconate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bendroflumethiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693523",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693523_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ceftriaxone\" outputclass=\"int-drug\">Ceftriaxone</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of cardio-respiratory arrest when given with</ph> <ph outputclass=\"int-route\">intravenous</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ceftriaxone   increases   the risk of cardio-respiratory arrest when given with   intravenous   calcium gluconate .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceftriaxone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693524",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693524_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chlorothiazide\" outputclass=\"int-drug\">Chlorothiazide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Chlorothiazide   increases   the risk of hypercalcaemia when given with   calcium gluconate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorothiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693525",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693525_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chlortalidone\" outputclass=\"int-drug\">Chlortalidone</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Chlortalidone   increases   the risk of hypercalcaemia when given with   calcium gluconate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlortalidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693526",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693526_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Intravenous</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Intravenous   calcium gluconate   increases   the concentration of   digoxin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Digoxin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693527",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693527_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dolutegravir\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/dolutegravir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP34479\">dolutegravir</xref></ph> should be taken 2 hours before or 6 hours after <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93600\">calcium gluconate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium gluconate   decreases   the absorption of   dolutegravir .  Manufacturer advises  dolutegravir  should be taken 2 hours before or 6 hours after  calcium gluconate .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dolutegravir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693528",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693528_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93600\">calcium gluconate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium gluconate   decreases   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  calcium gluconate .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eltrombopag</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693529",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693529_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"estramustine\" outputclass=\"int-drug\">estramustine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separating administration</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium gluconate   decreases   the absorption of   estramustine .  Manufacturer advises separating administration .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Estramustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693530",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693530_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"hydrochlorothiazide\" outputclass=\"int-drug\">Hydrochlorothiazide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Hydrochlorothiazide   increases   the risk of hypercalcaemia when given with   calcium gluconate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydrochlorothiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693531",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693531_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"hydroflumethiazide\" outputclass=\"int-drug\">Hydroflumethiazide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Hydroflumethiazide   increases   the risk of hypercalcaemia when given with   calcium gluconate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroflumethiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693532",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693532_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"ibandronic acid\" outputclass=\"int-drug\">ibandronic acid</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93600\">calcium gluconate</xref></ph> for at least 6 hours before or 1 hour after <ph otherprops=\"ibandronic acid\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ibandronic-acid.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4671\">ibandronic acid</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium gluconate   is predicted to   decrease   the absorption of   oral   ibandronic acid .  Manufacturer advises avoid  calcium gluconate  for at least 6 hours before or 1 hour after  ibandronic acid .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibandronic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693533",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693533_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"indapamide\" outputclass=\"int-drug\">Indapamide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Indapamide   increases   the risk of hypercalcaemia when given with   calcium gluconate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Indapamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693534",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693534_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"levothyroxine\" outputclass=\"int-drug\">levothyroxine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 4 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium gluconate   is predicted to   decrease   the absorption of   levothyroxine .  Manufacturer advises separate administration by at least 4 hours .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levothyroxine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693535",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693535_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metolazone\" outputclass=\"int-drug\">Metolazone</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metolazone   increases   the risk of hypercalcaemia when given with   calcium gluconate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metolazone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693536",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693536_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"risedronate\" outputclass=\"int-drug\">risedronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium gluconate   decreases   the absorption of   risedronate .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Risedronate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693537",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693537_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"sodium clodronate\" outputclass=\"int-drug\">sodium clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93600\">calcium gluconate</xref></ph> for 2 hours before or 1 hour after <ph otherprops=\"sodium clodronate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/sodium-clodronate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4681\">sodium clodronate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium gluconate   decreases   the absorption of   sodium clodronate .  Manufacturer advises avoid  calcium gluconate  for 2 hours before or 1 hour after  sodium clodronate .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sodium clodronate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693538",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693538_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"xipamide\" outputclass=\"int-drug\">Xipamide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Xipamide   increases   the risk of hypercalcaemia when given with   calcium gluconate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Xipamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693539",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2#bnf_i1557280693539_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-heading-drug\">calcium gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"zinc\" outputclass=\"int-drug\">zinc</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium gluconate   decreases   the absorption of   zinc .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zinc</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Calcium gluconate  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/calcium-gluconate-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Calcium gluconate </title>"
+			},
+			"rdfs:label": "calcium gluconate"
+		}
+	]
+}

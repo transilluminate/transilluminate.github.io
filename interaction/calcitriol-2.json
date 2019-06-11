@@ -1,0 +1,343 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693432",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693432_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"bendroflumethiazide\" outputclass=\"int-drug\">Bendroflumethiazide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcitriol\" outputclass=\"int-heading-drug\">calcitriol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Bendroflumethiazide   increases   the risk of hypercalcaemia when given with   calcitriol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bendroflumethiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693433",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693433_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"calcitriol\" outputclass=\"int-heading-drug\">calcitriol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Carbamazepine   is predicted to   decrease   the effects of   calcitriol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693434",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693434_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chlorothiazide\" outputclass=\"int-drug\">Chlorothiazide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcitriol\" outputclass=\"int-heading-drug\">calcitriol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chlorothiazide   increases   the risk of hypercalcaemia when given with   calcitriol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorothiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693435",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693435_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chlortalidone\" outputclass=\"int-drug\">Chlortalidone</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcitriol\" outputclass=\"int-heading-drug\">calcitriol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chlortalidone   increases   the risk of hypercalcaemia when given with   calcitriol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlortalidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693436",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693436_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"calcitriol\" outputclass=\"int-heading-drug\">Calcitriol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of toxicity when given with</ph> <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Calcitriol   is predicted to   increase   the risk of toxicity when given with   digoxin .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Digoxin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693437",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693437_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"calcitriol\" outputclass=\"int-heading-drug\">calcitriol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fosphenytoin   decreases   the effects of   calcitriol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693438",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693438_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"hydrochlorothiazide\" outputclass=\"int-drug\">Hydrochlorothiazide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcitriol\" outputclass=\"int-heading-drug\">calcitriol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Hydrochlorothiazide   increases   the risk of hypercalcaemia when given with   calcitriol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydrochlorothiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693439",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693439_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"hydroflumethiazide\" outputclass=\"int-drug\">Hydroflumethiazide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcitriol\" outputclass=\"int-heading-drug\">calcitriol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Hydroflumethiazide   increases   the risk of hypercalcaemia when given with   calcitriol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroflumethiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693440",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693440_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"indapamide\" outputclass=\"int-drug\">Indapamide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcitriol\" outputclass=\"int-heading-drug\">calcitriol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Indapamide   increases   the risk of hypercalcaemia when given with   calcitriol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Indapamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693441",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693441_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"metolazone\" outputclass=\"int-drug\">Metolazone</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcitriol\" outputclass=\"int-heading-drug\">calcitriol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Metolazone   increases   the risk of hypercalcaemia when given with   calcitriol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metolazone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693442",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693442_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"calcitriol\" outputclass=\"int-heading-drug\">calcitriol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Phenobarbital   is predicted to   decrease   the effects of   calcitriol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693443",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693443_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"calcitriol\" outputclass=\"int-heading-drug\">calcitriol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Phenytoin   decreases   the effects of   calcitriol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693444",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693444_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"calcitriol\" outputclass=\"int-heading-drug\">calcitriol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Primidone   is predicted to   decrease   the effects of   calcitriol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693445",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2#bnf_i1557280693445_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"xipamide\" outputclass=\"int-drug\">Xipamide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcitriol\" outputclass=\"int-heading-drug\">calcitriol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Xipamide   increases   the risk of hypercalcaemia when given with   calcitriol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Xipamide</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Calcitriol  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/calcitriol-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Calcitriol </title>"
+			},
+			"rdfs:label": "calcitriol"
+		}
+	]
+}

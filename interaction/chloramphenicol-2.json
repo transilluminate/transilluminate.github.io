@@ -1,0 +1,532 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697787",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697787_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"acenocoumarol\" outputclass=\"int-drug\">acenocoumarol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   potentially   increases   the anticoagulant effect of   acenocoumarol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acenocoumarol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697788",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697788_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph outputclass=\"int-route\">intravenous</ph> <ph otherprops=\"ferric carboxymaltose\" outputclass=\"int-drug\">ferric carboxymaltose</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   decreases   the efficacy of   intravenous   ferric carboxymaltose .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ferric carboxymaltose</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697789",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697789_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"ferric maltol\" outputclass=\"int-drug\">ferric maltol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   decreases   the efficacy of   oral   ferric maltol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ferric maltol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697790",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697790_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"ferrous fumarate\" outputclass=\"int-drug\">ferrous fumarate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   decreases   the efficacy of   oral   ferrous fumarate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ferrous fumarate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697791",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697791_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"ferrous gluconate\" outputclass=\"int-drug\">ferrous gluconate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   decreases   the efficacy of   oral   ferrous gluconate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ferrous gluconate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697792",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697792_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"ferrous sulfate\" outputclass=\"int-drug\">ferrous sulfate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   decreases   the efficacy of   oral   ferrous sulfate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ferrous sulfate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697793",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697793_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Intravenous</ph> <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">chloramphenicol</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">fosphenytoin</ph> and <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">fosphenytoin</ph> <ph outputclass=\"int-effect\">affects</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph outputclass=\"int-route\">intravenous</ph> <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">chloramphenicol</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor concentration and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Intravenous   chloramphenicol   increases   the concentration of   fosphenytoin  and  fosphenytoin   affects   the concentration of   intravenous   chloramphenicol .  Manufacturer advises monitor concentration and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697794",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697794_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor blood glucose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   is predicted to   increase   the exposure to   glibenclamide .  Manufacturer advises monitor blood glucose .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glibenclamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697795",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697795_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"gliclazide\" outputclass=\"int-drug\">gliclazide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor blood glucose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   is predicted to   increase   the exposure to   gliclazide .  Manufacturer advises monitor blood glucose .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gliclazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697796",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697796_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glimepiride\" outputclass=\"int-drug\">glimepiride</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor blood glucose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   is predicted to   increase   the exposure to   glimepiride .  Manufacturer advises monitor blood glucose .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glimepiride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697797",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697797_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glipizide\" outputclass=\"int-drug\">glipizide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor blood glucose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   is predicted to   increase   the exposure to   glipizide .  Manufacturer advises monitor blood glucose .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glipizide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697798",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697798_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"guanfacine\" outputclass=\"int-drug\">guanfacine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"guanfacine\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/guanfacine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP200774\">guanfacine</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   is predicted to   increase   the exposure to   guanfacine .  Manufacturer advises adjust  guanfacine  dose .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Guanfacine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697799",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697799_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph outputclass=\"int-route\">intravenous</ph> <ph otherprops=\"iron dextran\" outputclass=\"int-drug\">iron dextran</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   decreases   the efficacy of   intravenous   iron dextran .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Iron dextran</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697800",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697800_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph outputclass=\"int-route\">intravenous</ph> <ph otherprops=\"iron isomaltoside 1000\" outputclass=\"int-drug\">iron isomaltoside 1000</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   decreases   the efficacy of   intravenous   iron isomaltoside 1000 .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Iron isomaltoside 1000</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697801",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697801_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph outputclass=\"int-route\">intravenous</ph> <ph otherprops=\"iron sucrose\" outputclass=\"int-drug\">iron sucrose</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   decreases   the efficacy of   intravenous   iron sucrose .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Iron sucrose</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697802",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697802_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">chloramphenicol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Phenobarbital   decreases   the concentration of   chloramphenicol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697803",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697803_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Intravenous</ph> <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">chloramphenicol</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">phenytoin</ph> and <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">phenytoin</ph> <ph outputclass=\"int-effect\">affects</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph outputclass=\"int-route\">intravenous</ph> <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">chloramphenicol</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor concentration and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Intravenous   chloramphenicol   increases   the concentration of   phenytoin  and  phenytoin   affects   the concentration of   intravenous   chloramphenicol .  Manufacturer advises monitor concentration and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697804",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697804_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">chloramphenicol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Primidone   decreases   the concentration of   chloramphenicol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697805",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697805_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">chloramphenicol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   decreases   the concentration of   chloramphenicol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697806",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697806_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"sodium feredetate\" outputclass=\"int-drug\">sodium feredetate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   decreases   the efficacy of   oral   sodium feredetate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sodium feredetate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697807",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697807_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"tacrolimus\" outputclass=\"int-drug\">tacrolimus</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   increases   the concentration of   tacrolimus .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tacrolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697808",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697808_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor blood glucose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   is predicted to   increase   the exposure to   tolbutamide .  Manufacturer advises monitor blood glucose .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolbutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697809",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2#bnf_i1557280697809_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-heading-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"warfarin\" outputclass=\"int-drug\">warfarin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   potentially   increases   the anticoagulant effect of   warfarin .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Warfarin</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Chloramphenicol  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/chloramphenicol-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Chloramphenicol </title>"
+			},
+			"rdfs:label": "chloramphenicol"
+		}
+	]
+}

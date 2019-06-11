@@ -1,0 +1,1225 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696298",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696298_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"aceclofenac\" outputclass=\"int-drug\">aceclofenac</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  aceclofenac  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aceclofenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696299",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696299_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"aciclovir\" outputclass=\"int-drug\">aciclovir</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  aciclovir  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696300",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696300_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"adefovir\" outputclass=\"int-drug\">adefovir</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  adefovir  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Adefovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696301",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696301_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"amikacin\" outputclass=\"int-drug\">amikacin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  amikacin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amikacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696302",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696302_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"amphotericin\" outputclass=\"int-drug\">amphotericin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  amphotericin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amphotericin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696303",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696303_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"bacitracin\" outputclass=\"int-drug\">bacitracin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  bacitracin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bacitracin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696304",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696304_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"capreomycin\" outputclass=\"int-drug\">capreomycin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  capreomycin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Capreomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696305",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696305_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"carboplatin\" outputclass=\"int-drug\">carboplatin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  carboplatin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carboplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696306",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696306_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"celecoxib\" outputclass=\"int-drug\">celecoxib</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  celecoxib  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Celecoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696307",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696307_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"ciclosporin\" outputclass=\"int-drug\">ciclosporin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  ciclosporin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciclosporin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696308",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696308_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"cidofovir\" outputclass=\"int-drug\">cidofovir</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  cidofovir  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cidofovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696309",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696309_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"cisplatin\" outputclass=\"int-drug\">cisplatin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  cisplatin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cisplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696310",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696310_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colistimethate\" outputclass=\"int-drug\">Colistimethate</ph> <ph outputclass=\"int-substanceQualifier\">(particularly intravenous)</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of nephrotoxicity when given with</ph> <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Colistimethate   (particularly intravenous)   potentially   increases   the risk of nephrotoxicity when given with   cefotaxime .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Colistimethate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696311",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696311_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"dexibuprofen\" outputclass=\"int-drug\">dexibuprofen</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  dexibuprofen  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexibuprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696312",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696312_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"dexketoprofen\" outputclass=\"int-drug\">dexketoprofen</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  dexketoprofen  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexketoprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696313",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696313_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"diclofenac\" outputclass=\"int-drug\">diclofenac</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  diclofenac  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diclofenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696314",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696314_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"etodolac\" outputclass=\"int-drug\">etodolac</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  etodolac  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etodolac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696315",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696315_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"etoricoxib\" outputclass=\"int-drug\">etoricoxib</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  etoricoxib  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etoricoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696316",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696316_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"flurbiprofen\" outputclass=\"int-drug\">flurbiprofen</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  flurbiprofen  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flurbiprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696317",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696317_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"foscarnet\" outputclass=\"int-drug\">foscarnet</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  foscarnet  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Foscarnet</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696318",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696318_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"ganciclovir\" outputclass=\"int-drug\">ganciclovir</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  ganciclovir  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696319",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696319_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"gentamicin\" outputclass=\"int-drug\">gentamicin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  gentamicin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gentamicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696320",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696320_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"ibuprofen\" outputclass=\"int-drug\">ibuprofen</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  ibuprofen  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibuprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696321",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696321_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"ifosfamide\" outputclass=\"int-drug\">ifosfamide</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  ifosfamide  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ifosfamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696322",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696322_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"indometacin\" outputclass=\"int-drug\">indometacin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  indometacin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Indometacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696323",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696323_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"ketoprofen\" outputclass=\"int-drug\">ketoprofen</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  ketoprofen  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketoprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696324",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696324_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"ketorolac\" outputclass=\"int-drug\">ketorolac</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  ketorolac  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketorolac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696325",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696325_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"mefenamic acid\" outputclass=\"int-drug\">mefenamic acid</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  mefenamic acid  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mefenamic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696326",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696326_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"meloxicam\" outputclass=\"int-drug\">meloxicam</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  meloxicam  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Meloxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696327",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696327_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"methotrexate\" outputclass=\"int-drug\">methotrexate</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  methotrexate  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methotrexate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696328",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696328_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"nabumetone\" outputclass=\"int-drug\">nabumetone</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  nabumetone  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nabumetone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696329",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696329_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"naproxen\" outputclass=\"int-drug\">naproxen</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  naproxen  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Naproxen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696330",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696330_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"neomycin\" outputclass=\"int-drug\">neomycin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  neomycin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Neomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696331",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696331_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"oxaliplatin\" outputclass=\"int-drug\">oxaliplatin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  oxaliplatin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxaliplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696332",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696332_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"parecoxib\" outputclass=\"int-drug\">parecoxib</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  parecoxib  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Parecoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696333",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696333_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"pemetrexed\" outputclass=\"int-drug\">pemetrexed</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  pemetrexed  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pemetrexed</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696334",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696334_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"penicillamine\" outputclass=\"int-drug\">penicillamine</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  penicillamine  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Penicillamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696335",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696335_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"pentamidine\" outputclass=\"int-drug\">pentamidine</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  pentamidine  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentamidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696336",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696336_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"piroxicam\" outputclass=\"int-drug\">piroxicam</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  piroxicam  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Piroxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696337",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696337_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"polymyxins\" outputclass=\"int-drug\">polymyxins</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  polymyxins  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Polymyxins</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696338",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696338_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"streptomycin\" outputclass=\"int-drug\">streptomycin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  streptomycin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Streptomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696339",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696339_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"streptozocin\" outputclass=\"int-drug\">streptozocin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  streptozocin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Streptozocin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696340",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696340_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"sulindac\" outputclass=\"int-drug\">sulindac</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  sulindac  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulindac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696341",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696341_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"tacrolimus\" outputclass=\"int-drug\">tacrolimus</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  tacrolimus  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tacrolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696342",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696342_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"telavancin\" outputclass=\"int-drug\">telavancin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  telavancin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Telavancin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696343",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696343_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"tenofovir disoproxil\" outputclass=\"int-drug\">tenofovir disoproxil</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  tenofovir disoproxil  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tenofovir disoproxil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696344",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696344_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"tenoxicam\" outputclass=\"int-drug\">tenoxicam</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  tenoxicam  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tenoxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696345",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696345_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"tiaprofenic acid\" outputclass=\"int-drug\">tiaprofenic acid</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  tiaprofenic acid  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tiaprofenic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696346",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696346_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"tobramycin\" outputclass=\"int-drug\">tobramycin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  tobramycin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tobramycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696347",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696347_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"tolfenamic acid\" outputclass=\"int-drug\">tolfenamic acid</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  tolfenamic acid  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolfenamic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696348",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696348_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"trimethoprim\" outputclass=\"int-drug\">trimethoprim</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  trimethoprim  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trimethoprim</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696349",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696349_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"valaciclovir\" outputclass=\"int-drug\">valaciclovir</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  valaciclovir  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Valaciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696350",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696350_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"valganciclovir\" outputclass=\"int-drug\">valganciclovir</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  valganciclovir  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Valganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696351",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696351_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"vancomycin\" outputclass=\"int-drug\">vancomycin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  vancomycin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vancomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696352",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696352_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"zidovudine\" outputclass=\"int-drug\">zidovudine</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  zidovudine  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zidovudine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696353",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2#bnf_i1557280696353_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cefotaxime\" outputclass=\"int-heading-drug\">cefotaxime</ph> and <ph otherprops=\"zoledronic acid\" outputclass=\"int-drug\">zoledronic acid</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cefotaxime  and  zoledronic acid  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zoledronic acid</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Cefotaxime  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/cefotaxime-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Cefotaxime </title>"
+			},
+			"rdfs:label": "cefotaxime"
+		}
+	]
+}

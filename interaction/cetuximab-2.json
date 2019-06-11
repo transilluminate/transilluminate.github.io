@@ -1,0 +1,2653 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697413",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697413_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"afatinib\" outputclass=\"int-drug\">afatinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  afatinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Afatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697414",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697414_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"aflibercept\" outputclass=\"int-drug\">aflibercept</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  aflibercept  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aflibercept</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697415",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697415_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"amsacrine\" outputclass=\"int-drug\">amsacrine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  amsacrine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amsacrine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697416",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697416_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"anakinra\" outputclass=\"int-drug\">anakinra</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  anakinra  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Anakinra</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697417",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697417_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"arsenic trioxide\" outputclass=\"int-drug\">arsenic trioxide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  arsenic trioxide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Arsenic trioxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697418",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697418_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"asparaginase\" outputclass=\"int-drug\">asparaginase</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  asparaginase  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Asparaginase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697419",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697419_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"axitinib\" outputclass=\"int-drug\">axitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  axitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Axitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697420",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697420_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"azacitidine\" outputclass=\"int-drug\">azacitidine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  azacitidine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Azacitidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697421",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697421_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"azathioprine\" outputclass=\"int-drug\">azathioprine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  azathioprine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Azathioprine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697422",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697422_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"Bacillus Calmette-Guérin vaccine\" outputclass=\"int-drug\">Bacillus Calmette-Guérin vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bacillus Calmette-Guérin vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   cetuximab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bacillus Calmette-Guérin vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697423",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697423_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"balsalazide\" outputclass=\"int-drug\">balsalazide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  balsalazide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Balsalazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697424",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697424_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"bendamustine\" outputclass=\"int-drug\">bendamustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  bendamustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bendamustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697425",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697425_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"bleomycin\" outputclass=\"int-drug\">bleomycin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  bleomycin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bleomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697426",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697426_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"bortezomib\" outputclass=\"int-drug\">bortezomib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  bortezomib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bortezomib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697427",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697427_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"bosutinib\" outputclass=\"int-drug\">bosutinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  bosutinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosutinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697428",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697428_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"busulfan\" outputclass=\"int-drug\">busulfan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  busulfan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Busulfan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697429",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697429_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"cabazitaxel\" outputclass=\"int-drug\">cabazitaxel</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  cabazitaxel  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabazitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697430",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697430_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"cabozantinib\" outputclass=\"int-drug\">cabozantinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  cabozantinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabozantinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697431",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697431_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"capecitabine\" outputclass=\"int-drug\">capecitabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  capecitabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Capecitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697432",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697432_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"carbimazole\" outputclass=\"int-drug\">carbimazole</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  carbimazole  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbimazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697433",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697433_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"carboplatin\" outputclass=\"int-drug\">carboplatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  carboplatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carboplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697434",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697434_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"carfilzomib\" outputclass=\"int-drug\">carfilzomib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  carfilzomib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carfilzomib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697435",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697435_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"carmustine\" outputclass=\"int-drug\">carmustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  carmustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carmustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697436",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697436_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"ceritinib\" outputclass=\"int-drug\">ceritinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  ceritinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceritinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697437",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697437_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"chlorambucil\" outputclass=\"int-drug\">chlorambucil</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  chlorambucil  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorambucil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697438",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697438_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"cisplatin\" outputclass=\"int-drug\">cisplatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  cisplatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cisplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697439",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697439_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"cladribine\" outputclass=\"int-drug\">cladribine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  cladribine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cladribine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697440",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697440_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"clofarabine\" outputclass=\"int-drug\">clofarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  clofarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clofarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697441",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697441_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"clozapine\" outputclass=\"int-drug\">clozapine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  clozapine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clozapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697442",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697442_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"co-trimoxazole\" outputclass=\"int-drug\">co-trimoxazole</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  co-trimoxazole  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Co-trimoxazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697443",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697443_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"crisantaspase\" outputclass=\"int-drug\">crisantaspase</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  crisantaspase  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crisantaspase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697444",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697444_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"crizotinib\" outputclass=\"int-drug\">crizotinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  crizotinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crizotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697445",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697445_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"cyclophosphamide\" outputclass=\"int-drug\">cyclophosphamide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  cyclophosphamide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyclophosphamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697446",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697446_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"cytarabine\" outputclass=\"int-drug\">cytarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  cytarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cytarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697447",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697447_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"dabrafenib\" outputclass=\"int-drug\">dabrafenib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  dabrafenib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dabrafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697448",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697448_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"dacarbazine\" outputclass=\"int-drug\">dacarbazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  dacarbazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dacarbazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697449",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697449_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"dactinomycin\" outputclass=\"int-drug\">dactinomycin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  dactinomycin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dactinomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697450",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697450_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"dasatinib\" outputclass=\"int-drug\">dasatinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  dasatinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dasatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697451",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697451_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"daunorubicin\" outputclass=\"int-drug\">daunorubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  daunorubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Daunorubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697452",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697452_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"decitabine\" outputclass=\"int-drug\">decitabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  decitabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Decitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697453",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697453_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"deferiprone\" outputclass=\"int-drug\">deferiprone</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  deferiprone  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Deferiprone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697454",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697454_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"docetaxel\" outputclass=\"int-drug\">docetaxel</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  docetaxel  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Docetaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697455",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697455_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"doxorubicin\" outputclass=\"int-drug\">doxorubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  doxorubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxorubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697456",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697456_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"epirubicin\" outputclass=\"int-drug\">epirubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  epirubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Epirubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697457",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697457_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"eribulin\" outputclass=\"int-drug\">eribulin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  eribulin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eribulin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697458",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697458_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"estramustine\" outputclass=\"int-drug\">estramustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  estramustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Estramustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697459",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697459_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"ethosuximide\" outputclass=\"int-drug\">ethosuximide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  ethosuximide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ethosuximide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697460",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697460_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"etoposide\" outputclass=\"int-drug\">etoposide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  etoposide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etoposide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697461",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697461_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"everolimus\" outputclass=\"int-drug\">everolimus</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  everolimus  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Everolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697462",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697462_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"fludarabine\" outputclass=\"int-drug\">fludarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  fludarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fludarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697463",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697463_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"fluorouracil\" outputclass=\"int-drug\">fluorouracil</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  fluorouracil  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluorouracil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697464",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697464_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"ganciclovir\" outputclass=\"int-drug\">ganciclovir</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  ganciclovir  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697465",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697465_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"gefitinib\" outputclass=\"int-drug\">gefitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  gefitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gefitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697466",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697466_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"gemcitabine\" outputclass=\"int-drug\">gemcitabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  gemcitabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gemcitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697467",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697467_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"hydroxycarbamide\" outputclass=\"int-drug\">hydroxycarbamide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  hydroxycarbamide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroxycarbamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697468",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697468_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"ibrutinib\" outputclass=\"int-drug\">ibrutinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  ibrutinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibrutinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697469",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697469_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"idarubicin\" outputclass=\"int-drug\">idarubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  idarubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "57",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Idarubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697470",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697470_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"idelalisib\" outputclass=\"int-drug\">idelalisib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  idelalisib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Idelalisib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697471",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697471_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"ifosfamide\" outputclass=\"int-drug\">ifosfamide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  ifosfamide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "59",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ifosfamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697472",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697472_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"imatinib\" outputclass=\"int-drug\">imatinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  imatinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "60",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697473",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697473_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"influenza vaccine (live)\" outputclass=\"int-drug\">Influenza vaccine (live)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Influenza vaccine (live)   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   cetuximab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "61",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Influenza vaccine (live)</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697474",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697474_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"interferon alfa\" outputclass=\"int-drug\">interferon alfa</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  interferon alfa  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "62",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Interferon alfa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697475",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697475_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"interferon beta\" outputclass=\"int-drug\">interferon beta</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  interferon beta  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "63",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Interferon beta</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697476",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697476_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"irinotecan\" outputclass=\"int-drug\">irinotecan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  irinotecan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "64",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Irinotecan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697477",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697477_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"leflunomide\" outputclass=\"int-drug\">leflunomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  leflunomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "65",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Leflunomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697478",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697478_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"lenalidomide\" outputclass=\"int-drug\">lenalidomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  lenalidomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "66",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lenalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697479",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697479_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"linezolid\" outputclass=\"int-drug\">linezolid</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  linezolid  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "67",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Linezolid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697480",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697480_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"lomustine\" outputclass=\"int-drug\">lomustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  lomustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "68",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lomustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697481",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697481_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"measles, mumps and rubella vaccine, live\" outputclass=\"int-drug\">Measles, mumps and rubella vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Measles, mumps and rubella vaccine, live   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   cetuximab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "69",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Measles, mumps and rubella vaccine, live</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697482",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697482_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"melphalan\" outputclass=\"int-drug\">melphalan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  melphalan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "70",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Melphalan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697483",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697483_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"mercaptopurine\" outputclass=\"int-drug\">mercaptopurine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  mercaptopurine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "71",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mercaptopurine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697484",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697484_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"methotrexate\" outputclass=\"int-drug\">methotrexate</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  methotrexate  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "72",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methotrexate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697485",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697485_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"mitomycin\" outputclass=\"int-drug\">mitomycin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  mitomycin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "73",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697486",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697486_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"mitotane\" outputclass=\"int-drug\">mitotane</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  mitotane  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "74",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitotane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697487",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697487_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"mitoxantrone\" outputclass=\"int-drug\">mitoxantrone</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  mitoxantrone  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "75",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitoxantrone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697488",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697488_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"mycophenolate\" outputclass=\"int-drug\">mycophenolate</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  mycophenolate  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "76",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mycophenolate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697489",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697489_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"nelarabine\" outputclass=\"int-drug\">nelarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  nelarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "77",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nelarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697490",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697490_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"nilotinib\" outputclass=\"int-drug\">nilotinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  nilotinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "78",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nilotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697491",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697491_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"olanzapine\" outputclass=\"int-drug\">olanzapine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  olanzapine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "79",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olanzapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697492",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697492_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"olaparib\" outputclass=\"int-drug\">olaparib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  olaparib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "80",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olaparib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697493",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697493_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"olsalazine\" outputclass=\"int-drug\">olsalazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  olsalazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "81",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olsalazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697494",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697494_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"oxaliplatin\" outputclass=\"int-drug\">oxaliplatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  oxaliplatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "82",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxaliplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697495",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697495_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"paclitaxel\" outputclass=\"int-drug\">paclitaxel</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  paclitaxel  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "83",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paclitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697496",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697496_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"panobinostat\" outputclass=\"int-drug\">panobinostat</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  panobinostat  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "84",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Panobinostat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697497",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697497_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"pazopanib\" outputclass=\"int-drug\">pazopanib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  pazopanib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "85",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pazopanib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697498",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697498_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"pegaspargase\" outputclass=\"int-drug\">pegaspargase</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  pegaspargase  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "86",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pegaspargase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697499",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697499_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"peginterferon alfa\" outputclass=\"int-drug\">peginterferon alfa</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  peginterferon alfa  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "87",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Peginterferon alfa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697500",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697500_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"peginterferon beta-1a\" outputclass=\"int-drug\">peginterferon beta-1a</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  peginterferon beta-1a  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "88",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Peginterferon beta-1a</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697501",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697501_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"pemetrexed\" outputclass=\"int-drug\">pemetrexed</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  pemetrexed  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "89",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pemetrexed</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697502",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697502_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"pentamidine\" outputclass=\"int-drug\">pentamidine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  pentamidine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "90",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentamidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697503",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697503_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"pentostatin\" outputclass=\"int-drug\">pentostatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  pentostatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "91",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentostatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697504",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697504_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"pixantrone\" outputclass=\"int-drug\">pixantrone</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  pixantrone  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "92",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pixantrone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697505",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697505_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"pomalidomide\" outputclass=\"int-drug\">pomalidomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  pomalidomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "93",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pomalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697506",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697506_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"primaquine\" outputclass=\"int-drug\">primaquine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  primaquine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "94",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primaquine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697507",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697507_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"procarbazine\" outputclass=\"int-drug\">procarbazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  procarbazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "95",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Procarbazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697508",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697508_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"propylthiouracil\" outputclass=\"int-drug\">propylthiouracil</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  propylthiouracil  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "96",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propylthiouracil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697509",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697509_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"pyrimethamine\" outputclass=\"int-drug\">pyrimethamine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  pyrimethamine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "97",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pyrimethamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697510",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697510_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"raltitrexed\" outputclass=\"int-drug\">raltitrexed</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  raltitrexed  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "98",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Raltitrexed</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697511",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697511_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"regorafenib\" outputclass=\"int-drug\">regorafenib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  regorafenib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "99",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Regorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697512",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697512_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rotavirus vaccine\" outputclass=\"int-drug\">Rotavirus vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rotavirus vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   cetuximab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "100",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rotavirus vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697513",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697513_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"ruxolitinib\" outputclass=\"int-drug\">ruxolitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  ruxolitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "101",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ruxolitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697514",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697514_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"sorafenib\" outputclass=\"int-drug\">sorafenib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  sorafenib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "102",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697515",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697515_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"sulfadiazine\" outputclass=\"int-drug\">sulfadiazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  sulfadiazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "103",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfadiazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697516",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697516_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"sulfasalazine\" outputclass=\"int-drug\">sulfasalazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  sulfasalazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "104",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfasalazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697517",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697517_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"sunitinib\" outputclass=\"int-drug\">sunitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  sunitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "105",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sunitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697518",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697518_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"temozolomide\" outputclass=\"int-drug\">temozolomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  temozolomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "106",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Temozolomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697519",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697519_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"temsirolimus\" outputclass=\"int-drug\">temsirolimus</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  temsirolimus  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "107",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Temsirolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697520",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697520_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"thalidomide\" outputclass=\"int-drug\">thalidomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  thalidomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "108",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697521",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697521_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"thiotepa\" outputclass=\"int-drug\">thiotepa</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  thiotepa  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "109",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thiotepa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697522",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697522_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"tioguanine\" outputclass=\"int-drug\">tioguanine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  tioguanine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "110",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tioguanine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697523",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697523_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"topotecan\" outputclass=\"int-drug\">topotecan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  topotecan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "111",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Topotecan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697524",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697524_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"trabectedin\" outputclass=\"int-drug\">trabectedin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  trabectedin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "112",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trabectedin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697525",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697525_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"treosulfan\" outputclass=\"int-drug\">treosulfan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  treosulfan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "113",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Treosulfan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697526",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697526_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"typhoid vaccine, oral\" outputclass=\"int-drug\">Typhoid vaccine, oral</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Typhoid vaccine, oral   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   cetuximab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "114",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Typhoid vaccine, oral</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697527",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697527_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"valganciclovir\" outputclass=\"int-drug\">valganciclovir</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  valganciclovir  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "115",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Valganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697528",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697528_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"varicella-zoster vaccine\" outputclass=\"int-drug\">Varicella-zoster vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Varicella-zoster vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   cetuximab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "116",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Varicella-zoster vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697529",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697529_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"vinblastine\" outputclass=\"int-drug\">vinblastine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  vinblastine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "117",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinblastine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697530",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697530_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"vincristine\" outputclass=\"int-drug\">vincristine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  vincristine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "118",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vincristine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697531",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697531_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"vindesine\" outputclass=\"int-drug\">vindesine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  vindesine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "119",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vindesine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697532",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697532_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"vinflunine\" outputclass=\"int-drug\">vinflunine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  vinflunine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "120",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinflunine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697533",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697533_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"vinorelbine\" outputclass=\"int-drug\">vinorelbine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  vinorelbine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "121",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinorelbine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697534",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697534_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"vismodegib\" outputclass=\"int-drug\">vismodegib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  vismodegib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "122",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vismodegib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697535",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697535_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"yellow fever vaccine, live\" outputclass=\"int-drug\">Yellow fever vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Yellow fever vaccine, live   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   cetuximab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "123",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Yellow fever vaccine, live</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697536",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2#bnf_i1557280697536_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cetuximab\" outputclass=\"int-heading-drug\">cetuximab</ph> and <ph otherprops=\"zidovudine\" outputclass=\"int-drug\">zidovudine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cetuximab  and  zidovudine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "124",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zidovudine</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Cetuximab  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/cetuximab-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Cetuximab </title>"
+			},
+			"rdfs:label": "cetuximab"
+		}
+	]
+}
