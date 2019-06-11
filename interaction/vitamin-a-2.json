@@ -1,0 +1,154 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/vitamin-a-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/vitamin-a-2#bnf_i1557280781458",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/vitamin-a-2#bnf_i1557280781458_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"acitretin\" outputclass=\"int-drug\">Acitretin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of vitamin A toxicity when given with</ph> <ph otherprops=\"vitamin A\" outputclass=\"int-heading-drug\">vitamin A</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Acitretin   is predicted to   increase   the risk of vitamin A toxicity when given with   vitamin A .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acitretin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/vitamin-a-2#bnf_i1557280781459",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/vitamin-a-2#bnf_i1557280781459_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"alitretinoin\" outputclass=\"int-drug\">Alitretinoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of vitamin A toxicity when given with</ph> <ph otherprops=\"vitamin A\" outputclass=\"int-heading-drug\">vitamin A</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Alitretinoin   is predicted to   increase   the risk of vitamin A toxicity when given with   vitamin A .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alitretinoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/vitamin-a-2#bnf_i1557280781460",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/vitamin-a-2#bnf_i1557280781460_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"bexarotene\" outputclass=\"int-drug\">Bexarotene</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of toxicity when given with</ph> <ph otherprops=\"vitamin A\" outputclass=\"int-heading-drug\">vitamin A</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Bexarotene   is predicted to   increase   the risk of toxicity when given with   vitamin A .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bexarotene</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/vitamin-a-2#bnf_i1557280781461",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/vitamin-a-2#bnf_i1557280781461_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"isotretinoin\" outputclass=\"int-drug\">Isotretinoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of vitamin A toxicity when given with</ph> <ph otherprops=\"vitamin A\" outputclass=\"int-heading-drug\">vitamin A</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Isotretinoin   is predicted to   increase   the risk of vitamin A toxicity when given with   vitamin A .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isotretinoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/vitamin-a-2#bnf_i1557280781462",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/vitamin-a-2#bnf_i1557280781462_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tretinoin\" outputclass=\"int-drug\">Tretinoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of vitamin A toxicity when given with</ph> <ph otherprops=\"vitamin A\" outputclass=\"int-heading-drug\">vitamin A</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tretinoin   is predicted to   increase   the risk of vitamin A toxicity when given with   vitamin A .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tretinoin</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Vitamin A  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/vitamin-a-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Vitamin A </title>"
+			},
+			"rdfs:label": "vitamin a"
+		}
+	]
+}

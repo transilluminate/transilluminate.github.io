@@ -1,0 +1,1120 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777668",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777668_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"aclidinium\" outputclass=\"int-drug\">aclidinium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  aclidinium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aclidinium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777669",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777669_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"amantadine\" outputclass=\"int-drug\">amantadine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  amantadine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amantadine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777670",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777670_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"amitriptyline\" outputclass=\"int-drug\">amitriptyline</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  amitriptyline  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amitriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777671",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777671_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"atropine\" outputclass=\"int-drug\">atropine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  atropine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atropine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777672",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777672_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"baclofen\" outputclass=\"int-drug\">baclofen</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  baclofen  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Baclofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777673",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777673_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"chlorphenamine\" outputclass=\"int-drug\">chlorphenamine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  chlorphenamine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorphenamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777674",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777674_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"chlorpromazine\" outputclass=\"int-drug\">chlorpromazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  chlorpromazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorpromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777675",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777675_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"clemastine\" outputclass=\"int-drug\">clemastine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  clemastine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clemastine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777676",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777676_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"clomipramine\" outputclass=\"int-drug\">clomipramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  clomipramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clomipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777677",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777677_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"clozapine\" outputclass=\"int-drug\">clozapine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  clozapine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clozapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777678",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777678_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"cyclizine\" outputclass=\"int-drug\">cyclizine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  cyclizine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyclizine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777679",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777679_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"cyclopentolate\" outputclass=\"int-drug\">cyclopentolate</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  cyclopentolate  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyclopentolate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777680",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777680_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"cyproheptadine\" outputclass=\"int-drug\">cyproheptadine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  cyproheptadine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyproheptadine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777681",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777681_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"darifenacin\" outputclass=\"int-drug\">darifenacin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  darifenacin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Darifenacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777682",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777682_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"dicycloverine\" outputclass=\"int-drug\">dicycloverine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  dicycloverine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dicycloverine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777683",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777683_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"dimenhydrinate\" outputclass=\"int-drug\">dimenhydrinate</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  dimenhydrinate  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dimenhydrinate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777684",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777684_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"disopyramide\" outputclass=\"int-drug\">disopyramide</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  disopyramide  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Disopyramide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777685",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777685_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"dosulepin\" outputclass=\"int-drug\">dosulepin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  dosulepin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dosulepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777686",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777686_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"doxepin\" outputclass=\"int-drug\">doxepin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  doxepin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777687",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777687_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"fesoterodine\" outputclass=\"int-drug\">fesoterodine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  fesoterodine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fesoterodine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777688",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777688_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"flavoxate\" outputclass=\"int-drug\">flavoxate</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  flavoxate  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flavoxate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777689",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777689_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"glycopyrronium\" outputclass=\"int-drug\">glycopyrronium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  glycopyrronium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glycopyrronium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777690",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777690_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"haloperidol\" outputclass=\"int-drug\">haloperidol</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  haloperidol  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Haloperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777691",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777691_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"homatropine\" outputclass=\"int-drug\">homatropine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  homatropine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Homatropine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777692",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777692_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"hydroxyzine\" outputclass=\"int-drug\">hydroxyzine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  hydroxyzine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroxyzine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777693",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777693_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"hyoscine\" outputclass=\"int-drug\">hyoscine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  hyoscine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hyoscine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777694",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777694_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"imipramine\" outputclass=\"int-drug\">imipramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  imipramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777695",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777695_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"ipratropium\" outputclass=\"int-drug\">ipratropium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  ipratropium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ipratropium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777696",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777696_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">Tropicamide</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"levodopa\" outputclass=\"int-drug\">levodopa</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tropicamide   decreases   the absorption of   levodopa .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levodopa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777697",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777697_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"levomepromazine\" outputclass=\"int-drug\">levomepromazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  levomepromazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levomepromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777698",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777698_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"lofepramine\" outputclass=\"int-drug\">lofepramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  lofepramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lofepramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777699",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777699_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"loxapine\" outputclass=\"int-drug\">loxapine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  loxapine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Loxapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777700",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777700_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"nefopam\" outputclass=\"int-drug\">nefopam</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  nefopam  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nefopam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777701",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777701_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"nortriptyline\" outputclass=\"int-drug\">nortriptyline</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  nortriptyline  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nortriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777702",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777702_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"orphenadrine\" outputclass=\"int-drug\">orphenadrine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  orphenadrine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Orphenadrine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777703",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777703_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"oxybutynin\" outputclass=\"int-drug\">oxybutynin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  oxybutynin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxybutynin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777704",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777704_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"pimozide\" outputclass=\"int-drug\">pimozide</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  pimozide  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pimozide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777705",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777705_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"prochlorperazine\" outputclass=\"int-drug\">prochlorperazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  prochlorperazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prochlorperazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777706",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777706_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"procyclidine\" outputclass=\"int-drug\">procyclidine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  procyclidine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Procyclidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777707",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777707_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"promethazine\" outputclass=\"int-drug\">promethazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  promethazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Promethazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777708",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777708_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"propafenone\" outputclass=\"int-drug\">propafenone</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  propafenone  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propafenone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777709",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777709_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"propantheline\" outputclass=\"int-drug\">propantheline</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  propantheline  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propantheline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777710",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777710_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"propiverine\" outputclass=\"int-drug\">propiverine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  propiverine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propiverine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777711",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777711_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"solifenacin\" outputclass=\"int-drug\">solifenacin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  solifenacin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Solifenacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777712",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777712_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"tiotropium\" outputclass=\"int-drug\">tiotropium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  tiotropium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tiotropium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777713",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777713_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"tolterodine\" outputclass=\"int-drug\">tolterodine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  tolterodine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolterodine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777714",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777714_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"trifluoperazine\" outputclass=\"int-drug\">trifluoperazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  trifluoperazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trifluoperazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777715",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777715_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-drug\">trihexyphenidyl</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  trihexyphenidyl  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trihexyphenidyl</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777716",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777716_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"trimipramine\" outputclass=\"int-drug\">trimipramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  trimipramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trimipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777717",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777717_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"trospium\" outputclass=\"int-drug\">trospium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  trospium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trospium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777718",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2#bnf_i1557280777718_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tropicamide\" outputclass=\"int-heading-drug\">tropicamide</ph> and <ph otherprops=\"umeclidinium\" outputclass=\"int-drug\">umeclidinium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tropicamide  and  umeclidinium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Umeclidinium</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Tropicamide  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/tropicamide-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Tropicamide </title>"
+			},
+			"rdfs:label": "tropicamide"
+		}
+	]
+}

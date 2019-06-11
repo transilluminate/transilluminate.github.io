@@ -1,0 +1,1120 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777239",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777239_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"aclidinium\" outputclass=\"int-drug\">aclidinium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  aclidinium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aclidinium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777240",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777240_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"amantadine\" outputclass=\"int-drug\">amantadine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  amantadine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amantadine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777241",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777241_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"amitriptyline\" outputclass=\"int-drug\">amitriptyline</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  amitriptyline  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amitriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777242",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777242_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"atropine\" outputclass=\"int-drug\">atropine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  atropine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atropine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777243",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777243_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"baclofen\" outputclass=\"int-drug\">baclofen</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  baclofen  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Baclofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777244",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777244_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"chlorphenamine\" outputclass=\"int-drug\">chlorphenamine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  chlorphenamine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorphenamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777245",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777245_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"chlorpromazine\" outputclass=\"int-drug\">chlorpromazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  chlorpromazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorpromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777246",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777246_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"clemastine\" outputclass=\"int-drug\">clemastine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  clemastine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clemastine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777247",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777247_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"clomipramine\" outputclass=\"int-drug\">clomipramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  clomipramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clomipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777248",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777248_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"clozapine\" outputclass=\"int-drug\">clozapine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  clozapine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clozapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777249",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777249_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"cyclizine\" outputclass=\"int-drug\">cyclizine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  cyclizine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyclizine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777250",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777250_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"cyclopentolate\" outputclass=\"int-drug\">cyclopentolate</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  cyclopentolate  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyclopentolate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777251",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777251_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"cyproheptadine\" outputclass=\"int-drug\">cyproheptadine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  cyproheptadine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyproheptadine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777252",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777252_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"darifenacin\" outputclass=\"int-drug\">darifenacin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  darifenacin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Darifenacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777253",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777253_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"dicycloverine\" outputclass=\"int-drug\">dicycloverine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  dicycloverine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dicycloverine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777254",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777254_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"dimenhydrinate\" outputclass=\"int-drug\">dimenhydrinate</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  dimenhydrinate  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dimenhydrinate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777255",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777255_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"disopyramide\" outputclass=\"int-drug\">disopyramide</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  disopyramide  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Disopyramide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777256",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777256_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"dosulepin\" outputclass=\"int-drug\">dosulepin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  dosulepin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dosulepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777257",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777257_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"doxepin\" outputclass=\"int-drug\">doxepin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  doxepin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777258",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777258_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"fesoterodine\" outputclass=\"int-drug\">fesoterodine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  fesoterodine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fesoterodine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777259",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777259_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"flavoxate\" outputclass=\"int-drug\">flavoxate</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  flavoxate  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flavoxate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777260",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777260_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"glycopyrronium\" outputclass=\"int-drug\">glycopyrronium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  glycopyrronium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glycopyrronium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777261",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777261_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"haloperidol\" outputclass=\"int-drug\">haloperidol</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  haloperidol  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Haloperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777262",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777262_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"homatropine\" outputclass=\"int-drug\">homatropine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  homatropine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Homatropine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777263",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777263_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"hydroxyzine\" outputclass=\"int-drug\">hydroxyzine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  hydroxyzine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroxyzine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777264",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777264_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"hyoscine\" outputclass=\"int-drug\">hyoscine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  hyoscine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hyoscine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777265",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777265_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"imipramine\" outputclass=\"int-drug\">imipramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  imipramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777266",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777266_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"ipratropium\" outputclass=\"int-drug\">ipratropium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  ipratropium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ipratropium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777267",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777267_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">Trihexyphenidyl</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"levodopa\" outputclass=\"int-drug\">levodopa</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Trihexyphenidyl   decreases   the absorption of   levodopa .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levodopa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777268",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777268_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"levomepromazine\" outputclass=\"int-drug\">levomepromazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  levomepromazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levomepromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777269",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777269_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"lofepramine\" outputclass=\"int-drug\">lofepramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  lofepramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lofepramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777270",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777270_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"loxapine\" outputclass=\"int-drug\">loxapine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  loxapine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Loxapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777271",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777271_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"nefopam\" outputclass=\"int-drug\">nefopam</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  nefopam  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nefopam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777272",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777272_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"nortriptyline\" outputclass=\"int-drug\">nortriptyline</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  nortriptyline  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nortriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777273",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777273_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"orphenadrine\" outputclass=\"int-drug\">orphenadrine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  orphenadrine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Orphenadrine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777274",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777274_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"oxybutynin\" outputclass=\"int-drug\">oxybutynin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  oxybutynin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxybutynin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777275",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777275_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"pimozide\" outputclass=\"int-drug\">pimozide</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  pimozide  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pimozide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777276",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777276_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"prochlorperazine\" outputclass=\"int-drug\">prochlorperazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  prochlorperazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prochlorperazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777277",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777277_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"procyclidine\" outputclass=\"int-drug\">procyclidine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  procyclidine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Procyclidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777278",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777278_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"promethazine\" outputclass=\"int-drug\">promethazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  promethazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Promethazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777279",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777279_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"propafenone\" outputclass=\"int-drug\">propafenone</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  propafenone  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propafenone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777280",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777280_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"propantheline\" outputclass=\"int-drug\">propantheline</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  propantheline  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propantheline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777281",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777281_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"propiverine\" outputclass=\"int-drug\">propiverine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  propiverine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propiverine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777282",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777282_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"solifenacin\" outputclass=\"int-drug\">solifenacin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  solifenacin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Solifenacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777283",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777283_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"tiotropium\" outputclass=\"int-drug\">tiotropium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  tiotropium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tiotropium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777284",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777284_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"tolterodine\" outputclass=\"int-drug\">tolterodine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  tolterodine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolterodine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777285",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777285_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"trifluoperazine\" outputclass=\"int-drug\">trifluoperazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  trifluoperazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trifluoperazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777286",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777286_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"trimipramine\" outputclass=\"int-drug\">trimipramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  trimipramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trimipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777287",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777287_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"tropicamide\" outputclass=\"int-drug\">tropicamide</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  tropicamide  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tropicamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777288",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777288_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"trospium\" outputclass=\"int-drug\">trospium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  trospium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trospium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777289",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl#bnf_i1557280777289_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-heading-drug\">trihexyphenidyl</ph> and <ph otherprops=\"umeclidinium\" outputclass=\"int-drug\">umeclidinium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  trihexyphenidyl  and  umeclidinium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Umeclidinium</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Trihexyphenidyl  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/trihexyphenidyl.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Trihexyphenidyl </title>"
+			},
+			"rdfs:label": "trihexyphenidyl"
+		}
+	]
+}

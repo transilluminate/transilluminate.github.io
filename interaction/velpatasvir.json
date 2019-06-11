@@ -1,0 +1,994 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/velpatasvir",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779248",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779248_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">Velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"aliskiren\" outputclass=\"int-drug\">aliskiren</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Velpatasvir   is predicted to   increase   the exposure to   aliskiren .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aliskiren</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779249",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779249_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"aluminium hydroxide\" outputclass=\"int-drug\">Aluminium hydroxide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 4 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Aluminium hydroxide   is predicted to   decrease   the concentration of   velpatasvir .  Manufacturer advises separate administration by 4 hours .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aluminium hydroxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779250",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779250_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"amiodarone\" outputclass=\"int-drug\">Amiodarone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Amiodarone   is predicted to   increase   the concentration of   velpatasvir .  Manufacturer advises avoid or monitor .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amiodarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779251",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779251_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">Velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atorvastatin\" outputclass=\"int-drug\">atorvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Velpatasvir   is predicted to   increase   the exposure to   atorvastatin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atorvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779252",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779252_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"bosentan\" outputclass=\"int-drug\">Bosentan</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Bosentan   is predicted to   decrease   the exposure to   velpatasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosentan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779253",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779253_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 4 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Calcium carbonate   is predicted to   decrease   the concentration of   velpatasvir .  Manufacturer advises separate administration by 4 hours .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium carbonate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779254",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779254_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Carbamazepine   is predicted to   moderately   decrease   the exposure to   velpatasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779255",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779255_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cimetidine\" outputclass=\"int-drug\">Cimetidine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213021\">sofosbuvir with velpatasvir</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cimetidine   is predicted to   decrease   the concentration of   velpatasvir .  Manufacturer advises adjust dose, see  sofosbuvir with velpatasvir .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cimetidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779256",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779256_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">Velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Velpatasvir   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Colchicine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779257",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779257_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">Velpatasvir</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dabigatran\" outputclass=\"int-drug\">dabigatran</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Velpatasvir   increases   the exposure to   dabigatran .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dabigatran</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779258",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779258_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">Velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Velpatasvir   is predicted to   increase   the exposure to   digoxin .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Digoxin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779259",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779259_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">Velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"edoxaban\" outputclass=\"int-drug\">edoxaban</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Velpatasvir   is predicted to   increase   the exposure to   edoxaban .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Edoxaban</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779260",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779260_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"efavirenz\" outputclass=\"int-drug\">Efavirenz</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Efavirenz   is predicted to   decrease   the exposure to   velpatasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Efavirenz</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779261",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779261_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"enzalutamide\" outputclass=\"int-drug\">Enzalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Enzalutamide   is predicted to   moderately   decrease   the exposure to   velpatasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enzalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779262",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779262_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"esomeprazole\" outputclass=\"int-drug\">Esomeprazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213021\">sofosbuvir with velpatasvir</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Esomeprazole   is predicted to   decrease   the concentration of   velpatasvir .  Manufacturer advises adjust dose, see  sofosbuvir with velpatasvir .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Esomeprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779263",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779263_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">Velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"everolimus\" outputclass=\"int-drug\">everolimus</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Velpatasvir   is predicted to   increase   the exposure to   everolimus .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Everolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779264",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779264_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"famotidine\" outputclass=\"int-drug\">Famotidine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213021\">sofosbuvir with velpatasvir</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Famotidine   is predicted to   decrease   the concentration of   velpatasvir .  Manufacturer advises adjust dose, see  sofosbuvir with velpatasvir .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Famotidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779265",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779265_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">Velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fexofenadine\" outputclass=\"int-drug\">fexofenadine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Velpatasvir   is predicted to   increase   the exposure to   fexofenadine .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fexofenadine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779266",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779266_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fosphenytoin   is predicted to   moderately   decrease   the exposure to   velpatasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779267",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779267_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lansoprazole\" outputclass=\"int-drug\">Lansoprazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213021\">sofosbuvir with velpatasvir</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lansoprazole   is predicted to   decrease   the concentration of   velpatasvir .  Manufacturer advises adjust dose, see  sofosbuvir with velpatasvir .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lansoprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779268",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779268_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">Velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"loperamide\" outputclass=\"int-drug\">loperamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Velpatasvir   is predicted to   increase   the exposure to   loperamide .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Loperamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779269",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779269_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium carbonate\" outputclass=\"int-drug\">Magnesium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 4 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Magnesium carbonate   is predicted to   decrease   the concentration of   velpatasvir .  Manufacturer advises separate administration by 4 hours .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Magnesium carbonate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779270",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779270_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium trisilicate\" outputclass=\"int-drug\">Magnesium trisilicate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 4 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Magnesium trisilicate   is predicted to   decrease   the concentration of   velpatasvir .  Manufacturer advises separate administration by 4 hours .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Magnesium trisilicate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779271",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779271_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mitotane\" outputclass=\"int-drug\">Mitotane</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Mitotane   is predicted to   moderately   decrease   the exposure to   velpatasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitotane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779272",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779272_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"modafinil\" outputclass=\"int-drug\">Modafinil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Modafinil   is predicted to   decrease   the exposure to   velpatasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Modafinil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779273",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779273_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"nevirapine\" outputclass=\"int-drug\">Nevirapine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Nevirapine   is predicted to   decrease   the exposure to   velpatasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nevirapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779274",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779274_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"nizatidine\" outputclass=\"int-drug\">Nizatidine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213021\">sofosbuvir with velpatasvir</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Nizatidine   is predicted to   decrease   the concentration of   velpatasvir .  Manufacturer advises adjust dose, see  sofosbuvir with velpatasvir .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nizatidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779275",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779275_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"omeprazole\" outputclass=\"int-drug\">Omeprazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213021\">sofosbuvir with velpatasvir</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Omeprazole   is predicted to   decrease   the concentration of   velpatasvir .  Manufacturer advises adjust dose, see  sofosbuvir with velpatasvir .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Omeprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779276",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779276_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the exposure to   velpatasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxcarbazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779277",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779277_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">Velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"paclitaxel\" outputclass=\"int-drug\">paclitaxel</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Velpatasvir   is predicted to   increase   the exposure to   paclitaxel .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paclitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779278",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779278_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pantoprazole\" outputclass=\"int-drug\">Pantoprazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213021\">sofosbuvir with velpatasvir</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pantoprazole   is predicted to   decrease   the concentration of   velpatasvir .  Manufacturer advises adjust dose, see  sofosbuvir with velpatasvir .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pantoprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779279",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779279_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenobarbital   is predicted to   moderately   decrease   the exposure to   velpatasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779280",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779280_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenytoin   is predicted to   moderately   decrease   the exposure to   velpatasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779281",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779281_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Primidone   is predicted to   moderately   decrease   the exposure to   velpatasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779282",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779282_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rabeprazole\" outputclass=\"int-drug\">Rabeprazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213021\">sofosbuvir with velpatasvir</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Rabeprazole   is predicted to   decrease   the concentration of   velpatasvir .  Manufacturer advises adjust dose, see  sofosbuvir with velpatasvir .    \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rabeprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779283",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779283_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ranitidine\" outputclass=\"int-drug\">Ranitidine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213021\">sofosbuvir with velpatasvir</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ranitidine   is predicted to   decrease   the concentration of   velpatasvir .  Manufacturer advises adjust dose, see  sofosbuvir with velpatasvir .    \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ranitidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779284",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779284_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   is predicted to   moderately   decrease   the exposure to   velpatasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779285",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779285_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">Velpatasvir</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rosuvastatin\" outputclass=\"int-drug\">rosuvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"rosuvastatin\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/rosuvastatin.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP1645\">rosuvastatin</xref></ph> dose and monitor side effects</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Velpatasvir   increases   the exposure to   rosuvastatin .  Manufacturer advises adjust  rosuvastatin  dose and monitor side effects .    \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rosuvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779286",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779286_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">Velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"simvastatin\" outputclass=\"int-drug\">simvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor side effects and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Velpatasvir   is predicted to   increase   the exposure to   simvastatin .  Manufacturer advises monitor side effects and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Simvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779287",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779287_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">Velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sirolimus\" outputclass=\"int-drug\">sirolimus</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Velpatasvir   is predicted to   increase   the exposure to   sirolimus .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sirolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779288",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779288_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"St John's Wort\" outputclass=\"int-drug\">St John's Wort</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "St John's Wort   is predicted to   decrease   the exposure to   velpatasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>St John's Wort</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779289",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779289_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">Velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sulfasalazine\" outputclass=\"int-drug\">sulfasalazine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Velpatasvir   is predicted to   increase   the exposure to   sulfasalazine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfasalazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779290",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779290_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">Velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir disoproxil\" outputclass=\"int-drug\">tenofovir disoproxil</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor side effects</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Velpatasvir   is predicted to   increase   the exposure to   tenofovir disoproxil .  Manufacturer advises monitor side effects .    \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tenofovir disoproxil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779291",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779291_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tipranavir\" outputclass=\"int-drug\">Tipranavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tipranavir   is predicted to   increase   the exposure to   velpatasvir .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tipranavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779292",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/velpatasvir#bnf_i1557280779292_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"velpatasvir\" outputclass=\"int-heading-drug\">Velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"topotecan\" outputclass=\"int-drug\">topotecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Velpatasvir   is predicted to   increase   the exposure to   topotecan .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Topotecan</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Velpatasvir  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/velpatasvir.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Velpatasvir </title>"
+			},
+			"rdfs:label": "velpatasvir"
+		}
+	]
+}
