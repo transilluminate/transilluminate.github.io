@@ -27,7 +27,7 @@ var medicationDetails    = {};	// this stores the details of the interactions of
 // 		}
 // 	});
 // }
-// buildAvailableMedications(); // uncomment block to run
+// buildAvailableMedications(); // uncomment block to run, also uncomment the #results div in the html
 
 function loadAvailableMedications(){	// load the medication list for the search terms
 	$.getJSON('medicationsList.json', function(data) {					// localfile, built using buildAvailableMedications()
@@ -126,24 +126,23 @@ function redrawTable() {
 				var rowTitle = displayMedications[y - 1];		// get the row header
 				var columnTitle = displayMedications[x - 1];	// and the column header
 				
-				if (x == 0) {		// create row headers
-					row += ("<th class='elementRow' scope='row' style='text-align:right'>");
-					row +=   ("<a class='btn btn-outline-secondary deleteThisEntry' data-toggle='tooltip' title='" + rowTitle + "' role='button' target='_blank' href='" + medicationDetails[rowTitle]['url'] + "#'>");
-					row +=     (rowTitle);
-					row +=   ("</a>");
-					row +=   ("&nbsp;");
-					row +=   ("<button class='btn btn-outline-danger deleteButton' data-toggle='tooltip' title='Remove " + rowTitle + "'>");
-					row +=     ("<i class='far fa-trash-alt'></i>");
-					row +=   ("</button>");
-					row += ("</th>");
-				}
-				else if (y == 0) {	// create column headers
+				if (y == 0) {	// create column headers
 					row += ("<th scope='column' class='rotate col-xs-2'>");
 					row +=   ("<div class='rotated'>");
 					row +=     ("<a class='btn btn-outline-secondary' data-toggle='tooltip' title='" + columnTitle + "' role='button' target='_blank' href='" + medicationDetails[columnTitle]['url'] + "#'>");
 					row +=       (columnTitle);
 					row +=     ("</a>");
 					row +=   ("</div>");
+					row += ("</th>");
+				}
+				else if (x == 0) {		// create row headers
+					row += ("<th class='elementRow' scope='row' style='text-align:right'>");
+					row +=   ("<a class='btn btn-outline-secondary mr-sm-2 deleteThisEntry' data-toggle='tooltip' title='" + rowTitle + "' role='button' target='_blank' href='" + medicationDetails[rowTitle]['url'] + "#'>");
+					row +=     (rowTitle);
+					row +=   ("</a>");
+					row +=   ("<button class='btn btn-outline-danger deleteButton' data-toggle='tooltip' title='Remove " + rowTitle + "'>");
+					row +=     ("<i class='far fa-trash-alt'></i>");
+					row +=   ("</button>");
 					row += ("</th>");
 				}
 				else { 				// build the interaction cells

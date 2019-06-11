@@ -88,6 +88,7 @@ th.rotate div {
     padding-top: 18px;
     padding-left: 10px;
 }
+/* This styles the buttons, stops them growing too huge! */
 th a {
     max-width: 300px;
     display: inline-block;
@@ -95,12 +96,11 @@ th a {
     text-overflow: ellipsis;
     overflow: hidden;
 }
-
-/* This styles the buttons, stops them growing too huge! */
 th.rotate a {
     max-width: 180px;
-    display: inline-block;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
+}
+/* stop the first table row having a border: https://stackoverflow.com/questions/21407988/remove-the-first-line-of-a-twitter-bootstrap-table */
+.table > tr:first-child > td,
+.table > tr:first-child > th {
+    border: none;
 }
