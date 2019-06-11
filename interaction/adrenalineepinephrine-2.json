@@ -1,0 +1,826 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679151",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679151_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"acebutolol\" outputclass=\"int-drug\">Acebutolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Acebutolol   is predicted to   increase   the risk of hypertension and bradycardia when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acebutolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679152",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679152_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"amitriptyline\" outputclass=\"int-drug\">Amitriptyline</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Amitriptyline   increases   the effects of   adrenaline/epinephrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amitriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679153",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679153_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">Adrenaline/epinephrine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"apraclonidine\" outputclass=\"int-drug\">apraclonidine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Adrenaline/epinephrine   is predicted to   decrease   the effects of   apraclonidine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apraclonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679154",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679154_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"atenolol\" outputclass=\"int-drug\">Atenolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Atenolol   is predicted to   increase   the risk of hypertension and bradycardia when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atenolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679155",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679155_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"betaxolol\" outputclass=\"int-drug\">Betaxolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Betaxolol   is predicted to   increase   the risk of hypertension and bradycardia when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Betaxolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679156",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679156_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bisoprolol\" outputclass=\"int-drug\">Bisoprolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bisoprolol   is predicted to   increase   the risk of hypertension and bradycardia when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bisoprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679157",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679157_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"carvedilol\" outputclass=\"int-drug\">Carvedilol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Carvedilol   is predicted to   increase   the risk of hypertension and bradycardia when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carvedilol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679158",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679158_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"celiprolol\" outputclass=\"int-drug\">Celiprolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Celiprolol   is predicted to   increase   the risk of hypertension and bradycardia when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Celiprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679159",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679159_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"clomipramine\" outputclass=\"int-drug\">Clomipramine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Clomipramine   increases   the effects of   adrenaline/epinephrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clomipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679160",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679160_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dosulepin\" outputclass=\"int-drug\">Dosulepin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dosulepin   increases   the effects of   adrenaline/epinephrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dosulepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679161",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679161_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"doxepin\" outputclass=\"int-drug\">Doxepin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Doxepin   increases   the effects of   adrenaline/epinephrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679162",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679162_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"entacapone\" outputclass=\"int-drug\">Entacapone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiovascular side-effects when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Entacapone   is predicted to   increase   the risk of cardiovascular side-effects when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Entacapone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679163",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679163_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"esmolol\" outputclass=\"int-drug\">Esmolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Esmolol   is predicted to   increase   the risk of hypertension and bradycardia when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Esmolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679164",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679164_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"guanethidine\" outputclass=\"int-drug\">Guanethidine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Guanethidine   is predicted to   increase   the effects of   adrenaline/epinephrine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Guanethidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679165",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679165_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"imipramine\" outputclass=\"int-drug\">Imipramine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Imipramine   increases   the effects of   adrenaline/epinephrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679166",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679166_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"isocarboxazid\" outputclass=\"int-drug\">Isocarboxazid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Isocarboxazid   is predicted to   increase   the risk of a hypertensive crisis when given with   adrenaline/epinephrine .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isocarboxazid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679167",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679167_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"labetalol\" outputclass=\"int-drug\">Labetalol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Labetalol   is predicted to   increase   the risk of hypertension and bradycardia when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Labetalol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679168",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679168_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"levobunolol\" outputclass=\"int-drug\">Levobunolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Levobunolol   is predicted to   increase   the risk of hypertension and bradycardia when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levobunolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679169",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679169_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">Adrenaline/epinephrine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of elevated blood pressure when given with</ph> <ph otherprops=\"linezolid\" outputclass=\"int-drug\">linezolid</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Adrenaline/epinephrine   is predicted to   increase   the risk of elevated blood pressure when given with   linezolid .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Linezolid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679170",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679170_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lofepramine\" outputclass=\"int-drug\">Lofepramine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lofepramine   increases   the effects of   adrenaline/epinephrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lofepramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679171",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679171_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metoprolol\" outputclass=\"int-drug\">Metoprolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metoprolol   is predicted to   increase   the risk of hypertension and bradycardia when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metoprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679172",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679172_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nadolol\" outputclass=\"int-drug\">Nadolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Nadolol   is predicted to   increase   the risk of hypertension and bradycardia when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nadolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679173",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679173_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nebivolol\" outputclass=\"int-drug\">Nebivolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Nebivolol   is predicted to   increase   the risk of hypertension and bradycardia when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nebivolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679174",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679174_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nortriptyline\" outputclass=\"int-drug\">Nortriptyline</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Nortriptyline   increases   the effects of   adrenaline/epinephrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nortriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679175",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679175_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"opicapone\" outputclass=\"int-drug\">Opicapone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiovascular side-effects when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Opicapone   is predicted to   increase   the risk of cardiovascular side-effects when given with   adrenaline/epinephrine .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Opicapone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679176",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679176_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxprenolol\" outputclass=\"int-drug\">Oxprenolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxprenolol   is predicted to   increase   the risk of hypertension and bradycardia when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxprenolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679177",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679177_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenelzine\" outputclass=\"int-drug\">Phenelzine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenelzine   is predicted to   increase   the risk of a hypertensive crisis when given with   adrenaline/epinephrine .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenelzine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679178",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679178_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"pindolol\" outputclass=\"int-drug\">Pindolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Pindolol   is predicted to   increase   the risk of hypertension and bradycardia when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pindolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679179",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679179_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"propranolol\" outputclass=\"int-drug\">Propranolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Propranolol   is predicted to   increase   the risk of hypertension and bradycardia when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propranolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679180",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679180_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rasagiline\" outputclass=\"int-drug\">Rasagiline</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rasagiline   is predicted to   increase   the risk of a hypertensive crisis when given with   adrenaline/epinephrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rasagiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679181",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679181_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"safinamide\" outputclass=\"int-drug\">Safinamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Safinamide   is predicted to   increase   the risk of a hypertensive crisis when given with   adrenaline/epinephrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Safinamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679182",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679182_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"selegiline\" outputclass=\"int-drug\">Selegiline</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Selegiline   is predicted to   increase   the risk of a hypertensive crisis when given with   adrenaline/epinephrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Selegiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679183",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679183_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"sotalol\" outputclass=\"int-drug\">Sotalol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Sotalol   is predicted to   increase   the risk of hypertension and bradycardia when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sotalol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679184",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679184_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"timolol\" outputclass=\"int-drug\">Timolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Timolol   is predicted to   increase   the risk of hypertension and bradycardia when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Timolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679185",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679185_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tolcapone\" outputclass=\"int-drug\">Tolcapone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tolcapone   is predicted to   increase   the effects of   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolcapone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679186",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679186_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tranylcypromine\" outputclass=\"int-drug\">Tranylcypromine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tranylcypromine   is predicted to   increase   the risk of a hypertensive crisis when given with   adrenaline/epinephrine .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tranylcypromine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679187",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2#bnf_i1557280679187_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"trimipramine\" outputclass=\"int-drug\">Trimipramine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-heading-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Trimipramine   increases   the effects of   adrenaline/epinephrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trimipramine</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Adrenaline/epinephrine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/adrenalineepinephrine-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Adrenaline/epinephrine </title>"
+			},
+			"rdfs:label": "adrenaline/epinephrine"
+		}
+	]
+}

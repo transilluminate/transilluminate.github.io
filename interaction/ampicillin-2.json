@@ -1,0 +1,154 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/ampicillin-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ampicillin-2#bnf_i1557280683084",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ampicillin-2#bnf_i1557280683084_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ampicillin\" outputclass=\"int-heading-drug\">Ampicillin</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">alters</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"acenocoumarol\" outputclass=\"int-drug\">acenocoumarol</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor INR and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ampicillin   potentially   alters   the anticoagulant effect of   acenocoumarol .  Manufacturer advises monitor INR and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acenocoumarol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ampicillin-2#bnf_i1557280683085",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ampicillin-2#bnf_i1557280683085_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"allopurinol\" outputclass=\"int-drug\">Allopurinol</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of skin rash when given with</ph> <ph otherprops=\"ampicillin\" outputclass=\"int-heading-drug\">ampicillin</ph>. <ph outputclass=\"int-action\">Manufacturer advises consider alternatives</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Allopurinol   increases   the risk of skin rash when given with   ampicillin .  Manufacturer advises consider alternatives .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Allopurinol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ampicillin-2#bnf_i1557280683086",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ampicillin-2#bnf_i1557280683086_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ampicillin\" outputclass=\"int-heading-drug\">Ampicillin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of toxicity when given with</ph> <ph otherprops=\"methotrexate\" outputclass=\"int-drug\">methotrexate</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ampicillin   is predicted to   increase   the risk of toxicity when given with   methotrexate .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methotrexate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ampicillin-2#bnf_i1557280683087",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ampicillin-2#bnf_i1557280683087_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ampicillin\" outputclass=\"int-heading-drug\">Ampicillin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"phenindione\" outputclass=\"int-drug\">phenindione</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ampicillin   is predicted to   increase   the risk of bleeding events when given with   phenindione .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenindione</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ampicillin-2#bnf_i1557280683088",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ampicillin-2#bnf_i1557280683088_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ampicillin\" outputclass=\"int-heading-drug\">Ampicillin</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">alters</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"warfarin\" outputclass=\"int-drug\">warfarin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor INR and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ampicillin   potentially   alters   the anticoagulant effect of   warfarin .  Manufacturer advises monitor INR and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Warfarin</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Ampicillin  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/ampicillin-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Ampicillin </title>"
+			},
+			"rdfs:label": "ampicillin"
+		}
+	]
+}

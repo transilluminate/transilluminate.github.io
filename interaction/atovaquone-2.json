@@ -1,0 +1,301 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686355",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686355_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"atazanavir\" outputclass=\"int-drug\">Atazanavir</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atovaquone\" outputclass=\"int-heading-drug\">atovaquone</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid if boosted with ritonavir</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Atazanavir   decreases   the exposure to   atovaquone .  Manufacturer advises avoid if boosted with ritonavir .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atazanavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686356",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686356_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"darunavir\" outputclass=\"int-drug\">Darunavir</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atovaquone\" outputclass=\"int-heading-drug\">atovaquone</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid if boosted with ritonavir</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Darunavir   decreases   the exposure to   atovaquone .  Manufacturer advises avoid if boosted with ritonavir .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Darunavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686357",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686357_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"efavirenz\" outputclass=\"int-drug\">Efavirenz</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atovaquone\" outputclass=\"int-heading-drug\">atovaquone</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Efavirenz   moderately   decreases   the exposure to   atovaquone .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Efavirenz</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686358",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686358_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fosamprenavir\" outputclass=\"int-drug\">Fosamprenavir</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atovaquone\" outputclass=\"int-heading-drug\">atovaquone</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid if boosted with ritonavir</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fosamprenavir   decreases   the exposure to   atovaquone .  Manufacturer advises avoid if boosted with ritonavir .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosamprenavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686359",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686359_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lopinavir\" outputclass=\"int-drug\">Lopinavir</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atovaquone\" outputclass=\"int-heading-drug\">atovaquone</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid if boosted with ritonavir</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lopinavir   decreases   the exposure to   atovaquone .  Manufacturer advises avoid if boosted with ritonavir .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lopinavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686360",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686360_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"metoclopramide\" outputclass=\"int-drug\">Metoclopramide</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"atovaquone\" outputclass=\"int-heading-drug\">atovaquone</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Metoclopramide   decreases   the concentration of   atovaquone .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metoclopramide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686361",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686361_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rifabutin\" outputclass=\"int-drug\">Rifabutin</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atovaquone\" outputclass=\"int-heading-drug\">atovaquone</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Rifabutin   slightly   decreases   the exposure to   atovaquone .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifabutin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686362",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686362_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atovaquone\" outputclass=\"int-heading-drug\">atovaquone</ph> and <ph otherprops=\"atovaquone\" outputclass=\"int-heading-drug\">atovaquone</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">rifampicin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   moderately   decreases   the exposure to   atovaquone  and  atovaquone   slightly   increases   the exposure to   rifampicin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686363",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686363_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ritonavir\" outputclass=\"int-drug\">Ritonavir</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atovaquone\" outputclass=\"int-heading-drug\">atovaquone</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid if boosted with ritonavir</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ritonavir   decreases   the exposure to   atovaquone .  Manufacturer advises avoid if boosted with ritonavir .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ritonavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686364",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686364_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"saquinavir\" outputclass=\"int-drug\">Saquinavir</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atovaquone\" outputclass=\"int-heading-drug\">atovaquone</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid if boosted with ritonavir</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Saquinavir   decreases   the exposure to   atovaquone .  Manufacturer advises avoid if boosted with ritonavir .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Saquinavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686365",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686365_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tetracycline\" outputclass=\"int-drug\">Tetracycline</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"atovaquone\" outputclass=\"int-heading-drug\">atovaquone</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tetracycline   decreases   the concentration of   atovaquone .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tetracycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686366",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2#bnf_i1557280686366_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tipranavir\" outputclass=\"int-drug\">Tipranavir</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atovaquone\" outputclass=\"int-heading-drug\">atovaquone</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid if boosted with ritonavir</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tipranavir   decreases   the exposure to   atovaquone .  Manufacturer advises avoid if boosted with ritonavir .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tipranavir</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Atovaquone  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/atovaquone-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Atovaquone </title>"
+			},
+			"rdfs:label": "atovaquone"
+		}
+	]
+}

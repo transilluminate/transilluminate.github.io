@@ -1,0 +1,595 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/acarbose-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678353",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678353_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"alogliptin\" outputclass=\"int-drug\">alogliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  alogliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alogliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678354",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678354_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"canagliflozin\" outputclass=\"int-drug\">canagliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  canagliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Canagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678355",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678355_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"dapagliflozin\" outputclass=\"int-drug\">dapagliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  dapagliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dapagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678356",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678356_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">Acarbose</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Acarbose   decreases   the concentration of   digoxin .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Digoxin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678357",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678357_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"dulaglutide\" outputclass=\"int-drug\">dulaglutide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  dulaglutide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dulaglutide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678358",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678358_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"empagliflozin\" outputclass=\"int-drug\">empagliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  empagliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Empagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678359",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678359_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"ertugliflozin\" outputclass=\"int-drug\">ertugliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  ertugliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ertugliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678360",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678360_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"exenatide\" outputclass=\"int-drug\">exenatide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  exenatide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Exenatide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678361",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678361_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"glibenclamide\" outputclass=\"int-drug\">glibenclamide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  glibenclamide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glibenclamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678362",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678362_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"gliclazide\" outputclass=\"int-drug\">gliclazide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  gliclazide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gliclazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678363",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678363_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"glimepiride\" outputclass=\"int-drug\">glimepiride</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  glimepiride  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glimepiride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678364",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678364_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"glipizide\" outputclass=\"int-drug\">glipizide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  glipizide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glipizide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678365",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678365_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"insulins\" outputclass=\"int-drug\">insulins</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  insulins  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Insulins</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678366",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678366_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"linagliptin\" outputclass=\"int-drug\">linagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  linagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Linagliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678367",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678367_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"liraglutide\" outputclass=\"int-drug\">liraglutide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  liraglutide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Liraglutide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678368",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678368_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"lixisenatide\" outputclass=\"int-drug\">lixisenatide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  lixisenatide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lixisenatide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678369",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678369_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"metformin\" outputclass=\"int-drug\">metformin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  metformin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metformin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678370",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678370_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"nateglinide\" outputclass=\"int-drug\">nateglinide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  nateglinide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nateglinide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678371",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678371_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pancreatin\" outputclass=\"int-drug\">Pancreatin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pancreatin   is predicted to   decrease   the effects of   acarbose .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pancreatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678372",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678372_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"pioglitazone\" outputclass=\"int-drug\">pioglitazone</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  pioglitazone  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pioglitazone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678373",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678373_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"repaglinide\" outputclass=\"int-drug\">repaglinide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  repaglinide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Repaglinide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678374",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678374_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"saxagliptin\" outputclass=\"int-drug\">saxagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  saxagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Saxagliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678375",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678375_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"semaglutide\" outputclass=\"int-drug\">semaglutide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  semaglutide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Semaglutide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678376",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678376_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"sitagliptin\" outputclass=\"int-drug\">sitagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  sitagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sitagliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678377",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678377_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"tolbutamide\" outputclass=\"int-drug\">tolbutamide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  tolbutamide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolbutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678378",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/acarbose-2#bnf_i1557280678378_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"acarbose\" outputclass=\"int-heading-drug\">acarbose</ph> and <ph otherprops=\"vildagliptin\" outputclass=\"int-drug\">vildagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  acarbose  and  vildagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vildagliptin</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Acarbose  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/acarbose-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Acarbose </title>"
+			},
+			"rdfs:label": "acarbose"
+		}
+	]
+}
