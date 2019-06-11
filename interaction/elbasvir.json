@@ -1,0 +1,469 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/elbasvir",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712413",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712413_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">Elbasvir</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atorvastatin\" outputclass=\"int-drug\">atorvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"atorvastatin\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/atorvastatin.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP1633\">atorvastatin</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Elbasvir   increases   the exposure to   atorvastatin .  Manufacturer advises adjust  atorvastatin  dose .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atorvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712414",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712414_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bosentan\" outputclass=\"int-drug\">Bosentan</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">elbasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bosentan   is predicted to   moderately   decrease   the exposure to   elbasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosentan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712415",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712415_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">elbasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Carbamazepine   is predicted to   decrease   the exposure to   elbasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712416",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712416_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">Elbasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"dabigatran\" outputclass=\"int-drug\">dabigatran</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Elbasvir   is predicted to   increase   the concentration of   dabigatran .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dabigatran</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712417",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712417_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"efavirenz\" outputclass=\"int-drug\">Efavirenz</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">elbasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Efavirenz   is predicted to   moderately   decrease   the exposure to   elbasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Efavirenz</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712418",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712418_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"enzalutamide\" outputclass=\"int-drug\">Enzalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">elbasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Enzalutamide   is predicted to   decrease   the exposure to   elbasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enzalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712419",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712419_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Unknown\" outputclass=\"int-message\">\n  <ph otherprops=\"etravirine\" outputclass=\"int-drug\">Etravirine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">elbasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Unknown",
+							"hasOrder": "1",
+							"hasTextContent": "Etravirine   is predicted to   decrease   the exposure to   elbasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etravirine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712420",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712420_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Unknown\" outputclass=\"int-message\">\n  <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">Elbasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fluvastatin\" outputclass=\"int-drug\">fluvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"fluvastatin\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/fluvastatin.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP1636\">fluvastatin</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Unknown",
+							"hasOrder": "1",
+							"hasTextContent": "Elbasvir   is predicted to   increase   the exposure to   fluvastatin .  Manufacturer advises adjust  fluvastatin  dose .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712421",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712421_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">elbasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fosphenytoin   is predicted to   decrease   the exposure to   elbasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712422",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712422_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mitotane\" outputclass=\"int-drug\">Mitotane</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">elbasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Mitotane   is predicted to   decrease   the exposure to   elbasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitotane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712423",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712423_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Unknown\" outputclass=\"int-message\">\n  <ph otherprops=\"modafinil\" outputclass=\"int-drug\">Modafinil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">elbasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Unknown",
+							"hasOrder": "1",
+							"hasTextContent": "Modafinil   is predicted to   decrease   the exposure to   elbasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Modafinil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712424",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712424_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nevirapine\" outputclass=\"int-drug\">Nevirapine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">elbasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Nevirapine   is predicted to   moderately   decrease   the exposure to   elbasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nevirapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712425",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712425_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">elbasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenobarbital   is predicted to   decrease   the exposure to   elbasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712426",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712426_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">elbasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenytoin   is predicted to   decrease   the exposure to   elbasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712427",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712427_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">elbasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Primidone   is predicted to   decrease   the exposure to   elbasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712428",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712428_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">elbasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   is predicted to   decrease   the exposure to   elbasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712429",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712429_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">Elbasvir</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rosuvastatin\" outputclass=\"int-drug\">rosuvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"rosuvastatin\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/rosuvastatin.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP1645\">rosuvastatin</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Elbasvir   increases   the exposure to   rosuvastatin .  Manufacturer advises adjust  rosuvastatin  dose .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rosuvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712430",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712430_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Unknown\" outputclass=\"int-message\">\n  <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">Elbasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"simvastatin\" outputclass=\"int-drug\">simvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"simvastatin\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/simvastatin.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP1647\">simvastatin</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Unknown",
+							"hasOrder": "1",
+							"hasTextContent": "Elbasvir   is predicted to   increase   the exposure to   simvastatin .  Manufacturer advises adjust  simvastatin  dose .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Simvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712431",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712431_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"St John's Wort\" outputclass=\"int-drug\">St John's Wort</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">elbasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "St John's Wort   is predicted to   moderately   decrease   the exposure to   elbasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>St John's Wort</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712432",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/elbasvir#bnf_i1557280712432_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"elbasvir\" outputclass=\"int-heading-drug\">Elbasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"sunitinib\" outputclass=\"int-drug\">sunitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Elbasvir   is predicted to   increase   the concentration of   sunitinib .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sunitinib</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Elbasvir  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/elbasvir.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Elbasvir </title>"
+			},
+			"rdfs:label": "elbasvir"
+		}
+	]
+}

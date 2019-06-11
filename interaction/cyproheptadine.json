@@ -1,0 +1,3445 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704124",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704124_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"aclidinium\" outputclass=\"int-drug\">aclidinium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  aclidinium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aclidinium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704125",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704125_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"agomelatine\" outputclass=\"int-drug\">agomelatine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  agomelatine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Agomelatine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704126",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704126_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"alcohol (beverage)\" outputclass=\"int-drug\">alcohol (beverage)</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  alcohol (beverage)  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alcohol (beverage)</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704127",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704127_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"alfentanil\" outputclass=\"int-drug\">alfentanil</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  alfentanil  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alfentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704128",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704128_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"alprazolam\" outputclass=\"int-drug\">alprazolam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  alprazolam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alprazolam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704129",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704129_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"amantadine\" outputclass=\"int-drug\">amantadine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  amantadine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amantadine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704130",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704130_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"amisulpride\" outputclass=\"int-drug\">amisulpride</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  amisulpride  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amisulpride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704131",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704131_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"amitriptyline\" outputclass=\"int-drug\">amitriptyline</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  amitriptyline  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amitriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704132",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704132_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"apraclonidine\" outputclass=\"int-drug\">apraclonidine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  apraclonidine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apraclonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704133",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704133_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"aripiprazole\" outputclass=\"int-drug\">aripiprazole</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  aripiprazole  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aripiprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704134",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704134_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"articaine\" outputclass=\"int-drug\">articaine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  articaine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Articaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704135",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704135_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"asenapine\" outputclass=\"int-drug\">asenapine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  asenapine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Asenapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704136",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704136_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"atropine\" outputclass=\"int-drug\">atropine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  atropine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atropine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704137",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704137_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"baclofen\" outputclass=\"int-drug\">baclofen</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  baclofen  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704137_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"baclofen\" outputclass=\"int-drug\">baclofen</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  cyproheptadine  and  baclofen  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Baclofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704138",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704138_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"benperidol\" outputclass=\"int-drug\">benperidol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  benperidol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Benperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704139",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704139_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">Cyproheptadine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"betahistine\" outputclass=\"int-drug\">betahistine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cyproheptadine   is predicted to   decrease   the effects of   betahistine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Betahistine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704140",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704140_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"brimonidine\" outputclass=\"int-drug\">brimonidine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  brimonidine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Brimonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704141",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704141_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"bupivacaine\" outputclass=\"int-drug\">bupivacaine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  bupivacaine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bupivacaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704142",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704142_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"buprenorphine\" outputclass=\"int-drug\">buprenorphine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  buprenorphine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Buprenorphine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704143",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704143_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"cannabis extract\" outputclass=\"int-drug\">cannabis extract</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  cannabis extract  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cannabis extract</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704144",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704144_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"cariprazine\" outputclass=\"int-drug\">cariprazine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  cariprazine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cariprazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704145",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704145_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"chloral hydrate\" outputclass=\"int-drug\">chloral hydrate</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  chloral hydrate  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chloral hydrate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704146",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704146_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"chlordiazepoxide\" outputclass=\"int-drug\">chlordiazepoxide</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  chlordiazepoxide  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlordiazepoxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704147",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704147_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"chlorpromazine\" outputclass=\"int-drug\">chlorpromazine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  chlorpromazine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704147_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"chlorpromazine\" outputclass=\"int-drug\">chlorpromazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  cyproheptadine  and  chlorpromazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorpromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704148",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704148_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">Cyproheptadine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"citalopram\" outputclass=\"int-drug\">citalopram</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cyproheptadine   potentially   decreases   the effects of   citalopram .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Citalopram</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704149",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704149_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"clobazam\" outputclass=\"int-drug\">clobazam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  clobazam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clobazam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704150",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704150_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"clomethiazole\" outputclass=\"int-drug\">clomethiazole</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  clomethiazole  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clomethiazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704151",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704151_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"clomipramine\" outputclass=\"int-drug\">clomipramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  clomipramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clomipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704152",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704152_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"clonazepam\" outputclass=\"int-drug\">clonazepam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  clonazepam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clonazepam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704153",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704153_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"clonidine\" outputclass=\"int-drug\">clonidine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  clonidine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704154",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704154_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"clozapine\" outputclass=\"int-drug\">clozapine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  clozapine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704154_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"clozapine\" outputclass=\"int-drug\">clozapine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  cyproheptadine  and  clozapine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clozapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704155",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704155_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"codeine\" outputclass=\"int-drug\">codeine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  codeine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Codeine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704156",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704156_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"cyclopentolate\" outputclass=\"int-drug\">cyclopentolate</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  cyclopentolate  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyclopentolate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704157",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704157_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">Cyproheptadine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"dapoxetine\" outputclass=\"int-drug\">dapoxetine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cyproheptadine   potentially   decreases   the effects of   dapoxetine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dapoxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704158",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704158_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"darifenacin\" outputclass=\"int-drug\">darifenacin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  darifenacin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Darifenacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704159",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704159_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"desflurane\" outputclass=\"int-drug\">desflurane</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  desflurane  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Desflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704160",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704160_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"dexmedetomidine\" outputclass=\"int-drug\">dexmedetomidine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  dexmedetomidine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexmedetomidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704161",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704161_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"diamorphine\" outputclass=\"int-drug\">diamorphine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  diamorphine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diamorphine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704162",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704162_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"diazepam\" outputclass=\"int-drug\">diazepam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  diazepam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diazepam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704163",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704163_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"dicycloverine\" outputclass=\"int-drug\">dicycloverine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  dicycloverine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dicycloverine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704164",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704164_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"dihydrocodeine\" outputclass=\"int-drug\">dihydrocodeine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  dihydrocodeine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dihydrocodeine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704165",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704165_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"dimenhydrinate\" outputclass=\"int-drug\">dimenhydrinate</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  dimenhydrinate  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dimenhydrinate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704166",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704166_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"dipipanone\" outputclass=\"int-drug\">dipipanone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  dipipanone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dipipanone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704167",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704167_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"disopyramide\" outputclass=\"int-drug\">disopyramide</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  disopyramide  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Disopyramide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704168",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704168_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"dosulepin\" outputclass=\"int-drug\">dosulepin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  dosulepin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dosulepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704169",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704169_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"doxepin\" outputclass=\"int-drug\">doxepin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  doxepin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704170",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704170_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"droperidol\" outputclass=\"int-drug\">droperidol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  droperidol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Droperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704171",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704171_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">Cyproheptadine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"escitalopram\" outputclass=\"int-drug\">escitalopram</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cyproheptadine   potentially   decreases   the effects of   escitalopram .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Escitalopram</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704172",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704172_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"esketamine\" outputclass=\"int-drug\">esketamine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  esketamine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Esketamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704173",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704173_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"etomidate\" outputclass=\"int-drug\">etomidate</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  etomidate  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etomidate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704174",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704174_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"fentanyl\" outputclass=\"int-drug\">fentanyl</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  fentanyl  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fentanyl</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704175",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704175_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"fesoterodine\" outputclass=\"int-drug\">fesoterodine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  fesoterodine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fesoterodine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704176",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704176_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"flavoxate\" outputclass=\"int-drug\">flavoxate</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  flavoxate  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flavoxate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704177",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704177_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">Cyproheptadine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"fluoxetine\" outputclass=\"int-drug\">fluoxetine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cyproheptadine   potentially   decreases   the effects of   fluoxetine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluoxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704178",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704178_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"flupentixol\" outputclass=\"int-drug\">flupentixol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  flupentixol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flupentixol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704179",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704179_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"fluphenazine\" outputclass=\"int-drug\">fluphenazine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  fluphenazine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluphenazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704180",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704180_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"flurazepam\" outputclass=\"int-drug\">flurazepam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  flurazepam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "57",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flurazepam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704181",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704181_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">Cyproheptadine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"fluvoxamine\" outputclass=\"int-drug\">fluvoxamine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cyproheptadine   potentially   decreases   the effects of   fluvoxamine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluvoxamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704182",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704182_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"gabapentin\" outputclass=\"int-drug\">gabapentin</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  gabapentin  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "59",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gabapentin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704183",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704183_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"glycopyrronium\" outputclass=\"int-drug\">glycopyrronium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  glycopyrronium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "60",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glycopyrronium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704184",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704184_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"guanfacine\" outputclass=\"int-drug\">guanfacine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  guanfacine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "61",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Guanfacine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704185",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704185_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"haloperidol\" outputclass=\"int-drug\">haloperidol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  haloperidol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704185_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"haloperidol\" outputclass=\"int-drug\">haloperidol</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  cyproheptadine  and  haloperidol  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "62",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Haloperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704186",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704186_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"homatropine\" outputclass=\"int-drug\">homatropine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  homatropine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "63",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Homatropine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704187",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704187_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"hydromorphone\" outputclass=\"int-drug\">hydromorphone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  hydromorphone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "64",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydromorphone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704188",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704188_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"hyoscine\" outputclass=\"int-drug\">hyoscine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  hyoscine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "65",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hyoscine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704189",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704189_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"imipramine\" outputclass=\"int-drug\">imipramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  imipramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "66",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704190",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704190_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"ipratropium\" outputclass=\"int-drug\">ipratropium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  ipratropium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "67",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ipratropium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704191",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704191_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"isocarboxazid\" outputclass=\"int-drug\">Isocarboxazid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of antimuscarinic side-effects when given with</ph> <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Isocarboxazid   is predicted to   increase   the risk of antimuscarinic side-effects when given with   cyproheptadine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "68",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isocarboxazid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704192",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704192_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"isoflurane\" outputclass=\"int-drug\">isoflurane</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  isoflurane  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "69",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isoflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704193",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704193_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"ketamine\" outputclass=\"int-drug\">ketamine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  ketamine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "70",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704194",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704194_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"lamotrigine\" outputclass=\"int-drug\">lamotrigine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  lamotrigine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "71",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lamotrigine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704195",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704195_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"levetiracetam\" outputclass=\"int-drug\">levetiracetam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  levetiracetam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "72",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levetiracetam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704196",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704196_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">Cyproheptadine</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"levodopa\" outputclass=\"int-drug\">levodopa</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cyproheptadine   decreases   the absorption of   levodopa .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "73",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levodopa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704197",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704197_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"levomepromazine\" outputclass=\"int-drug\">levomepromazine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  levomepromazine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704197_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"levomepromazine\" outputclass=\"int-drug\">levomepromazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  cyproheptadine  and  levomepromazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "74",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levomepromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704198",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704198_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"lidocaine\" outputclass=\"int-drug\">lidocaine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  lidocaine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "75",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lidocaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704199",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704199_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"lofepramine\" outputclass=\"int-drug\">lofepramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  lofepramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "76",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lofepramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704200",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704200_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"lofexidine\" outputclass=\"int-drug\">lofexidine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  lofexidine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "77",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lofexidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704201",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704201_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"loprazolam\" outputclass=\"int-drug\">loprazolam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  loprazolam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "78",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Loprazolam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704202",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704202_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"lorazepam\" outputclass=\"int-drug\">lorazepam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  lorazepam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "79",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lorazepam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704203",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704203_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"lormetazepam\" outputclass=\"int-drug\">lormetazepam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  lormetazepam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "80",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lormetazepam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704204",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704204_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"loxapine\" outputclass=\"int-drug\">loxapine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  loxapine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704204_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"loxapine\" outputclass=\"int-drug\">loxapine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  cyproheptadine  and  loxapine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "81",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Loxapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704205",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704205_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"lurasidone\" outputclass=\"int-drug\">lurasidone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  lurasidone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "82",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lurasidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704206",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704206_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"melatonin\" outputclass=\"int-drug\">melatonin</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  melatonin  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "83",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Melatonin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704207",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704207_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"mepivacaine\" outputclass=\"int-drug\">mepivacaine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  mepivacaine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "84",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mepivacaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704208",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704208_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"meprobamate\" outputclass=\"int-drug\">meprobamate</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  meprobamate  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "85",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Meprobamate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704209",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704209_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"meptazinol\" outputclass=\"int-drug\">meptazinol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  meptazinol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "86",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Meptazinol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704210",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704210_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"methadone\" outputclass=\"int-drug\">methadone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  methadone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "87",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methadone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704211",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704211_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"methocarbamol\" outputclass=\"int-drug\">methocarbamol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  methocarbamol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "88",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methocarbamol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704212",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704212_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"methoxyflurane\" outputclass=\"int-drug\">methoxyflurane</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  methoxyflurane  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "89",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methoxyflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704213",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704213_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">Cyproheptadine</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"metyrapone\" outputclass=\"int-drug\">metyrapone</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cyproheptadine   decreases   the effects of   metyrapone .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "90",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metyrapone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704214",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704214_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"mianserin\" outputclass=\"int-drug\">mianserin</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  mianserin  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "91",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mianserin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704215",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704215_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"midazolam\" outputclass=\"int-drug\">midazolam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  midazolam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "92",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Midazolam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704216",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704216_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"mirtazapine\" outputclass=\"int-drug\">mirtazapine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  mirtazapine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "93",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mirtazapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704217",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704217_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"morphine\" outputclass=\"int-drug\">morphine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  morphine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "94",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Morphine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704218",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704218_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"moxonidine\" outputclass=\"int-drug\">moxonidine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  moxonidine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "95",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Moxonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704219",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704219_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"nabilone\" outputclass=\"int-drug\">nabilone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  nabilone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "96",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nabilone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704220",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704220_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"nefopam\" outputclass=\"int-drug\">nefopam</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  nefopam  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "97",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nefopam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704221",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704221_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"nitrazepam\" outputclass=\"int-drug\">nitrazepam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  nitrazepam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "98",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nitrazepam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704222",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704222_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"nitrous oxide\" outputclass=\"int-drug\">nitrous oxide</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  nitrous oxide  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "99",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nitrous oxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704223",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704223_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"nortriptyline\" outputclass=\"int-drug\">nortriptyline</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  nortriptyline  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "100",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nortriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704224",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704224_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"olanzapine\" outputclass=\"int-drug\">olanzapine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  olanzapine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "101",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olanzapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704225",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704225_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"orphenadrine\" outputclass=\"int-drug\">orphenadrine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  orphenadrine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "102",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Orphenadrine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704226",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704226_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"oxazepam\" outputclass=\"int-drug\">oxazepam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  oxazepam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "103",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxazepam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704227",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704227_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"oxybutynin\" outputclass=\"int-drug\">oxybutynin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  oxybutynin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "104",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxybutynin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704228",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704228_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"oxycodone\" outputclass=\"int-drug\">oxycodone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  oxycodone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "105",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxycodone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704229",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704229_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"paliperidone\" outputclass=\"int-drug\">paliperidone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  paliperidone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "106",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paliperidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704230",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704230_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"papaveretum\" outputclass=\"int-drug\">papaveretum</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  papaveretum  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "107",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Papaveretum</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704231",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704231_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">Cyproheptadine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"paroxetine\" outputclass=\"int-drug\">paroxetine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cyproheptadine   potentially   decreases   the effects of   paroxetine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "108",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paroxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704232",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704232_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"pentazocine\" outputclass=\"int-drug\">pentazocine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  pentazocine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "109",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentazocine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704233",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704233_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"perampanel\" outputclass=\"int-drug\">perampanel</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  perampanel  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "110",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Perampanel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704234",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704234_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"pericyazine\" outputclass=\"int-drug\">pericyazine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  pericyazine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "111",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pericyazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704235",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704235_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"pethidine\" outputclass=\"int-drug\">pethidine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  pethidine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "112",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pethidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704236",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704236_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenelzine\" outputclass=\"int-drug\">Phenelzine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of antimuscarinic side-effects when given with</ph> <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenelzine   is predicted to   increase   the risk of antimuscarinic side-effects when given with   cyproheptadine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "113",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenelzine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704237",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704237_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">phenobarbital</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  phenobarbital  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "114",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704238",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704238_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"pimozide\" outputclass=\"int-drug\">pimozide</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  pimozide  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704238_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"pimozide\" outputclass=\"int-drug\">pimozide</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  cyproheptadine  and  pimozide  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "115",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pimozide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704239",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704239_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">Cyproheptadine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"pitolisant\" outputclass=\"int-drug\">pitolisant</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cyproheptadine   is predicted to   decrease   the efficacy of   pitolisant .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "116",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pitolisant</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704240",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704240_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"pregabalin\" outputclass=\"int-drug\">pregabalin</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  pregabalin  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "117",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pregabalin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704241",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704241_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"prilocaine\" outputclass=\"int-drug\">prilocaine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  prilocaine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "118",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prilocaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704242",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704242_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"primidone\" outputclass=\"int-drug\">primidone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  primidone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "119",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704243",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704243_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"prochlorperazine\" outputclass=\"int-drug\">prochlorperazine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  prochlorperazine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704243_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"prochlorperazine\" outputclass=\"int-drug\">prochlorperazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  cyproheptadine  and  prochlorperazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "120",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prochlorperazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704244",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704244_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"procyclidine\" outputclass=\"int-drug\">procyclidine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  procyclidine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "121",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Procyclidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704245",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704245_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"promazine\" outputclass=\"int-drug\">promazine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  promazine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "122",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Promazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704246",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704246_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"propafenone\" outputclass=\"int-drug\">propafenone</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  propafenone  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "123",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propafenone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704247",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704247_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"propantheline\" outputclass=\"int-drug\">propantheline</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  propantheline  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "124",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propantheline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704248",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704248_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"propiverine\" outputclass=\"int-drug\">propiverine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  propiverine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "125",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propiverine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704249",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704249_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"propofol\" outputclass=\"int-drug\">propofol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  propofol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "126",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propofol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704250",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704250_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"quetiapine\" outputclass=\"int-drug\">quetiapine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  quetiapine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "127",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Quetiapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704251",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704251_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"remifentanil\" outputclass=\"int-drug\">remifentanil</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  remifentanil  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "128",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Remifentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704252",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704252_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"risperidone\" outputclass=\"int-drug\">risperidone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  risperidone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "129",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Risperidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704253",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704253_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"ropivacaine\" outputclass=\"int-drug\">ropivacaine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  ropivacaine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "130",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ropivacaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704254",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704254_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">Cyproheptadine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"sertraline\" outputclass=\"int-drug\">sertraline</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cyproheptadine   potentially   decreases   the effects of   sertraline .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "131",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sertraline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704255",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704255_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"sevoflurane\" outputclass=\"int-drug\">sevoflurane</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  sevoflurane  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "132",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sevoflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704256",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704256_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"sodium oxybate\" outputclass=\"int-drug\">sodium oxybate</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  sodium oxybate  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "133",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sodium oxybate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704257",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704257_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"solifenacin\" outputclass=\"int-drug\">solifenacin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  solifenacin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "134",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Solifenacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704258",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704258_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"sufentanil\" outputclass=\"int-drug\">sufentanil</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  sufentanil  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "135",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sufentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704259",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704259_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"sulpiride\" outputclass=\"int-drug\">sulpiride</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  sulpiride  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "136",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulpiride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704260",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704260_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"tapentadol\" outputclass=\"int-drug\">tapentadol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  tapentadol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "137",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tapentadol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704261",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704261_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"temazepam\" outputclass=\"int-drug\">temazepam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  temazepam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "138",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Temazepam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704262",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704262_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"tetracaine\" outputclass=\"int-drug\">tetracaine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  tetracaine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "139",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tetracaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704263",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704263_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"thalidomide\" outputclass=\"int-drug\">thalidomide</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  thalidomide  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "140",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704264",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704264_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"thiopental\" outputclass=\"int-drug\">thiopental</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  thiopental  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "141",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thiopental</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704265",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704265_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"tiotropium\" outputclass=\"int-drug\">tiotropium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  tiotropium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "142",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tiotropium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704266",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704266_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"tizanidine\" outputclass=\"int-drug\">tizanidine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  tizanidine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "143",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tizanidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704267",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704267_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"tolterodine\" outputclass=\"int-drug\">tolterodine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  tolterodine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "144",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolterodine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704268",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704268_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"tramadol\" outputclass=\"int-drug\">tramadol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  tramadol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "145",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tramadol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704269",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704269_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tranylcypromine\" outputclass=\"int-drug\">Tranylcypromine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of antimuscarinic side-effects when given with</ph> <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tranylcypromine   is predicted to   increase   the risk of antimuscarinic side-effects when given with   cyproheptadine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "146",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tranylcypromine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704270",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704270_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"trazodone\" outputclass=\"int-drug\">trazodone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  trazodone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "147",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trazodone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704271",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704271_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"trifluoperazine\" outputclass=\"int-drug\">trifluoperazine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  trifluoperazine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704271_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"trifluoperazine\" outputclass=\"int-drug\">trifluoperazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  cyproheptadine  and  trifluoperazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "148",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trifluoperazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704272",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704272_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-drug\">trihexyphenidyl</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  trihexyphenidyl  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "149",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trihexyphenidyl</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704273",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704273_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"trimipramine\" outputclass=\"int-drug\">trimipramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  trimipramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "150",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trimipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704274",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704274_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"tropicamide\" outputclass=\"int-drug\">tropicamide</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  tropicamide  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "151",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tropicamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704275",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704275_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"trospium\" outputclass=\"int-drug\">trospium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  trospium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "152",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trospium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704276",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704276_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"umeclidinium\" outputclass=\"int-drug\">umeclidinium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  umeclidinium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "153",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Umeclidinium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704277",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704277_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"venlafaxine\" outputclass=\"int-drug\">venlafaxine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  venlafaxine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "154",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Venlafaxine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704278",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704278_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"zolpidem\" outputclass=\"int-drug\">zolpidem</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  zolpidem  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "155",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zolpidem</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704279",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704279_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"zopiclone\" outputclass=\"int-drug\">zopiclone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  zopiclone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "156",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zopiclone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704280",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine#bnf_i1557280704280_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"cyproheptadine\" outputclass=\"int-heading-drug\">cyproheptadine</ph> and <ph otherprops=\"zuclopenthixol\" outputclass=\"int-drug\">zuclopenthixol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  cyproheptadine  and  zuclopenthixol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "157",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zuclopenthixol</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Cyproheptadine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/cyproheptadine.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Cyproheptadine </title>"
+			},
+			"rdfs:label": "cyproheptadine"
+		}
+	]
+}

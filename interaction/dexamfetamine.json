@@ -1,0 +1,1387 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707619",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707619_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"St John's Wort\" outputclass=\"int-drug\">St John's Wort</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  St John's Wort  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>St John's Wort</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707620",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707620_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"almotriptan\" outputclass=\"int-drug\">almotriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  almotriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Almotriptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707621",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707621_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">Dexamfetamine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"apraclonidine\" outputclass=\"int-drug\">apraclonidine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dexamfetamine   is predicted to   decrease   the effects of   apraclonidine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apraclonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707622",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707622_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">Dexamfetamine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of side-effects when given with</ph> <ph otherprops=\"atomoxetine\" outputclass=\"int-drug\">atomoxetine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dexamfetamine   is predicted to   increase   the risk of side-effects when given with   atomoxetine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atomoxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707623",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707623_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"bupropion\" outputclass=\"int-drug\">bupropion</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  bupropion  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bupropion</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707624",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707624_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"buspirone\" outputclass=\"int-drug\">buspirone</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  buspirone  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Buspirone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707625",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707625_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chlorpromazine\" outputclass=\"int-drug\">Chlorpromazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"chlorpromazine\" outputclass=\"int-drug\">chlorpromazine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chlorpromazine   is predicted to   decrease   the effects of   dexamfetamine  and  dexamfetamine   is predicted to   decrease   the effects of   chlorpromazine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorpromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707626",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707626_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"citalopram\" outputclass=\"int-drug\">citalopram</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  citalopram  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Citalopram</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707627",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707627_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"clomipramine\" outputclass=\"int-drug\">clomipramine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  clomipramine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clomipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707628",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707628_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"dapoxetine\" outputclass=\"int-drug\">dapoxetine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  dapoxetine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dapoxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707629",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707629_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"duloxetine\" outputclass=\"int-drug\">duloxetine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  duloxetine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Duloxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707630",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707630_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"eletriptan\" outputclass=\"int-drug\">eletriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  eletriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eletriptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707631",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707631_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"escitalopram\" outputclass=\"int-drug\">escitalopram</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  escitalopram  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Escitalopram</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707632",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707632_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"fentanyl\" outputclass=\"int-drug\">fentanyl</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  fentanyl  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fentanyl</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707633",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707633_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"fluoxetine\" outputclass=\"int-drug\">fluoxetine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  fluoxetine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707633_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fluoxetine\" outputclass=\"int-drug\">Fluoxetine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Fluoxetine   is predicted to   increase   the exposure to   dexamfetamine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluoxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707634",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707634_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fluphenazine\" outputclass=\"int-drug\">Fluphenazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"fluphenazine\" outputclass=\"int-drug\">fluphenazine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fluphenazine   is predicted to   decrease   the effects of   dexamfetamine  and  dexamfetamine   is predicted to   decrease   the effects of   fluphenazine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluphenazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707635",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707635_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"fluvoxamine\" outputclass=\"int-drug\">fluvoxamine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  fluvoxamine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluvoxamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707636",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707636_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"frovatriptan\" outputclass=\"int-drug\">frovatriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  frovatriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Frovatriptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707637",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707637_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"granisetron\" outputclass=\"int-drug\">granisetron</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  granisetron  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Granisetron</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707638",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707638_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">Dexamfetamine</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"guanethidine\" outputclass=\"int-drug\">guanethidine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dexamfetamine   decreases   the effects of   guanethidine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Guanethidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707639",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707639_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"imipramine\" outputclass=\"int-drug\">imipramine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  imipramine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707640",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707640_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"isocarboxazid\" outputclass=\"int-drug\">isocarboxazid</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  isocarboxazid  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707640_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"isocarboxazid\" outputclass=\"int-drug\">Isocarboxazid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Isocarboxazid   is predicted to   increase   the risk of a hypertensive crisis when given with   dexamfetamine .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isocarboxazid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707641",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707641_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"levomepromazine\" outputclass=\"int-drug\">Levomepromazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"levomepromazine\" outputclass=\"int-drug\">levomepromazine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Levomepromazine   is predicted to   decrease   the effects of   dexamfetamine  and  dexamfetamine   is predicted to   decrease   the effects of   levomepromazine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levomepromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707642",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707642_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"linezolid\" outputclass=\"int-drug\">linezolid</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  linezolid  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Linezolid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707643",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707643_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"lithium\" outputclass=\"int-drug\">lithium</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  lithium  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lithium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707644",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707644_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"methadone\" outputclass=\"int-drug\">methadone</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  methadone  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methadone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707645",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707645_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"methylthioninium chloride\" outputclass=\"int-drug\">methylthioninium chloride</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  methylthioninium chloride  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methylthioninium chloride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707646",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707646_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"mianserin\" outputclass=\"int-drug\">mianserin</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  mianserin  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mianserin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707647",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707647_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"mirtazapine\" outputclass=\"int-drug\">mirtazapine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  mirtazapine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mirtazapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707648",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707648_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"moclobemide\" outputclass=\"int-drug\">moclobemide</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  moclobemide  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707648_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"moclobemide\" outputclass=\"int-drug\">Moclobemide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Moclobemide   is predicted to   increase   the risk of a hypertensive crisis when given with   dexamfetamine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Moclobemide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707649",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707649_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nabilone\" outputclass=\"int-drug\">Nabilone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiovascular side-effects when given with</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Nabilone   is predicted to   increase   the risk of cardiovascular side-effects when given with   dexamfetamine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nabilone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707650",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707650_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"naratriptan\" outputclass=\"int-drug\">naratriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  naratriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Naratriptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707651",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707651_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"ondansetron\" outputclass=\"int-drug\">ondansetron</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  ondansetron  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ondansetron</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707652",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707652_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"palonosetron\" outputclass=\"int-drug\">palonosetron</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  palonosetron  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Palonosetron</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707653",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707653_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"paroxetine\" outputclass=\"int-drug\">paroxetine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  paroxetine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707653_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"paroxetine\" outputclass=\"int-drug\">Paroxetine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Paroxetine   is predicted to   increase   the exposure to   dexamfetamine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paroxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707654",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707654_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"pentazocine\" outputclass=\"int-drug\">pentazocine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  pentazocine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentazocine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707655",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707655_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pericyazine\" outputclass=\"int-drug\">Pericyazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"pericyazine\" outputclass=\"int-drug\">pericyazine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pericyazine   is predicted to   decrease   the effects of   dexamfetamine  and  dexamfetamine   is predicted to   decrease   the effects of   pericyazine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pericyazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707656",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707656_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"pethidine\" outputclass=\"int-drug\">pethidine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  pethidine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pethidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707657",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707657_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"phenelzine\" outputclass=\"int-drug\">phenelzine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  phenelzine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707657_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenelzine\" outputclass=\"int-drug\">Phenelzine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Phenelzine   is predicted to   increase   the risk of a hypertensive crisis when given with   dexamfetamine .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenelzine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707658",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707658_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"procarbazine\" outputclass=\"int-drug\">procarbazine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  procarbazine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Procarbazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707659",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707659_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"prochlorperazine\" outputclass=\"int-drug\">Prochlorperazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"prochlorperazine\" outputclass=\"int-drug\">prochlorperazine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Prochlorperazine   is predicted to   decrease   the effects of   dexamfetamine  and  dexamfetamine   is predicted to   decrease   the effects of   prochlorperazine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prochlorperazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707660",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707660_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"promazine\" outputclass=\"int-drug\">Promazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"promazine\" outputclass=\"int-drug\">promazine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Promazine   is predicted to   decrease   the effects of   dexamfetamine  and  dexamfetamine   is predicted to   decrease   the effects of   promazine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Promazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707661",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707661_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"rasagiline\" outputclass=\"int-drug\">rasagiline</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  rasagiline  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707661_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rasagiline\" outputclass=\"int-drug\">Rasagiline</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of severe hypertension when given with</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Rasagiline   is predicted to   increase   the risk of severe hypertension when given with   dexamfetamine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rasagiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707662",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707662_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ritonavir\" outputclass=\"int-drug\">Ritonavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ritonavir   is predicted to   increase   the exposure to   dexamfetamine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ritonavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707663",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707663_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"rizatriptan\" outputclass=\"int-drug\">rizatriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  rizatriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rizatriptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707664",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707664_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"safinamide\" outputclass=\"int-drug\">safinamide</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  safinamide  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707664_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"safinamide\" outputclass=\"int-drug\">Safinamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of severe hypertension when given with</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Safinamide   is predicted to   increase   the risk of severe hypertension when given with   dexamfetamine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Safinamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707665",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707665_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"selegiline\" outputclass=\"int-drug\">selegiline</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  selegiline  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707665_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"selegiline\" outputclass=\"int-drug\">Selegiline</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of severe hypertension when given with</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Selegiline   is predicted to   increase   the risk of severe hypertension when given with   dexamfetamine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Selegiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707666",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707666_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"sertraline\" outputclass=\"int-drug\">sertraline</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  sertraline  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sertraline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707667",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707667_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"sumatriptan\" outputclass=\"int-drug\">sumatriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  sumatriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sumatriptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707668",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707668_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"tapentadol\" outputclass=\"int-drug\">tapentadol</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  tapentadol  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tapentadol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707669",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707669_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tipranavir\" outputclass=\"int-drug\">Tipranavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tipranavir   is predicted to   increase   the exposure to   dexamfetamine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tipranavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707670",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707670_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"tramadol\" outputclass=\"int-drug\">tramadol</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  tramadol  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tramadol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707671",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707671_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"tranylcypromine\" outputclass=\"int-drug\">tranylcypromine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  tranylcypromine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707671_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tranylcypromine\" outputclass=\"int-drug\">Tranylcypromine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Tranylcypromine   is predicted to   increase   the risk of a hypertensive crisis when given with   dexamfetamine .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tranylcypromine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707672",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707672_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"trazodone\" outputclass=\"int-drug\">trazodone</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  trazodone  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trazodone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707673",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707673_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"trifluoperazine\" outputclass=\"int-drug\">Trifluoperazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"trifluoperazine\" outputclass=\"int-drug\">trifluoperazine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Trifluoperazine   is predicted to   decrease   the effects of   dexamfetamine  and  dexamfetamine   is predicted to   decrease   the effects of   trifluoperazine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trifluoperazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707674",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707674_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"tryptophan\" outputclass=\"int-drug\">tryptophan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  tryptophan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tryptophan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707675",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707675_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"venlafaxine\" outputclass=\"int-drug\">venlafaxine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  venlafaxine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "57",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Venlafaxine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707676",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707676_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"vortioxetine\" outputclass=\"int-drug\">vortioxetine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  vortioxetine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vortioxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707677",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine#bnf_i1557280707677_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dexamfetamine\" outputclass=\"int-heading-drug\">dexamfetamine</ph> and <ph otherprops=\"zolmitriptan\" outputclass=\"int-drug\">zolmitriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dexamfetamine  and  zolmitriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "59",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zolmitriptan</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Dexamfetamine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/dexamfetamine.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Dexamfetamine </title>"
+			},
+			"rdfs:label": "dexamfetamine"
+		}
+	]
+}

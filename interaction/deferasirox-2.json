@@ -1,0 +1,1309 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706584",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706584_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"aceclofenac\" outputclass=\"int-drug\">Aceclofenac</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Aceclofenac   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aceclofenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706585",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706585_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"alendronic acid\" outputclass=\"int-drug\">Alendronic acid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Alendronic acid   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alendronic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706586",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706586_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"aluminium hydroxide\" outputclass=\"int-drug\">Aluminium hydroxide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Aluminium hydroxide   is predicted to   decrease   the exposure to   deferasirox .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aluminium hydroxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706587",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706587_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">Deferasirox</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"aminophylline\" outputclass=\"int-drug\">aminophylline</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Deferasirox   is predicted to   increase   the exposure to   aminophylline .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aminophylline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706588",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706588_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"aspirin\" outputclass=\"int-drug\">Aspirin</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeds when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Aspirin   (high-dose)   is predicted to   increase   the risk of gastrointestinal bleeds when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aspirin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706589",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706589_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"beclometasone\" outputclass=\"int-drug\">Beclometasone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Beclometasone   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Beclometasone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706590",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706590_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"benzydamine\" outputclass=\"int-drug\">Benzydamine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Benzydamine   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Benzydamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706591",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706591_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"betamethasone\" outputclass=\"int-drug\">Betamethasone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Betamethasone   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Betamethasone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706592",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706592_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bromfenac\" outputclass=\"int-drug\">Bromfenac</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bromfenac   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bromfenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706593",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706593_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"budesonide\" outputclass=\"int-drug\">Budesonide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Budesonide   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Budesonide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706594",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706594_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor serum ferritin and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Carbamazepine   is predicted to   decrease   the exposure to   deferasirox .  Manufacturer advises monitor serum ferritin and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706595",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706595_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"celecoxib\" outputclass=\"int-drug\">Celecoxib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Celecoxib   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Celecoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706596",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706596_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ciclesonide\" outputclass=\"int-drug\">Ciclesonide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ciclesonide   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciclesonide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706597",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706597_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">Deferasirox</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"clozapine\" outputclass=\"int-drug\">clozapine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Deferasirox   is predicted to   increase   the exposure to   clozapine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clozapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706598",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706598_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"deflazacort\" outputclass=\"int-drug\">Deflazacort</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Deflazacort   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Deflazacort</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706599",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706599_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dexamethasone\" outputclass=\"int-drug\">Dexamethasone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dexamethasone   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexamethasone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706600",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706600_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dexibuprofen\" outputclass=\"int-drug\">Dexibuprofen</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dexibuprofen   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexibuprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706601",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706601_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dexketoprofen\" outputclass=\"int-drug\">Dexketoprofen</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dexketoprofen   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexketoprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706602",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706602_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"diclofenac\" outputclass=\"int-drug\">Diclofenac</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Diclofenac   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diclofenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706603",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706603_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"etodolac\" outputclass=\"int-drug\">Etodolac</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Etodolac   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etodolac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706604",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706604_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"etoricoxib\" outputclass=\"int-drug\">Etoricoxib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Etoricoxib   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etoricoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706605",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706605_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"felbinac\" outputclass=\"int-drug\">Felbinac</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Felbinac   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Felbinac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706606",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706606_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fludrocortisone\" outputclass=\"int-drug\">Fludrocortisone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fludrocortisone   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fludrocortisone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706607",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706607_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"flurbiprofen\" outputclass=\"int-drug\">Flurbiprofen</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Flurbiprofen   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flurbiprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706608",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706608_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fluticasone\" outputclass=\"int-drug\">Fluticasone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fluticasone   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluticasone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706609",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706609_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor serum ferritin and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fosphenytoin   is predicted to   decrease   the exposure to   deferasirox .  Manufacturer advises monitor serum ferritin and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706610",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706610_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"hydrocortisone\" outputclass=\"int-drug\">Hydrocortisone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Hydrocortisone   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydrocortisone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706611",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706611_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ibandronic acid\" outputclass=\"int-drug\">Ibandronic acid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ibandronic acid   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibandronic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706612",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706612_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ibuprofen\" outputclass=\"int-drug\">Ibuprofen</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ibuprofen   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibuprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706613",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706613_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"indometacin\" outputclass=\"int-drug\">Indometacin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Indometacin   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Indometacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706614",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706614_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ketoprofen\" outputclass=\"int-drug\">Ketoprofen</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ketoprofen   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketoprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706615",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706615_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ketorolac\" outputclass=\"int-drug\">Ketorolac</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ketorolac   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketorolac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706616",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706616_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mefenamic acid\" outputclass=\"int-drug\">Mefenamic acid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Mefenamic acid   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mefenamic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706617",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706617_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"meloxicam\" outputclass=\"int-drug\">Meloxicam</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Meloxicam   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Meloxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706618",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706618_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylprednisolone\" outputclass=\"int-drug\">Methylprednisolone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Methylprednisolone   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methylprednisolone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706619",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706619_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mometasone\" outputclass=\"int-drug\">Mometasone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Mometasone   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mometasone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706620",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706620_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nabumetone\" outputclass=\"int-drug\">Nabumetone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Nabumetone   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nabumetone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706621",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706621_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"naproxen\" outputclass=\"int-drug\">Naproxen</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Naproxen   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Naproxen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706622",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706622_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nepafenac\" outputclass=\"int-drug\">Nepafenac</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Nepafenac   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nepafenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706623",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706623_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"pamidronate\" outputclass=\"int-drug\">Pamidronate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Pamidronate   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pamidronate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706624",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706624_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"parecoxib\" outputclass=\"int-drug\">Parecoxib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Parecoxib   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Parecoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706625",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706625_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor serum ferritin and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Phenobarbital   is predicted to   decrease   the exposure to   deferasirox .  Manufacturer advises monitor serum ferritin and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706626",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706626_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor serum ferritin and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Phenytoin   is predicted to   decrease   the exposure to   deferasirox .  Manufacturer advises monitor serum ferritin and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706627",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706627_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"piroxicam\" outputclass=\"int-drug\">Piroxicam</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Piroxicam   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Piroxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706628",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706628_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"prednisolone\" outputclass=\"int-drug\">Prednisolone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Prednisolone   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prednisolone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706629",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706629_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor serum ferritin and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Primidone   is predicted to   decrease   the exposure to   deferasirox .  Manufacturer advises monitor serum ferritin and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706630",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706630_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">Deferasirox</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"repaglinide\" outputclass=\"int-drug\">repaglinide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Deferasirox   moderately   increases   the exposure to   repaglinide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Repaglinide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706631",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706631_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor serum ferritin and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   is predicted to   decrease   the exposure to   deferasirox .  Manufacturer advises monitor serum ferritin and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706632",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706632_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"risedronate\" outputclass=\"int-drug\">Risedronate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Risedronate   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Risedronate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706633",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706633_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ritonavir\" outputclass=\"int-drug\">Ritonavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor serum ferritin and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ritonavir   is predicted to   decrease   the exposure to   deferasirox .  Manufacturer advises monitor serum ferritin and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ritonavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706634",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706634_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">Deferasirox</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"selexipag\" outputclass=\"int-drug\">selexipag</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Deferasirox   is predicted to   increase   the exposure to   selexipag .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Selexipag</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706635",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706635_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"sodium clodronate\" outputclass=\"int-drug\">Sodium clodronate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Sodium clodronate   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sodium clodronate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706636",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706636_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"sulindac\" outputclass=\"int-drug\">Sulindac</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Sulindac   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulindac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706637",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706637_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tenoxicam\" outputclass=\"int-drug\">Tenoxicam</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tenoxicam   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tenoxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706638",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706638_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">Deferasirox</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"theophylline\" outputclass=\"int-drug\">theophylline</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Deferasirox   increases   the exposure to   theophylline .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Theophylline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706639",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706639_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tiaprofenic acid\" outputclass=\"int-drug\">Tiaprofenic acid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tiaprofenic acid   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tiaprofenic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706640",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706640_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">Deferasirox</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tizanidine\" outputclass=\"int-drug\">tizanidine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Deferasirox   is predicted to   increase   the exposure to   tizanidine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "57",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tizanidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706641",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706641_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tolfenamic acid\" outputclass=\"int-drug\">Tolfenamic acid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tolfenamic acid   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolfenamic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706642",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706642_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"triamcinolone\" outputclass=\"int-drug\">Triamcinolone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Triamcinolone   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "59",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Triamcinolone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706643",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2#bnf_i1557280706643_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"zoledronic acid\" outputclass=\"int-drug\">Zoledronic acid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-heading-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Zoledronic acid   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "60",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zoledronic acid</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Deferasirox  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/deferasirox-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Deferasirox </title>"
+			},
+			"rdfs:label": "deferasirox"
+		}
+	]
+}

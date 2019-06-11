@@ -1,0 +1,763 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710235",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710235_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"aluminium hydroxide\" outputclass=\"int-drug\">Aluminium hydroxide</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/dolutegravir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP34479\">dolutegravir</xref></ph> should be taken 2 hours before or 6 hours after <ph otherprops=\"aluminium hydroxide\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/aluminium-hydroxide.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP287\">aluminium hydroxide</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Aluminium hydroxide   moderately   decreases   the exposure to   dolutegravir .  Manufacturer advises  dolutegravir  should be taken 2 hours before or 6 hours after  aluminium hydroxide .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aluminium hydroxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710236",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710236_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bosentan\" outputclass=\"int-drug\">Bosentan</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bosentan   decreases   the exposure to   dolutegravir .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosentan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710237",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710237_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium acetate\" outputclass=\"int-drug\">calcium acetate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/dolutegravir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP34479\">dolutegravir</xref></ph> should be taken 2 hours before or 6 hours after <ph otherprops=\"calcium acetate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-acetate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP104228\">calcium acetate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium acetate   decreases   the absorption of   dolutegravir .  Manufacturer advises  dolutegravir  should be taken 2 hours before or 6 hours after  calcium acetate .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium acetate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710238",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710238_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-drug\">calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/dolutegravir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP34479\">dolutegravir</xref></ph> should be taken 2 hours before or 6 hours after <ph otherprops=\"calcium carbonate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium carbonate   decreases   the absorption of   dolutegravir .  Manufacturer advises  dolutegravir  should be taken 2 hours before or 6 hours after  calcium carbonate .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium carbonate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710239",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710239_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium chloride\" outputclass=\"int-drug\">calcium chloride</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/dolutegravir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP34479\">dolutegravir</xref></ph> should be taken 2 hours before or 6 hours after <ph otherprops=\"calcium chloride\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-chloride.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93603\">calcium chloride</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium chloride   decreases   the absorption of   dolutegravir .  Manufacturer advises  dolutegravir  should be taken 2 hours before or 6 hours after  calcium chloride .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium chloride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710240",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710240_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-drug\">calcium gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/dolutegravir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP34479\">dolutegravir</xref></ph> should be taken 2 hours before or 6 hours after <ph otherprops=\"calcium gluconate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93600\">calcium gluconate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium gluconate   decreases   the absorption of   dolutegravir .  Manufacturer advises  dolutegravir  should be taken 2 hours before or 6 hours after  calcium gluconate .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium gluconate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710241",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710241_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium lactate\" outputclass=\"int-drug\">calcium lactate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/dolutegravir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP34479\">dolutegravir</xref></ph> should be taken 2 hours before or 6 hours after <ph otherprops=\"calcium lactate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-lactate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93601\">calcium lactate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium lactate   decreases   the absorption of   dolutegravir .  Manufacturer advises  dolutegravir  should be taken 2 hours before or 6 hours after  calcium lactate .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium lactate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710242",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710242_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium phosphate\" outputclass=\"int-drug\">calcium phosphate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/dolutegravir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP34479\">dolutegravir</xref></ph> should be taken 2 hours before or 6 hours after <ph otherprops=\"calcium phosphate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-phosphate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP107980\">calcium phosphate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium phosphate   decreases   the absorption of   dolutegravir .  Manufacturer advises  dolutegravir  should be taken 2 hours before or 6 hours after  calcium phosphate .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium phosphate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710243",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710243_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Carbamazepine   decreases   the exposure to   dolutegravir .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710244",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710244_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"efavirenz\" outputclass=\"int-drug\">Efavirenz</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Efavirenz   decreases   the exposure to   dolutegravir .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Efavirenz</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710245",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710245_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"encorafenib\" outputclass=\"int-drug\">Encorafenib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Encorafenib   is predicted to   increase   the exposure to   dolutegravir .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Encorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710246",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710246_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"enzalutamide\" outputclass=\"int-drug\">Enzalutamide</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Enzalutamide   decreases   the exposure to   dolutegravir .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enzalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710247",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710247_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"etravirine\" outputclass=\"int-drug\">Etravirine</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid unless given with atazanavir, darunavir, or lopinavir (all boosted with ritonavir)</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Etravirine   moderately   decreases   the exposure to   dolutegravir .  Manufacturer advises avoid unless given with atazanavir, darunavir, or lopinavir (all boosted with ritonavir) .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etravirine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710248",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710248_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferric maltol\" outputclass=\"int-drug\">Ferric maltol</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/dolutegravir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP34479\">dolutegravir</xref></ph> should be taken 2 hours before or 6 hours after <ph otherprops=\"ferric maltol\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ferric-maltol.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213389\">ferric maltol</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferric maltol   decreases   the absorption of   dolutegravir .  Manufacturer advises  dolutegravir  should be taken 2 hours before or 6 hours after  ferric maltol .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ferric maltol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710249",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710249_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous fumarate\" outputclass=\"int-drug\">Ferrous fumarate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/dolutegravir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP34479\">dolutegravir</xref></ph> should be taken 2 hours before or 6 hours after <ph otherprops=\"ferrous fumarate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ferrous-fumarate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5839\">ferrous fumarate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous fumarate   decreases   the absorption of   dolutegravir .  Manufacturer advises  dolutegravir  should be taken 2 hours before or 6 hours after  ferrous fumarate .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ferrous fumarate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710250",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710250_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/dolutegravir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP34479\">dolutegravir</xref></ph> should be taken 2 hours before or 6 hours after <ph otherprops=\"ferrous gluconate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the absorption of   dolutegravir .  Manufacturer advises  dolutegravir  should be taken 2 hours before or 6 hours after  ferrous gluconate .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ferrous gluconate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710251",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710251_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous sulfate\" outputclass=\"int-drug\">Ferrous sulfate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/dolutegravir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP34479\">dolutegravir</xref></ph> should be taken 2 hours before or 6 hours after <ph otherprops=\"ferrous sulfate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ferrous-sulfate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5823\">ferrous sulfate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous sulfate   decreases   the absorption of   dolutegravir .  Manufacturer advises  dolutegravir  should be taken 2 hours before or 6 hours after  ferrous sulfate .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ferrous sulfate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710252",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710252_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosamprenavir\" outputclass=\"int-drug\">Fosamprenavir</ph> <ph outputclass=\"int-substanceQualifier\">(boosted with ritonavir)</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid if resistant to HIV-integrase inhibitors</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fosamprenavir   (boosted with ritonavir)   slightly   decreases   the exposure to   dolutegravir .  Manufacturer advises avoid if resistant to HIV-integrase inhibitors .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosamprenavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710253",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710253_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fosphenytoin   decreases   the exposure to   dolutegravir .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710254",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710254_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium carbonate\" outputclass=\"int-drug\">Magnesium carbonate</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/dolutegravir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP34479\">dolutegravir</xref></ph> should be taken 2 hours before or 6 hours after <ph otherprops=\"magnesium carbonate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/magnesium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP298\">magnesium carbonate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Magnesium carbonate   moderately   decreases   the exposure to   dolutegravir .  Manufacturer advises  dolutegravir  should be taken 2 hours before or 6 hours after  magnesium carbonate .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Magnesium carbonate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710255",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710255_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium trisilicate\" outputclass=\"int-drug\">Magnesium trisilicate</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/dolutegravir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP34479\">dolutegravir</xref></ph> should be taken 2 hours before or 6 hours after <ph otherprops=\"magnesium trisilicate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/magnesium-trisilicate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP304\">magnesium trisilicate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Magnesium trisilicate   moderately   decreases   the exposure to   dolutegravir .  Manufacturer advises  dolutegravir  should be taken 2 hours before or 6 hours after  magnesium trisilicate .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Magnesium trisilicate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710256",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710256_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">Dolutegravir</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"metformin\" outputclass=\"int-drug\">metformin</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dolutegravir   increases   the exposure to   metformin .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metformin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710257",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710257_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mitotane\" outputclass=\"int-drug\">Mitotane</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Mitotane   decreases   the exposure to   dolutegravir .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitotane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710258",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710258_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nevirapine\" outputclass=\"int-drug\">Nevirapine</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Nevirapine   decreases   the exposure to   dolutegravir .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nevirapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710259",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710259_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the exposure to   dolutegravir .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxcarbazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710260",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710260_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenobarbital   decreases   the exposure to   dolutegravir .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710261",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710261_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenytoin   decreases   the exposure to   dolutegravir .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710262",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710262_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">Dolutegravir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pramipexole\" outputclass=\"int-drug\">pramipexole</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Dolutegravir   is predicted to   increase   the exposure to   pramipexole .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pramipexole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710263",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710263_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Primidone   decreases   the exposure to   dolutegravir .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710264",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710264_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   decreases   the exposure to   dolutegravir .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710265",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710265_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sodium feredetate\" outputclass=\"int-drug\">Sodium feredetate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/dolutegravir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP34479\">dolutegravir</xref></ph> should be taken 2 hours before or 6 hours after <ph otherprops=\"sodium feredetate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/sodium-feredetate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5855\">sodium feredetate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sodium feredetate   decreases   the absorption of   dolutegravir .  Manufacturer advises  dolutegravir  should be taken 2 hours before or 6 hours after  sodium feredetate .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sodium feredetate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710266",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710266_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"St John's Wort\" outputclass=\"int-drug\">St John's Wort</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "St John's Wort   decreases   the exposure to   dolutegravir .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>St John's Wort</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710267",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710267_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-drug\">Sucralfate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   decreases   the absorption of   dolutegravir .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sucralfate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710268",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2#bnf_i1557280710268_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tipranavir\" outputclass=\"int-drug\">Tipranavir</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-heading-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Refer to specialist literature</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tipranavir   moderately   decreases   the exposure to   dolutegravir .  Refer to specialist literature .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tipranavir</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Dolutegravir  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/dolutegravir-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Dolutegravir </title>"
+			},
+			"rdfs:label": "dolutegravir"
+		}
+	]
+}

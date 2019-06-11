@@ -1,0 +1,1120 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/dicycloverine",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708715",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708715_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"aclidinium\" outputclass=\"int-drug\">aclidinium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  aclidinium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aclidinium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708716",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708716_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"amantadine\" outputclass=\"int-drug\">amantadine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  amantadine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amantadine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708717",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708717_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"amitriptyline\" outputclass=\"int-drug\">amitriptyline</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  amitriptyline  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amitriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708718",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708718_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"atropine\" outputclass=\"int-drug\">atropine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  atropine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atropine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708719",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708719_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"baclofen\" outputclass=\"int-drug\">baclofen</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  baclofen  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Baclofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708720",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708720_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"chlorphenamine\" outputclass=\"int-drug\">chlorphenamine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  chlorphenamine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorphenamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708721",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708721_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"chlorpromazine\" outputclass=\"int-drug\">chlorpromazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  chlorpromazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorpromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708722",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708722_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"clemastine\" outputclass=\"int-drug\">clemastine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  clemastine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clemastine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708723",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708723_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"clomipramine\" outputclass=\"int-drug\">clomipramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  clomipramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clomipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708724",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708724_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"clozapine\" outputclass=\"int-drug\">clozapine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  clozapine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clozapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708725",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708725_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"cyclizine\" outputclass=\"int-drug\">cyclizine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  cyclizine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyclizine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708726",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708726_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"cyclopentolate\" outputclass=\"int-drug\">cyclopentolate</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  cyclopentolate  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyclopentolate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708727",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708727_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"cyproheptadine\" outputclass=\"int-drug\">cyproheptadine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  cyproheptadine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyproheptadine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708728",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708728_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"darifenacin\" outputclass=\"int-drug\">darifenacin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  darifenacin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Darifenacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708729",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708729_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"dimenhydrinate\" outputclass=\"int-drug\">dimenhydrinate</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  dimenhydrinate  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dimenhydrinate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708730",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708730_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"disopyramide\" outputclass=\"int-drug\">disopyramide</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  disopyramide  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Disopyramide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708731",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708731_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"dosulepin\" outputclass=\"int-drug\">dosulepin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  dosulepin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dosulepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708732",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708732_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"doxepin\" outputclass=\"int-drug\">doxepin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  doxepin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708733",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708733_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"fesoterodine\" outputclass=\"int-drug\">fesoterodine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  fesoterodine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fesoterodine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708734",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708734_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"flavoxate\" outputclass=\"int-drug\">flavoxate</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  flavoxate  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flavoxate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708735",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708735_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"glycopyrronium\" outputclass=\"int-drug\">glycopyrronium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  glycopyrronium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glycopyrronium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708736",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708736_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"haloperidol\" outputclass=\"int-drug\">haloperidol</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  haloperidol  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Haloperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708737",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708737_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"homatropine\" outputclass=\"int-drug\">homatropine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  homatropine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Homatropine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708738",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708738_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"hydroxyzine\" outputclass=\"int-drug\">hydroxyzine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  hydroxyzine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroxyzine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708739",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708739_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"hyoscine\" outputclass=\"int-drug\">hyoscine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  hyoscine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hyoscine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708740",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708740_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"imipramine\" outputclass=\"int-drug\">imipramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  imipramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708741",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708741_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"ipratropium\" outputclass=\"int-drug\">ipratropium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  ipratropium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ipratropium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708742",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708742_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">Dicycloverine</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"levodopa\" outputclass=\"int-drug\">levodopa</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Dicycloverine   decreases   the absorption of   levodopa .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levodopa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708743",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708743_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"levomepromazine\" outputclass=\"int-drug\">levomepromazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  levomepromazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levomepromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708744",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708744_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"lofepramine\" outputclass=\"int-drug\">lofepramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  lofepramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lofepramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708745",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708745_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"loxapine\" outputclass=\"int-drug\">loxapine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  loxapine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Loxapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708746",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708746_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"nefopam\" outputclass=\"int-drug\">nefopam</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  nefopam  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nefopam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708747",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708747_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"nortriptyline\" outputclass=\"int-drug\">nortriptyline</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  nortriptyline  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nortriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708748",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708748_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"orphenadrine\" outputclass=\"int-drug\">orphenadrine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  orphenadrine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Orphenadrine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708749",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708749_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"oxybutynin\" outputclass=\"int-drug\">oxybutynin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  oxybutynin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxybutynin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708750",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708750_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"pimozide\" outputclass=\"int-drug\">pimozide</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  pimozide  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pimozide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708751",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708751_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"prochlorperazine\" outputclass=\"int-drug\">prochlorperazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  prochlorperazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prochlorperazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708752",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708752_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"procyclidine\" outputclass=\"int-drug\">procyclidine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  procyclidine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Procyclidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708753",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708753_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"promethazine\" outputclass=\"int-drug\">promethazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  promethazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Promethazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708754",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708754_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"propafenone\" outputclass=\"int-drug\">propafenone</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  propafenone  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propafenone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708755",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708755_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"propantheline\" outputclass=\"int-drug\">propantheline</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  propantheline  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propantheline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708756",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708756_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"propiverine\" outputclass=\"int-drug\">propiverine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  propiverine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propiverine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708757",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708757_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"solifenacin\" outputclass=\"int-drug\">solifenacin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  solifenacin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Solifenacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708758",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708758_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"tiotropium\" outputclass=\"int-drug\">tiotropium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  tiotropium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tiotropium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708759",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708759_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"tolterodine\" outputclass=\"int-drug\">tolterodine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  tolterodine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolterodine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708760",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708760_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"trifluoperazine\" outputclass=\"int-drug\">trifluoperazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  trifluoperazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trifluoperazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708761",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708761_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-drug\">trihexyphenidyl</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  trihexyphenidyl  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trihexyphenidyl</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708762",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708762_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"trimipramine\" outputclass=\"int-drug\">trimipramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  trimipramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trimipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708763",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708763_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"tropicamide\" outputclass=\"int-drug\">tropicamide</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  tropicamide  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tropicamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708764",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708764_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"trospium\" outputclass=\"int-drug\">trospium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  trospium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trospium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708765",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dicycloverine#bnf_i1557280708765_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"dicycloverine\" outputclass=\"int-heading-drug\">dicycloverine</ph> and <ph otherprops=\"umeclidinium\" outputclass=\"int-drug\">umeclidinium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  dicycloverine  and  umeclidinium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Umeclidinium</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Dicycloverine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/dicycloverine.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Dicycloverine </title>"
+			},
+			"rdfs:label": "dicycloverine"
+		}
+	]
+}

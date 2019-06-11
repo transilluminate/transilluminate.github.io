@@ -1,0 +1,1288 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/drospirenone",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711839",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711839_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"aceclofenac\" outputclass=\"int-drug\">aceclofenac</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  aceclofenac  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aceclofenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711840",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711840_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"aliskiren\" outputclass=\"int-drug\">aliskiren</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  aliskiren  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aliskiren</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711841",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711841_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"amiloride\" outputclass=\"int-drug\">amiloride</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  amiloride  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amiloride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711842",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711842_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"azilsartan\" outputclass=\"int-drug\">azilsartan</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  azilsartan  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Azilsartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711843",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711843_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"candesartan\" outputclass=\"int-drug\">candesartan</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  candesartan  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Candesartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711844",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711844_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"captopril\" outputclass=\"int-drug\">captopril</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  captopril  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Captopril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711845",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711845_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"celecoxib\" outputclass=\"int-drug\">celecoxib</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  celecoxib  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Celecoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711846",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711846_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"ciclosporin\" outputclass=\"int-drug\">ciclosporin</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  ciclosporin  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciclosporin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711847",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711847_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"dalteparin\" outputclass=\"int-drug\">dalteparin</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  dalteparin  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dalteparin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711848",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711848_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"darbepoetin alfa\" outputclass=\"int-drug\">darbepoetin alfa</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  darbepoetin alfa  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Darbepoetin alfa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711849",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711849_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"dexibuprofen\" outputclass=\"int-drug\">dexibuprofen</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  dexibuprofen  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexibuprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711850",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711850_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"dexketoprofen\" outputclass=\"int-drug\">dexketoprofen</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  dexketoprofen  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexketoprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711851",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711851_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"diclofenac\" outputclass=\"int-drug\">diclofenac</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  diclofenac  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diclofenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711852",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711852_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"enalapril\" outputclass=\"int-drug\">enalapril</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  enalapril  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enalapril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711853",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711853_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"enoxaparin\" outputclass=\"int-drug\">enoxaparin</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  enoxaparin  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enoxaparin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711854",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711854_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"eplerenone\" outputclass=\"int-drug\">eplerenone</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  eplerenone  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eplerenone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711855",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711855_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"epoetin alfa\" outputclass=\"int-drug\">epoetin alfa</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  epoetin alfa  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Epoetin alfa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711856",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711856_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"epoetin beta\" outputclass=\"int-drug\">epoetin beta</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  epoetin beta  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Epoetin beta</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711857",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711857_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"epoetin zeta\" outputclass=\"int-drug\">epoetin zeta</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  epoetin zeta  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Epoetin zeta</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711858",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711858_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"eprosartan\" outputclass=\"int-drug\">eprosartan</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  eprosartan  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eprosartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711859",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711859_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"etodolac\" outputclass=\"int-drug\">etodolac</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  etodolac  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etodolac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711860",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711860_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"etoricoxib\" outputclass=\"int-drug\">etoricoxib</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  etoricoxib  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etoricoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711861",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711861_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"flurbiprofen\" outputclass=\"int-drug\">flurbiprofen</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  flurbiprofen  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flurbiprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711862",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711862_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"heparin (unfractionated)\" outputclass=\"int-drug\">heparin (unfractionated)</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  heparin (unfractionated)  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Heparin (unfractionated)</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711863",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711863_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"ibuprofen\" outputclass=\"int-drug\">ibuprofen</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  ibuprofen  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibuprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711864",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711864_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"imidapril\" outputclass=\"int-drug\">imidapril</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  imidapril  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imidapril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711865",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711865_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"indometacin\" outputclass=\"int-drug\">indometacin</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  indometacin  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Indometacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711866",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711866_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"irbesartan\" outputclass=\"int-drug\">irbesartan</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  irbesartan  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Irbesartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711867",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711867_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ketoconazole\" outputclass=\"int-drug\">Ketoconazole</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ketoconazole   moderately   increases   the exposure to   drospirenone .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketoconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711868",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711868_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"ketoprofen\" outputclass=\"int-drug\">ketoprofen</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  ketoprofen  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketoprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711869",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711869_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"ketorolac\" outputclass=\"int-drug\">ketorolac</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  ketorolac  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketorolac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711870",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711870_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"lisinopril\" outputclass=\"int-drug\">lisinopril</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  lisinopril  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lisinopril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711871",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711871_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"losartan\" outputclass=\"int-drug\">losartan</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  losartan  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Losartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711872",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711872_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"mefenamic acid\" outputclass=\"int-drug\">mefenamic acid</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  mefenamic acid  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mefenamic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711873",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711873_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"meloxicam\" outputclass=\"int-drug\">meloxicam</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  meloxicam  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Meloxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711874",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711874_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"nabumetone\" outputclass=\"int-drug\">nabumetone</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  nabumetone  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nabumetone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711875",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711875_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"naproxen\" outputclass=\"int-drug\">naproxen</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  naproxen  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Naproxen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711876",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711876_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"olmesartan\" outputclass=\"int-drug\">olmesartan</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  olmesartan  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olmesartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711877",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711877_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"parecoxib\" outputclass=\"int-drug\">parecoxib</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  parecoxib  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Parecoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711878",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711878_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"perindopril\" outputclass=\"int-drug\">perindopril</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  perindopril  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Perindopril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711879",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711879_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"piroxicam\" outputclass=\"int-drug\">piroxicam</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  piroxicam  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Piroxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711880",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711880_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"potassium aminobenzoate\" outputclass=\"int-drug\">potassium aminobenzoate</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  potassium aminobenzoate  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Potassium aminobenzoate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711881",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711881_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"potassium canrenoate\" outputclass=\"int-drug\">potassium canrenoate</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  potassium canrenoate  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Potassium canrenoate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711882",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711882_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"potassium chloride\" outputclass=\"int-drug\">potassium chloride</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  potassium chloride  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Potassium chloride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711883",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711883_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"quinapril\" outputclass=\"int-drug\">quinapril</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  quinapril  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Quinapril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711884",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711884_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"ramipril\" outputclass=\"int-drug\">ramipril</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  ramipril  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ramipril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711885",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711885_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"spironolactone\" outputclass=\"int-drug\">spironolactone</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  spironolactone  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Spironolactone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711886",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711886_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"sulindac\" outputclass=\"int-drug\">sulindac</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  sulindac  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulindac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711887",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711887_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"tacrolimus\" outputclass=\"int-drug\">tacrolimus</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  tacrolimus  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tacrolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711888",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711888_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"telmisartan\" outputclass=\"int-drug\">telmisartan</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  telmisartan  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Telmisartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711889",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711889_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"tenoxicam\" outputclass=\"int-drug\">tenoxicam</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  tenoxicam  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tenoxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711890",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711890_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"tiaprofenic acid\" outputclass=\"int-drug\">tiaprofenic acid</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  tiaprofenic acid  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tiaprofenic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711891",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711891_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"tinzaparin\" outputclass=\"int-drug\">tinzaparin</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  tinzaparin  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tinzaparin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711892",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711892_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"tolfenamic acid\" outputclass=\"int-drug\">tolfenamic acid</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  tolfenamic acid  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolfenamic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711893",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711893_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"tolvaptan\" outputclass=\"int-drug\">tolvaptan</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  tolvaptan  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolvaptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711894",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711894_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"trandolapril\" outputclass=\"int-drug\">trandolapril</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  trandolapril  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trandolapril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711895",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711895_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"triamterene\" outputclass=\"int-drug\">triamterene</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  triamterene  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "57",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Triamterene</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711896",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711896_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"trimethoprim\" outputclass=\"int-drug\">trimethoprim</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  trimethoprim  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trimethoprim</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711897",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/drospirenone#bnf_i1557280711897_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"drospirenone\" outputclass=\"int-heading-drug\">drospirenone</ph> and <ph otherprops=\"valsartan\" outputclass=\"int-drug\">valsartan</ph> can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  drospirenone  and  valsartan  can increase the risk of hyperkalaemia (hyperkalaemia is particularly notable when ACE inhibitors or angiotensin-II receptor antagonists are given with spironolactone or eplerenone). \n\n"
+						}
+					],
+					"hasOrder": "59",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Valsartan</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Drospirenone  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/drospirenone.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Drospirenone </title>"
+			},
+			"rdfs:label": "drospirenone"
+		}
+	]
+}

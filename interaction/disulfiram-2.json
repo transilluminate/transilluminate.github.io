@@ -1,0 +1,628 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710015",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710015_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">Disulfiram</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"acenocoumarol\" outputclass=\"int-drug\">acenocoumarol</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Disulfiram   increases   the anticoagulant effect of   acenocoumarol .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acenocoumarol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710016",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710016_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"alcohol (beverage)\" outputclass=\"int-drug\">Alcohol (beverage)</ph> <ph outputclass=\"int-effect\">causes</ph> <ph outputclass=\"int-parameter\">an extremely unpleasant systemic reaction when given with</ph> <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid for at least 24 hours before and up to 14 days after stopping treatment</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Alcohol (beverage)   causes   an extremely unpleasant systemic reaction when given with   disulfiram .  Manufacturer advises avoid for at least 24 hours before and up to 14 days after stopping treatment .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alcohol (beverage)</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710017",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710017_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"amiodarone\" outputclass=\"int-drug\">amiodarone</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  amiodarone  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amiodarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710018",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710018_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"bortezomib\" outputclass=\"int-drug\">bortezomib</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  bortezomib  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bortezomib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710019",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710019_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"brentuximab vedotin\" outputclass=\"int-drug\">brentuximab vedotin</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  brentuximab vedotin  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Brentuximab vedotin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710020",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710020_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"cabazitaxel\" outputclass=\"int-drug\">cabazitaxel</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  cabazitaxel  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabazitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710021",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710021_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"cisplatin\" outputclass=\"int-drug\">cisplatin</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  cisplatin  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cisplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710022",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710022_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"didanosine\" outputclass=\"int-drug\">didanosine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  didanosine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Didanosine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710023",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710023_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"docetaxel\" outputclass=\"int-drug\">docetaxel</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  docetaxel  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Docetaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710024",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710024_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"eribulin\" outputclass=\"int-drug\">eribulin</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  eribulin  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eribulin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710025",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710025_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">fosphenytoin</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  fosphenytoin  can increase the risk of peripheral neuropathy. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710025_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">Disulfiram</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">fosphenytoin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor concentration and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Disulfiram   increases   the concentration of   fosphenytoin .  Manufacturer advises monitor concentration and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710026",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710026_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"isoniazid\" outputclass=\"int-drug\">isoniazid</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  isoniazid  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isoniazid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710027",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710027_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"lamivudine\" outputclass=\"int-drug\">lamivudine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  lamivudine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lamivudine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710028",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710028_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"metronidazole\" outputclass=\"int-drug\">metronidazole</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  metronidazole  can increase the risk of peripheral neuropathy. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710028_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">Disulfiram</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of acute psychoses when given with</ph> <ph otherprops=\"metronidazole\" outputclass=\"int-drug\">metronidazole</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Disulfiram   increases   the risk of acute psychoses when given with   metronidazole .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metronidazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710029",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710029_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"nitrofurantoin\" outputclass=\"int-drug\">nitrofurantoin</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  nitrofurantoin  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nitrofurantoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710030",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710030_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"paclitaxel\" outputclass=\"int-drug\">paclitaxel</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  paclitaxel  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paclitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710031",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710031_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">Disulfiram</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"phenindione\" outputclass=\"int-drug\">phenindione</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Disulfiram   is predicted to   increase   the anticoagulant effect of   phenindione .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenindione</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710032",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710032_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">phenytoin</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  phenytoin  can increase the risk of peripheral neuropathy. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710032_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">Disulfiram</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">phenytoin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor concentration and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Disulfiram   increases   the concentration of   phenytoin .  Manufacturer advises monitor concentration and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710033",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710033_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"stavudine\" outputclass=\"int-drug\">stavudine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  stavudine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Stavudine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710034",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710034_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"thalidomide\" outputclass=\"int-drug\">thalidomide</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  thalidomide  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710035",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710035_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"vinblastine\" outputclass=\"int-drug\">vinblastine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  vinblastine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinblastine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710036",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710036_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"vincristine\" outputclass=\"int-drug\">vincristine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  vincristine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vincristine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710037",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710037_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"vindesine\" outputclass=\"int-drug\">vindesine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  vindesine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vindesine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710038",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710038_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"vinflunine\" outputclass=\"int-drug\">vinflunine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  vinflunine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinflunine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710039",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710039_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">disulfiram</ph> and <ph otherprops=\"vinorelbine\" outputclass=\"int-drug\">vinorelbine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  disulfiram  and  vinorelbine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinorelbine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710040",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2#bnf_i1557280710040_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"disulfiram\" outputclass=\"int-heading-drug\">Disulfiram</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"warfarin\" outputclass=\"int-drug\">warfarin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Disulfiram   increases   the anticoagulant effect of   warfarin .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Warfarin</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Disulfiram  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/disulfiram-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Disulfiram </title>"
+			},
+			"rdfs:label": "disulfiram"
+		}
+	]
+}

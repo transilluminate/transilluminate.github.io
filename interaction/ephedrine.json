@@ -1,0 +1,469 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/ephedrine",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713423",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713423_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">Ephedrine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of side-effects when given with</ph> <ph otherprops=\"aminophylline\" outputclass=\"int-drug\">aminophylline</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid in children</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ephedrine   increases   the risk of side-effects when given with   aminophylline .  Manufacturer advises avoid in children .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aminophylline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713424",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713424_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"amitriptyline\" outputclass=\"int-drug\">Amitriptyline</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">ephedrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Amitriptyline   is predicted to   decrease   the effects of   ephedrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amitriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713425",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713425_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">Ephedrine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"apraclonidine\" outputclass=\"int-drug\">apraclonidine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ephedrine   is predicted to   decrease   the effects of   apraclonidine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apraclonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713426",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713426_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"clomipramine\" outputclass=\"int-drug\">Clomipramine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">ephedrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Clomipramine   is predicted to   decrease   the effects of   ephedrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clomipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713427",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713427_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dosulepin\" outputclass=\"int-drug\">Dosulepin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">ephedrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dosulepin   is predicted to   decrease   the effects of   ephedrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dosulepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713428",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713428_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"doxepin\" outputclass=\"int-drug\">Doxepin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">ephedrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Doxepin   is predicted to   decrease   the effects of   ephedrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713429",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713429_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"imipramine\" outputclass=\"int-drug\">Imipramine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">ephedrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Imipramine   is predicted to   decrease   the effects of   ephedrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713430",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713430_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"isocarboxazid\" outputclass=\"int-drug\">Isocarboxazid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">ephedrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Isocarboxazid   is predicted to   increase   the risk of a hypertensive crisis when given with   ephedrine .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isocarboxazid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713431",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713431_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">Ephedrine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of elevated blood pressure when given with</ph> <ph otherprops=\"linezolid\" outputclass=\"int-drug\">linezolid</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ephedrine   is predicted to   increase   the risk of elevated blood pressure when given with   linezolid .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Linezolid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713432",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713432_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lofepramine\" outputclass=\"int-drug\">Lofepramine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">ephedrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lofepramine   is predicted to   decrease   the effects of   ephedrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lofepramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713433",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713433_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mianserin\" outputclass=\"int-drug\">Mianserin</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">ephedrine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Mianserin   decreases   the effects of   ephedrine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mianserin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713434",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713434_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"moclobemide\" outputclass=\"int-drug\">Moclobemide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">ephedrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Moclobemide   is predicted to   increase   the risk of a hypertensive crisis when given with   ephedrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Moclobemide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713435",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713435_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nortriptyline\" outputclass=\"int-drug\">Nortriptyline</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">ephedrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Nortriptyline   is predicted to   decrease   the effects of   ephedrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nortriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713436",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713436_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenelzine\" outputclass=\"int-drug\">Phenelzine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">ephedrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenelzine   is predicted to   increase   the risk of a hypertensive crisis when given with   ephedrine .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenelzine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713437",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713437_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rasagiline\" outputclass=\"int-drug\">Rasagiline</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">ephedrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rasagiline   is predicted to   increase   the risk of a hypertensive crisis when given with   ephedrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rasagiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713438",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713438_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"safinamide\" outputclass=\"int-drug\">Safinamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">ephedrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Safinamide   is predicted to   increase   the risk of a hypertensive crisis when given with   ephedrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Safinamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713439",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713439_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"selegiline\" outputclass=\"int-drug\">Selegiline</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">ephedrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Selegiline   is predicted to   increase   the risk of a hypertensive crisis when given with   ephedrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Selegiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713440",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713440_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">Ephedrine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of side-effects when given with</ph> <ph otherprops=\"theophylline\" outputclass=\"int-drug\">theophylline</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid in children</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ephedrine   increases   the risk of side-effects when given with   theophylline .  Manufacturer advises avoid in children .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Theophylline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713441",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713441_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tranylcypromine\" outputclass=\"int-drug\">Tranylcypromine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">ephedrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tranylcypromine   is predicted to   increase   the risk of a hypertensive crisis when given with   ephedrine .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tranylcypromine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713442",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ephedrine#bnf_i1557280713442_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"trimipramine\" outputclass=\"int-drug\">Trimipramine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"ephedrine\" outputclass=\"int-heading-drug\">ephedrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Trimipramine   is predicted to   decrease   the effects of   ephedrine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trimipramine</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Ephedrine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/ephedrine.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Ephedrine </title>"
+			},
+			"rdfs:label": "ephedrine"
+		}
+	]
+}

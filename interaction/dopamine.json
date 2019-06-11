@@ -1,0 +1,322 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/dopamine",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710413",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710413_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dopamine\" outputclass=\"int-heading-drug\">Dopamine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"apraclonidine\" outputclass=\"int-drug\">apraclonidine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dopamine   is predicted to   decrease   the effects of   apraclonidine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apraclonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710414",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710414_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"entacapone\" outputclass=\"int-drug\">Entacapone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiovascular side-effects when given with</ph> <ph otherprops=\"dopamine\" outputclass=\"int-heading-drug\">dopamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Entacapone   is predicted to   increase   the risk of cardiovascular side-effects when given with   dopamine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Entacapone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710415",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710415_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ergometrine\" outputclass=\"int-drug\">Ergometrine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of peripheral vasoconstriction when given with</ph> <ph otherprops=\"dopamine\" outputclass=\"int-heading-drug\">dopamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ergometrine   potentially   increases   the risk of peripheral vasoconstriction when given with   dopamine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ergometrine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710416",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710416_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"guanethidine\" outputclass=\"int-drug\">Guanethidine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"dopamine\" outputclass=\"int-heading-drug\">dopamine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Guanethidine   is predicted to   increase   the effects of   dopamine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Guanethidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710417",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710417_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"isocarboxazid\" outputclass=\"int-drug\">Isocarboxazid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"dopamine\" outputclass=\"int-heading-drug\">dopamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Isocarboxazid   is predicted to   increase   the risk of a hypertensive crisis when given with   dopamine .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isocarboxazid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710418",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710418_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dopamine\" outputclass=\"int-heading-drug\">Dopamine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of elevated blood pressure when given with</ph> <ph otherprops=\"linezolid\" outputclass=\"int-drug\">linezolid</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dopamine   is predicted to   increase   the risk of elevated blood pressure when given with   linezolid .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Linezolid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710419",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710419_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"opicapone\" outputclass=\"int-drug\">Opicapone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiovascular side-effects when given with</ph> <ph otherprops=\"dopamine\" outputclass=\"int-heading-drug\">dopamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Opicapone   is predicted to   increase   the risk of cardiovascular side-effects when given with   dopamine .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Opicapone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710420",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710420_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenelzine\" outputclass=\"int-drug\">Phenelzine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"dopamine\" outputclass=\"int-heading-drug\">dopamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenelzine   is predicted to   increase   the risk of a hypertensive crisis when given with   dopamine .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenelzine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710421",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710421_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rasagiline\" outputclass=\"int-drug\">Rasagiline</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"dopamine\" outputclass=\"int-heading-drug\">dopamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rasagiline   is predicted to   increase   the risk of a hypertensive crisis when given with   dopamine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rasagiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710422",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710422_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"safinamide\" outputclass=\"int-drug\">Safinamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"dopamine\" outputclass=\"int-heading-drug\">dopamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Safinamide   is predicted to   increase   the risk of a hypertensive crisis when given with   dopamine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Safinamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710423",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710423_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"selegiline\" outputclass=\"int-drug\">Selegiline</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"dopamine\" outputclass=\"int-heading-drug\">dopamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Selegiline   is predicted to   increase   the risk of a hypertensive crisis when given with   dopamine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Selegiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710424",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710424_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tolcapone\" outputclass=\"int-drug\">Tolcapone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiovascular side-effects when given with</ph> <ph otherprops=\"dopamine\" outputclass=\"int-heading-drug\">dopamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tolcapone   is predicted to   increase   the risk of cardiovascular side-effects when given with   dopamine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolcapone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710425",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dopamine#bnf_i1557280710425_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tranylcypromine\" outputclass=\"int-drug\">Tranylcypromine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"dopamine\" outputclass=\"int-heading-drug\">dopamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tranylcypromine   is predicted to   increase   the risk of a hypertensive crisis when given with   dopamine .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tranylcypromine</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Dopamine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/dopamine.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Dopamine </title>"
+			},
+			"rdfs:label": "dopamine"
+		}
+	]
+}

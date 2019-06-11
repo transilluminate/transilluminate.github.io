@@ -1,0 +1,1414 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/donepezil",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710359",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710359_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"acebutolol\" outputclass=\"int-drug\">acebutolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  acebutolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710359_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"acebutolol\" outputclass=\"int-drug\">acebutolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   increase   the risk of bradycardia when given with   acebutolol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acebutolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710360",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710360_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"alectinib\" outputclass=\"int-drug\">alectinib</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  alectinib  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alectinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710361",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710361_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"alfentanil\" outputclass=\"int-drug\">alfentanil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  alfentanil  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alfentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710362",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710362_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"amiodarone\" outputclass=\"int-drug\">amiodarone</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  amiodarone  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710362_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"amiodarone\" outputclass=\"int-drug\">Amiodarone</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Amiodarone   increases   the risk of bradycardia when given with   donepezil .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amiodarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710363",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710363_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"apraclonidine\" outputclass=\"int-drug\">apraclonidine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  apraclonidine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apraclonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710364",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710364_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"atenolol\" outputclass=\"int-drug\">atenolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  atenolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710364_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"atenolol\" outputclass=\"int-drug\">atenolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   increase   the risk of bradycardia when given with   atenolol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atenolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710365",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710365_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"atracurium\" outputclass=\"int-drug\">atracurium</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Donepezil   is predicted to   decrease   the effects of   atracurium .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atracurium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710366",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710366_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"betaxolol\" outputclass=\"int-drug\">betaxolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  betaxolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710366_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"betaxolol\" outputclass=\"int-drug\">betaxolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   increase   the risk of bradycardia when given with   betaxolol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Betaxolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710367",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710367_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"bisoprolol\" outputclass=\"int-drug\">bisoprolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  bisoprolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710367_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"bisoprolol\" outputclass=\"int-drug\">bisoprolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   increase   the risk of bradycardia when given with   bisoprolol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bisoprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710368",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710368_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"brimonidine\" outputclass=\"int-drug\">brimonidine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  brimonidine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Brimonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710369",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710369_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Carbamazepine   is predicted to   decrease   the exposure to   donepezil .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710370",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710370_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"carvedilol\" outputclass=\"int-drug\">carvedilol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  carvedilol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710370_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"carvedilol\" outputclass=\"int-drug\">carvedilol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   increase   the risk of bradycardia when given with   carvedilol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carvedilol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710371",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710371_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"celiprolol\" outputclass=\"int-drug\">celiprolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  celiprolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710371_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"celiprolol\" outputclass=\"int-drug\">celiprolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   increase   the risk of bradycardia when given with   celiprolol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Celiprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710372",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710372_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"cisatracurium\" outputclass=\"int-drug\">cisatracurium</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  cisatracurium  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710372_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"cisatracurium\" outputclass=\"int-drug\">cisatracurium</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   decrease   the effects of   cisatracurium .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cisatracurium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710373",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710373_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"clonidine\" outputclass=\"int-drug\">clonidine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  clonidine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710374",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710374_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"crizotinib\" outputclass=\"int-drug\">crizotinib</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  crizotinib  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crizotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710375",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710375_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  digoxin  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Digoxin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710376",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710376_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"diltiazem\" outputclass=\"int-drug\">diltiazem</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  diltiazem  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710376_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"diltiazem\" outputclass=\"int-drug\">Diltiazem</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Diltiazem   increases   the risk of bradycardia when given with   donepezil .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diltiazem</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710377",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710377_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"enzalutamide\" outputclass=\"int-drug\">Enzalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Enzalutamide   is predicted to   decrease   the exposure to   donepezil .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enzalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710378",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710378_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"esmolol\" outputclass=\"int-drug\">esmolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  esmolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710378_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"esmolol\" outputclass=\"int-drug\">esmolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   increase   the risk of bradycardia when given with   esmolol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Esmolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710379",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710379_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"fentanyl\" outputclass=\"int-drug\">fentanyl</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  fentanyl  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fentanyl</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710380",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710380_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"fingolimod\" outputclass=\"int-drug\">fingolimod</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  fingolimod  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fingolimod</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710381",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710381_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"flecainide\" outputclass=\"int-drug\">flecainide</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  flecainide  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flecainide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710382",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710382_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Fosphenytoin   is predicted to   decrease   the exposure to   donepezil .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710383",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710383_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"ivabradine\" outputclass=\"int-drug\">ivabradine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  ivabradine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ivabradine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710384",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710384_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"labetalol\" outputclass=\"int-drug\">labetalol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  labetalol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710384_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"labetalol\" outputclass=\"int-drug\">labetalol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   increase   the risk of bradycardia when given with   labetalol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Labetalol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710385",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710385_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"levobunolol\" outputclass=\"int-drug\">levobunolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  levobunolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710385_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"levobunolol\" outputclass=\"int-drug\">levobunolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   increase   the risk of bradycardia when given with   levobunolol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levobunolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710386",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710386_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"methadone\" outputclass=\"int-drug\">methadone</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  methadone  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methadone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710387",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710387_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"metoprolol\" outputclass=\"int-drug\">metoprolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  metoprolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710387_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"metoprolol\" outputclass=\"int-drug\">metoprolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   increase   the risk of bradycardia when given with   metoprolol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metoprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710388",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710388_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"mitotane\" outputclass=\"int-drug\">Mitotane</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Mitotane   is predicted to   decrease   the exposure to   donepezil .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitotane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710389",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710389_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"mivacurium\" outputclass=\"int-drug\">mivacurium</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Donepezil   is predicted to   decrease   the effects of   mivacurium .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mivacurium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710390",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710390_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"nadolol\" outputclass=\"int-drug\">nadolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  nadolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710390_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"nadolol\" outputclass=\"int-drug\">nadolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   increase   the risk of bradycardia when given with   nadolol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nadolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710391",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710391_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"nebivolol\" outputclass=\"int-drug\">nebivolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  nebivolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710391_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"nebivolol\" outputclass=\"int-drug\">nebivolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   increase   the risk of bradycardia when given with   nebivolol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nebivolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710392",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710392_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"neostigmine\" outputclass=\"int-drug\">neostigmine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  neostigmine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Neostigmine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710393",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710393_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"oxprenolol\" outputclass=\"int-drug\">oxprenolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  oxprenolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710393_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"oxprenolol\" outputclass=\"int-drug\">oxprenolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   increase   the risk of bradycardia when given with   oxprenolol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxprenolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710394",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710394_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"pancuronium\" outputclass=\"int-drug\">pancuronium</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Donepezil   is predicted to   decrease   the effects of   pancuronium .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pancuronium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710395",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710395_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"pasireotide\" outputclass=\"int-drug\">pasireotide</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  pasireotide  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pasireotide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710396",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710396_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Phenobarbital   is predicted to   decrease   the exposure to   donepezil .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710397",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710397_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Phenytoin   is predicted to   decrease   the exposure to   donepezil .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710398",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710398_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"pindolol\" outputclass=\"int-drug\">pindolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  pindolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710398_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"pindolol\" outputclass=\"int-drug\">pindolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   increase   the risk of bradycardia when given with   pindolol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pindolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710399",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710399_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Primidone   is predicted to   decrease   the exposure to   donepezil .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710400",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710400_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"propranolol\" outputclass=\"int-drug\">propranolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  propranolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710400_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"propranolol\" outputclass=\"int-drug\">propranolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   increase   the risk of bradycardia when given with   propranolol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propranolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710401",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710401_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"pyridostigmine\" outputclass=\"int-drug\">pyridostigmine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  pyridostigmine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pyridostigmine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710402",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710402_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"remifentanil\" outputclass=\"int-drug\">remifentanil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  remifentanil  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Remifentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710403",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710403_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   is predicted to   decrease   the exposure to   donepezil .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710404",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710404_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"rocuronium\" outputclass=\"int-drug\">rocuronium</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Donepezil   is predicted to   decrease   the effects of   rocuronium .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rocuronium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710405",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710405_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"selegiline\" outputclass=\"int-drug\">selegiline</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  selegiline  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Selegiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710406",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710406_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"sotalol\" outputclass=\"int-drug\">sotalol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  sotalol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710406_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"sotalol\" outputclass=\"int-drug\">sotalol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   increase   the risk of bradycardia when given with   sotalol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sotalol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710407",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710407_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"sufentanil\" outputclass=\"int-drug\">sufentanil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  sufentanil  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sufentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710408",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710408_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"suxamethonium\" outputclass=\"int-drug\">suxamethonium</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Donepezil   increases   the effects of   suxamethonium .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Suxamethonium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710409",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710409_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"thalidomide\" outputclass=\"int-drug\">thalidomide</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  thalidomide  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710410",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710410_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"timolol\" outputclass=\"int-drug\">timolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  timolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710410_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"timolol\" outputclass=\"int-drug\">timolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   increase   the risk of bradycardia when given with   timolol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Timolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710411",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710411_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"tizanidine\" outputclass=\"int-drug\">tizanidine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  tizanidine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tizanidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710412",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710412_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph> and <ph otherprops=\"verapamil\" outputclass=\"int-drug\">verapamil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  donepezil  and  verapamil  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/donepezil#bnf_i1557280710412_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"verapamil\" outputclass=\"int-drug\">Verapamil</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"donepezil\" outputclass=\"int-heading-drug\">donepezil</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Verapamil   increases   the risk of bradycardia when given with   donepezil .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Verapamil</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Donepezil  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/donepezil.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Donepezil </title>"
+			},
+			"rdfs:label": "donepezil"
+		}
+	]
+}
