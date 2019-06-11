@@ -9,25 +9,33 @@ function buildAvailableMedications() {	// scrapes the BNF and builds a JSON obje
 	$.ajax({ url:'https://bnf.nice.org.uk/interaction/index.html', type:'get', dataType:'html',
 		success:function(data){
 			var medications = {};
+			var jsonLinks = [];
 			// successfully got the url
 			var html = $.parseHTML(data);
 			var medicationsList = $(html).find('#A,#B,#C,#D,#E,#F,#G,#H,#I,#J,#K,#L,#M,#N,#O,#P,#Q,#R,#S,#T,#U,#V,#W,#X,#Y,#Z').find('li');
 			medicationsList.each( function(){
 				var title = $(this)[0].textContent.toLowerCase().trim();	// put this lowercase to make matching easier
-				var jsonLink = $(this)[0].innerHTML.replace(/<a href=\"(.+).html.*/,"https://bnf.nice.org.uk/interaction/$1.json"); // grab the json url
-				medications[title] = jsonLink;
+				var link = $(this)[0].innerHTML.replace(/<a href=\"(.+).html.*/,"interaction/$1.json"); // grab the json url
+				medications[title] = link;	// build local relative urls
+				
+				// list the medication urls, one per line, cut and paste into 'interaction' folder 'urls.txt'
+				// run 'wget -i urls.txt' or 'xargs -n 1 curl -O < urls.txt' in the 'interaction' folder to download:
+				// $("#results pre code").append("https://bnf.nice.org.uk/" + link + "<br>");
+
 			});
-			// cut and paste from the console, save as medicationsList.json
-			console.log( JSON.stringify(medications) );
+			// cut and paste, save as 'medicationsList.json' in the root folder:
+			// $("#results pre code").append( JSON.stringify(medications) );
 		}
 	});
 }
+//buildAvailableMedications();
 
 function loadAvailableMedications(){	// load the medication list for the search terms
-	$.getJSON('medicationsList.json', function(data) {
+	$.getJSON('medicationsList.json', function(data) {					// localfile, built using buildAvailableMedications()
 		$.each( data, function( title, jsonLink ) {
 			availableMedications.push(title);							// push this into the array of medications
-			medicationDetails[title] = { 'json': jsonLink };			// and store the urls to the JSON separately
+			medicationDetails[title] = { 'json': jsonLink };			// and store the urls to the JSON separately (local)
+			//medicationDetails[title] = { 'json': 'https://bnf.nice.org.uk/interaction/' + jsonLink };	// and store the urls to the JSON separately (remote)			
 			// console.log("Loading: '" + title + "' => '" + jsonLink + "'");	// uncomment to display the loading of the availableMedications
 		});
 		// once searchArray has been loaded, initialise the typeahead
@@ -122,7 +130,7 @@ function redrawTable() {
 				var columnTitle = displayMedications[x - 1];	// and the column header
 				if (x == 0) {		// create row headers
 					row += ("<th class='elementRow' scope='row' style='text-align:right'>");
-					row +=   ("<a class='btn btn-outline-secondary deleteThisEntry' role='button' target='_new' href='" + medicationDetails[rowTitle]['url'] + "'>");
+					row +=   ("<a class='btn btn-outline-secondary deleteThisEntry'  data-toggle='tooltip' title='" + rowTitle + "' role='button' target='_new' href='" + medicationDetails[rowTitle]['url'] + "'>");
 					row +=     (rowTitle);
 					row +=   ("</a>");
 					row +=   ("&nbsp;");
@@ -134,7 +142,7 @@ function redrawTable() {
 				else if (y == 0) {	// create column headers
 					row += ("<th scope='column' class='rotate col-xs-2'>");
 					row +=   ("<div class='rotated'>");
-					row +=     ("<a class='btn btn-outline-secondary' role='button' target='_new' href='" + medicationDetails[columnTitle]['url'] + "'>");
+					row +=     ("<a class='btn btn-outline-secondary' data-toggle='tooltip' title='" + columnTitle + "' role='button' target='_new' href='" + medicationDetails[columnTitle]['url'] + "'>");
 					row +=       (columnTitle);
 					row +=     ("</a>");
 					row +=   ("</div>");
