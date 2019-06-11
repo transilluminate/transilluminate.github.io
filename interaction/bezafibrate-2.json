@@ -1,0 +1,448 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689721",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689721_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">Bezafibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"acenocoumarol\" outputclass=\"int-drug\">acenocoumarol</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor INR and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   is predicted to   increase   the anticoagulant effect of   acenocoumarol .  Manufacturer advises monitor INR and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acenocoumarol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689722",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689722_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">Bezafibrate</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"atorvastatin\" outputclass=\"int-drug\">atorvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   increases   the risk of rhabdomyolysis when given with   atorvastatin .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atorvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689723",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689723_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">Bezafibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of nephrotoxicity when given with</ph> <ph otherprops=\"ciclosporin\" outputclass=\"int-drug\">ciclosporin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor renal function</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   is predicted to   increase   the risk of nephrotoxicity when given with   ciclosporin .  Manufacturer advises monitor renal function .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciclosporin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689724",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689724_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colchicine\" outputclass=\"int-drug\">Colchicine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">bezafibrate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Colchicine   increases   the risk of rhabdomyolysis when given with   bezafibrate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Colchicine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689725",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689725_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">Bezafibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"daptomycin\" outputclass=\"int-drug\">daptomycin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   is predicted to   increase   the risk of rhabdomyolysis when given with   daptomycin .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Daptomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689726",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689726_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">Bezafibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gallstones when given with</ph> <ph otherprops=\"ezetimibe\" outputclass=\"int-drug\">ezetimibe</ph>. <ph outputclass=\"int-action\">Manufacturer advises discontinue if gallstones develops</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   is predicted to   increase   the risk of gallstones when given with   ezetimibe .  Manufacturer advises discontinue if gallstones develops .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ezetimibe</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689727",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689727_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">Bezafibrate</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"fluvastatin\" outputclass=\"int-drug\">fluvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   increases   the risk of rhabdomyolysis when given with   fluvastatin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689728",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689728_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">Bezafibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   is predicted to   increase   the risk of hypoglycaemia when given with   glibenclamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glibenclamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689729",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689729_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">Bezafibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"gliclazide\" outputclass=\"int-drug\">gliclazide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   is predicted to   increase   the risk of hypoglycaemia when given with   gliclazide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gliclazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689730",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689730_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">Bezafibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"glimepiride\" outputclass=\"int-drug\">glimepiride</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   is predicted to   increase   the risk of hypoglycaemia when given with   glimepiride .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glimepiride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689731",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689731_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">Bezafibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"glipizide\" outputclass=\"int-drug\">glipizide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   is predicted to   increase   the risk of hypoglycaemia when given with   glipizide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glipizide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689732",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689732_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">Bezafibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"insulins\" outputclass=\"int-drug\">insulins</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   is predicted to   increase   the risk of hypoglycaemia when given with   insulins .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Insulins</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689733",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689733_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">Bezafibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"phenindione\" outputclass=\"int-drug\">phenindione</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor INR and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   is predicted to   increase   the anticoagulant effect of   phenindione .  Manufacturer advises monitor INR and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenindione</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689734",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689734_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">Bezafibrate</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"pravastatin\" outputclass=\"int-drug\">pravastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   increases   the risk of rhabdomyolysis when given with   pravastatin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pravastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689735",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689735_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">Bezafibrate</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"rosuvastatin\" outputclass=\"int-drug\">rosuvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"rosuvastatin\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/rosuvastatin.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP1645\">rosuvastatin</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   increases   the risk of rhabdomyolysis when given with   rosuvastatin .  Manufacturer advises adjust  rosuvastatin  dose .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rosuvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689736",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689736_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">Bezafibrate</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"simvastatin\" outputclass=\"int-drug\">simvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"simvastatin\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/simvastatin.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP1647\">simvastatin</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   increases   the risk of rhabdomyolysis when given with   simvastatin .  Manufacturer advises adjust  simvastatin  dose .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Simvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689737",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689737_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">Bezafibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   is predicted to   increase   the risk of hypoglycaemia when given with   tolbutamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolbutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689738",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689738_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">Bezafibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"ursodeoxycholic acid\" outputclass=\"int-drug\">ursodeoxycholic acid</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   is predicted to   decrease   the efficacy of   ursodeoxycholic acid .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ursodeoxycholic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689739",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2#bnf_i1557280689739_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-heading-drug\">Bezafibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"warfarin\" outputclass=\"int-drug\">warfarin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor INR and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   is predicted to   increase   the anticoagulant effect of   warfarin .  Manufacturer advises monitor INR and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Warfarin</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Bezafibrate  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/bezafibrate-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Bezafibrate </title>"
+			},
+			"rdfs:label": "bezafibrate"
+		}
+	]
+}

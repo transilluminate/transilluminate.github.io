@@ -1,0 +1,2401 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/buclizine",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691685",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691685_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"agomelatine\" outputclass=\"int-drug\">agomelatine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  agomelatine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Agomelatine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691686",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691686_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"alcohol (beverage)\" outputclass=\"int-drug\">alcohol (beverage)</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  alcohol (beverage)  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alcohol (beverage)</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691687",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691687_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"alfentanil\" outputclass=\"int-drug\">alfentanil</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  alfentanil  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alfentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691688",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691688_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"alprazolam\" outputclass=\"int-drug\">alprazolam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  alprazolam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alprazolam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691689",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691689_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"amisulpride\" outputclass=\"int-drug\">amisulpride</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  amisulpride  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amisulpride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691690",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691690_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"apraclonidine\" outputclass=\"int-drug\">apraclonidine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  apraclonidine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apraclonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691691",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691691_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"aripiprazole\" outputclass=\"int-drug\">aripiprazole</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  aripiprazole  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aripiprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691692",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691692_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"articaine\" outputclass=\"int-drug\">articaine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  articaine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Articaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691693",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691693_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"asenapine\" outputclass=\"int-drug\">asenapine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  asenapine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Asenapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691694",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691694_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"baclofen\" outputclass=\"int-drug\">baclofen</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  baclofen  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Baclofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691695",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691695_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"benperidol\" outputclass=\"int-drug\">benperidol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  benperidol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Benperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691696",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691696_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">Buclizine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"betahistine\" outputclass=\"int-drug\">betahistine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Buclizine   is predicted to   decrease   the effects of   betahistine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Betahistine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691697",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691697_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"brimonidine\" outputclass=\"int-drug\">brimonidine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  brimonidine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Brimonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691698",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691698_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"bupivacaine\" outputclass=\"int-drug\">bupivacaine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  bupivacaine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bupivacaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691699",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691699_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"buprenorphine\" outputclass=\"int-drug\">buprenorphine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  buprenorphine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Buprenorphine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691700",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691700_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"cannabis extract\" outputclass=\"int-drug\">cannabis extract</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  cannabis extract  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cannabis extract</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691701",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691701_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"cariprazine\" outputclass=\"int-drug\">cariprazine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  cariprazine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cariprazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691702",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691702_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"chloral hydrate\" outputclass=\"int-drug\">chloral hydrate</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  chloral hydrate  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chloral hydrate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691703",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691703_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"chlordiazepoxide\" outputclass=\"int-drug\">chlordiazepoxide</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  chlordiazepoxide  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlordiazepoxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691704",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691704_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"chlorpromazine\" outputclass=\"int-drug\">chlorpromazine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  chlorpromazine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorpromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691705",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691705_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"clobazam\" outputclass=\"int-drug\">clobazam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  clobazam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clobazam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691706",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691706_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"clomethiazole\" outputclass=\"int-drug\">clomethiazole</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  clomethiazole  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clomethiazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691707",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691707_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"clonazepam\" outputclass=\"int-drug\">clonazepam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  clonazepam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clonazepam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691708",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691708_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"clonidine\" outputclass=\"int-drug\">clonidine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  clonidine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691709",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691709_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"clozapine\" outputclass=\"int-drug\">clozapine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  clozapine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clozapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691710",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691710_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"codeine\" outputclass=\"int-drug\">codeine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  codeine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Codeine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691711",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691711_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"desflurane\" outputclass=\"int-drug\">desflurane</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  desflurane  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Desflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691712",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691712_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"dexmedetomidine\" outputclass=\"int-drug\">dexmedetomidine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  dexmedetomidine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexmedetomidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691713",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691713_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"diamorphine\" outputclass=\"int-drug\">diamorphine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  diamorphine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diamorphine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691714",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691714_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"diazepam\" outputclass=\"int-drug\">diazepam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  diazepam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diazepam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691715",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691715_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"dihydrocodeine\" outputclass=\"int-drug\">dihydrocodeine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  dihydrocodeine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dihydrocodeine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691716",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691716_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"dipipanone\" outputclass=\"int-drug\">dipipanone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  dipipanone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dipipanone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691717",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691717_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"droperidol\" outputclass=\"int-drug\">droperidol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  droperidol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Droperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691718",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691718_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"esketamine\" outputclass=\"int-drug\">esketamine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  esketamine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Esketamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691719",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691719_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"etomidate\" outputclass=\"int-drug\">etomidate</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  etomidate  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etomidate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691720",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691720_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"fentanyl\" outputclass=\"int-drug\">fentanyl</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  fentanyl  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fentanyl</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691721",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691721_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"flupentixol\" outputclass=\"int-drug\">flupentixol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  flupentixol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flupentixol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691722",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691722_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"fluphenazine\" outputclass=\"int-drug\">fluphenazine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  fluphenazine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluphenazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691723",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691723_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"flurazepam\" outputclass=\"int-drug\">flurazepam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  flurazepam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flurazepam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691724",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691724_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"gabapentin\" outputclass=\"int-drug\">gabapentin</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  gabapentin  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gabapentin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691725",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691725_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"guanfacine\" outputclass=\"int-drug\">guanfacine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  guanfacine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Guanfacine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691726",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691726_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"haloperidol\" outputclass=\"int-drug\">haloperidol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  haloperidol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Haloperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691727",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691727_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"hydromorphone\" outputclass=\"int-drug\">hydromorphone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  hydromorphone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydromorphone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691728",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691728_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"isocarboxazid\" outputclass=\"int-drug\">Isocarboxazid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of antimuscarinic side-effects when given with</ph> <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Isocarboxazid   is predicted to   increase   the risk of antimuscarinic side-effects when given with   buclizine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isocarboxazid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691729",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691729_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"isoflurane\" outputclass=\"int-drug\">isoflurane</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  isoflurane  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isoflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691730",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691730_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"ketamine\" outputclass=\"int-drug\">ketamine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  ketamine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691731",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691731_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"lamotrigine\" outputclass=\"int-drug\">lamotrigine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  lamotrigine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lamotrigine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691732",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691732_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"levetiracetam\" outputclass=\"int-drug\">levetiracetam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  levetiracetam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levetiracetam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691733",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691733_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"levomepromazine\" outputclass=\"int-drug\">levomepromazine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  levomepromazine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levomepromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691734",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691734_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"lidocaine\" outputclass=\"int-drug\">lidocaine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  lidocaine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lidocaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691735",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691735_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"lofexidine\" outputclass=\"int-drug\">lofexidine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  lofexidine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lofexidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691736",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691736_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"loprazolam\" outputclass=\"int-drug\">loprazolam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  loprazolam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Loprazolam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691737",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691737_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"lorazepam\" outputclass=\"int-drug\">lorazepam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  lorazepam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lorazepam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691738",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691738_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"lormetazepam\" outputclass=\"int-drug\">lormetazepam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  lormetazepam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lormetazepam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691739",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691739_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"loxapine\" outputclass=\"int-drug\">loxapine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  loxapine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Loxapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691740",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691740_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"lurasidone\" outputclass=\"int-drug\">lurasidone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  lurasidone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lurasidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691741",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691741_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"melatonin\" outputclass=\"int-drug\">melatonin</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  melatonin  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "57",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Melatonin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691742",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691742_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"mepivacaine\" outputclass=\"int-drug\">mepivacaine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  mepivacaine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mepivacaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691743",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691743_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"meprobamate\" outputclass=\"int-drug\">meprobamate</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  meprobamate  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "59",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Meprobamate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691744",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691744_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"meptazinol\" outputclass=\"int-drug\">meptazinol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  meptazinol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "60",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Meptazinol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691745",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691745_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"methadone\" outputclass=\"int-drug\">methadone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  methadone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "61",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methadone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691746",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691746_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"methocarbamol\" outputclass=\"int-drug\">methocarbamol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  methocarbamol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "62",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methocarbamol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691747",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691747_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"methoxyflurane\" outputclass=\"int-drug\">methoxyflurane</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  methoxyflurane  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "63",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methoxyflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691748",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691748_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"mianserin\" outputclass=\"int-drug\">mianserin</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  mianserin  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "64",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mianserin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691749",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691749_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"midazolam\" outputclass=\"int-drug\">midazolam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  midazolam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "65",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Midazolam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691750",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691750_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"mirtazapine\" outputclass=\"int-drug\">mirtazapine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  mirtazapine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "66",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mirtazapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691751",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691751_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"morphine\" outputclass=\"int-drug\">morphine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  morphine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "67",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Morphine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691752",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691752_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"moxonidine\" outputclass=\"int-drug\">moxonidine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  moxonidine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "68",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Moxonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691753",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691753_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"nabilone\" outputclass=\"int-drug\">nabilone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  nabilone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "69",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nabilone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691754",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691754_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"nitrazepam\" outputclass=\"int-drug\">nitrazepam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  nitrazepam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "70",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nitrazepam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691755",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691755_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"nitrous oxide\" outputclass=\"int-drug\">nitrous oxide</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  nitrous oxide  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "71",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nitrous oxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691756",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691756_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"olanzapine\" outputclass=\"int-drug\">olanzapine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  olanzapine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "72",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olanzapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691757",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691757_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"oxazepam\" outputclass=\"int-drug\">oxazepam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  oxazepam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "73",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxazepam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691758",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691758_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"oxycodone\" outputclass=\"int-drug\">oxycodone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  oxycodone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "74",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxycodone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691759",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691759_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"paliperidone\" outputclass=\"int-drug\">paliperidone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  paliperidone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "75",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paliperidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691760",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691760_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"papaveretum\" outputclass=\"int-drug\">papaveretum</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  papaveretum  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "76",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Papaveretum</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691761",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691761_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"pentazocine\" outputclass=\"int-drug\">pentazocine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  pentazocine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "77",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentazocine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691762",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691762_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"perampanel\" outputclass=\"int-drug\">perampanel</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  perampanel  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "78",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Perampanel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691763",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691763_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"pericyazine\" outputclass=\"int-drug\">pericyazine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  pericyazine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "79",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pericyazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691764",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691764_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"pethidine\" outputclass=\"int-drug\">pethidine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  pethidine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "80",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pethidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691765",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691765_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenelzine\" outputclass=\"int-drug\">Phenelzine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of antimuscarinic side-effects when given with</ph> <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenelzine   is predicted to   increase   the risk of antimuscarinic side-effects when given with   buclizine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "81",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenelzine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691766",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691766_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">phenobarbital</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  phenobarbital  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "82",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691767",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691767_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"pimozide\" outputclass=\"int-drug\">pimozide</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  pimozide  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "83",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pimozide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691768",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691768_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">Buclizine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"pitolisant\" outputclass=\"int-drug\">pitolisant</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Buclizine   is predicted to   decrease   the efficacy of   pitolisant .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "84",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pitolisant</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691769",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691769_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"pregabalin\" outputclass=\"int-drug\">pregabalin</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  pregabalin  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "85",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pregabalin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691770",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691770_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"prilocaine\" outputclass=\"int-drug\">prilocaine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  prilocaine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "86",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prilocaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691771",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691771_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"primidone\" outputclass=\"int-drug\">primidone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  primidone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "87",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691772",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691772_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"prochlorperazine\" outputclass=\"int-drug\">prochlorperazine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  prochlorperazine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "88",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prochlorperazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691773",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691773_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"promazine\" outputclass=\"int-drug\">promazine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  promazine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "89",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Promazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691774",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691774_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"propofol\" outputclass=\"int-drug\">propofol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  propofol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "90",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propofol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691775",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691775_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"quetiapine\" outputclass=\"int-drug\">quetiapine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  quetiapine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "91",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Quetiapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691776",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691776_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"remifentanil\" outputclass=\"int-drug\">remifentanil</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  remifentanil  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "92",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Remifentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691777",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691777_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"risperidone\" outputclass=\"int-drug\">risperidone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  risperidone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "93",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Risperidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691778",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691778_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"ropivacaine\" outputclass=\"int-drug\">ropivacaine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  ropivacaine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "94",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ropivacaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691779",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691779_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"sevoflurane\" outputclass=\"int-drug\">sevoflurane</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  sevoflurane  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "95",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sevoflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691780",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691780_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"sodium oxybate\" outputclass=\"int-drug\">sodium oxybate</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  sodium oxybate  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "96",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sodium oxybate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691781",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691781_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"sufentanil\" outputclass=\"int-drug\">sufentanil</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  sufentanil  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "97",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sufentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691782",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691782_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"sulpiride\" outputclass=\"int-drug\">sulpiride</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  sulpiride  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "98",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulpiride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691783",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691783_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"tapentadol\" outputclass=\"int-drug\">tapentadol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  tapentadol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "99",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tapentadol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691784",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691784_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"temazepam\" outputclass=\"int-drug\">temazepam</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  temazepam  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "100",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Temazepam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691785",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691785_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"tetracaine\" outputclass=\"int-drug\">tetracaine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  tetracaine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "101",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tetracaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691786",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691786_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"thalidomide\" outputclass=\"int-drug\">thalidomide</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  thalidomide  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "102",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691787",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691787_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"thiopental\" outputclass=\"int-drug\">thiopental</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  thiopental  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "103",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thiopental</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691788",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691788_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"tizanidine\" outputclass=\"int-drug\">tizanidine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  tizanidine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "104",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tizanidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691789",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691789_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"tramadol\" outputclass=\"int-drug\">tramadol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  tramadol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "105",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tramadol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691790",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691790_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tranylcypromine\" outputclass=\"int-drug\">Tranylcypromine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of antimuscarinic side-effects when given with</ph> <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tranylcypromine   is predicted to   increase   the risk of antimuscarinic side-effects when given with   buclizine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "106",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tranylcypromine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691791",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691791_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"trazodone\" outputclass=\"int-drug\">trazodone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  trazodone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "107",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trazodone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691792",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691792_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"trifluoperazine\" outputclass=\"int-drug\">trifluoperazine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  trifluoperazine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "108",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trifluoperazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691793",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691793_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"venlafaxine\" outputclass=\"int-drug\">venlafaxine</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  venlafaxine  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "109",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Venlafaxine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691794",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691794_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"zolpidem\" outputclass=\"int-drug\">zolpidem</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  zolpidem  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "110",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zolpidem</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691795",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691795_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"zopiclone\" outputclass=\"int-drug\">zopiclone</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  zopiclone  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "111",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zopiclone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691796",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/buclizine#bnf_i1557280691796_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"buclizine\" outputclass=\"int-heading-drug\">buclizine</ph> and <ph otherprops=\"zuclopenthixol\" outputclass=\"int-drug\">zuclopenthixol</ph> can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in <xref format=\"dita\" href=\"guidance/guidance-on-prescribing.xml\" type=\"interaction\" rel=\"guidance\" bnfid=\"PHP97234\">Guidance on Prescribing</xref>).</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  buclizine  and  zuclopenthixol  can have CNS depressant effects, which might affect the ability to perform skilled tasks (see 'Drugs and Driving' in  Guidance on Prescribing ). \n\n"
+						}
+					],
+					"hasOrder": "112",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zuclopenthixol</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Buclizine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/buclizine.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Buclizine </title>"
+			},
+			"rdfs:label": "buclizine"
+		}
+	]
+}

@@ -1,0 +1,4093 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689528",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689528_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"aceclofenac\" outputclass=\"int-drug\">aceclofenac</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  aceclofenac  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aceclofenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689529",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689529_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"acenocoumarol\" outputclass=\"int-drug\">Acenocoumarol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Acenocoumarol   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acenocoumarol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689530",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689530_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"afatinib\" outputclass=\"int-drug\">afatinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  afatinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Afatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689531",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689531_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"aflibercept\" outputclass=\"int-drug\">aflibercept</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  aflibercept  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aflibercept</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689532",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689532_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"alteplase\" outputclass=\"int-drug\">Alteplase</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Alteplase   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alteplase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689533",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689533_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"amsacrine\" outputclass=\"int-drug\">amsacrine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  amsacrine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amsacrine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689534",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689534_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"anagrelide\" outputclass=\"int-drug\">anagrelide</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  anagrelide  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Anagrelide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689535",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689535_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"anakinra\" outputclass=\"int-drug\">anakinra</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  anakinra  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Anakinra</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689536",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689536_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"apixaban\" outputclass=\"int-drug\">Apixaban</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Apixaban   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apixaban</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689537",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689537_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"argatroban\" outputclass=\"int-drug\">Argatroban</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Argatroban   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Argatroban</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689538",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689538_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"arsenic trioxide\" outputclass=\"int-drug\">arsenic trioxide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  arsenic trioxide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Arsenic trioxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689539",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689539_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"asparaginase\" outputclass=\"int-drug\">asparaginase</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  asparaginase  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Asparaginase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689540",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689540_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"aspirin\" outputclass=\"int-drug\">aspirin</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  aspirin  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aspirin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689541",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689541_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"axitinib\" outputclass=\"int-drug\">axitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  axitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Axitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689542",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689542_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"azacitidine\" outputclass=\"int-drug\">azacitidine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  azacitidine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Azacitidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689543",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689543_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"azathioprine\" outputclass=\"int-drug\">azathioprine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  azathioprine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Azathioprine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689544",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689544_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"Bacillus Calmette-Guérin vaccine\" outputclass=\"int-drug\">Bacillus Calmette-Guérin vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bacillus Calmette-Guérin vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   bevacizumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bacillus Calmette-Guérin vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689545",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689545_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"balsalazide\" outputclass=\"int-drug\">balsalazide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  balsalazide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Balsalazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689546",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689546_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"bendamustine\" outputclass=\"int-drug\">bendamustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  bendamustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bendamustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689547",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689547_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bivalirudin\" outputclass=\"int-drug\">Bivalirudin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bivalirudin   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bivalirudin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689548",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689548_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"bleomycin\" outputclass=\"int-drug\">bleomycin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  bleomycin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bleomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689549",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689549_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"bortezomib\" outputclass=\"int-drug\">bortezomib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  bortezomib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bortezomib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689550",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689550_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"bosutinib\" outputclass=\"int-drug\">bosutinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  bosutinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosutinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689551",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689551_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"busulfan\" outputclass=\"int-drug\">busulfan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  busulfan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Busulfan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689552",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689552_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"cabazitaxel\" outputclass=\"int-drug\">cabazitaxel</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  cabazitaxel  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabazitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689553",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689553_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"cabozantinib\" outputclass=\"int-drug\">cabozantinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  cabozantinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabozantinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689554",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689554_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"cangrelor\" outputclass=\"int-drug\">cangrelor</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  cangrelor  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cangrelor</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689555",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689555_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"capecitabine\" outputclass=\"int-drug\">capecitabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  capecitabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Capecitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689556",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689556_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"carbimazole\" outputclass=\"int-drug\">carbimazole</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  carbimazole  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbimazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689557",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689557_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"carboplatin\" outputclass=\"int-drug\">carboplatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  carboplatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carboplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689558",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689558_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"carfilzomib\" outputclass=\"int-drug\">carfilzomib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  carfilzomib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carfilzomib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689559",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689559_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"carmustine\" outputclass=\"int-drug\">carmustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  carmustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carmustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689560",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689560_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"celecoxib\" outputclass=\"int-drug\">celecoxib</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  celecoxib  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Celecoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689561",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689561_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"ceritinib\" outputclass=\"int-drug\">ceritinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  ceritinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceritinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689562",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689562_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"chlorambucil\" outputclass=\"int-drug\">chlorambucil</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  chlorambucil  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorambucil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689563",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689563_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"cilostazol\" outputclass=\"int-drug\">cilostazol</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  cilostazol  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cilostazol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689564",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689564_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"cisplatin\" outputclass=\"int-drug\">cisplatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  cisplatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cisplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689565",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689565_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"citalopram\" outputclass=\"int-drug\">citalopram</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  citalopram  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Citalopram</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689566",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689566_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"cladribine\" outputclass=\"int-drug\">cladribine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  cladribine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cladribine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689567",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689567_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"clofarabine\" outputclass=\"int-drug\">clofarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  clofarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clofarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689568",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689568_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"clopidogrel\" outputclass=\"int-drug\">clopidogrel</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  clopidogrel  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clopidogrel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689569",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689569_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"clozapine\" outputclass=\"int-drug\">clozapine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  clozapine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clozapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689570",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689570_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"co-trimoxazole\" outputclass=\"int-drug\">co-trimoxazole</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  co-trimoxazole  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Co-trimoxazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689571",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689571_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"crisantaspase\" outputclass=\"int-drug\">crisantaspase</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  crisantaspase  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crisantaspase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689572",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689572_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"crizotinib\" outputclass=\"int-drug\">crizotinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  crizotinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crizotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689573",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689573_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"cyclophosphamide\" outputclass=\"int-drug\">cyclophosphamide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  cyclophosphamide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyclophosphamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689574",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689574_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"cytarabine\" outputclass=\"int-drug\">cytarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  cytarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cytarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689575",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689575_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dabigatran\" outputclass=\"int-drug\">Dabigatran</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dabigatran   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dabigatran</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689576",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689576_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"dabrafenib\" outputclass=\"int-drug\">dabrafenib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  dabrafenib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dabrafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689577",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689577_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"dacarbazine\" outputclass=\"int-drug\">dacarbazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  dacarbazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dacarbazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689578",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689578_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"dactinomycin\" outputclass=\"int-drug\">dactinomycin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  dactinomycin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dactinomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689579",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689579_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dalteparin\" outputclass=\"int-drug\">Dalteparin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dalteparin   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dalteparin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689580",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689580_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"danaparoid\" outputclass=\"int-drug\">Danaparoid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Danaparoid   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Danaparoid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689581",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689581_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"dapoxetine\" outputclass=\"int-drug\">dapoxetine</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  dapoxetine  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dapoxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689582",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689582_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"dasatinib\" outputclass=\"int-drug\">dasatinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  dasatinib  can increase the risk of myelosuppression. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689582_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"dasatinib\" outputclass=\"int-drug\">dasatinib</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  bevacizumab  and  dasatinib  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dasatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689583",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689583_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"daunorubicin\" outputclass=\"int-drug\">daunorubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  daunorubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Daunorubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689584",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689584_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"decitabine\" outputclass=\"int-drug\">decitabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  decitabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "57",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Decitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689585",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689585_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"deferiprone\" outputclass=\"int-drug\">deferiprone</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  deferiprone  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Deferiprone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689586",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689586_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"dexibuprofen\" outputclass=\"int-drug\">dexibuprofen</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  dexibuprofen  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "59",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexibuprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689587",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689587_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"dexketoprofen\" outputclass=\"int-drug\">dexketoprofen</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  dexketoprofen  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "60",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexketoprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689588",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689588_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"diclofenac\" outputclass=\"int-drug\">diclofenac</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  diclofenac  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "61",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diclofenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689589",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689589_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"dipyridamole\" outputclass=\"int-drug\">dipyridamole</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  dipyridamole  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "62",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dipyridamole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689590",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689590_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"docetaxel\" outputclass=\"int-drug\">docetaxel</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  docetaxel  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "63",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Docetaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689591",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689591_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"doxorubicin\" outputclass=\"int-drug\">doxorubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  doxorubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "64",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxorubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689592",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689592_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"duloxetine\" outputclass=\"int-drug\">duloxetine</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  duloxetine  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "65",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Duloxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689593",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689593_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"edoxaban\" outputclass=\"int-drug\">Edoxaban</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Edoxaban   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "66",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Edoxaban</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689594",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689594_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"enoxaparin\" outputclass=\"int-drug\">Enoxaparin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Enoxaparin   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "67",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enoxaparin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689595",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689595_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"epirubicin\" outputclass=\"int-drug\">epirubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  epirubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "68",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Epirubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689596",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689596_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"epoprostenol\" outputclass=\"int-drug\">epoprostenol</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  epoprostenol  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "69",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Epoprostenol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689597",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689597_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"eptifibatide\" outputclass=\"int-drug\">eptifibatide</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  eptifibatide  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "70",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eptifibatide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689598",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689598_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"eribulin\" outputclass=\"int-drug\">eribulin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  eribulin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "71",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eribulin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689599",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689599_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"escitalopram\" outputclass=\"int-drug\">escitalopram</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  escitalopram  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "72",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Escitalopram</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689600",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689600_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"estramustine\" outputclass=\"int-drug\">estramustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  estramustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "73",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Estramustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689601",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689601_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"ethosuximide\" outputclass=\"int-drug\">ethosuximide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  ethosuximide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "74",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ethosuximide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689602",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689602_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"etodolac\" outputclass=\"int-drug\">etodolac</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  etodolac  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "75",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etodolac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689603",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689603_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"etoposide\" outputclass=\"int-drug\">etoposide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  etoposide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "76",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etoposide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689604",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689604_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"etoricoxib\" outputclass=\"int-drug\">etoricoxib</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  etoricoxib  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "77",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etoricoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689605",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689605_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"everolimus\" outputclass=\"int-drug\">everolimus</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  everolimus  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "78",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Everolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689606",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689606_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"fludarabine\" outputclass=\"int-drug\">fludarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  fludarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "79",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fludarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689607",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689607_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"fluorouracil\" outputclass=\"int-drug\">fluorouracil</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  fluorouracil  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "80",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluorouracil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689608",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689608_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"fluoxetine\" outputclass=\"int-drug\">fluoxetine</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  fluoxetine  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "81",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluoxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689609",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689609_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"flurbiprofen\" outputclass=\"int-drug\">flurbiprofen</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  flurbiprofen  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "82",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flurbiprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689610",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689610_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"fluvoxamine\" outputclass=\"int-drug\">fluvoxamine</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  fluvoxamine  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "83",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluvoxamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689611",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689611_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fondaparinux\" outputclass=\"int-drug\">Fondaparinux</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fondaparinux   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "84",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fondaparinux</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689612",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689612_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"ganciclovir\" outputclass=\"int-drug\">ganciclovir</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  ganciclovir  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "85",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689613",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689613_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"gefitinib\" outputclass=\"int-drug\">gefitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  gefitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "86",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gefitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689614",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689614_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"gemcitabine\" outputclass=\"int-drug\">gemcitabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  gemcitabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "87",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gemcitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689615",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689615_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"heparin (unfractionated)\" outputclass=\"int-drug\">Heparin (unfractionated)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Heparin (unfractionated)   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "88",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Heparin (unfractionated)</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689616",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689616_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"hydroxycarbamide\" outputclass=\"int-drug\">hydroxycarbamide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  hydroxycarbamide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "89",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroxycarbamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689617",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689617_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"ibrutinib\" outputclass=\"int-drug\">ibrutinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  ibrutinib  can increase the risk of myelosuppression. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689617_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"ibrutinib\" outputclass=\"int-drug\">ibrutinib</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  bevacizumab  and  ibrutinib  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "90",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibrutinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689618",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689618_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"ibuprofen\" outputclass=\"int-drug\">ibuprofen</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  ibuprofen  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "91",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibuprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689619",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689619_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"idarubicin\" outputclass=\"int-drug\">idarubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  idarubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "92",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Idarubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689620",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689620_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"idelalisib\" outputclass=\"int-drug\">idelalisib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  idelalisib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "93",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Idelalisib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689621",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689621_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"ifosfamide\" outputclass=\"int-drug\">ifosfamide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  ifosfamide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "94",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ifosfamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689622",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689622_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"iloprost\" outputclass=\"int-drug\">iloprost</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  iloprost  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "95",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Iloprost</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689623",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689623_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"imatinib\" outputclass=\"int-drug\">imatinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  imatinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "96",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689624",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689624_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"indometacin\" outputclass=\"int-drug\">indometacin</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  indometacin  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "97",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Indometacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689625",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689625_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"influenza vaccine (live)\" outputclass=\"int-drug\">Influenza vaccine (live)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Influenza vaccine (live)   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   bevacizumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "98",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Influenza vaccine (live)</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689626",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689626_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"inotersen\" outputclass=\"int-drug\">inotersen</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  inotersen  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "99",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Inotersen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689627",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689627_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"interferon alfa\" outputclass=\"int-drug\">interferon alfa</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  interferon alfa  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "100",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Interferon alfa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689628",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689628_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"interferon beta\" outputclass=\"int-drug\">interferon beta</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  interferon beta  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "101",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Interferon beta</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689629",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689629_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"irinotecan\" outputclass=\"int-drug\">irinotecan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  irinotecan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "102",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Irinotecan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689630",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689630_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"ketoprofen\" outputclass=\"int-drug\">ketoprofen</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  ketoprofen  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "103",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketoprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689631",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689631_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"ketorolac\" outputclass=\"int-drug\">ketorolac</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  ketorolac  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "104",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketorolac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689632",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689632_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"leflunomide\" outputclass=\"int-drug\">leflunomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  leflunomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "105",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Leflunomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689633",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689633_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"lenalidomide\" outputclass=\"int-drug\">lenalidomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  lenalidomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "106",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lenalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689634",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689634_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"linezolid\" outputclass=\"int-drug\">linezolid</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  linezolid  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "107",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Linezolid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689635",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689635_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"lomustine\" outputclass=\"int-drug\">lomustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  lomustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "108",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lomustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689636",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689636_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"measles, mumps and rubella vaccine, live\" outputclass=\"int-drug\">Measles, mumps and rubella vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Measles, mumps and rubella vaccine, live   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   bevacizumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "109",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Measles, mumps and rubella vaccine, live</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689637",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689637_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"mefenamic acid\" outputclass=\"int-drug\">mefenamic acid</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  mefenamic acid  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "110",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mefenamic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689638",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689638_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"meloxicam\" outputclass=\"int-drug\">meloxicam</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  meloxicam  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "111",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Meloxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689639",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689639_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"melphalan\" outputclass=\"int-drug\">melphalan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  melphalan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "112",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Melphalan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689640",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689640_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"mercaptopurine\" outputclass=\"int-drug\">mercaptopurine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  mercaptopurine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "113",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mercaptopurine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689641",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689641_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"methotrexate\" outputclass=\"int-drug\">methotrexate</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  methotrexate  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "114",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methotrexate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689642",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689642_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"mitomycin\" outputclass=\"int-drug\">mitomycin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  mitomycin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "115",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689643",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689643_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"mitotane\" outputclass=\"int-drug\">mitotane</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  mitotane  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "116",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitotane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689644",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689644_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"mitoxantrone\" outputclass=\"int-drug\">mitoxantrone</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  mitoxantrone  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "117",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitoxantrone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689645",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689645_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"mycophenolate\" outputclass=\"int-drug\">mycophenolate</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  mycophenolate  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "118",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mycophenolate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689646",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689646_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"nabumetone\" outputclass=\"int-drug\">nabumetone</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  nabumetone  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "119",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nabumetone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689647",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689647_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"naproxen\" outputclass=\"int-drug\">naproxen</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  naproxen  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "120",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Naproxen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689648",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689648_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"nelarabine\" outputclass=\"int-drug\">nelarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  nelarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "121",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nelarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689649",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689649_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nicotinic acid\" outputclass=\"int-drug\">Nicotinic acid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Nicotinic acid   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "122",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nicotinic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689650",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689650_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"nilotinib\" outputclass=\"int-drug\">nilotinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  nilotinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "123",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nilotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689651",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689651_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"olanzapine\" outputclass=\"int-drug\">olanzapine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  olanzapine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "124",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olanzapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689652",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689652_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"olaparib\" outputclass=\"int-drug\">olaparib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  olaparib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "125",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olaparib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689653",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689653_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"olsalazine\" outputclass=\"int-drug\">olsalazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  olsalazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "126",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olsalazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689654",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689654_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"omega-3-acid ethyl esters\" outputclass=\"int-drug\">Omega-3-acid ethyl esters</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Omega-3-acid ethyl esters   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "127",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Omega-3-acid ethyl esters</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689655",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689655_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"oxaliplatin\" outputclass=\"int-drug\">oxaliplatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  oxaliplatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "128",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxaliplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689656",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689656_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"paclitaxel\" outputclass=\"int-drug\">paclitaxel</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  paclitaxel  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "129",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paclitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689657",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689657_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"panobinostat\" outputclass=\"int-drug\">panobinostat</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  panobinostat  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "130",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Panobinostat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689658",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689658_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"parecoxib\" outputclass=\"int-drug\">parecoxib</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  parecoxib  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "131",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Parecoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689659",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689659_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"paroxetine\" outputclass=\"int-drug\">paroxetine</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  paroxetine  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "132",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paroxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689660",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689660_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"pazopanib\" outputclass=\"int-drug\">pazopanib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  pazopanib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "133",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pazopanib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689661",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689661_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"pegaspargase\" outputclass=\"int-drug\">pegaspargase</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  pegaspargase  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "134",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pegaspargase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689662",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689662_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"peginterferon alfa\" outputclass=\"int-drug\">peginterferon alfa</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  peginterferon alfa  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "135",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Peginterferon alfa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689663",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689663_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"peginterferon beta-1a\" outputclass=\"int-drug\">peginterferon beta-1a</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  peginterferon beta-1a  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "136",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Peginterferon beta-1a</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689664",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689664_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"pemetrexed\" outputclass=\"int-drug\">pemetrexed</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  pemetrexed  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "137",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pemetrexed</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689665",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689665_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"pentamidine\" outputclass=\"int-drug\">pentamidine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  pentamidine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "138",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentamidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689666",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689666_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"pentostatin\" outputclass=\"int-drug\">pentostatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  pentostatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "139",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentostatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689667",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689667_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenindione\" outputclass=\"int-drug\">Phenindione</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenindione   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "140",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenindione</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689668",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689668_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"piroxicam\" outputclass=\"int-drug\">piroxicam</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  piroxicam  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "141",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Piroxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689669",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689669_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"pixantrone\" outputclass=\"int-drug\">pixantrone</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  pixantrone  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "142",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pixantrone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689670",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689670_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"pomalidomide\" outputclass=\"int-drug\">pomalidomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  pomalidomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "143",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pomalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689671",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689671_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"prasugrel\" outputclass=\"int-drug\">prasugrel</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  prasugrel  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "144",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prasugrel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689672",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689672_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"primaquine\" outputclass=\"int-drug\">primaquine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  primaquine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "145",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primaquine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689673",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689673_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"procarbazine\" outputclass=\"int-drug\">procarbazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  procarbazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "146",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Procarbazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689674",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689674_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"propylthiouracil\" outputclass=\"int-drug\">propylthiouracil</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  propylthiouracil  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "147",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propylthiouracil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689675",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689675_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"pyrimethamine\" outputclass=\"int-drug\">pyrimethamine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  pyrimethamine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "148",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pyrimethamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689676",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689676_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"raltitrexed\" outputclass=\"int-drug\">raltitrexed</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  raltitrexed  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "149",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Raltitrexed</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689677",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689677_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"regorafenib\" outputclass=\"int-drug\">regorafenib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  regorafenib  can increase the risk of myelosuppression. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689677_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"regorafenib\" outputclass=\"int-drug\">regorafenib</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  bevacizumab  and  regorafenib  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "150",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Regorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689678",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689678_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rivaroxaban\" outputclass=\"int-drug\">Rivaroxaban</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rivaroxaban   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "151",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rivaroxaban</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689679",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689679_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rotavirus vaccine\" outputclass=\"int-drug\">Rotavirus vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rotavirus vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   bevacizumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "152",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rotavirus vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689680",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689680_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"ruxolitinib\" outputclass=\"int-drug\">ruxolitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  ruxolitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "153",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ruxolitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689681",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689681_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"sertraline\" outputclass=\"int-drug\">sertraline</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  sertraline  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "154",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sertraline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689682",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689682_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"sorafenib\" outputclass=\"int-drug\">sorafenib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  sorafenib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "155",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689683",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689683_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"streptokinase\" outputclass=\"int-drug\">Streptokinase</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Streptokinase   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "156",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Streptokinase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689684",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689684_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"sulfadiazine\" outputclass=\"int-drug\">sulfadiazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  sulfadiazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "157",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfadiazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689685",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689685_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"sulfasalazine\" outputclass=\"int-drug\">sulfasalazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  sulfasalazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "158",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfasalazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689686",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689686_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"sulfinpyrazone\" outputclass=\"int-drug\">sulfinpyrazone</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  sulfinpyrazone  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "159",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfinpyrazone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689687",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689687_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"sulindac\" outputclass=\"int-drug\">sulindac</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  sulindac  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "160",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulindac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689688",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689688_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"sunitinib\" outputclass=\"int-drug\">sunitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  sunitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "161",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sunitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689689",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689689_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"temozolomide\" outputclass=\"int-drug\">temozolomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  temozolomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "162",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Temozolomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689690",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689690_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"temsirolimus\" outputclass=\"int-drug\">temsirolimus</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  temsirolimus  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "163",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Temsirolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689691",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689691_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tenecteplase\" outputclass=\"int-drug\">Tenecteplase</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tenecteplase   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "164",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tenecteplase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689692",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689692_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"tenoxicam\" outputclass=\"int-drug\">tenoxicam</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  tenoxicam  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "165",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tenoxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689693",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689693_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"thalidomide\" outputclass=\"int-drug\">thalidomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  thalidomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "166",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689694",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689694_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"thiotepa\" outputclass=\"int-drug\">thiotepa</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  thiotepa  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "167",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thiotepa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689695",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689695_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"tiaprofenic acid\" outputclass=\"int-drug\">tiaprofenic acid</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  tiaprofenic acid  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "168",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tiaprofenic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689696",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689696_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"ticagrelor\" outputclass=\"int-drug\">ticagrelor</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  ticagrelor  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "169",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ticagrelor</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689697",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689697_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tinzaparin\" outputclass=\"int-drug\">Tinzaparin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tinzaparin   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "170",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tinzaparin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689698",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689698_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"tioguanine\" outputclass=\"int-drug\">tioguanine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  tioguanine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "171",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tioguanine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689699",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689699_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"tirofiban\" outputclass=\"int-drug\">tirofiban</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  tirofiban  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "172",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tirofiban</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689700",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689700_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"tolfenamic acid\" outputclass=\"int-drug\">tolfenamic acid</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  tolfenamic acid  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "173",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolfenamic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689701",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689701_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"topotecan\" outputclass=\"int-drug\">topotecan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  topotecan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "174",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Topotecan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689702",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689702_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"trabectedin\" outputclass=\"int-drug\">trabectedin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  trabectedin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "175",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trabectedin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689703",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689703_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"treosulfan\" outputclass=\"int-drug\">treosulfan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  treosulfan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "176",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Treosulfan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689704",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689704_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"typhoid vaccine, oral\" outputclass=\"int-drug\">Typhoid vaccine, oral</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Typhoid vaccine, oral   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   bevacizumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "177",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Typhoid vaccine, oral</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689705",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689705_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"urokinase\" outputclass=\"int-drug\">Urokinase</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Urokinase   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "178",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Urokinase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689706",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689706_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"valganciclovir\" outputclass=\"int-drug\">valganciclovir</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  valganciclovir  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "179",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Valganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689707",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689707_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"varicella-zoster vaccine\" outputclass=\"int-drug\">Varicella-zoster vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Varicella-zoster vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   bevacizumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "180",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Varicella-zoster vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689708",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689708_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"venlafaxine\" outputclass=\"int-drug\">venlafaxine</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  venlafaxine  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "181",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Venlafaxine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689709",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689709_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"vinblastine\" outputclass=\"int-drug\">vinblastine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  vinblastine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "182",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinblastine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689710",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689710_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"vincristine\" outputclass=\"int-drug\">vincristine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  vincristine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "183",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vincristine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689711",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689711_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"vindesine\" outputclass=\"int-drug\">vindesine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  vindesine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "184",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vindesine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689712",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689712_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"vinflunine\" outputclass=\"int-drug\">vinflunine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  vinflunine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "185",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinflunine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689713",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689713_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"vinorelbine\" outputclass=\"int-drug\">vinorelbine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  vinorelbine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "186",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinorelbine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689714",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689714_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"vismodegib\" outputclass=\"int-drug\">vismodegib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  vismodegib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "187",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vismodegib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689715",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689715_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"vortioxetine\" outputclass=\"int-drug\">vortioxetine</ph> can increase the risk of bleeding.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  vortioxetine  can increase the risk of bleeding. \n\n"
+						}
+					],
+					"hasOrder": "188",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vortioxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689716",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689716_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"warfarin\" outputclass=\"int-drug\">Warfarin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Warfarin   is predicted to   increase   the risk of bleeding events when given with   bevacizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "189",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Warfarin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689717",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689717_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"yellow fever vaccine, live\" outputclass=\"int-drug\">Yellow fever vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Yellow fever vaccine, live   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   bevacizumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "190",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Yellow fever vaccine, live</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689718",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2#bnf_i1557280689718_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"bevacizumab\" outputclass=\"int-heading-drug\">bevacizumab</ph> and <ph otherprops=\"zidovudine\" outputclass=\"int-drug\">zidovudine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  bevacizumab  and  zidovudine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "191",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zidovudine</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Bevacizumab  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/bevacizumab-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Bevacizumab </title>"
+			},
+			"rdfs:label": "bevacizumab"
+		}
+	]
+}
