@@ -1,0 +1,1120 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/orphenadrine",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748146",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748146_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"aclidinium\" outputclass=\"int-drug\">aclidinium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  aclidinium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aclidinium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748147",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748147_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"amantadine\" outputclass=\"int-drug\">amantadine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  amantadine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amantadine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748148",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748148_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"amitriptyline\" outputclass=\"int-drug\">amitriptyline</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  amitriptyline  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amitriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748149",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748149_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"atropine\" outputclass=\"int-drug\">atropine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  atropine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atropine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748150",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748150_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"baclofen\" outputclass=\"int-drug\">baclofen</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  baclofen  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Baclofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748151",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748151_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"chlorphenamine\" outputclass=\"int-drug\">chlorphenamine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  chlorphenamine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorphenamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748152",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748152_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"chlorpromazine\" outputclass=\"int-drug\">chlorpromazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  chlorpromazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorpromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748153",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748153_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"clemastine\" outputclass=\"int-drug\">clemastine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  clemastine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clemastine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748154",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748154_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"clomipramine\" outputclass=\"int-drug\">clomipramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  clomipramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clomipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748155",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748155_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"clozapine\" outputclass=\"int-drug\">clozapine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  clozapine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clozapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748156",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748156_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"cyclizine\" outputclass=\"int-drug\">cyclizine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  cyclizine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyclizine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748157",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748157_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"cyclopentolate\" outputclass=\"int-drug\">cyclopentolate</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  cyclopentolate  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyclopentolate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748158",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748158_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"cyproheptadine\" outputclass=\"int-drug\">cyproheptadine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  cyproheptadine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyproheptadine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748159",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748159_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"darifenacin\" outputclass=\"int-drug\">darifenacin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  darifenacin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Darifenacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748160",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748160_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"dicycloverine\" outputclass=\"int-drug\">dicycloverine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  dicycloverine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dicycloverine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748161",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748161_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"dimenhydrinate\" outputclass=\"int-drug\">dimenhydrinate</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  dimenhydrinate  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dimenhydrinate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748162",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748162_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"disopyramide\" outputclass=\"int-drug\">disopyramide</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  disopyramide  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Disopyramide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748163",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748163_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"dosulepin\" outputclass=\"int-drug\">dosulepin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  dosulepin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dosulepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748164",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748164_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"doxepin\" outputclass=\"int-drug\">doxepin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  doxepin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748165",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748165_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"fesoterodine\" outputclass=\"int-drug\">fesoterodine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  fesoterodine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fesoterodine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748166",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748166_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"flavoxate\" outputclass=\"int-drug\">flavoxate</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  flavoxate  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flavoxate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748167",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748167_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"glycopyrronium\" outputclass=\"int-drug\">glycopyrronium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  glycopyrronium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glycopyrronium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748168",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748168_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"haloperidol\" outputclass=\"int-drug\">haloperidol</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  haloperidol  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Haloperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748169",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748169_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"homatropine\" outputclass=\"int-drug\">homatropine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  homatropine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Homatropine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748170",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748170_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"hydroxyzine\" outputclass=\"int-drug\">hydroxyzine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  hydroxyzine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroxyzine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748171",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748171_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"hyoscine\" outputclass=\"int-drug\">hyoscine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  hyoscine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hyoscine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748172",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748172_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"imipramine\" outputclass=\"int-drug\">imipramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  imipramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748173",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748173_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"ipratropium\" outputclass=\"int-drug\">ipratropium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  ipratropium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ipratropium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748174",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748174_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">Orphenadrine</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"levodopa\" outputclass=\"int-drug\">levodopa</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Orphenadrine   decreases   the absorption of   levodopa .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levodopa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748175",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748175_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"levomepromazine\" outputclass=\"int-drug\">levomepromazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  levomepromazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levomepromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748176",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748176_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"lofepramine\" outputclass=\"int-drug\">lofepramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  lofepramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lofepramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748177",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748177_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"loxapine\" outputclass=\"int-drug\">loxapine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  loxapine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Loxapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748178",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748178_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"nefopam\" outputclass=\"int-drug\">nefopam</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  nefopam  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nefopam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748179",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748179_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"nortriptyline\" outputclass=\"int-drug\">nortriptyline</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  nortriptyline  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nortriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748180",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748180_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"oxybutynin\" outputclass=\"int-drug\">oxybutynin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  oxybutynin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxybutynin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748181",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748181_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"pimozide\" outputclass=\"int-drug\">pimozide</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  pimozide  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pimozide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748182",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748182_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"prochlorperazine\" outputclass=\"int-drug\">prochlorperazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  prochlorperazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prochlorperazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748183",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748183_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"procyclidine\" outputclass=\"int-drug\">procyclidine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  procyclidine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Procyclidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748184",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748184_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"promethazine\" outputclass=\"int-drug\">promethazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  promethazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Promethazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748185",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748185_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"propafenone\" outputclass=\"int-drug\">propafenone</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  propafenone  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propafenone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748186",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748186_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"propantheline\" outputclass=\"int-drug\">propantheline</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  propantheline  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propantheline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748187",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748187_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"propiverine\" outputclass=\"int-drug\">propiverine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  propiverine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propiverine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748188",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748188_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"solifenacin\" outputclass=\"int-drug\">solifenacin</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  solifenacin  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Solifenacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748189",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748189_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"tiotropium\" outputclass=\"int-drug\">tiotropium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  tiotropium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tiotropium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748190",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748190_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"tolterodine\" outputclass=\"int-drug\">tolterodine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  tolterodine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolterodine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748191",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748191_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"trifluoperazine\" outputclass=\"int-drug\">trifluoperazine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  trifluoperazine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trifluoperazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748192",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748192_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"trihexyphenidyl\" outputclass=\"int-drug\">trihexyphenidyl</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  trihexyphenidyl  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trihexyphenidyl</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748193",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748193_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"trimipramine\" outputclass=\"int-drug\">trimipramine</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  trimipramine  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trimipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748194",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748194_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"tropicamide\" outputclass=\"int-drug\">tropicamide</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  tropicamide  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tropicamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748195",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748195_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"trospium\" outputclass=\"int-drug\">trospium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  trospium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trospium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748196",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/orphenadrine#bnf_i1557280748196_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"orphenadrine\" outputclass=\"int-heading-drug\">orphenadrine</ph> and <ph otherprops=\"umeclidinium\" outputclass=\"int-drug\">umeclidinium</ph> can cause antimuscarinic effects.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  orphenadrine  and  umeclidinium  can cause antimuscarinic effects. \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Umeclidinium</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Orphenadrine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/orphenadrine.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Orphenadrine </title>"
+			},
+			"rdfs:label": "orphenadrine"
+		}
+	]
+}

@@ -1,0 +1,3203 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750778",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750778_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"acebutolol\" outputclass=\"int-drug\">acebutolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  acebutolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acebutolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750779",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750779_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"alectinib\" outputclass=\"int-drug\">alectinib</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  alectinib  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alectinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750780",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750780_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"alfentanil\" outputclass=\"int-drug\">alfentanil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  alfentanil  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alfentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750781",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750781_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"amifampridine\" outputclass=\"int-drug\">amifampridine</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  amifampridine  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amifampridine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750782",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750782_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"aminophylline\" outputclass=\"int-drug\">Aminophylline</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Aminophylline   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aminophylline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750783",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750783_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"amiodarone\" outputclass=\"int-drug\">amiodarone</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  amiodarone  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750783_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"amiodarone\" outputclass=\"int-drug\">amiodarone</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Both  pasireotide  and  amiodarone  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amiodarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750784",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750784_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"amisulpride\" outputclass=\"int-drug\">amisulpride</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  amisulpride  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amisulpride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750785",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750785_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"amphotericin\" outputclass=\"int-drug\">Amphotericin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Amphotericin   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amphotericin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750786",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750786_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"anagrelide\" outputclass=\"int-drug\">anagrelide</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  anagrelide  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Anagrelide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750787",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750787_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"apalutamide\" outputclass=\"int-drug\">apalutamide</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  apalutamide  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750788",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750788_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"apomorphine\" outputclass=\"int-drug\">apomorphine</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  apomorphine  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apomorphine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750789",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750789_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"apraclonidine\" outputclass=\"int-drug\">apraclonidine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  apraclonidine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apraclonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750790",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750790_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"arsenic trioxide\" outputclass=\"int-drug\">arsenic trioxide</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  arsenic trioxide  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Arsenic trioxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750791",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750791_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"artemether\" outputclass=\"int-drug\">artemether</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  artemether  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Artemether</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750792",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750792_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"artenimol\" outputclass=\"int-drug\">artenimol</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  artenimol  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Artenimol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750793",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750793_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"atenolol\" outputclass=\"int-drug\">atenolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  atenolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atenolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750794",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750794_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bambuterol\" outputclass=\"int-drug\">Bambuterol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bambuterol   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bambuterol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750795",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750795_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"beclometasone\" outputclass=\"int-drug\">Beclometasone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Beclometasone   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Beclometasone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750796",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750796_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"bedaquiline\" outputclass=\"int-drug\">bedaquiline</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  bedaquiline  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bedaquiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750797",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750797_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bendroflumethiazide\" outputclass=\"int-drug\">Bendroflumethiazide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bendroflumethiazide   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bendroflumethiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750798",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750798_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"betamethasone\" outputclass=\"int-drug\">Betamethasone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Betamethasone   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Betamethasone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750799",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750799_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"betaxolol\" outputclass=\"int-drug\">betaxolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  betaxolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Betaxolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750800",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750800_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"bisoprolol\" outputclass=\"int-drug\">bisoprolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  bisoprolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bisoprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750801",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750801_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"bosutinib\" outputclass=\"int-drug\">bosutinib</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  bosutinib  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosutinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750802",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750802_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"brimonidine\" outputclass=\"int-drug\">brimonidine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  brimonidine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Brimonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750803",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750803_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"budesonide\" outputclass=\"int-drug\">Budesonide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Budesonide   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Budesonide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750804",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750804_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bumetanide\" outputclass=\"int-drug\">Bumetanide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bumetanide   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bumetanide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750805",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750805_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"cabozantinib\" outputclass=\"int-drug\">cabozantinib</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  cabozantinib  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabozantinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750806",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750806_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"carvedilol\" outputclass=\"int-drug\">carvedilol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  carvedilol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carvedilol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750807",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750807_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"celiprolol\" outputclass=\"int-drug\">celiprolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  celiprolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Celiprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750808",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750808_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"ceritinib\" outputclass=\"int-drug\">ceritinib</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  ceritinib  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceritinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750809",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750809_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chlorothiazide\" outputclass=\"int-drug\">Chlorothiazide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Chlorothiazide   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorothiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750810",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750810_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"chlorpromazine\" outputclass=\"int-drug\">chlorpromazine</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  chlorpromazine  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorpromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750811",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750811_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chlortalidone\" outputclass=\"int-drug\">Chlortalidone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Chlortalidone   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlortalidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750812",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750812_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">Pasireotide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"ciclosporin\" outputclass=\"int-drug\">ciclosporin</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Pasireotide   is predicted to   decrease   the absorption of   oral   ciclosporin .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciclosporin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750813",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750813_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"cisatracurium\" outputclass=\"int-drug\">cisatracurium</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  cisatracurium  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cisatracurium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750814",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750814_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"citalopram\" outputclass=\"int-drug\">citalopram</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  citalopram  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Citalopram</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750815",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750815_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"clarithromycin\" outputclass=\"int-drug\">clarithromycin</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  clarithromycin  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clarithromycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750816",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750816_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"clomipramine\" outputclass=\"int-drug\">clomipramine</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  clomipramine  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clomipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750817",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750817_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"clonidine\" outputclass=\"int-drug\">clonidine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  clonidine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750818",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750818_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"crizotinib\" outputclass=\"int-drug\">crizotinib</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  crizotinib  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750818_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"crizotinib\" outputclass=\"int-drug\">crizotinib</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Both  pasireotide  and  crizotinib  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crizotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750819",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750819_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"dasatinib\" outputclass=\"int-drug\">dasatinib</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  dasatinib  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dasatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750820",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750820_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"deflazacort\" outputclass=\"int-drug\">Deflazacort</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Deflazacort   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Deflazacort</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750821",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750821_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"delamanid\" outputclass=\"int-drug\">delamanid</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  delamanid  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Delamanid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750822",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750822_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dexamethasone\" outputclass=\"int-drug\">Dexamethasone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dexamethasone   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexamethasone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750823",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750823_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  digoxin  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Digoxin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750824",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750824_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"diltiazem\" outputclass=\"int-drug\">diltiazem</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  diltiazem  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diltiazem</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750825",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750825_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"disopyramide\" outputclass=\"int-drug\">disopyramide</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  disopyramide  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Disopyramide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750826",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750826_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"domperidone\" outputclass=\"int-drug\">Domperidone</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Domperidone   increases   the risk of QT-prolongation when given with   pasireotide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Domperidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750827",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750827_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"donepezil\" outputclass=\"int-drug\">donepezil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  donepezil  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Donepezil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750828",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750828_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"dronedarone\" outputclass=\"int-drug\">dronedarone</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  dronedarone  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dronedarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750829",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750829_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"droperidol\" outputclass=\"int-drug\">droperidol</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  droperidol  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Droperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750830",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750830_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"efavirenz\" outputclass=\"int-drug\">efavirenz</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  efavirenz  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Efavirenz</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750831",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750831_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"encorafenib\" outputclass=\"int-drug\">encorafenib</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  encorafenib  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Encorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750832",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750832_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"eribulin\" outputclass=\"int-drug\">eribulin</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  eribulin  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eribulin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750833",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750833_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"erythromycin\" outputclass=\"int-drug\">erythromycin</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  erythromycin  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Erythromycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750834",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750834_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"escitalopram\" outputclass=\"int-drug\">escitalopram</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  escitalopram  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "57",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Escitalopram</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750835",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750835_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"esmolol\" outputclass=\"int-drug\">esmolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  esmolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Esmolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750836",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750836_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"fentanyl\" outputclass=\"int-drug\">fentanyl</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  fentanyl  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "59",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fentanyl</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750837",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750837_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"fingolimod\" outputclass=\"int-drug\">fingolimod</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  fingolimod  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750837_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fingolimod\" outputclass=\"int-drug\">Fingolimod</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Fingolimod   increases   the risk of QT-prolongation when given with   pasireotide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "60",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fingolimod</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750838",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750838_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"flecainide\" outputclass=\"int-drug\">flecainide</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  flecainide  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750838_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"flecainide\" outputclass=\"int-drug\">flecainide</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Both  pasireotide  and  flecainide  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "61",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flecainide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750839",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750839_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"fluconazole\" outputclass=\"int-drug\">fluconazole</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  fluconazole  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "62",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750840",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750840_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fludrocortisone\" outputclass=\"int-drug\">Fludrocortisone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fludrocortisone   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "63",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fludrocortisone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750841",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750841_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"fluphenazine\" outputclass=\"int-drug\">fluphenazine</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  fluphenazine  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "64",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluphenazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750842",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750842_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"formoterol\" outputclass=\"int-drug\">Formoterol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Formoterol   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "65",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Formoterol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750843",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750843_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"furosemide\" outputclass=\"int-drug\">Furosemide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Furosemide   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "66",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Furosemide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750844",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750844_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"galantamine\" outputclass=\"int-drug\">galantamine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  galantamine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "67",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Galantamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750845",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750845_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"granisetron\" outputclass=\"int-drug\">Granisetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Granisetron   is predicted to   increase   the risk of QT-prolongation when given with   pasireotide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "68",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Granisetron</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750846",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750846_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"haloperidol\" outputclass=\"int-drug\">haloperidol</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  haloperidol  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "69",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Haloperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750847",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750847_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"hydrochlorothiazide\" outputclass=\"int-drug\">Hydrochlorothiazide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Hydrochlorothiazide   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "70",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydrochlorothiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750848",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750848_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"hydrocortisone\" outputclass=\"int-drug\">Hydrocortisone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Hydrocortisone   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "71",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydrocortisone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750849",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750849_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"hydroflumethiazide\" outputclass=\"int-drug\">Hydroflumethiazide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Hydroflumethiazide   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "72",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroflumethiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750850",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750850_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"hydroxyzine\" outputclass=\"int-drug\">hydroxyzine</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  hydroxyzine  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "73",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroxyzine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750851",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750851_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"indacaterol\" outputclass=\"int-drug\">Indacaterol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Indacaterol   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "74",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Indacaterol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750852",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750852_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"indapamide\" outputclass=\"int-drug\">Indapamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Indapamide   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "75",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Indapamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750853",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750853_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"inotuzumab ozogamicin\" outputclass=\"int-drug\">inotuzumab ozogamicin</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  inotuzumab ozogamicin  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "76",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Inotuzumab ozogamicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750854",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750854_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"ivabradine\" outputclass=\"int-drug\">ivabradine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  ivabradine  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750854_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ivabradine\" outputclass=\"int-drug\">Ivabradine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of torsade de pointes when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Ivabradine   is predicted to   increase   the risk of torsade de pointes when given with   pasireotide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "77",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ivabradine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750855",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750855_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"labetalol\" outputclass=\"int-drug\">labetalol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  labetalol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "78",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Labetalol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750856",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750856_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"lapatinib\" outputclass=\"int-drug\">lapatinib</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  lapatinib  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "79",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lapatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750857",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750857_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"lenvatinib\" outputclass=\"int-drug\">lenvatinib</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  lenvatinib  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "80",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lenvatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750858",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750858_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"levobunolol\" outputclass=\"int-drug\">levobunolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  levobunolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "81",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levobunolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750859",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750859_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"levomepromazine\" outputclass=\"int-drug\">levomepromazine</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  levomepromazine  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "82",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levomepromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750860",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750860_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"lithium\" outputclass=\"int-drug\">lithium</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  lithium  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "83",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lithium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750861",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750861_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"lofexidine\" outputclass=\"int-drug\">lofexidine</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  lofexidine  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "84",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lofexidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750862",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750862_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mefloquine\" outputclass=\"int-drug\">Mefloquine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Mefloquine   is predicted to   increase   the risk of QT-prolongation when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "85",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mefloquine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750863",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750863_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"methadone\" outputclass=\"int-drug\">methadone</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  methadone  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750863_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"methadone\" outputclass=\"int-drug\">methadone</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Both  pasireotide  and  methadone  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "86",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methadone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750864",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750864_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylprednisolone\" outputclass=\"int-drug\">Methylprednisolone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Methylprednisolone   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "87",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methylprednisolone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750865",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750865_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metolazone\" outputclass=\"int-drug\">Metolazone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metolazone   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "88",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metolazone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750866",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750866_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"metoprolol\" outputclass=\"int-drug\">metoprolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  metoprolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "89",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metoprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750867",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750867_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mizolastine\" outputclass=\"int-drug\">Mizolastine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Mizolastine   is predicted to   increase   the risk of QT-prolongation when given with   pasireotide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "90",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mizolastine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750868",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750868_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"moxifloxacin\" outputclass=\"int-drug\">moxifloxacin</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  moxifloxacin  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "91",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Moxifloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750869",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750869_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"nadolol\" outputclass=\"int-drug\">nadolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  nadolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "92",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nadolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750870",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750870_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"nebivolol\" outputclass=\"int-drug\">nebivolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  nebivolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "93",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nebivolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750871",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750871_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"neostigmine\" outputclass=\"int-drug\">neostigmine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  neostigmine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "94",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Neostigmine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750872",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750872_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"nilotinib\" outputclass=\"int-drug\">nilotinib</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  nilotinib  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "95",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nilotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750873",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750873_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"olodaterol\" outputclass=\"int-drug\">Olodaterol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Olodaterol   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "96",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olodaterol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750874",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750874_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"ondansetron\" outputclass=\"int-drug\">ondansetron</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  ondansetron  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "97",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ondansetron</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750875",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750875_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"osimertinib\" outputclass=\"int-drug\">osimertinib</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  osimertinib  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "98",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Osimertinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750876",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750876_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"oxprenolol\" outputclass=\"int-drug\">oxprenolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  oxprenolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "99",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxprenolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750877",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750877_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"paliperidone\" outputclass=\"int-drug\">paliperidone</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  paliperidone  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "100",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paliperidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750878",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750878_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   pasireotide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "101",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Palonosetron</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750879",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750879_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"panobinostat\" outputclass=\"int-drug\">panobinostat</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  panobinostat  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "102",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Panobinostat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750880",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750880_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"pazopanib\" outputclass=\"int-drug\">pazopanib</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  pazopanib  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "103",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pazopanib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750881",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750881_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Intravenous</ph> <ph otherprops=\"pentamidine\" outputclass=\"int-drug\">pentamidine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Intravenous   pentamidine   potentially   increases   the risk of QT-prolongation when given with   pasireotide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "104",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentamidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750882",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750882_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"pimozide\" outputclass=\"int-drug\">pimozide</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  pimozide  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "105",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pimozide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750883",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750883_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"pindolol\" outputclass=\"int-drug\">pindolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  pindolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "106",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pindolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750884",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750884_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"prednisolone\" outputclass=\"int-drug\">Prednisolone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Prednisolone   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "107",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prednisolone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750885",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750885_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"propranolol\" outputclass=\"int-drug\">propranolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  propranolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "108",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propranolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750886",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750886_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"pyridostigmine\" outputclass=\"int-drug\">pyridostigmine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  pyridostigmine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "109",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pyridostigmine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750887",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750887_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"quinine\" outputclass=\"int-drug\">quinine</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  quinine  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "110",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Quinine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750888",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750888_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"ranolazine\" outputclass=\"int-drug\">ranolazine</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  ranolazine  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "111",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ranolazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750889",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750889_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"remifentanil\" outputclass=\"int-drug\">remifentanil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  remifentanil  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "112",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Remifentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750890",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750890_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"ribociclib\" outputclass=\"int-drug\">ribociclib</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  ribociclib  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "113",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ribociclib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750891",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750891_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"risperidone\" outputclass=\"int-drug\">risperidone</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  risperidone  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "114",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Risperidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750892",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750892_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"rivastigmine\" outputclass=\"int-drug\">rivastigmine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  rivastigmine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "115",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rivastigmine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750893",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750893_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"salbutamol\" outputclass=\"int-drug\">Salbutamol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Salbutamol   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "116",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Salbutamol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750894",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750894_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"salmeterol\" outputclass=\"int-drug\">Salmeterol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Salmeterol   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "117",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Salmeterol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750895",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750895_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"saquinavir\" outputclass=\"int-drug\">saquinavir</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  saquinavir  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "118",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Saquinavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750896",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750896_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"selegiline\" outputclass=\"int-drug\">selegiline</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  selegiline  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "119",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Selegiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750897",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750897_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"sildenafil\" outputclass=\"int-drug\">sildenafil</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  sildenafil  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "120",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sildenafil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750898",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750898_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"sorafenib\" outputclass=\"int-drug\">sorafenib</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  sorafenib  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "121",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750899",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750899_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"sotalol\" outputclass=\"int-drug\">sotalol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  sotalol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750899_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"sotalol\" outputclass=\"int-drug\">sotalol</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Both  pasireotide  and  sotalol  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "122",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sotalol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750900",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750900_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"sufentanil\" outputclass=\"int-drug\">sufentanil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  sufentanil  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "123",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sufentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750901",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750901_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"sulpiride\" outputclass=\"int-drug\">sulpiride</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  sulpiride  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "124",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulpiride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750902",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750902_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"sunitinib\" outputclass=\"int-drug\">sunitinib</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  sunitinib  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "125",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sunitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750903",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750903_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"telavancin\" outputclass=\"int-drug\">telavancin</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  telavancin  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "126",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Telavancin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750904",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750904_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"terbutaline\" outputclass=\"int-drug\">Terbutaline</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Terbutaline   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "127",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Terbutaline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750905",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750905_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"tetrabenazine\" outputclass=\"int-drug\">tetrabenazine</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  tetrabenazine  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "128",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tetrabenazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750906",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750906_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"thalidomide\" outputclass=\"int-drug\">thalidomide</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  thalidomide  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "129",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750907",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750907_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"theophylline\" outputclass=\"int-drug\">Theophylline</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Theophylline   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "130",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Theophylline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750908",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750908_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"timolol\" outputclass=\"int-drug\">timolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  timolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "131",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Timolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750909",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750909_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"tizanidine\" outputclass=\"int-drug\">tizanidine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  tizanidine  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750909_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"tizanidine\" outputclass=\"int-drug\">tizanidine</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Both  pasireotide  and  tizanidine  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "132",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tizanidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750910",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750910_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"tolterodine\" outputclass=\"int-drug\">tolterodine</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  tolterodine  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "133",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolterodine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750911",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750911_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"torasemide\" outputclass=\"int-drug\">Torasemide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Torasemide   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "134",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Torasemide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750912",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750912_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"toremifene\" outputclass=\"int-drug\">toremifene</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  toremifene  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "135",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Toremifene</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750913",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750913_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"triamcinolone\" outputclass=\"int-drug\">Triamcinolone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Triamcinolone   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "136",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Triamcinolone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750914",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750914_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"vandetanib\" outputclass=\"int-drug\">vandetanib</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  vandetanib  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "137",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vandetanib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750915",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750915_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"vardenafil\" outputclass=\"int-drug\">vardenafil</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  vardenafil  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "138",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vardenafil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750916",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750916_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"vemurafenib\" outputclass=\"int-drug\">vemurafenib</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  vemurafenib  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "139",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vemurafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750917",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750917_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"venlafaxine\" outputclass=\"int-drug\">venlafaxine</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  venlafaxine  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "140",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Venlafaxine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750918",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750918_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"verapamil\" outputclass=\"int-drug\">verapamil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  verapamil  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "141",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Verapamil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750919",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750919_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"vilanterol\" outputclass=\"int-drug\">Vilanterol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Vilanterol   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "142",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vilanterol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750920",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750920_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"vinflunine\" outputclass=\"int-drug\">vinflunine</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  vinflunine  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "143",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinflunine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750921",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750921_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"voriconazole\" outputclass=\"int-drug\">voriconazole</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  voriconazole  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "144",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Voriconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750922",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750922_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"xipamide\" outputclass=\"int-drug\">Xipamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">hypokalaemia (potentially increasing the risk of torsade de pointes) when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Xipamide   is predicted to   cause   hypokalaemia (potentially increasing the risk of torsade de pointes) when given with   pasireotide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "145",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Xipamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750923",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2#bnf_i1557280750923_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">Both <ph otherprops=\"pasireotide\" outputclass=\"int-heading-drug\">pasireotide</ph> and <ph otherprops=\"zuclopenthixol\" outputclass=\"int-drug\">zuclopenthixol</ph> prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation. </p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pasireotide  and  zuclopenthixol  prolong the QT interval. Most manufacturers advise avoiding the use of two or more drugs that are associated with QT prolongation. Increasing age, female sex, cardiac disease, and some metabolic disturbances (notably hypokalaemia) predispose to QT prolongation.  \n\n"
+						}
+					],
+					"hasOrder": "146",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zuclopenthixol</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Pasireotide  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/pasireotide-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Pasireotide </title>"
+			},
+			"rdfs:label": "pasireotide"
+		}
+	]
+}

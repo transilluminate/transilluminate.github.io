@@ -1,0 +1,322 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751617",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751617_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"Bacillus Calmette-Guérin vaccine\" outputclass=\"int-drug\">Bacillus Calmette-Guérin vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"pembrolizumab\" outputclass=\"int-heading-drug\">pembrolizumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bacillus Calmette-Guérin vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   pembrolizumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bacillus Calmette-Guérin vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751618",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751618_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"betamethasone\" outputclass=\"int-drug\">Betamethasone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"pembrolizumab\" outputclass=\"int-heading-drug\">pembrolizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Betamethasone   is predicted to   decrease   the efficacy of   pembrolizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Betamethasone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751619",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751619_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"deflazacort\" outputclass=\"int-drug\">Deflazacort</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"pembrolizumab\" outputclass=\"int-heading-drug\">pembrolizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Deflazacort   is predicted to   decrease   the efficacy of   pembrolizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Deflazacort</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751620",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751620_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dexamethasone\" outputclass=\"int-drug\">Dexamethasone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"pembrolizumab\" outputclass=\"int-heading-drug\">pembrolizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dexamethasone   is predicted to   decrease   the efficacy of   pembrolizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexamethasone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751621",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751621_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"hydrocortisone\" outputclass=\"int-drug\">Hydrocortisone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"pembrolizumab\" outputclass=\"int-heading-drug\">pembrolizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Hydrocortisone   is predicted to   decrease   the efficacy of   pembrolizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydrocortisone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751622",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751622_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"influenza vaccine (live)\" outputclass=\"int-drug\">Influenza vaccine (live)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"pembrolizumab\" outputclass=\"int-heading-drug\">pembrolizumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Influenza vaccine (live)   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   pembrolizumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Influenza vaccine (live)</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751623",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751623_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"measles, mumps and rubella vaccine, live\" outputclass=\"int-drug\">Measles, mumps and rubella vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"pembrolizumab\" outputclass=\"int-heading-drug\">pembrolizumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Measles, mumps and rubella vaccine, live   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   pembrolizumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Measles, mumps and rubella vaccine, live</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751624",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751624_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylprednisolone\" outputclass=\"int-drug\">Methylprednisolone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"pembrolizumab\" outputclass=\"int-heading-drug\">pembrolizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Methylprednisolone   is predicted to   decrease   the efficacy of   pembrolizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methylprednisolone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751625",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751625_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"prednisolone\" outputclass=\"int-drug\">Prednisolone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"pembrolizumab\" outputclass=\"int-heading-drug\">pembrolizumab</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Prednisolone   is predicted to   decrease   the efficacy of   pembrolizumab .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prednisolone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751626",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751626_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rotavirus vaccine\" outputclass=\"int-drug\">Rotavirus vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"pembrolizumab\" outputclass=\"int-heading-drug\">pembrolizumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rotavirus vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   pembrolizumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rotavirus vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751627",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751627_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"typhoid vaccine, oral\" outputclass=\"int-drug\">Typhoid vaccine, oral</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"pembrolizumab\" outputclass=\"int-heading-drug\">pembrolizumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Typhoid vaccine, oral   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   pembrolizumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Typhoid vaccine, oral</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751628",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751628_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"varicella-zoster vaccine\" outputclass=\"int-drug\">Varicella-zoster vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"pembrolizumab\" outputclass=\"int-heading-drug\">pembrolizumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Varicella-zoster vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   pembrolizumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Varicella-zoster vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751629",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2#bnf_i1557280751629_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"yellow fever vaccine, live\" outputclass=\"int-drug\">Yellow fever vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"pembrolizumab\" outputclass=\"int-heading-drug\">pembrolizumab</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Yellow fever vaccine, live   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   pembrolizumab .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Yellow fever vaccine, live</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Pembrolizumab  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/pembrolizumab-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Pembrolizumab </title>"
+			},
+			"rdfs:label": "pembrolizumab"
+		}
+	]
+}

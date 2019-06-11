@@ -1,0 +1,1729 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751831",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751831_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"aceclofenac\" outputclass=\"int-drug\">aceclofenac</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  aceclofenac  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aceclofenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751832",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751832_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"aciclovir\" outputclass=\"int-drug\">aciclovir</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  aciclovir  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751833",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751833_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"adefovir\" outputclass=\"int-drug\">adefovir</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  adefovir  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Adefovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751834",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751834_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"aluminium hydroxide\" outputclass=\"int-drug\">Aluminium hydroxide</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Aluminium hydroxide   decreases   the absorption of   penicillamine .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aluminium hydroxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751835",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751835_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"amikacin\" outputclass=\"int-drug\">amikacin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  amikacin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amikacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751836",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751836_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"amphotericin\" outputclass=\"int-drug\">amphotericin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  amphotericin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amphotericin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751837",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751837_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"bacitracin\" outputclass=\"int-drug\">bacitracin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  bacitracin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bacitracin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751838",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751838_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"capreomycin\" outputclass=\"int-drug\">capreomycin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  capreomycin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Capreomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751839",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751839_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"carboplatin\" outputclass=\"int-drug\">carboplatin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  carboplatin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carboplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751840",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751840_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"cefaclor\" outputclass=\"int-drug\">cefaclor</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  cefaclor  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cefaclor</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751841",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751841_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"cefadroxil\" outputclass=\"int-drug\">cefadroxil</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  cefadroxil  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cefadroxil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751842",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751842_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"cefalexin\" outputclass=\"int-drug\">cefalexin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  cefalexin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cefalexin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751843",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751843_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"cefixime\" outputclass=\"int-drug\">cefixime</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  cefixime  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cefixime</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751844",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751844_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"cefotaxime\" outputclass=\"int-drug\">cefotaxime</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  cefotaxime  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cefotaxime</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751845",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751845_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"cefradine\" outputclass=\"int-drug\">cefradine</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  cefradine  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cefradine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751846",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751846_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"ceftaroline\" outputclass=\"int-drug\">ceftaroline</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  ceftaroline  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceftaroline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751847",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751847_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"ceftazidime\" outputclass=\"int-drug\">ceftazidime</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  ceftazidime  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceftazidime</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751848",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751848_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"ceftobiprole\" outputclass=\"int-drug\">ceftobiprole</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  ceftobiprole  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceftobiprole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751849",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751849_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"ceftolozane\" outputclass=\"int-drug\">ceftolozane</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  ceftolozane  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceftolozane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751850",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751850_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"ceftriaxone\" outputclass=\"int-drug\">ceftriaxone</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  ceftriaxone  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceftriaxone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751851",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751851_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"cefuroxime\" outputclass=\"int-drug\">cefuroxime</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  cefuroxime  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cefuroxime</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751852",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751852_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"celecoxib\" outputclass=\"int-drug\">celecoxib</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  celecoxib  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Celecoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751853",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751853_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chloroquine\" outputclass=\"int-drug\">Chloroquine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of haematological toxicity when given with</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Chloroquine   is predicted to   increase   the risk of haematological toxicity when given with   penicillamine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chloroquine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751854",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751854_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"ciclosporin\" outputclass=\"int-drug\">ciclosporin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  ciclosporin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciclosporin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751855",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751855_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"cidofovir\" outputclass=\"int-drug\">cidofovir</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  cidofovir  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cidofovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751856",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751856_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"cisplatin\" outputclass=\"int-drug\">cisplatin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  cisplatin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cisplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751857",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751857_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colistimethate\" outputclass=\"int-drug\">Colistimethate</ph> <ph outputclass=\"int-substanceQualifier\">(particularly intravenous)</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of nephrotoxicity when given with</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Colistimethate   (particularly intravenous)   potentially   increases   the risk of nephrotoxicity when given with   penicillamine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Colistimethate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751858",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751858_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"dexibuprofen\" outputclass=\"int-drug\">dexibuprofen</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  dexibuprofen  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexibuprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751859",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751859_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"dexketoprofen\" outputclass=\"int-drug\">dexketoprofen</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  dexketoprofen  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexketoprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751860",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751860_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"diclofenac\" outputclass=\"int-drug\">diclofenac</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  diclofenac  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diclofenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751861",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751861_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">Penicillamine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Penicillamine   potentially   decreases   the concentration of   digoxin .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Digoxin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751862",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751862_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"etodolac\" outputclass=\"int-drug\">etodolac</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  etodolac  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etodolac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751863",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751863_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"etoricoxib\" outputclass=\"int-drug\">etoricoxib</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  etoricoxib  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etoricoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751864",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751864_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"ferric maltol\" outputclass=\"int-drug\">Ferric maltol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Ferric maltol   is predicted to   decreases   the absorption of   penicillamine .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ferric maltol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751865",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751865_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous fumarate\" outputclass=\"int-drug\">Ferrous fumarate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous fumarate   is predicted to   decreases   the absorption of   penicillamine .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ferrous fumarate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751866",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751866_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   is predicted to   decreases   the absorption of   penicillamine .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ferrous gluconate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751867",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751867_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous sulfate\" outputclass=\"int-drug\">Ferrous sulfate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous sulfate   is predicted to   decreases   the absorption of   penicillamine .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ferrous sulfate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751868",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751868_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"flurbiprofen\" outputclass=\"int-drug\">flurbiprofen</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  flurbiprofen  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flurbiprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751869",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751869_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"foscarnet\" outputclass=\"int-drug\">foscarnet</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  foscarnet  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Foscarnet</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751870",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751870_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"ganciclovir\" outputclass=\"int-drug\">ganciclovir</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  ganciclovir  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751871",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751871_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"gentamicin\" outputclass=\"int-drug\">gentamicin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  gentamicin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gentamicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751872",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751872_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"hydroxychloroquine\" outputclass=\"int-drug\">Hydroxychloroquine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of haematological toxicity when given with</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Hydroxychloroquine   is predicted to   increase   the risk of haematological toxicity when given with   penicillamine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroxychloroquine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751873",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751873_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"ibuprofen\" outputclass=\"int-drug\">ibuprofen</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  ibuprofen  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibuprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751874",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751874_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"ifosfamide\" outputclass=\"int-drug\">ifosfamide</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  ifosfamide  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ifosfamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751875",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751875_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"indometacin\" outputclass=\"int-drug\">indometacin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  indometacin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Indometacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751876",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751876_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"ketoprofen\" outputclass=\"int-drug\">ketoprofen</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  ketoprofen  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketoprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751877",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751877_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"ketorolac\" outputclass=\"int-drug\">ketorolac</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  ketorolac  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketorolac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751878",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751878_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium carbonate\" outputclass=\"int-drug\">Magnesium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Magnesium carbonate   decreases   the absorption of   penicillamine .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Magnesium carbonate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751879",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751879_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium trisilicate\" outputclass=\"int-drug\">Magnesium trisilicate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Magnesium trisilicate   decreases   the absorption of   penicillamine .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Magnesium trisilicate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751880",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751880_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"mefenamic acid\" outputclass=\"int-drug\">mefenamic acid</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  mefenamic acid  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mefenamic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751881",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751881_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"meloxicam\" outputclass=\"int-drug\">meloxicam</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  meloxicam  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Meloxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751882",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751882_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"methotrexate\" outputclass=\"int-drug\">methotrexate</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  methotrexate  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methotrexate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751883",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751883_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"nabumetone\" outputclass=\"int-drug\">nabumetone</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  nabumetone  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nabumetone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751884",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751884_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"naproxen\" outputclass=\"int-drug\">naproxen</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  naproxen  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Naproxen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751885",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751885_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"neomycin\" outputclass=\"int-drug\">neomycin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  neomycin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Neomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751886",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751886_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"oxaliplatin\" outputclass=\"int-drug\">oxaliplatin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  oxaliplatin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxaliplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751887",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751887_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"parecoxib\" outputclass=\"int-drug\">parecoxib</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  parecoxib  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "57",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Parecoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751888",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751888_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"pemetrexed\" outputclass=\"int-drug\">pemetrexed</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  pemetrexed  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pemetrexed</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751889",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751889_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"pentamidine\" outputclass=\"int-drug\">pentamidine</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  pentamidine  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "59",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentamidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751890",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751890_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"piroxicam\" outputclass=\"int-drug\">piroxicam</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  piroxicam  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "60",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Piroxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751891",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751891_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"polymyxins\" outputclass=\"int-drug\">polymyxins</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  polymyxins  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "61",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Polymyxins</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751892",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751892_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"sodium aurothiomalate\" outputclass=\"int-drug\">Sodium aurothiomalate</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of side-effects when given with</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> <ph outputclass=\"int-substanceQualifier\">(in those who have had previous adverse reactions to gold)</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Sodium aurothiomalate   potentially   increases   the risk of side-effects when given with   penicillamine   (in those who have had previous adverse reactions to gold) .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "62",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sodium aurothiomalate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751893",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751893_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"sodium feredetate\" outputclass=\"int-drug\">Sodium feredetate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Sodium feredetate   is predicted to   decreases   the absorption of   penicillamine .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "63",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sodium feredetate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751894",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751894_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"streptomycin\" outputclass=\"int-drug\">streptomycin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  streptomycin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "64",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Streptomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751895",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751895_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"streptozocin\" outputclass=\"int-drug\">streptozocin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  streptozocin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "65",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Streptozocin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751896",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751896_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"sulindac\" outputclass=\"int-drug\">sulindac</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  sulindac  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "66",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulindac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751897",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751897_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"tacrolimus\" outputclass=\"int-drug\">tacrolimus</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  tacrolimus  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "67",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tacrolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751898",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751898_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"telavancin\" outputclass=\"int-drug\">telavancin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  telavancin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "68",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Telavancin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751899",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751899_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"tenofovir disoproxil\" outputclass=\"int-drug\">tenofovir disoproxil</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  tenofovir disoproxil  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "69",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tenofovir disoproxil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751900",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751900_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"tenoxicam\" outputclass=\"int-drug\">tenoxicam</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  tenoxicam  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "70",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tenoxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751901",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751901_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"tiaprofenic acid\" outputclass=\"int-drug\">tiaprofenic acid</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  tiaprofenic acid  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "71",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tiaprofenic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751902",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751902_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"tobramycin\" outputclass=\"int-drug\">tobramycin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  tobramycin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "72",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tobramycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751903",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751903_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"tolfenamic acid\" outputclass=\"int-drug\">tolfenamic acid</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  tolfenamic acid  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "73",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolfenamic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751904",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751904_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"trimethoprim\" outputclass=\"int-drug\">trimethoprim</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  trimethoprim  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "74",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trimethoprim</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751905",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751905_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"valaciclovir\" outputclass=\"int-drug\">valaciclovir</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  valaciclovir  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "75",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Valaciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751906",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751906_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"valganciclovir\" outputclass=\"int-drug\">valganciclovir</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  valganciclovir  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "76",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Valganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751907",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751907_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"vancomycin\" outputclass=\"int-drug\">vancomycin</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  vancomycin  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "77",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vancomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751908",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751908_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"zidovudine\" outputclass=\"int-drug\">zidovudine</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  zidovudine  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "78",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zidovudine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751909",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751909_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"zinc\" outputclass=\"int-drug\">Zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Zinc   is predicted to   decrease   the absorption of   penicillamine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "79",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zinc</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751910",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2#bnf_i1557280751910_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"penicillamine\" outputclass=\"int-heading-drug\">penicillamine</ph> and <ph otherprops=\"zoledronic acid\" outputclass=\"int-drug\">zoledronic acid</ph> can increase the risk of nephrotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  penicillamine  and  zoledronic acid  can increase the risk of nephrotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "80",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zoledronic acid</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Penicillamine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/penicillamine-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Penicillamine </title>"
+			},
+			"rdfs:label": "penicillamine"
+		}
+	]
+}

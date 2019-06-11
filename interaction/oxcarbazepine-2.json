@@ -1,0 +1,616 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748663",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748663_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"bictegravir\" outputclass=\"int-drug\">bictegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the exposure to   bictegravir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bictegravir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748664",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748664_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">oxcarbazepine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Carbamazepine   slightly   decreases   the exposure to   oxcarbazepine .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748665",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748665_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"ciclosporin\" outputclass=\"int-drug\">ciclosporin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   decreases   the concentration of   ciclosporin .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciclosporin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748666",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748666_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"cobicistat\" outputclass=\"int-drug\">cobicistat</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the concentration of   cobicistat .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cobicistat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748667",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748667_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"combined hormonal contraceptives\" outputclass=\"int-drug\">combined hormonal contraceptives</ph>. <ph outputclass=\"int-action\">For FSRH guidance, see <xref format=\"dita\" href=\"treatment-summary/contraceptives-interactions.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP92512\">Contraceptives, interactions</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the efficacy of   combined hormonal contraceptives .  For FSRH guidance, see  Contraceptives, interactions .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Combined hormonal contraceptives</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748668",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748668_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"desogestrel\" outputclass=\"int-drug\">desogestrel</ph>. <ph outputclass=\"int-action\">For FSRH guidance, see <xref format=\"dita\" href=\"treatment-summary/contraceptives-interactions.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP92512\">Contraceptives, interactions</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the efficacy of   desogestrel .  For FSRH guidance, see  Contraceptives, interactions .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Desogestrel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748669",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748669_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the exposure to   dolutegravir .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dolutegravir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748670",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748670_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"etonogestrel\" outputclass=\"int-drug\">etonogestrel</ph>. <ph outputclass=\"int-action\">For FSRH guidance, see <xref format=\"dita\" href=\"treatment-summary/contraceptives-interactions.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP92512\">Contraceptives, interactions</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the efficacy of   etonogestrel .  For FSRH guidance, see  Contraceptives, interactions .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etonogestrel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748671",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748671_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">fosphenytoin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor concentration and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   increase   the concentration of   fosphenytoin .  Manufacturer advises monitor concentration and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748672",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748672_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glecaprevir\" outputclass=\"int-drug\">glecaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   potentially   decreases   the exposure to   glecaprevir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glecaprevir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748673",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748673_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"guanfacine\" outputclass=\"int-drug\">guanfacine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust <ph otherprops=\"guanfacine\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/guanfacine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP200774\">guanfacine</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the concentration of   guanfacine .  Manufacturer advises monitor and adjust  guanfacine  dose .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Guanfacine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748674",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748674_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"hormone replacement therapy\" outputclass=\"int-drug\">hormone replacement therapy</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the effects of   hormone replacement therapy .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hormone replacement therapy</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748675",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748675_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"imatinib\" outputclass=\"int-drug\">imatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   decreases   the exposure to   imatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748676",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748676_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lamotrigine\" outputclass=\"int-drug\">Lamotrigine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">oxcarbazepine</ph> and <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"lamotrigine\" outputclass=\"int-drug\">lamotrigine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor side effects and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lamotrigine   is predicted to   increase   the concentration of   oxcarbazepine  and  oxcarbazepine   is predicted to   decrease   the concentration of   lamotrigine .  Manufacturer advises monitor side effects and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lamotrigine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748677",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748677_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ledipasvir\" outputclass=\"int-drug\">ledipasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the exposure to   ledipasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ledipasvir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748678",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748678_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"levonorgestrel\" outputclass=\"int-drug\">levonorgestrel</ph>. <ph outputclass=\"int-action\">For FSRH guidance, see <xref format=\"dita\" href=\"treatment-summary/contraceptives-interactions.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP92512\">Contraceptives, interactions</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the efficacy of   levonorgestrel .  For FSRH guidance, see  Contraceptives, interactions .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levonorgestrel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748679",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748679_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of neurotoxicity when given with</ph> <ph otherprops=\"lithium\" outputclass=\"int-drug\">lithium</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   increase   the risk of neurotoxicity when given with   lithium .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lithium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748680",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748680_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"norethisterone\" outputclass=\"int-drug\">norethisterone</ph>. <ph outputclass=\"int-action\">For FSRH guidance, see <xref format=\"dita\" href=\"treatment-summary/contraceptives-interactions.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP92512\">Contraceptives, interactions</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the efficacy of   norethisterone .  For FSRH guidance, see  Contraceptives, interactions .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Norethisterone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748681",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748681_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"perampanel\" outputclass=\"int-drug\">perampanel</ph> and <ph otherprops=\"perampanel\" outputclass=\"int-drug\">perampanel</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">oxcarbazepine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   decreases   the concentration of   perampanel  and  perampanel   increases   the concentration of   oxcarbazepine .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Perampanel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748682",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748682_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">phenytoin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor concentration and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   increase   the concentration of   phenytoin .  Manufacturer advises monitor concentration and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748683",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748683_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pibrentasvir\" outputclass=\"int-drug\">pibrentasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   potentially   decreases   the exposure to   pibrentasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pibrentasvir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748684",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748684_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"rilpivirine\" outputclass=\"int-drug\">rilpivirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the concentration of   rilpivirine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rilpivirine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748685",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748685_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the exposure to   sofosbuvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sofosbuvir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748686",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748686_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the exposure to   tenofovir alafenamide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tenofovir alafenamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748687",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748687_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"ulipristal\" outputclass=\"int-drug\">ulipristal</ph>. <ph outputclass=\"int-action\">For FSRH guidance, see <xref format=\"dita\" href=\"treatment-summary/contraceptives-interactions.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP92512\">Contraceptives, interactions</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   decreases   the efficacy of   ulipristal .  For FSRH guidance, see  Contraceptives, interactions .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ulipristal</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748688",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748688_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the exposure to   velpatasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Velpatasvir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748689",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2#bnf_i1557280748689_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-heading-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Voxilaprevir</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Oxcarbazepine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/oxcarbazepine-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Oxcarbazepine </title>"
+			},
+			"rdfs:label": "oxcarbazepine"
+		}
+	]
+}

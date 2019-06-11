@@ -1,0 +1,2468 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749669",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749669_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"St John's Wort\" outputclass=\"int-drug\">St John's Wort</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  St John's Wort  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>St John's Wort</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749670",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749670_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"almotriptan\" outputclass=\"int-drug\">almotriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  almotriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Almotriptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749671",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749671_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"amifampridine\" outputclass=\"int-drug\">amifampridine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   amifampridine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amifampridine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749672",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749672_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"amiodarone\" outputclass=\"int-drug\">amiodarone</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   amiodarone .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amiodarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749673",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749673_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"amisulpride\" outputclass=\"int-drug\">amisulpride</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   amisulpride .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amisulpride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749674",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749674_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"anagrelide\" outputclass=\"int-drug\">anagrelide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   anagrelide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Anagrelide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749675",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749675_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"apalutamide\" outputclass=\"int-drug\">apalutamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   apalutamide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749676",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749676_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"apomorphine\" outputclass=\"int-drug\">Apomorphine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of severe hypotension when given with</ph> <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Apomorphine   is predicted to   increase   the risk of severe hypotension when given with   palonosetron .  Manufacturer makes no recommendation .    \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749676_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"apomorphine\" outputclass=\"int-drug\">apomorphine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   apomorphine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apomorphine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749677",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749677_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"arsenic trioxide\" outputclass=\"int-drug\">arsenic trioxide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   arsenic trioxide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Arsenic trioxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749678",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749678_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"artemether\" outputclass=\"int-drug\">artemether</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   artemether .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Artemether</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749679",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749679_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"artenimol\" outputclass=\"int-drug\">artenimol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   artenimol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Artenimol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749680",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749680_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"bedaquiline\" outputclass=\"int-drug\">bedaquiline</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   bedaquiline .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bedaquiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749681",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749681_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"bosutinib\" outputclass=\"int-drug\">bosutinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   bosutinib .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosutinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749682",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749682_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"bupropion\" outputclass=\"int-drug\">bupropion</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  bupropion  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bupropion</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749683",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749683_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"buspirone\" outputclass=\"int-drug\">buspirone</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  buspirone  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Buspirone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749684",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749684_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"cabozantinib\" outputclass=\"int-drug\">cabozantinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   cabozantinib .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabozantinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749685",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749685_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"ceritinib\" outputclass=\"int-drug\">ceritinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   ceritinib .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceritinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749686",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749686_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"chlorpromazine\" outputclass=\"int-drug\">chlorpromazine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   chlorpromazine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorpromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749687",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749687_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"citalopram\" outputclass=\"int-drug\">citalopram</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  citalopram  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749687_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"citalopram\" outputclass=\"int-drug\">citalopram</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   citalopram .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Citalopram</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749688",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749688_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"clarithromycin\" outputclass=\"int-drug\">clarithromycin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   clarithromycin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clarithromycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749689",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749689_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"clomipramine\" outputclass=\"int-drug\">clomipramine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  clomipramine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749689_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"clomipramine\" outputclass=\"int-drug\">clomipramine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   clomipramine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clomipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749690",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749690_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"crizotinib\" outputclass=\"int-drug\">crizotinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   crizotinib .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crizotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749691",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749691_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"dapoxetine\" outputclass=\"int-drug\">dapoxetine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  dapoxetine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dapoxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749692",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749692_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"dasatinib\" outputclass=\"int-drug\">dasatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   dasatinib .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dasatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749693",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749693_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"delamanid\" outputclass=\"int-drug\">delamanid</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   delamanid .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Delamanid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749694",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749694_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"dexamfetamine\" outputclass=\"int-drug\">dexamfetamine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  dexamfetamine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexamfetamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749695",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749695_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"disopyramide\" outputclass=\"int-drug\">disopyramide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   disopyramide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Disopyramide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749696",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749696_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"dronedarone\" outputclass=\"int-drug\">dronedarone</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   dronedarone .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dronedarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749697",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749697_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"droperidol\" outputclass=\"int-drug\">droperidol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   droperidol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Droperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749698",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749698_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"duloxetine\" outputclass=\"int-drug\">duloxetine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  duloxetine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Duloxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749699",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749699_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"efavirenz\" outputclass=\"int-drug\">efavirenz</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   efavirenz .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Efavirenz</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749700",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749700_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"eletriptan\" outputclass=\"int-drug\">eletriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  eletriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eletriptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749701",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749701_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"encorafenib\" outputclass=\"int-drug\">encorafenib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   encorafenib .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Encorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749702",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749702_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"eribulin\" outputclass=\"int-drug\">eribulin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   eribulin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eribulin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749703",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749703_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"erythromycin\" outputclass=\"int-drug\">erythromycin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   erythromycin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Erythromycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749704",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749704_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"escitalopram\" outputclass=\"int-drug\">escitalopram</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  escitalopram  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749704_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"escitalopram\" outputclass=\"int-drug\">escitalopram</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   escitalopram .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Escitalopram</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749705",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749705_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"fentanyl\" outputclass=\"int-drug\">fentanyl</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  fentanyl  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fentanyl</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749706",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749706_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"flecainide\" outputclass=\"int-drug\">flecainide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   flecainide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flecainide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749707",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749707_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"fluconazole\" outputclass=\"int-drug\">fluconazole</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   fluconazole .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749708",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749708_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"fluoxetine\" outputclass=\"int-drug\">fluoxetine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  fluoxetine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluoxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749709",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749709_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"fluphenazine\" outputclass=\"int-drug\">fluphenazine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   fluphenazine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluphenazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749710",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749710_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"fluvoxamine\" outputclass=\"int-drug\">fluvoxamine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  fluvoxamine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluvoxamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749711",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749711_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"frovatriptan\" outputclass=\"int-drug\">frovatriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  frovatriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Frovatriptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749712",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749712_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"granisetron\" outputclass=\"int-drug\">granisetron</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  granisetron  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Granisetron</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749713",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749713_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"haloperidol\" outputclass=\"int-drug\">haloperidol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   haloperidol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Haloperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749714",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749714_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"hydroxyzine\" outputclass=\"int-drug\">hydroxyzine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   hydroxyzine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroxyzine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749715",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749715_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"imipramine\" outputclass=\"int-drug\">imipramine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  imipramine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749716",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749716_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"inotuzumab ozogamicin\" outputclass=\"int-drug\">inotuzumab ozogamicin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   inotuzumab ozogamicin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Inotuzumab ozogamicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749717",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749717_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"isocarboxazid\" outputclass=\"int-drug\">isocarboxazid</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  isocarboxazid  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isocarboxazid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749718",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749718_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"lapatinib\" outputclass=\"int-drug\">lapatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   lapatinib .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lapatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749719",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749719_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"lenvatinib\" outputclass=\"int-drug\">lenvatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   lenvatinib .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lenvatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749720",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749720_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"levomepromazine\" outputclass=\"int-drug\">levomepromazine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   levomepromazine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levomepromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749721",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749721_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"linezolid\" outputclass=\"int-drug\">linezolid</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  linezolid  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Linezolid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749722",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749722_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"lisdexamfetamine\" outputclass=\"int-drug\">lisdexamfetamine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  lisdexamfetamine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lisdexamfetamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749723",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749723_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"lithium\" outputclass=\"int-drug\">lithium</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  lithium  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749723_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"lithium\" outputclass=\"int-drug\">lithium</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   lithium .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lithium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749724",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749724_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"lofexidine\" outputclass=\"int-drug\">lofexidine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   lofexidine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lofexidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749725",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749725_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"methadone\" outputclass=\"int-drug\">methadone</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  methadone  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749725_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"methadone\" outputclass=\"int-drug\">methadone</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   methadone .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "57",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methadone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749726",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749726_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"methylthioninium chloride\" outputclass=\"int-drug\">methylthioninium chloride</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  methylthioninium chloride  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methylthioninium chloride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749727",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749727_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"mianserin\" outputclass=\"int-drug\">mianserin</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  mianserin  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "59",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mianserin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749728",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749728_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"mirtazapine\" outputclass=\"int-drug\">mirtazapine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  mirtazapine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "60",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mirtazapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749729",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749729_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"moclobemide\" outputclass=\"int-drug\">moclobemide</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  moclobemide  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "61",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Moclobemide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749730",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749730_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"moxifloxacin\" outputclass=\"int-drug\">moxifloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   moxifloxacin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "62",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Moxifloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749731",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749731_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"naratriptan\" outputclass=\"int-drug\">naratriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  naratriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "63",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Naratriptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749732",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749732_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"nilotinib\" outputclass=\"int-drug\">nilotinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   nilotinib .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "64",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nilotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749733",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749733_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"ondansetron\" outputclass=\"int-drug\">ondansetron</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  ondansetron  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749733_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"ondansetron\" outputclass=\"int-drug\">ondansetron</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   ondansetron .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "65",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ondansetron</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749734",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749734_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"osimertinib\" outputclass=\"int-drug\">osimertinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   osimertinib .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "66",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Osimertinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749735",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749735_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"paliperidone\" outputclass=\"int-drug\">paliperidone</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   paliperidone .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "67",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paliperidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749736",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749736_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"panobinostat\" outputclass=\"int-drug\">panobinostat</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   panobinostat .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "68",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Panobinostat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749737",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749737_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"paroxetine\" outputclass=\"int-drug\">paroxetine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  paroxetine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "69",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paroxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749738",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749738_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"pasireotide\" outputclass=\"int-drug\">pasireotide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   pasireotide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "70",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pasireotide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749739",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749739_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"pazopanib\" outputclass=\"int-drug\">pazopanib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   pazopanib .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "71",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pazopanib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749740",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749740_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"pentazocine\" outputclass=\"int-drug\">pentazocine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  pentazocine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "72",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentazocine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749741",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749741_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"pethidine\" outputclass=\"int-drug\">pethidine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  pethidine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "73",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pethidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749742",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749742_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"phenelzine\" outputclass=\"int-drug\">phenelzine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  phenelzine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "74",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenelzine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749743",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749743_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"pimozide\" outputclass=\"int-drug\">pimozide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   pimozide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "75",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pimozide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749744",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749744_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"procarbazine\" outputclass=\"int-drug\">procarbazine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  procarbazine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "76",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Procarbazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749745",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749745_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"quinine\" outputclass=\"int-drug\">quinine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   quinine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "77",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Quinine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749746",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749746_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"ranolazine\" outputclass=\"int-drug\">ranolazine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   ranolazine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "78",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ranolazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749747",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749747_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"rasagiline\" outputclass=\"int-drug\">rasagiline</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  rasagiline  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "79",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rasagiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749748",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749748_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"ribociclib\" outputclass=\"int-drug\">ribociclib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   ribociclib .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "80",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ribociclib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749749",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749749_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"risperidone\" outputclass=\"int-drug\">risperidone</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   risperidone .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "81",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Risperidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749750",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749750_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"rizatriptan\" outputclass=\"int-drug\">rizatriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  rizatriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "82",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rizatriptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749751",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749751_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"safinamide\" outputclass=\"int-drug\">safinamide</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  safinamide  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "83",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Safinamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749752",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749752_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"saquinavir\" outputclass=\"int-drug\">saquinavir</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   saquinavir .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "84",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Saquinavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749753",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749753_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"selegiline\" outputclass=\"int-drug\">selegiline</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  selegiline  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "85",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Selegiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749754",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749754_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"sertraline\" outputclass=\"int-drug\">sertraline</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  sertraline  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "86",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sertraline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749755",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749755_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"sildenafil\" outputclass=\"int-drug\">sildenafil</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   sildenafil .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "87",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sildenafil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749756",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749756_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"sorafenib\" outputclass=\"int-drug\">sorafenib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   sorafenib .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "88",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749757",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749757_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"sotalol\" outputclass=\"int-drug\">sotalol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   sotalol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "89",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sotalol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749758",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749758_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"sulpiride\" outputclass=\"int-drug\">sulpiride</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   sulpiride .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "90",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulpiride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749759",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749759_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"sumatriptan\" outputclass=\"int-drug\">sumatriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  sumatriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "91",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sumatriptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749760",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749760_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"sunitinib\" outputclass=\"int-drug\">sunitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   sunitinib .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "92",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sunitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749761",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749761_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"tapentadol\" outputclass=\"int-drug\">tapentadol</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  tapentadol  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "93",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tapentadol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749762",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749762_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"telavancin\" outputclass=\"int-drug\">telavancin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   telavancin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "94",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Telavancin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749763",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749763_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"tetrabenazine\" outputclass=\"int-drug\">tetrabenazine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   tetrabenazine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "95",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tetrabenazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749764",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749764_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"tizanidine\" outputclass=\"int-drug\">tizanidine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   tizanidine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "96",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tizanidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749765",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749765_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"tolterodine\" outputclass=\"int-drug\">tolterodine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   tolterodine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "97",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolterodine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749766",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749766_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"toremifene\" outputclass=\"int-drug\">toremifene</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   toremifene .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "98",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Toremifene</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749767",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749767_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"tramadol\" outputclass=\"int-drug\">tramadol</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  tramadol  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "99",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tramadol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749768",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749768_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"tranylcypromine\" outputclass=\"int-drug\">tranylcypromine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  tranylcypromine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "100",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tranylcypromine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749769",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749769_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"trazodone\" outputclass=\"int-drug\">trazodone</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  trazodone  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "101",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trazodone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749770",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749770_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"tryptophan\" outputclass=\"int-drug\">tryptophan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  tryptophan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "102",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tryptophan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749771",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749771_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"vandetanib\" outputclass=\"int-drug\">vandetanib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   vandetanib .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "103",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vandetanib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749772",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749772_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"vardenafil\" outputclass=\"int-drug\">vardenafil</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   vardenafil .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "104",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vardenafil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749773",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749773_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"vemurafenib\" outputclass=\"int-drug\">vemurafenib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   vemurafenib .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "105",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vemurafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749774",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749774_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"venlafaxine\" outputclass=\"int-drug\">venlafaxine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  venlafaxine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749774_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"venlafaxine\" outputclass=\"int-drug\">venlafaxine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   venlafaxine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "106",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Venlafaxine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749775",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749775_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"vinflunine\" outputclass=\"int-drug\">vinflunine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   vinflunine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "107",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinflunine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749776",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749776_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"voriconazole\" outputclass=\"int-drug\">voriconazole</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   voriconazole .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "108",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Voriconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749777",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749777_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"vortioxetine\" outputclass=\"int-drug\">vortioxetine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  vortioxetine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "109",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vortioxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749778",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749778_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">palonosetron</ph> and <ph otherprops=\"zolmitriptan\" outputclass=\"int-drug\">zolmitriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  palonosetron  and  zolmitriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "110",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zolmitriptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749779",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2#bnf_i1557280749779_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"palonosetron\" outputclass=\"int-heading-drug\">Palonosetron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of QT-prolongation when given with</ph> <ph otherprops=\"zuclopenthixol\" outputclass=\"int-drug\">zuclopenthixol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Palonosetron   is predicted to   increase   the risk of QT-prolongation when given with   zuclopenthixol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "111",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zuclopenthixol</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Palonosetron  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/palonosetron-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Palonosetron </title>"
+			},
+			"rdfs:label": "palonosetron"
+		}
+	]
+}
