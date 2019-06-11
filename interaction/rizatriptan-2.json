@@ -1,0 +1,1122 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762798",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762798_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"St John's Wort\" outputclass=\"int-drug\">St John's Wort</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  St John's Wort  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>St John's Wort</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762799",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762799_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"almotriptan\" outputclass=\"int-drug\">almotriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  almotriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Almotriptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762800",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762800_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"bupropion\" outputclass=\"int-drug\">bupropion</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  bupropion  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bupropion</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762801",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762801_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"buspirone\" outputclass=\"int-drug\">buspirone</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  buspirone  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Buspirone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762802",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762802_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"citalopram\" outputclass=\"int-drug\">citalopram</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  citalopram  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Citalopram</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762803",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762803_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"clomipramine\" outputclass=\"int-drug\">clomipramine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  clomipramine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clomipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762804",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762804_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"dapoxetine\" outputclass=\"int-drug\">dapoxetine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  dapoxetine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dapoxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762805",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762805_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"dexamfetamine\" outputclass=\"int-drug\">dexamfetamine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  dexamfetamine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexamfetamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762806",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762806_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"duloxetine\" outputclass=\"int-drug\">duloxetine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  duloxetine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Duloxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762807",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762807_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"eletriptan\" outputclass=\"int-drug\">eletriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  eletriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eletriptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762808",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762808_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">Rizatriptan</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of vasoconstriction when given with</ph> <ph otherprops=\"ergotamine\" outputclass=\"int-drug\">ergotamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"ergotamine\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ergotamine-tartrate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP2863\">ergotamine</xref></ph> should be taken at least 24 hours before or 6 hours after <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/rizatriptan.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP2852\">rizatriptan</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rizatriptan   is predicted to   increase   the risk of vasoconstriction when given with   ergotamine .  Manufacturer advises  ergotamine  should be taken at least 24 hours before or 6 hours after  rizatriptan .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ergotamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762809",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762809_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"escitalopram\" outputclass=\"int-drug\">escitalopram</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  escitalopram  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Escitalopram</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762810",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762810_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"fentanyl\" outputclass=\"int-drug\">fentanyl</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  fentanyl  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fentanyl</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762811",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762811_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"fluoxetine\" outputclass=\"int-drug\">fluoxetine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  fluoxetine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluoxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762812",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762812_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"fluvoxamine\" outputclass=\"int-drug\">fluvoxamine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  fluvoxamine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluvoxamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762813",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762813_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"frovatriptan\" outputclass=\"int-drug\">frovatriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  frovatriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Frovatriptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762814",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762814_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"granisetron\" outputclass=\"int-drug\">granisetron</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  granisetron  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Granisetron</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762815",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762815_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"imipramine\" outputclass=\"int-drug\">imipramine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  imipramine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762816",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762816_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"isocarboxazid\" outputclass=\"int-drug\">isocarboxazid</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  isocarboxazid  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762816_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"isocarboxazid\" outputclass=\"int-drug\">Isocarboxazid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Isocarboxazid   is predicted to   increase   the exposure to   rizatriptan .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isocarboxazid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762817",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762817_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"linezolid\" outputclass=\"int-drug\">linezolid</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  linezolid  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Linezolid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762818",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762818_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"lisdexamfetamine\" outputclass=\"int-drug\">lisdexamfetamine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  lisdexamfetamine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lisdexamfetamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762819",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762819_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"lithium\" outputclass=\"int-drug\">lithium</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  lithium  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lithium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762820",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762820_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"methadone\" outputclass=\"int-drug\">methadone</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  methadone  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methadone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762821",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762821_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"methylthioninium chloride\" outputclass=\"int-drug\">methylthioninium chloride</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  methylthioninium chloride  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methylthioninium chloride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762822",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762822_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"mianserin\" outputclass=\"int-drug\">mianserin</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  mianserin  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mianserin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762823",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762823_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"mirtazapine\" outputclass=\"int-drug\">mirtazapine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  mirtazapine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mirtazapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762824",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762824_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"moclobemide\" outputclass=\"int-drug\">moclobemide</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  moclobemide  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762824_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"moclobemide\" outputclass=\"int-drug\">Moclobemide</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Moclobemide   moderately   increases   the exposure to   rizatriptan .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Moclobemide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762825",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762825_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"naratriptan\" outputclass=\"int-drug\">naratriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  naratriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Naratriptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762826",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762826_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"ondansetron\" outputclass=\"int-drug\">ondansetron</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  ondansetron  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ondansetron</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762827",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762827_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"palonosetron\" outputclass=\"int-drug\">palonosetron</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  palonosetron  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Palonosetron</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762828",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762828_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"paroxetine\" outputclass=\"int-drug\">paroxetine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  paroxetine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paroxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762829",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762829_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"pentazocine\" outputclass=\"int-drug\">pentazocine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  pentazocine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentazocine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762830",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762830_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"pethidine\" outputclass=\"int-drug\">pethidine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  pethidine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pethidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762831",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762831_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"phenelzine\" outputclass=\"int-drug\">phenelzine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  phenelzine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762831_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenelzine\" outputclass=\"int-drug\">Phenelzine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Phenelzine   is predicted to   increase   the exposure to   rizatriptan .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenelzine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762832",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762832_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"procarbazine\" outputclass=\"int-drug\">procarbazine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  procarbazine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Procarbazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762833",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762833_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"propranolol\" outputclass=\"int-drug\">Propranolol</ph> <ph outputclass=\"int-magnitude\">slightly to moderately</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/rizatriptan.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP2852\">rizatriptan</xref></ph> dose and separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Propranolol   slightly to moderately   increases   the exposure to   rizatriptan .  Manufacturer advises adjust  rizatriptan  dose and separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propranolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762834",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762834_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"rasagiline\" outputclass=\"int-drug\">rasagiline</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  rasagiline  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rasagiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762835",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762835_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"safinamide\" outputclass=\"int-drug\">safinamide</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  safinamide  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Safinamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762836",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762836_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"selegiline\" outputclass=\"int-drug\">selegiline</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  selegiline  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Selegiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762837",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762837_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"sertraline\" outputclass=\"int-drug\">sertraline</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  sertraline  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sertraline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762838",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762838_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"sumatriptan\" outputclass=\"int-drug\">sumatriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  sumatriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sumatriptan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762839",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762839_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"tapentadol\" outputclass=\"int-drug\">tapentadol</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  tapentadol  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tapentadol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762840",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762840_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"tramadol\" outputclass=\"int-drug\">tramadol</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  tramadol  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tramadol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762841",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762841_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"tranylcypromine\" outputclass=\"int-drug\">tranylcypromine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  tranylcypromine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762841_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tranylcypromine\" outputclass=\"int-drug\">Tranylcypromine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Tranylcypromine   is predicted to   increase   the exposure to   rizatriptan .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tranylcypromine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762842",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762842_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"trazodone\" outputclass=\"int-drug\">trazodone</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  trazodone  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trazodone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762843",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762843_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"tryptophan\" outputclass=\"int-drug\">tryptophan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  tryptophan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tryptophan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762844",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762844_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"venlafaxine\" outputclass=\"int-drug\">venlafaxine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  venlafaxine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Venlafaxine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762845",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762845_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"vortioxetine\" outputclass=\"int-drug\">vortioxetine</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  vortioxetine  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vortioxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762846",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2#bnf_i1557280762846_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"rizatriptan\" outputclass=\"int-heading-drug\">rizatriptan</ph> and <ph otherprops=\"zolmitriptan\" outputclass=\"int-drug\">zolmitriptan</ph> can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under <xref format=\"dita\" href=\"treatment-summary/antidepressant-drugs.xml\" type=\"interaction\" rel=\"treatmentsummary\" bnfid=\"PHP78258\">Antidepressant drugs</xref> for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  rizatriptan  and  zolmitriptan  can increase the risk of serotonin syndrome. See 'Serotonin syndrome' and 'Monoamine-oxidase inhibitor' under  Antidepressant drugs  for more information and for specific advice on avoiding monoamine-oxidase inhibitors during and after administration of other serotonergic drugs. \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zolmitriptan</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Rizatriptan  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/rizatriptan-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Rizatriptan </title>"
+			},
+			"rdfs:label": "rizatriptan"
+		}
+	]
+}

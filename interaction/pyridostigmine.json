@@ -1,0 +1,1036 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759136",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759136_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"acebutolol\" outputclass=\"int-drug\">acebutolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  acebutolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acebutolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759137",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759137_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"alectinib\" outputclass=\"int-drug\">alectinib</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  alectinib  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alectinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759138",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759138_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"alfentanil\" outputclass=\"int-drug\">alfentanil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  alfentanil  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alfentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759139",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759139_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"amikacin\" outputclass=\"int-drug\">Amikacin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Amikacin   is predicted to   decrease   the effects of   pyridostigmine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amikacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759140",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759140_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"amiodarone\" outputclass=\"int-drug\">amiodarone</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  amiodarone  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amiodarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759141",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759141_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"apraclonidine\" outputclass=\"int-drug\">apraclonidine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  apraclonidine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apraclonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759142",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759142_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"atenolol\" outputclass=\"int-drug\">atenolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  atenolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atenolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759143",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759143_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"betaxolol\" outputclass=\"int-drug\">betaxolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  betaxolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Betaxolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759144",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759144_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"bisoprolol\" outputclass=\"int-drug\">bisoprolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  bisoprolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bisoprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759145",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759145_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"brimonidine\" outputclass=\"int-drug\">brimonidine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  brimonidine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Brimonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759146",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759146_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"carvedilol\" outputclass=\"int-drug\">carvedilol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  carvedilol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carvedilol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759147",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759147_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"celiprolol\" outputclass=\"int-drug\">celiprolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  celiprolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Celiprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759148",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759148_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"cisatracurium\" outputclass=\"int-drug\">cisatracurium</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  cisatracurium  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cisatracurium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759149",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759149_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"clonidine\" outputclass=\"int-drug\">clonidine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  clonidine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759150",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759150_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"crizotinib\" outputclass=\"int-drug\">crizotinib</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  crizotinib  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crizotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759151",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759151_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  digoxin  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Digoxin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759152",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759152_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"diltiazem\" outputclass=\"int-drug\">diltiazem</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  diltiazem  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diltiazem</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759153",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759153_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"donepezil\" outputclass=\"int-drug\">donepezil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  donepezil  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Donepezil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759154",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759154_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"esmolol\" outputclass=\"int-drug\">esmolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  esmolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Esmolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759155",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759155_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"fentanyl\" outputclass=\"int-drug\">fentanyl</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  fentanyl  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fentanyl</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759156",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759156_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"fingolimod\" outputclass=\"int-drug\">fingolimod</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  fingolimod  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fingolimod</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759157",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759157_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"flecainide\" outputclass=\"int-drug\">flecainide</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  flecainide  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flecainide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759158",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759158_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"galantamine\" outputclass=\"int-drug\">galantamine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  galantamine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Galantamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759159",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759159_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gentamicin\" outputclass=\"int-drug\">Gentamicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gentamicin   is predicted to   decrease   the effects of   pyridostigmine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gentamicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759160",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759160_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"ivabradine\" outputclass=\"int-drug\">ivabradine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  ivabradine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ivabradine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759161",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759161_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"labetalol\" outputclass=\"int-drug\">labetalol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  labetalol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Labetalol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759162",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759162_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"levobunolol\" outputclass=\"int-drug\">levobunolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  levobunolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levobunolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759163",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759163_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"methadone\" outputclass=\"int-drug\">methadone</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  methadone  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methadone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759164",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759164_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"metoprolol\" outputclass=\"int-drug\">metoprolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  metoprolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metoprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759165",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759165_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"nadolol\" outputclass=\"int-drug\">nadolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  nadolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nadolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759166",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759166_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"nebivolol\" outputclass=\"int-drug\">nebivolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  nebivolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nebivolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759167",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759167_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"neostigmine\" outputclass=\"int-drug\">neostigmine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  neostigmine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Neostigmine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759168",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759168_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"oxprenolol\" outputclass=\"int-drug\">oxprenolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  oxprenolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxprenolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759169",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759169_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"pasireotide\" outputclass=\"int-drug\">pasireotide</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  pasireotide  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pasireotide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759170",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759170_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"pindolol\" outputclass=\"int-drug\">pindolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  pindolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pindolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759171",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759171_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"propranolol\" outputclass=\"int-drug\">propranolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  propranolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propranolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759172",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759172_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"remifentanil\" outputclass=\"int-drug\">remifentanil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  remifentanil  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Remifentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759173",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759173_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"rivastigmine\" outputclass=\"int-drug\">rivastigmine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  rivastigmine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rivastigmine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759174",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759174_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"selegiline\" outputclass=\"int-drug\">selegiline</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  selegiline  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Selegiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759175",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759175_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"sotalol\" outputclass=\"int-drug\">sotalol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  sotalol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sotalol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759176",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759176_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"streptomycin\" outputclass=\"int-drug\">Streptomycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Streptomycin   is predicted to   decrease   the effects of   pyridostigmine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Streptomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759177",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759177_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"sufentanil\" outputclass=\"int-drug\">sufentanil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  sufentanil  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sufentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759178",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759178_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"thalidomide\" outputclass=\"int-drug\">thalidomide</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  thalidomide  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759179",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759179_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"timolol\" outputclass=\"int-drug\">timolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  timolol  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Timolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759180",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759180_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"tizanidine\" outputclass=\"int-drug\">tizanidine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  tizanidine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tizanidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759181",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759181_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tobramycin\" outputclass=\"int-drug\">Tobramycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tobramycin   is predicted to   decrease   the effects of   pyridostigmine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tobramycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759182",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine#bnf_i1557280759182_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"pyridostigmine\" outputclass=\"int-heading-drug\">pyridostigmine</ph> and <ph otherprops=\"verapamil\" outputclass=\"int-drug\">verapamil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  pyridostigmine  and  verapamil  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Verapamil</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Pyridostigmine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/pyridostigmine.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Pyridostigmine </title>"
+			},
+			"rdfs:label": "pyridostigmine"
+		}
+	]
+}

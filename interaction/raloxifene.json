@@ -1,0 +1,616 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/raloxifene",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760071",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760071_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"bleomycin\" outputclass=\"int-drug\">bleomycin</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  bleomycin  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bleomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760072",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760072_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"combined hormonal contraceptives\" outputclass=\"int-drug\">Combined hormonal contraceptives</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">oppose</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Combined hormonal contraceptives   potentially   oppose   the effects of   raloxifene .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Combined hormonal contraceptives</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760073",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760073_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"cyclophosphamide\" outputclass=\"int-drug\">cyclophosphamide</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  cyclophosphamide  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyclophosphamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760074",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760074_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"darbepoetin alfa\" outputclass=\"int-drug\">darbepoetin alfa</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  darbepoetin alfa  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Darbepoetin alfa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760075",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760075_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"doxorubicin\" outputclass=\"int-drug\">doxorubicin</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  doxorubicin  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxorubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760076",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760076_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"epoetin alfa\" outputclass=\"int-drug\">epoetin alfa</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  epoetin alfa  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Epoetin alfa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760077",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760077_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"epoetin beta\" outputclass=\"int-drug\">epoetin beta</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  epoetin beta  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Epoetin beta</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760078",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760078_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"epoetin zeta\" outputclass=\"int-drug\">epoetin zeta</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  epoetin zeta  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Epoetin zeta</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760079",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760079_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"fluorouracil\" outputclass=\"int-drug\">fluorouracil</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  fluorouracil  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluorouracil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760080",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760080_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"fulvestrant\" outputclass=\"int-drug\">fulvestrant</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  fulvestrant  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fulvestrant</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760081",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760081_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"hormone replacement therapy\" outputclass=\"int-drug\">Hormone replacement therapy</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">opposes</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Hormone replacement therapy   potentially   opposes   the effects of   raloxifene .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hormone replacement therapy</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760082",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760082_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"lenalidomide\" outputclass=\"int-drug\">lenalidomide</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  lenalidomide  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lenalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760083",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760083_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"methotrexate\" outputclass=\"int-drug\">methotrexate</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  methotrexate  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methotrexate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760084",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760084_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"mitomycin\" outputclass=\"int-drug\">mitomycin</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  mitomycin  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760085",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760085_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"pentostatin\" outputclass=\"int-drug\">pentostatin</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  pentostatin  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentostatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760086",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760086_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"pomalidomide\" outputclass=\"int-drug\">pomalidomide</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  pomalidomide  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pomalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760087",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760087_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"tamoxifen\" outputclass=\"int-drug\">tamoxifen</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  tamoxifen  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tamoxifen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760088",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760088_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"thalidomide\" outputclass=\"int-drug\">thalidomide</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  thalidomide  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760089",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760089_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"tibolone\" outputclass=\"int-drug\">tibolone</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  tibolone  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tibolone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760090",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760090_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"toremifene\" outputclass=\"int-drug\">toremifene</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  toremifene  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Toremifene</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760091",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760091_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"tranexamic acid\" outputclass=\"int-drug\">tranexamic acid</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  tranexamic acid  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tranexamic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760092",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760092_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"tretinoin\" outputclass=\"int-drug\">tretinoin</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  tretinoin  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tretinoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760093",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760093_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"vinblastine\" outputclass=\"int-drug\">vinblastine</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  vinblastine  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinblastine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760094",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760094_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"vincristine\" outputclass=\"int-drug\">vincristine</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  vincristine  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vincristine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760095",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760095_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"vindesine\" outputclass=\"int-drug\">vindesine</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  vindesine  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vindesine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760096",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760096_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"vinflunine\" outputclass=\"int-drug\">vinflunine</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  vinflunine  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinflunine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760097",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/raloxifene#bnf_i1557280760097_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"raloxifene\" outputclass=\"int-heading-drug\">raloxifene</ph> and <ph otherprops=\"vinorelbine\" outputclass=\"int-drug\">vinorelbine</ph> can increase the risk of thromboembolism.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  raloxifene  and  vinorelbine  can increase the risk of thromboembolism. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinorelbine</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Raloxifene  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/raloxifene.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Raloxifene </title>"
+			},
+			"rdfs:label": "raloxifene"
+		}
+	]
+}
