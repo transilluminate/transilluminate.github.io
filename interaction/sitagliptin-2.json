@@ -1,0 +1,553 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765922",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765922_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"acarbose\" outputclass=\"int-drug\">acarbose</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  acarbose  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acarbose</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765923",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765923_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"alogliptin\" outputclass=\"int-drug\">alogliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  alogliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alogliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765924",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765924_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"canagliflozin\" outputclass=\"int-drug\">canagliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  canagliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Canagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765925",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765925_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"dapagliflozin\" outputclass=\"int-drug\">dapagliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  dapagliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dapagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765926",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765926_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"dulaglutide\" outputclass=\"int-drug\">dulaglutide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  dulaglutide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dulaglutide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765927",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765927_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"empagliflozin\" outputclass=\"int-drug\">empagliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  empagliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Empagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765928",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765928_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"ertugliflozin\" outputclass=\"int-drug\">ertugliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  ertugliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ertugliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765929",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765929_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"exenatide\" outputclass=\"int-drug\">exenatide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  exenatide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Exenatide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765930",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765930_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"glibenclamide\" outputclass=\"int-drug\">glibenclamide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  glibenclamide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glibenclamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765931",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765931_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"gliclazide\" outputclass=\"int-drug\">gliclazide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  gliclazide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gliclazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765932",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765932_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"glimepiride\" outputclass=\"int-drug\">glimepiride</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  glimepiride  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glimepiride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765933",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765933_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"glipizide\" outputclass=\"int-drug\">glipizide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  glipizide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glipizide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765934",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765934_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"insulins\" outputclass=\"int-drug\">insulins</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  insulins  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Insulins</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765935",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765935_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"linagliptin\" outputclass=\"int-drug\">linagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  linagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Linagliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765936",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765936_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"liraglutide\" outputclass=\"int-drug\">liraglutide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  liraglutide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Liraglutide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765937",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765937_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"lixisenatide\" outputclass=\"int-drug\">lixisenatide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  lixisenatide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lixisenatide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765938",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765938_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"metformin\" outputclass=\"int-drug\">metformin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  metformin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metformin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765939",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765939_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"nateglinide\" outputclass=\"int-drug\">nateglinide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  nateglinide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nateglinide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765940",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765940_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"pioglitazone\" outputclass=\"int-drug\">pioglitazone</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  pioglitazone  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pioglitazone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765941",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765941_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"repaglinide\" outputclass=\"int-drug\">repaglinide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  repaglinide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Repaglinide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765942",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765942_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"saxagliptin\" outputclass=\"int-drug\">saxagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  saxagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Saxagliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765943",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765943_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"semaglutide\" outputclass=\"int-drug\">semaglutide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  semaglutide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Semaglutide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765944",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765944_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"tolbutamide\" outputclass=\"int-drug\">tolbutamide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  tolbutamide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolbutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765945",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2#bnf_i1557280765945_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sitagliptin\" outputclass=\"int-heading-drug\">sitagliptin</ph> and <ph otherprops=\"vildagliptin\" outputclass=\"int-drug\">vildagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sitagliptin  and  vildagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vildagliptin</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Sitagliptin  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/sitagliptin-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Sitagliptin </title>"
+			},
+			"rdfs:label": "sitagliptin"
+		}
+	]
+}

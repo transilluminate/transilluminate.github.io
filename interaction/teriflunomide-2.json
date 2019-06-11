@@ -1,0 +1,1267 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771406",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771406_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effect\">affects</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"acenocoumarol\" outputclass=\"int-drug\">acenocoumarol</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor INR</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   affects   the anticoagulant effect of   acenocoumarol .  Manufacturer advises monitor INR .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acenocoumarol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771407",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771407_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"adefovir\" outputclass=\"int-drug\">adefovir</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   adefovir .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Adefovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771408",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771408_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"agomelatine\" outputclass=\"int-drug\">agomelatine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   decrease   the exposure to   agomelatine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Agomelatine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771409",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771409_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"aminophylline\" outputclass=\"int-drug\">aminophylline</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   decreases   the exposure to   aminophylline .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aminophylline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771410",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771410_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atorvastatin\" outputclass=\"int-drug\">atorvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   atorvastatin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atorvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771411",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771411_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"Bacillus Calmette-Guérin vaccine\" outputclass=\"int-drug\">Bacillus Calmette-Guérin vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">teriflunomide</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bacillus Calmette-Guérin vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   teriflunomide .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bacillus Calmette-Guérin vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771412",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771412_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"baricitinib\" outputclass=\"int-drug\">baricitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   potentially   increases   the exposure to   baricitinib .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Baricitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771413",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771413_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"benzylpenicillin\" outputclass=\"int-drug\">benzylpenicillin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   benzylpenicillin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Benzylpenicillin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771414",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771414_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"bosentan\" outputclass=\"int-drug\">bosentan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   bosentan .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosentan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771415",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771415_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the clearance of</ph> <ph otherprops=\"caffeine citrate\" outputclass=\"int-drug\">caffeine citrate</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   moderately   increase   the clearance of   caffeine citrate .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Caffeine citrate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771416",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771416_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"cefaclor\" outputclass=\"int-drug\">cefaclor</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   cefaclor .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cefaclor</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771417",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771417_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"cimetidine\" outputclass=\"int-drug\">cimetidine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   cimetidine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cimetidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771418",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771418_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ciprofloxacin\" outputclass=\"int-drug\">ciprofloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   ciprofloxacin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciprofloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771419",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771419_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"clozapine\" outputclass=\"int-drug\">clozapine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor efficacy</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   decrease   the exposure to   clozapine .  Manufacturer advises monitor efficacy .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clozapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771420",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771420_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"daunorubicin\" outputclass=\"int-drug\">daunorubicin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   daunorubicin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Daunorubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771421",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771421_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doxorubicin\" outputclass=\"int-drug\">doxorubicin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   doxorubicin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxorubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771422",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771422_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"duloxetine\" outputclass=\"int-drug\">duloxetine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   decrease   the exposure to   duloxetine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Duloxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771423",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771423_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"famotidine\" outputclass=\"int-drug\">famotidine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   famotidine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Famotidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771424",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771424_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fexofenadine\" outputclass=\"int-drug\">fexofenadine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   fexofenadine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fexofenadine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771425",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771425_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fluvastatin\" outputclass=\"int-drug\">fluvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   fluvastatin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771426",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771426_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"furosemide\" outputclass=\"int-drug\">furosemide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   furosemide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Furosemide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771427",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771427_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ganciclovir\" outputclass=\"int-drug\">ganciclovir</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   ganciclovir .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771428",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771428_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   glibenclamide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glibenclamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771429",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771429_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"indometacin\" outputclass=\"int-drug\">indometacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   indometacin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Indometacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771430",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771430_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"influenza vaccine (live)\" outputclass=\"int-drug\">Influenza vaccine (live)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">teriflunomide</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Influenza vaccine (live)   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   teriflunomide .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Influenza vaccine (live)</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771431",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771431_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ketoprofen\" outputclass=\"int-drug\">ketoprofen</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   ketoprofen .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketoprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771432",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771432_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"letermovir\" outputclass=\"int-drug\">letermovir</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the concentration of   letermovir .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Letermovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771433",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771433_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"measles, mumps and rubella vaccine, live\" outputclass=\"int-drug\">Measles, mumps and rubella vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">teriflunomide</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Measles, mumps and rubella vaccine, live   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   teriflunomide .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Measles, mumps and rubella vaccine, live</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771434",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771434_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"melatonin\" outputclass=\"int-drug\">melatonin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   decrease   the exposure to   melatonin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Melatonin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771435",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771435_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"methotrexate\" outputclass=\"int-drug\">methotrexate</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   methotrexate .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methotrexate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771436",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771436_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the clearance of</ph> <ph otherprops=\"mexiletine\" outputclass=\"int-drug\">mexiletine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the clearance of   mexiletine .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mexiletine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771437",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771437_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"mitoxantrone\" outputclass=\"int-drug\">mitoxantrone</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   mitoxantrone .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitoxantrone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771438",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771438_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"montelukast\" outputclass=\"int-drug\">montelukast</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   montelukast .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Montelukast</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771439",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771439_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"nateglinide\" outputclass=\"int-drug\">nateglinide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   nateglinide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nateglinide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771440",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771440_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"olanzapine\" outputclass=\"int-drug\">olanzapine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   decrease   the exposure to   olanzapine .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olanzapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771441",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771441_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"oseltamivir\" outputclass=\"int-drug\">oseltamivir</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   oseltamivir .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oseltamivir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771442",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771442_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"paclitaxel\" outputclass=\"int-drug\">paclitaxel</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the concentration of   paclitaxel .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paclitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771443",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771443_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pioglitazone\" outputclass=\"int-drug\">pioglitazone</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   pioglitazone .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pioglitazone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771444",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771444_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pirfenidone\" outputclass=\"int-drug\">pirfenidone</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   decrease   the exposure to   pirfenidone .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pirfenidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771445",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771445_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pravastatin\" outputclass=\"int-drug\">pravastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   pravastatin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pravastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771446",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771446_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"repaglinide\" outputclass=\"int-drug\">repaglinide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   repaglinide .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Repaglinide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771447",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771447_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">rifampicin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   rifampicin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771448",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771448_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ropivacaine\" outputclass=\"int-drug\">ropivacaine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   decrease   the exposure to   ropivacaine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ropivacaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771449",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771449_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rosuvastatin\" outputclass=\"int-drug\">rosuvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"rosuvastatin\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/rosuvastatin.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP1645\">rosuvastatin</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   moderately   increases   the exposure to   rosuvastatin .  Manufacturer advises adjust  rosuvastatin  dose .    \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rosuvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771450",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771450_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rotavirus vaccine\" outputclass=\"int-drug\">Rotavirus vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">teriflunomide</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rotavirus vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   teriflunomide .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rotavirus vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771451",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771451_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"selexipag\" outputclass=\"int-drug\">selexipag</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   selexipag .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Selexipag</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771452",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771452_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"simvastatin\" outputclass=\"int-drug\">simvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   simvastatin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Simvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771453",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771453_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sulfasalazine\" outputclass=\"int-drug\">sulfasalazine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   sulfasalazine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfasalazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771454",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771454_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   tenofovir alafenamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tenofovir alafenamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771455",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771455_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir disoproxil\" outputclass=\"int-drug\">tenofovir disoproxil</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   tenofovir disoproxil .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tenofovir disoproxil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771456",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771456_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"theophylline\" outputclass=\"int-drug\">theophylline</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   decrease   the exposure to   theophylline .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Theophylline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771457",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771457_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tizanidine\" outputclass=\"int-drug\">tizanidine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   moderately   decreases   the exposure to   tizanidine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tizanidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771458",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771458_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"topotecan\" outputclass=\"int-drug\">topotecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   topotecan .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Topotecan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771459",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771459_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"typhoid vaccine, oral\" outputclass=\"int-drug\">Typhoid vaccine, oral</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">teriflunomide</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Typhoid vaccine, oral   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   teriflunomide .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Typhoid vaccine, oral</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771460",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771460_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"varicella-zoster vaccine\" outputclass=\"int-drug\">Varicella-zoster vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">teriflunomide</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Varicella-zoster vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   teriflunomide .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Varicella-zoster vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771461",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771461_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effect\">affects</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"warfarin\" outputclass=\"int-drug\">warfarin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor INR</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   affects   the anticoagulant effect of   warfarin .  Manufacturer advises monitor INR .    \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Warfarin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771462",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771462_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"yellow fever vaccine, live\" outputclass=\"int-drug\">Yellow fever vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">teriflunomide</ph>. <ph outputclass=\"int-action\">Public Health England advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Yellow fever vaccine, live   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   teriflunomide .  Public Health England advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "57",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Yellow fever vaccine, live</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771463",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2#bnf_i1557280771463_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-heading-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"zidovudine\" outputclass=\"int-drug\">zidovudine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   zidovudine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zidovudine</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Teriflunomide  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/teriflunomide-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Teriflunomide </title>"
+			},
+			"rdfs:label": "teriflunomide"
+		}
+	]
+}

@@ -1,0 +1,406 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770854",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770854_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"atazanavir\" outputclass=\"int-drug\">Atazanavir</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-heading-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Atazanavir   increases   the exposure to   tenofovir alafenamide .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atazanavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770855",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770855_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-heading-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Carbamazepine   is predicted to   decrease   the exposure to   tenofovir alafenamide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770856",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770856_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ciclosporin\" outputclass=\"int-drug\">Ciclosporin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-heading-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ciclosporin   is predicted to   increase   the exposure to   tenofovir alafenamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciclosporin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770857",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770857_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"darunavir\" outputclass=\"int-drug\">Darunavir</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-heading-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Darunavir   increases   the exposure to   tenofovir alafenamide .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Darunavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770858",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770858_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"eltrombopag\" outputclass=\"int-drug\">Eltrombopag</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-heading-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Eltrombopag   is predicted to   increase   the exposure to   tenofovir alafenamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eltrombopag</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770859",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770859_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-heading-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fosphenytoin   is predicted to   decrease   the exposure to   tenofovir alafenamide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770860",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770860_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"leflunomide\" outputclass=\"int-drug\">Leflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-heading-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Leflunomide   is predicted to   increase   the exposure to   tenofovir alafenamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Leflunomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770861",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770861_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lopinavir\" outputclass=\"int-drug\">Lopinavir</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-heading-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lopinavir   increases   the exposure to   tenofovir alafenamide .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lopinavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770862",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770862_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-heading-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the exposure to   tenofovir alafenamide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxcarbazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770863",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770863_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-heading-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Phenobarbital   is predicted to   decrease   the exposure to   tenofovir alafenamide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770864",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770864_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-heading-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Phenytoin   is predicted to   decrease   the exposure to   tenofovir alafenamide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770865",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770865_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-heading-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Primidone   is predicted to   decrease   the exposure to   tenofovir alafenamide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770866",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770866_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rifabutin\" outputclass=\"int-drug\">Rifabutin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-heading-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Rifabutin   is predicted to   decrease   the exposure to   tenofovir alafenamide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifabutin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770867",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770867_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-heading-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   is predicted to   decrease   the exposure to   tenofovir alafenamide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770868",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770868_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"St John's Wort\" outputclass=\"int-drug\">St John's Wort</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-heading-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "St John's Wort   is predicted to   decrease   the exposure to   tenofovir alafenamide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>St John's Wort</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770869",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770869_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-heading-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   tenofovir alafenamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Teriflunomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770870",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2#bnf_i1557280770870_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tipranavir\" outputclass=\"int-drug\">Tipranavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-heading-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tipranavir   is predicted to   decrease   the exposure to   tenofovir alafenamide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tipranavir</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Tenofovir alafenamide  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/tenofovir-alafenamide-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Tenofovir alafenamide </title>"
+			},
+			"rdfs:label": "tenofovir alafenamide"
+		}
+	]
+}

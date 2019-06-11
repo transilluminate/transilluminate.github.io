@@ -1,0 +1,4082 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/timolol",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772977",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772977_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"acebutolol\" outputclass=\"int-drug\">acebutolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  acebutolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772977_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"acebutolol\" outputclass=\"int-drug\">acebutolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  timolol  and  acebutolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acebutolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772978",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772978_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">Timolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"adrenaline/epinephrine\" outputclass=\"int-drug\">adrenaline/epinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Timolol   is predicted to   increase   the risk of hypertension and bradycardia when given with   adrenaline/epinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Adrenaline/epinephrine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772979",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772979_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"alcohol (beverage)\" outputclass=\"int-drug\">alcohol (beverage)</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  alcohol (beverage)  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alcohol (beverage)</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772980",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772980_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"alectinib\" outputclass=\"int-drug\">alectinib</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  alectinib  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alectinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772981",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772981_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"alfentanil\" outputclass=\"int-drug\">alfentanil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  alfentanil  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alfentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772982",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772982_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"alfuzosin\" outputclass=\"int-drug\">alfuzosin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  alfuzosin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alfuzosin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772983",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772983_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"aliskiren\" outputclass=\"int-drug\">aliskiren</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  aliskiren  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aliskiren</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772984",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772984_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"alprostadil\" outputclass=\"int-drug\">alprostadil</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  alprostadil  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alprostadil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772985",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772985_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"amantadine\" outputclass=\"int-drug\">amantadine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  amantadine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amantadine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772986",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772986_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">Timolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bronchospasm when given with</ph> <ph otherprops=\"aminophylline\" outputclass=\"int-drug\">aminophylline</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Timolol   is predicted to   increase   the risk of bronchospasm when given with   aminophylline .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aminophylline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772987",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772987_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"amiodarone\" outputclass=\"int-drug\">amiodarone</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  amiodarone  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772987_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"amiodarone\" outputclass=\"int-drug\">Amiodarone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiovascular side-effects when given with</ph> <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Amiodarone   is predicted to   increase   the risk of cardiovascular side-effects when given with   timolol .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amiodarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772988",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772988_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"amitriptyline\" outputclass=\"int-drug\">amitriptyline</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  amitriptyline  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amitriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772989",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772989_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"amlodipine\" outputclass=\"int-drug\">amlodipine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  amlodipine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amlodipine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772990",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772990_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"apomorphine\" outputclass=\"int-drug\">apomorphine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  apomorphine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apomorphine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772991",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772991_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"apraclonidine\" outputclass=\"int-drug\">apraclonidine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  apraclonidine  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772991_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"apraclonidine\" outputclass=\"int-drug\">apraclonidine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  timolol  and  apraclonidine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apraclonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772992",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772992_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"aripiprazole\" outputclass=\"int-drug\">aripiprazole</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  aripiprazole  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aripiprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772993",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772993_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"asenapine\" outputclass=\"int-drug\">asenapine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  asenapine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Asenapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772994",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772994_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"atenolol\" outputclass=\"int-drug\">atenolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  atenolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772994_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"atenolol\" outputclass=\"int-drug\">atenolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  timolol  and  atenolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atenolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772995",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772995_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"avanafil\" outputclass=\"int-drug\">avanafil</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  avanafil  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Avanafil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772996",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772996_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"azilsartan\" outputclass=\"int-drug\">azilsartan</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  azilsartan  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Azilsartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772997",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772997_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"baclofen\" outputclass=\"int-drug\">baclofen</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  baclofen  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Baclofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772998",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772998_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"bendroflumethiazide\" outputclass=\"int-drug\">bendroflumethiazide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  bendroflumethiazide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bendroflumethiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772999",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280772999_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"benperidol\" outputclass=\"int-drug\">benperidol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  benperidol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Benperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773000",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773000_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"betaxolol\" outputclass=\"int-drug\">betaxolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  betaxolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773000_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"betaxolol\" outputclass=\"int-drug\">betaxolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  timolol  and  betaxolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Betaxolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773001",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773001_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"bisoprolol\" outputclass=\"int-drug\">bisoprolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  bisoprolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773001_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"bisoprolol\" outputclass=\"int-drug\">bisoprolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  timolol  and  bisoprolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bisoprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773002",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773002_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"bortezomib\" outputclass=\"int-drug\">bortezomib</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  bortezomib  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bortezomib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773003",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773003_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"brimonidine\" outputclass=\"int-drug\">brimonidine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  brimonidine  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773003_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"brimonidine\" outputclass=\"int-drug\">brimonidine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  timolol  and  brimonidine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Brimonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773004",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773004_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"bromocriptine\" outputclass=\"int-drug\">bromocriptine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  bromocriptine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bromocriptine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773005",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773005_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"bumetanide\" outputclass=\"int-drug\">bumetanide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  bumetanide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bumetanide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773006",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773006_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"cabergoline\" outputclass=\"int-drug\">cabergoline</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  cabergoline  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabergoline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773007",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773007_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"canagliflozin\" outputclass=\"int-drug\">canagliflozin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  canagliflozin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Canagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773008",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773008_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"candesartan\" outputclass=\"int-drug\">candesartan</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  candesartan  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Candesartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773009",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773009_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"captopril\" outputclass=\"int-drug\">captopril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  captopril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Captopril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773010",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773010_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"cariprazine\" outputclass=\"int-drug\">cariprazine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  cariprazine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cariprazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773011",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773011_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"celiprolol\" outputclass=\"int-drug\">celiprolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  celiprolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773011_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"celiprolol\" outputclass=\"int-drug\">celiprolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  timolol  and  celiprolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Celiprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773012",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773012_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"chlorothiazide\" outputclass=\"int-drug\">chlorothiazide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  chlorothiazide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorothiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773013",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773013_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"chlorpromazine\" outputclass=\"int-drug\">chlorpromazine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  chlorpromazine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorpromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773014",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773014_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"chlortalidone\" outputclass=\"int-drug\">chlortalidone</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  chlortalidone  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlortalidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773015",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773015_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"cisatracurium\" outputclass=\"int-drug\">cisatracurium</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  cisatracurium  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cisatracurium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773016",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773016_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"clevidipine\" outputclass=\"int-drug\">clevidipine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  clevidipine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clevidipine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773017",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773017_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"clomipramine\" outputclass=\"int-drug\">clomipramine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  clomipramine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clomipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773018",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773018_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"clonidine\" outputclass=\"int-drug\">clonidine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  clonidine  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773018_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"clonidine\" outputclass=\"int-drug\">clonidine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  timolol  and  clonidine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773019",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773019_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"clozapine\" outputclass=\"int-drug\">clozapine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  clozapine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clozapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773020",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773020_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"crizotinib\" outputclass=\"int-drug\">crizotinib</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  crizotinib  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crizotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773021",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773021_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"dapagliflozin\" outputclass=\"int-drug\">dapagliflozin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  dapagliflozin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dapagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773022",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773022_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"desflurane\" outputclass=\"int-drug\">desflurane</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  desflurane  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Desflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773023",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773023_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"diazoxide\" outputclass=\"int-drug\">diazoxide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  diazoxide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diazoxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773024",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773024_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  digoxin  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Digoxin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773025",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773025_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"diltiazem\" outputclass=\"int-drug\">diltiazem</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  diltiazem  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773025_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"diltiazem\" outputclass=\"int-drug\">diltiazem</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  timolol  and  diltiazem  can increase the risk of hypotension. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773025_message_2",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"diltiazem\" outputclass=\"int-drug\">Diltiazem</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiodepression when given with</ph> <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "3",
+							"hasTextContent": "Diltiazem   is predicted to   increase   the risk of cardiodepression when given with   timolol .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diltiazem</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773026",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773026_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"dipyridamole\" outputclass=\"int-drug\">dipyridamole</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  dipyridamole  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dipyridamole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773027",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773027_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"disopyramide\" outputclass=\"int-drug\">Disopyramide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiovascular side-effects when given with</ph> <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Disopyramide   is predicted to   increase   the risk of cardiovascular side-effects when given with   timolol .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Disopyramide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773028",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773028_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">Timolol</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"dobutamine\" outputclass=\"int-drug\">dobutamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Timolol   increases   the risk of hypertension and bradycardia when given with   dobutamine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dobutamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773029",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773029_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"donepezil\" outputclass=\"int-drug\">donepezil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  donepezil  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773029_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"donepezil\" outputclass=\"int-drug\">Donepezil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Donepezil   is predicted to   increase   the risk of bradycardia when given with   timolol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Donepezil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773030",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773030_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"dosulepin\" outputclass=\"int-drug\">dosulepin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  dosulepin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dosulepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773031",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773031_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"doxazosin\" outputclass=\"int-drug\">doxazosin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  doxazosin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxazosin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773032",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773032_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"doxepin\" outputclass=\"int-drug\">doxepin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  doxepin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773033",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773033_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dronedarone\" outputclass=\"int-drug\">Dronedarone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiovascular side-effects when given with</ph> <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dronedarone   is predicted to   increase   the risk of cardiovascular side-effects when given with   timolol .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "57",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dronedarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773034",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773034_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"droperidol\" outputclass=\"int-drug\">droperidol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  droperidol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Droperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773035",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773035_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"empagliflozin\" outputclass=\"int-drug\">empagliflozin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  empagliflozin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "59",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Empagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773036",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773036_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"enalapril\" outputclass=\"int-drug\">enalapril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  enalapril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "60",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enalapril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773037",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773037_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"eplerenone\" outputclass=\"int-drug\">eplerenone</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  eplerenone  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "61",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eplerenone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773038",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773038_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"eprosartan\" outputclass=\"int-drug\">eprosartan</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  eprosartan  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "62",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eprosartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773039",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773039_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">Timolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of peripheral vasoconstriction when given with</ph> <ph otherprops=\"ergometrine\" outputclass=\"int-drug\">ergometrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Timolol   is predicted to   increase   the risk of peripheral vasoconstriction when given with   ergometrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "63",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ergometrine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773040",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773040_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">Timolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of peripheral vasoconstriction when given with</ph> <ph otherprops=\"ergotamine\" outputclass=\"int-drug\">ergotamine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Timolol   is predicted to   increase   the risk of peripheral vasoconstriction when given with   ergotamine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "64",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ergotamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773041",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773041_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"ertugliflozin\" outputclass=\"int-drug\">ertugliflozin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  ertugliflozin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "65",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ertugliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773042",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773042_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"esketamine\" outputclass=\"int-drug\">esketamine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  esketamine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "66",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Esketamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773043",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773043_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"esmolol\" outputclass=\"int-drug\">esmolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  esmolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773043_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"esmolol\" outputclass=\"int-drug\">esmolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  timolol  and  esmolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "67",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Esmolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773044",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773044_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"etomidate\" outputclass=\"int-drug\">etomidate</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  etomidate  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "68",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etomidate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773045",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773045_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"felodipine\" outputclass=\"int-drug\">felodipine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  felodipine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "69",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Felodipine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773046",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773046_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"fentanyl\" outputclass=\"int-drug\">fentanyl</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  fentanyl  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "70",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fentanyl</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773047",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773047_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"fingolimod\" outputclass=\"int-drug\">fingolimod</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  fingolimod  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "71",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fingolimod</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773048",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773048_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"flecainide\" outputclass=\"int-drug\">flecainide</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  flecainide  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773048_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"flecainide\" outputclass=\"int-drug\">Flecainide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiovascular side-effects when given with</ph> <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Flecainide   is predicted to   increase   the risk of cardiovascular side-effects when given with   timolol .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "72",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flecainide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773049",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773049_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"flupentixol\" outputclass=\"int-drug\">flupentixol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  flupentixol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "73",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flupentixol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773050",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773050_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"fluphenazine\" outputclass=\"int-drug\">fluphenazine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  fluphenazine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "74",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluphenazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773051",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773051_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"fosinopril\" outputclass=\"int-drug\">fosinopril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  fosinopril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "75",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosinopril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773052",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773052_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"furosemide\" outputclass=\"int-drug\">furosemide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  furosemide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "76",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Furosemide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773053",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773053_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"galantamine\" outputclass=\"int-drug\">galantamine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  galantamine  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773053_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"galantamine\" outputclass=\"int-drug\">Galantamine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Galantamine   is predicted to   increase   the risk of bradycardia when given with   timolol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "77",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Galantamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773054",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773054_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"glyceryl trinitrate\" outputclass=\"int-drug\">glyceryl trinitrate</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  glyceryl trinitrate  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "78",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glyceryl trinitrate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773055",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773055_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"guanethidine\" outputclass=\"int-drug\">guanethidine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  guanethidine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "79",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Guanethidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773056",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773056_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"guanfacine\" outputclass=\"int-drug\">guanfacine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  guanfacine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "80",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Guanfacine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773057",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773057_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"haloperidol\" outputclass=\"int-drug\">haloperidol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  haloperidol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "81",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Haloperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773058",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773058_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"hydralazine\" outputclass=\"int-drug\">hydralazine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  hydralazine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "82",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydralazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773059",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773059_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"hydrochlorothiazide\" outputclass=\"int-drug\">hydrochlorothiazide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  hydrochlorothiazide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "83",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydrochlorothiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773060",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773060_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"hydroflumethiazide\" outputclass=\"int-drug\">hydroflumethiazide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  hydroflumethiazide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "84",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroflumethiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773061",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773061_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"imidapril\" outputclass=\"int-drug\">imidapril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  imidapril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "85",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imidapril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773062",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773062_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"imipramine\" outputclass=\"int-drug\">imipramine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  imipramine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "86",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773063",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773063_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"indapamide\" outputclass=\"int-drug\">indapamide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  indapamide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "87",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Indapamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773064",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773064_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"indoramin\" outputclass=\"int-drug\">indoramin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  indoramin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "88",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Indoramin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773065",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773065_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"irbesartan\" outputclass=\"int-drug\">irbesartan</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  irbesartan  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "89",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Irbesartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773066",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773066_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"isocarboxazid\" outputclass=\"int-drug\">isocarboxazid</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  isocarboxazid  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "90",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isocarboxazid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773067",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773067_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"isoflurane\" outputclass=\"int-drug\">isoflurane</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  isoflurane  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "91",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isoflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773068",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773068_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"isosorbide dinitrate\" outputclass=\"int-drug\">isosorbide dinitrate</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  isosorbide dinitrate  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "92",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isosorbide dinitrate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773069",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773069_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"isosorbide mononitrate\" outputclass=\"int-drug\">isosorbide mononitrate</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  isosorbide mononitrate  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "93",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isosorbide mononitrate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773070",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773070_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"ivabradine\" outputclass=\"int-drug\">ivabradine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  ivabradine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "94",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ivabradine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773071",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773071_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"ketamine\" outputclass=\"int-drug\">ketamine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  ketamine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "95",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773072",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773072_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"lacidipine\" outputclass=\"int-drug\">lacidipine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  lacidipine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "96",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lacidipine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773073",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773073_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">Timolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"lanreotide\" outputclass=\"int-drug\">lanreotide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Timolol   is predicted to   increase   the risk of bradycardia when given with   lanreotide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "97",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lanreotide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773074",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773074_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"lercanidipine\" outputclass=\"int-drug\">lercanidipine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  lercanidipine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "98",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lercanidipine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773075",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773075_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"levodopa\" outputclass=\"int-drug\">levodopa</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  levodopa  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "99",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levodopa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773076",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773076_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"levomepromazine\" outputclass=\"int-drug\">levomepromazine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  levomepromazine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "100",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levomepromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773077",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773077_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lidocaine\" outputclass=\"int-drug\">Lidocaine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiovascular side-effects when given with</ph> <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lidocaine   is predicted to   increase   the risk of cardiovascular side-effects when given with   timolol .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "101",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lidocaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773078",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773078_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"lisinopril\" outputclass=\"int-drug\">lisinopril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  lisinopril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "102",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lisinopril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773079",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773079_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"lofepramine\" outputclass=\"int-drug\">lofepramine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  lofepramine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "103",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lofepramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773080",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773080_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"lofexidine\" outputclass=\"int-drug\">lofexidine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  lofexidine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "104",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lofexidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773081",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773081_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"losartan\" outputclass=\"int-drug\">losartan</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  losartan  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "105",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Losartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773082",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773082_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"loxapine\" outputclass=\"int-drug\">loxapine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  loxapine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "106",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Loxapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773083",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773083_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"lurasidone\" outputclass=\"int-drug\">lurasidone</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  lurasidone  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "107",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lurasidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773084",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773084_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mefloquine\" outputclass=\"int-drug\">Mefloquine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Mefloquine   is predicted to   increase   the risk of bradycardia when given with   timolol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "108",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mefloquine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773085",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773085_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"methadone\" outputclass=\"int-drug\">methadone</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  methadone  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "109",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methadone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773086",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773086_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"methoxyflurane\" outputclass=\"int-drug\">methoxyflurane</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  methoxyflurane  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "110",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methoxyflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773087",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773087_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"methyldopa\" outputclass=\"int-drug\">methyldopa</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  methyldopa  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "111",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methyldopa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773088",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773088_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"metolazone\" outputclass=\"int-drug\">metolazone</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  metolazone  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "112",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metolazone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773089",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773089_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"metoprolol\" outputclass=\"int-drug\">metoprolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  metoprolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773089_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"metoprolol\" outputclass=\"int-drug\">metoprolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  timolol  and  metoprolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "113",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metoprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773090",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773090_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mexiletine\" outputclass=\"int-drug\">Mexiletine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of cardiovascular side-effects when given with</ph> <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Mexiletine   potentially   increases   the risk of cardiovascular side-effects when given with   timolol .  Manufacturer advises avoid or monitor .    \n\n"
+						}
+					],
+					"hasOrder": "114",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mexiletine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773091",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773091_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"minoxidil\" outputclass=\"int-drug\">minoxidil</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  minoxidil  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "115",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Minoxidil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773092",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773092_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"moxisylyte\" outputclass=\"int-drug\">moxisylyte</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  moxisylyte  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "116",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Moxisylyte</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773093",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773093_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"moxonidine\" outputclass=\"int-drug\">moxonidine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  moxonidine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "117",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Moxonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773094",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773094_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"nebivolol\" outputclass=\"int-drug\">nebivolol</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  nebivolol  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773094_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"nebivolol\" outputclass=\"int-drug\">nebivolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  timolol  and  nebivolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "118",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nebivolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773095",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773095_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"neostigmine\" outputclass=\"int-drug\">neostigmine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  neostigmine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "119",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Neostigmine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773096",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773096_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"nicardipine\" outputclass=\"int-drug\">nicardipine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  nicardipine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "120",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nicardipine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773097",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773097_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"nicorandil\" outputclass=\"int-drug\">nicorandil</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  nicorandil  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "121",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nicorandil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773098",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773098_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"nifedipine\" outputclass=\"int-drug\">nifedipine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  nifedipine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "122",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nifedipine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773099",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773099_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"nimodipine\" outputclass=\"int-drug\">nimodipine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  nimodipine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "123",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nimodipine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773100",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773100_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"nitrous oxide\" outputclass=\"int-drug\">nitrous oxide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  nitrous oxide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "124",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nitrous oxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773101",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773101_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">Timolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and bradycardia when given with</ph> <ph otherprops=\"noradrenaline/norepinephrine\" outputclass=\"int-drug\">noradrenaline/norepinephrine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Timolol   is predicted to   increase   the risk of hypertension and bradycardia when given with   noradrenaline/norepinephrine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "125",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Noradrenaline/norepinephrine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773102",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773102_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"nortriptyline\" outputclass=\"int-drug\">nortriptyline</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  nortriptyline  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "126",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nortriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773103",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773103_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"olanzapine\" outputclass=\"int-drug\">olanzapine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  olanzapine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "127",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olanzapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773104",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773104_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"olmesartan\" outputclass=\"int-drug\">olmesartan</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  olmesartan  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "128",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olmesartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773105",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773105_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"paliperidone\" outputclass=\"int-drug\">paliperidone</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  paliperidone  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "129",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paliperidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773106",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773106_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"pasireotide\" outputclass=\"int-drug\">pasireotide</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  pasireotide  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "130",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pasireotide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773107",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773107_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"pergolide\" outputclass=\"int-drug\">pergolide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  pergolide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "131",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pergolide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773108",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773108_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"pericyazine\" outputclass=\"int-drug\">pericyazine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  pericyazine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "132",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pericyazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773109",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773109_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"perindopril\" outputclass=\"int-drug\">perindopril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  perindopril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "133",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Perindopril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773110",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773110_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"phenelzine\" outputclass=\"int-drug\">phenelzine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  phenelzine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "134",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenelzine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773111",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773111_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"pimozide\" outputclass=\"int-drug\">pimozide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  pimozide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "135",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pimozide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773112",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773112_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"pramipexole\" outputclass=\"int-drug\">pramipexole</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  pramipexole  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "136",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pramipexole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773113",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773113_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"prazosin\" outputclass=\"int-drug\">prazosin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  prazosin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "137",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prazosin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773114",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773114_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"prochlorperazine\" outputclass=\"int-drug\">prochlorperazine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  prochlorperazine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "138",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prochlorperazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773115",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773115_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"promazine\" outputclass=\"int-drug\">promazine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  promazine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "139",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Promazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773116",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773116_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"propafenone\" outputclass=\"int-drug\">Propafenone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiodepression when given with</ph> <ph otherprops=\"propafenone\" outputclass=\"int-drug\">propafenone</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Propafenone   is predicted to   increase   the exposure to   timolol  and  timolol   is predicted to   increase   the risk of cardiodepression when given with   propafenone .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "140",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propafenone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773117",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773117_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"propofol\" outputclass=\"int-drug\">propofol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  propofol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "141",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propofol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773118",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773118_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"pyridostigmine\" outputclass=\"int-drug\">pyridostigmine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  pyridostigmine  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "142",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pyridostigmine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773119",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773119_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"quetiapine\" outputclass=\"int-drug\">quetiapine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  quetiapine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "143",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Quetiapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773120",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773120_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"quinagolide\" outputclass=\"int-drug\">quinagolide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  quinagolide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "144",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Quinagolide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773121",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773121_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"quinapril\" outputclass=\"int-drug\">quinapril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  quinapril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "145",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Quinapril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773122",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773122_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"ramipril\" outputclass=\"int-drug\">ramipril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  ramipril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "146",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ramipril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773123",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773123_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"remifentanil\" outputclass=\"int-drug\">remifentanil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  remifentanil  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "147",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Remifentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773124",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773124_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"riociguat\" outputclass=\"int-drug\">riociguat</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  riociguat  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "148",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Riociguat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773125",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773125_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"risperidone\" outputclass=\"int-drug\">risperidone</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  risperidone  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "149",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Risperidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773126",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773126_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"rivastigmine\" outputclass=\"int-drug\">rivastigmine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  rivastigmine  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773126_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rivastigmine\" outputclass=\"int-drug\">Rivastigmine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bradycardia when given with</ph> <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "2",
+							"hasTextContent": "Rivastigmine   is predicted to   increase   the risk of bradycardia when given with   timolol .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "150",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rivastigmine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773127",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773127_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"ropinirole\" outputclass=\"int-drug\">ropinirole</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  ropinirole  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "151",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ropinirole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773128",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773128_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"rotigotine\" outputclass=\"int-drug\">rotigotine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  rotigotine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "152",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rotigotine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773129",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773129_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"sacubitril\" outputclass=\"int-drug\">sacubitril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  sacubitril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "153",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sacubitril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773130",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773130_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"sapropterin\" outputclass=\"int-drug\">sapropterin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  sapropterin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "154",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sapropterin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773131",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773131_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"selegiline\" outputclass=\"int-drug\">selegiline</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  selegiline  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773131_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"selegiline\" outputclass=\"int-drug\">selegiline</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  timolol  and  selegiline  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "155",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Selegiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773132",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773132_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"sevoflurane\" outputclass=\"int-drug\">sevoflurane</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  sevoflurane  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "156",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sevoflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773133",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773133_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"sildenafil\" outputclass=\"int-drug\">sildenafil</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  sildenafil  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "157",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sildenafil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773134",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773134_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"sodium nitroprusside\" outputclass=\"int-drug\">sodium nitroprusside</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  sodium nitroprusside  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "158",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sodium nitroprusside</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773135",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773135_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"sodium oxybate\" outputclass=\"int-drug\">sodium oxybate</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  sodium oxybate  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "159",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sodium oxybate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773136",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773136_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"spironolactone\" outputclass=\"int-drug\">spironolactone</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  spironolactone  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "160",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Spironolactone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773137",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773137_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"sufentanil\" outputclass=\"int-drug\">sufentanil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  sufentanil  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "161",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sufentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773138",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773138_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"sulpiride\" outputclass=\"int-drug\">sulpiride</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  sulpiride  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "162",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulpiride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773139",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773139_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"tadalafil\" outputclass=\"int-drug\">tadalafil</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  tadalafil  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "163",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tadalafil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773140",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773140_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"tamsulosin\" outputclass=\"int-drug\">tamsulosin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  tamsulosin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "164",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tamsulosin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773141",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773141_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"telmisartan\" outputclass=\"int-drug\">telmisartan</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  telmisartan  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "165",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Telmisartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773142",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773142_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"terazosin\" outputclass=\"int-drug\">terazosin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  terazosin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "166",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Terazosin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773143",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773143_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"thalidomide\" outputclass=\"int-drug\">thalidomide</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  thalidomide  can increase the risk of bradycardia. \n\n"
+						}
+					],
+					"hasOrder": "167",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773144",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773144_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">Timolol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bronchospasm when given with</ph> <ph otherprops=\"theophylline\" outputclass=\"int-drug\">theophylline</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Timolol   is predicted to   increase   the risk of bronchospasm when given with   theophylline .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "168",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Theophylline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773145",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773145_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"thiopental\" outputclass=\"int-drug\">thiopental</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  thiopental  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "169",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thiopental</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773146",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773146_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"tizanidine\" outputclass=\"int-drug\">tizanidine</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  tizanidine  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773146_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"tizanidine\" outputclass=\"int-drug\">tizanidine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  timolol  and  tizanidine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "170",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tizanidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773147",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773147_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"torasemide\" outputclass=\"int-drug\">torasemide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  torasemide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "171",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Torasemide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773148",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773148_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"trandolapril\" outputclass=\"int-drug\">trandolapril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  trandolapril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "172",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trandolapril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773149",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773149_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"tranylcypromine\" outputclass=\"int-drug\">tranylcypromine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  tranylcypromine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "173",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tranylcypromine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773150",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773150_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"trifluoperazine\" outputclass=\"int-drug\">trifluoperazine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  trifluoperazine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "174",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trifluoperazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773151",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773151_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"trimipramine\" outputclass=\"int-drug\">trimipramine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  trimipramine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "175",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trimipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773152",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773152_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"valsartan\" outputclass=\"int-drug\">valsartan</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  valsartan  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "176",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Valsartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773153",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773153_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"vardenafil\" outputclass=\"int-drug\">vardenafil</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  vardenafil  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "177",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vardenafil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773154",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773154_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"verapamil\" outputclass=\"int-drug\">verapamil</ph> can increase the risk of bradycardia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  verapamil  can increase the risk of bradycardia. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773154_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"verapamil\" outputclass=\"int-drug\">verapamil</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "2",
+							"hasTextContent": "Both  timolol  and  verapamil  can increase the risk of hypotension. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773154_message_2",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Intravenous</ph> <ph otherprops=\"verapamil\" outputclass=\"int-drug\">verapamil</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of cardiovascular side-effects when given with</ph> <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "3",
+							"hasTextContent": "Intravenous   verapamil   increases   the risk of cardiovascular side-effects when given with   timolol .  Manufacturer advises avoid .    \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773154_message_3",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"verapamil\" outputclass=\"int-drug\">verapamil</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of cardiovascular side-effects when given with</ph> <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "4",
+							"hasTextContent": "Oral   verapamil   increases   the risk of cardiovascular side-effects when given with   timolol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "178",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Verapamil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773155",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773155_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"xipamide\" outputclass=\"int-drug\">xipamide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  xipamide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "179",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Xipamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773156",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/timolol#bnf_i1557280773156_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"timolol\" outputclass=\"int-heading-drug\">timolol</ph> and <ph otherprops=\"zuclopenthixol\" outputclass=\"int-drug\">zuclopenthixol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  timolol  and  zuclopenthixol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "180",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zuclopenthixol</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Timolol  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/timolol.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Timolol </title>"
+			},
+			"rdfs:label": "timolol"
+		}
+	]
+}

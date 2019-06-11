@@ -1,0 +1,553 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764978",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764978_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"acarbose\" outputclass=\"int-drug\">acarbose</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  acarbose  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acarbose</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764979",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764979_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"alogliptin\" outputclass=\"int-drug\">alogliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  alogliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alogliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764980",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764980_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"canagliflozin\" outputclass=\"int-drug\">canagliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  canagliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Canagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764981",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764981_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"dapagliflozin\" outputclass=\"int-drug\">dapagliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  dapagliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dapagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764982",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764982_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"dulaglutide\" outputclass=\"int-drug\">dulaglutide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  dulaglutide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dulaglutide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764983",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764983_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"empagliflozin\" outputclass=\"int-drug\">empagliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  empagliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Empagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764984",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764984_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"ertugliflozin\" outputclass=\"int-drug\">ertugliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  ertugliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ertugliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764985",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764985_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"exenatide\" outputclass=\"int-drug\">exenatide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  exenatide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Exenatide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764986",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764986_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"glibenclamide\" outputclass=\"int-drug\">glibenclamide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  glibenclamide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glibenclamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764987",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764987_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"gliclazide\" outputclass=\"int-drug\">gliclazide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  gliclazide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gliclazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764988",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764988_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"glimepiride\" outputclass=\"int-drug\">glimepiride</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  glimepiride  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glimepiride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764989",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764989_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"glipizide\" outputclass=\"int-drug\">glipizide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  glipizide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glipizide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764990",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764990_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"insulins\" outputclass=\"int-drug\">insulins</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  insulins  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Insulins</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764991",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764991_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"linagliptin\" outputclass=\"int-drug\">linagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  linagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Linagliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764992",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764992_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"liraglutide\" outputclass=\"int-drug\">liraglutide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  liraglutide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Liraglutide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764993",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764993_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"lixisenatide\" outputclass=\"int-drug\">lixisenatide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  lixisenatide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lixisenatide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764994",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764994_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"metformin\" outputclass=\"int-drug\">metformin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  metformin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metformin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764995",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764995_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"nateglinide\" outputclass=\"int-drug\">nateglinide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  nateglinide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nateglinide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764996",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764996_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"pioglitazone\" outputclass=\"int-drug\">pioglitazone</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  pioglitazone  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pioglitazone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764997",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764997_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"repaglinide\" outputclass=\"int-drug\">repaglinide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  repaglinide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Repaglinide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764998",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764998_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"saxagliptin\" outputclass=\"int-drug\">saxagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  saxagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Saxagliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764999",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280764999_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"sitagliptin\" outputclass=\"int-drug\">sitagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  sitagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sitagliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280765000",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280765000_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"tolbutamide\" outputclass=\"int-drug\">tolbutamide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  tolbutamide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolbutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280765001",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2#bnf_i1557280765001_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"semaglutide\" outputclass=\"int-heading-drug\">semaglutide</ph> and <ph otherprops=\"vildagliptin\" outputclass=\"int-drug\">vildagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  semaglutide  and  vildagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vildagliptin</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Semaglutide  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/semaglutide-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Semaglutide </title>"
+			},
+			"rdfs:label": "semaglutide"
+		}
+	]
+}

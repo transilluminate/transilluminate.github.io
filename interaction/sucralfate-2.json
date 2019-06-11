@@ -1,0 +1,511 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767799",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767799_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"amitriptyline\" outputclass=\"int-drug\">amitriptyline</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   is predicted to   decrease   the absorption of   amitriptyline .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amitriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767800",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767800_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"bictegravir\" outputclass=\"int-drug\">bictegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   is predicted to   decrease   the exposure to   bictegravir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bictegravir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767801",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767801_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ciprofloxacin\" outputclass=\"int-drug\">ciprofloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   decreases   the exposure to   ciprofloxacin .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciprofloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767802",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767802_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"clomipramine\" outputclass=\"int-drug\">clomipramine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   is predicted to   decrease   the absorption of   clomipramine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clomipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767803",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767803_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   decreases   the absorption of   digoxin .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Digoxin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767804",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767804_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   decreases   the absorption of   dolutegravir .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dolutegravir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767805",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767805_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"dosulepin\" outputclass=\"int-drug\">dosulepin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   is predicted to   decrease   the absorption of   dosulepin .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dosulepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767806",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767806_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"doxepin\" outputclass=\"int-drug\">doxepin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   is predicted to   decrease   the absorption of   doxepin .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767807",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767807_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of blocked enteral or nasogastric tubes when given with</ph> <ph otherprops=\"enteral feeds\" outputclass=\"int-drug\">enteral feeds</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 1 hour</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   increases   the risk of blocked enteral or nasogastric tubes when given with   enteral feeds .  Manufacturer advises separate administration by 1 hour .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enteral feeds</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767808",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767808_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"imipramine\" outputclass=\"int-drug\">imipramine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   is predicted to   decrease   the absorption of   imipramine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767809",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767809_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"levofloxacin\" outputclass=\"int-drug\">levofloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   decreases   the exposure to   levofloxacin .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levofloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767810",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767810_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"levothyroxine\" outputclass=\"int-drug\">levothyroxine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 4 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   decreases   the absorption of   levothyroxine .  Manufacturer advises separate administration by at least 4 hours .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levothyroxine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767811",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767811_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"lofepramine\" outputclass=\"int-drug\">lofepramine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   is predicted to   decrease   the absorption of   lofepramine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lofepramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767812",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767812_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"moxifloxacin\" outputclass=\"int-drug\">moxifloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   decreases   the exposure to   moxifloxacin .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Moxifloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767813",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767813_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"nortriptyline\" outputclass=\"int-drug\">nortriptyline</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   is predicted to   decrease   the absorption of   nortriptyline .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nortriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767814",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767814_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ofloxacin\" outputclass=\"int-drug\">ofloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   decreases   the exposure to   ofloxacin .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ofloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767815",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767815_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"potassium citrate\" outputclass=\"int-drug\">Potassium citrate</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of side-effects when given with</ph> <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">sucralfate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Potassium citrate   increases   the risk of side-effects when given with   sucralfate .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Potassium citrate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767816",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767816_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sodium citrate\" outputclass=\"int-drug\">Sodium citrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of side-effects when given with</ph> <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">sucralfate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sodium citrate   is predicted to   increase   the risk of side-effects when given with   sucralfate .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sodium citrate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767817",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767817_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"sulpiride\" outputclass=\"int-drug\">sulpiride</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   decreases   the absorption of   sulpiride .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulpiride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767818",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767818_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"theophylline\" outputclass=\"int-drug\">theophylline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   potentially   decreases   the absorption of   theophylline .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Theophylline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767819",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767819_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"trimipramine\" outputclass=\"int-drug\">trimipramine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   is predicted to   decrease   the absorption of   trimipramine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trimipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767820",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2#bnf_i1557280767820_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucralfate\" outputclass=\"int-heading-drug\">Sucralfate</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"warfarin\" outputclass=\"int-drug\">warfarin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucralfate   potentially   decreases   the effects of   warfarin .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Warfarin</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Sucralfate  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/sucralfate-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Sucralfate </title>"
+			},
+			"rdfs:label": "sucralfate"
+		}
+	]
+}

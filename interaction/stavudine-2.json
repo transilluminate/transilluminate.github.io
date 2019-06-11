@@ -1,0 +1,596 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/stavudine-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767494",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767494_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"amiodarone\" outputclass=\"int-drug\">amiodarone</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  amiodarone  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amiodarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767495",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767495_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"bortezomib\" outputclass=\"int-drug\">bortezomib</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  bortezomib  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bortezomib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767496",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767496_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"brentuximab vedotin\" outputclass=\"int-drug\">brentuximab vedotin</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  brentuximab vedotin  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Brentuximab vedotin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767497",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767497_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"cabazitaxel\" outputclass=\"int-drug\">cabazitaxel</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  cabazitaxel  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabazitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767498",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767498_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"cisplatin\" outputclass=\"int-drug\">cisplatin</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  cisplatin  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cisplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767499",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767499_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"didanosine\" outputclass=\"int-drug\">didanosine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  didanosine  can increase the risk of peripheral neuropathy. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767499_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"didanosine\" outputclass=\"int-drug\">Didanosine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of toxicity when given with</ph> <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Didanosine   increases   the risk of toxicity when given with   stavudine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Didanosine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767500",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767500_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"disulfiram\" outputclass=\"int-drug\">disulfiram</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  disulfiram  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Disulfiram</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767501",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767501_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"docetaxel\" outputclass=\"int-drug\">docetaxel</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  docetaxel  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Docetaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767502",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767502_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"eribulin\" outputclass=\"int-drug\">eribulin</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  eribulin  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eribulin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767503",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767503_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">fosphenytoin</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  fosphenytoin  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767504",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767504_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"hydroxycarbamide\" outputclass=\"int-drug\">Hydroxycarbamide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of toxicity when given with</ph> <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Hydroxycarbamide   increases   the risk of toxicity when given with   stavudine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroxycarbamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767505",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767505_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"isoniazid\" outputclass=\"int-drug\">isoniazid</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  isoniazid  can increase the risk of peripheral neuropathy. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767505_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"isoniazid\" outputclass=\"int-drug\">Isoniazid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of peripheral neuropathy when given with</ph> <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Isoniazid   is predicted to   increase   the risk of peripheral neuropathy when given with   stavudine .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isoniazid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767506",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767506_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"lamivudine\" outputclass=\"int-drug\">lamivudine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  lamivudine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lamivudine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767507",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767507_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"metronidazole\" outputclass=\"int-drug\">metronidazole</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  metronidazole  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metronidazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767508",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767508_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"nitrofurantoin\" outputclass=\"int-drug\">nitrofurantoin</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  nitrofurantoin  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nitrofurantoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767509",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767509_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"paclitaxel\" outputclass=\"int-drug\">paclitaxel</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  paclitaxel  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paclitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767510",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767510_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">phenytoin</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  phenytoin  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767511",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767511_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ribavirin\" outputclass=\"int-drug\">Ribavirin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of toxicity when given with</ph> <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ribavirin   increases   the risk of toxicity when given with   stavudine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ribavirin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767512",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767512_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"thalidomide\" outputclass=\"int-drug\">thalidomide</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  thalidomide  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767513",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767513_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"vinblastine\" outputclass=\"int-drug\">vinblastine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  vinblastine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinblastine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767514",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767514_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"vincristine\" outputclass=\"int-drug\">vincristine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  vincristine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vincristine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767515",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767515_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"vindesine\" outputclass=\"int-drug\">vindesine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  vindesine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vindesine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767516",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767516_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"vinflunine\" outputclass=\"int-drug\">vinflunine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  vinflunine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinflunine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767517",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767517_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph> and <ph otherprops=\"vinorelbine\" outputclass=\"int-drug\">vinorelbine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  stavudine  and  vinorelbine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinorelbine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767518",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/stavudine-2#bnf_i1557280767518_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"zidovudine\" outputclass=\"int-drug\">Zidovudine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"stavudine\" outputclass=\"int-heading-drug\">stavudine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Zidovudine   is predicted to   decrease   the efficacy of   stavudine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zidovudine</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Stavudine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/stavudine-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Stavudine </title>"
+			},
+			"rdfs:label": "stavudine"
+		}
+	]
+}

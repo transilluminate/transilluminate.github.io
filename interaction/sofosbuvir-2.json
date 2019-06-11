@@ -1,0 +1,490 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766497",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766497_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">Sofosbuvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of severe bradycardia or heart block when given with</ph> <ph otherprops=\"amiodarone\" outputclass=\"int-drug\">amiodarone</ph>. <ph outputclass=\"int-action\">Refer to specialist literature</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Sofosbuvir   is predicted to   increase   the risk of severe bradycardia or heart block when given with   amiodarone .  Refer to specialist literature .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amiodarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766498",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766498_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Carbamazepine   is predicted to   decrease   the exposure to   sofosbuvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766499",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766499_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cimetidine\" outputclass=\"int-drug\">Cimetidine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/ledipasvir-with-sofosbuvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP108187\">ledipasvir with sofosbuvir</xref>, <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213021\">sofosbuvir with velpatasvir</xref>, and <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir-and-voxilaprevir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP215871\">sofosbuvir with velpatasvir and voxilaprevir</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cimetidine   potentially   decreases   the exposure to   sofosbuvir .  Manufacturer advises adjust dose, see  ledipasvir with sofosbuvir ,  sofosbuvir with velpatasvir , and  sofosbuvir with velpatasvir and voxilaprevir .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cimetidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766500",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766500_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"esomeprazole\" outputclass=\"int-drug\">Esomeprazole</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/ledipasvir-with-sofosbuvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP108187\">ledipasvir with sofosbuvir</xref>, <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213021\">sofosbuvir with velpatasvir</xref>, and <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir-and-voxilaprevir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP215871\">sofosbuvir with velpatasvir and voxilaprevir</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Esomeprazole   potentially   decreases   the exposure to   sofosbuvir .  Manufacturer advises adjust dose, see  ledipasvir with sofosbuvir ,  sofosbuvir with velpatasvir , and  sofosbuvir with velpatasvir and voxilaprevir .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Esomeprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766501",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766501_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"famotidine\" outputclass=\"int-drug\">Famotidine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/ledipasvir-with-sofosbuvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP108187\">ledipasvir with sofosbuvir</xref>, <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213021\">sofosbuvir with velpatasvir</xref>, and <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir-and-voxilaprevir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP215871\">sofosbuvir with velpatasvir and voxilaprevir</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Famotidine   potentially   decreases   the exposure to   sofosbuvir .  Manufacturer advises adjust dose, see  ledipasvir with sofosbuvir ,  sofosbuvir with velpatasvir , and  sofosbuvir with velpatasvir and voxilaprevir .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Famotidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766502",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766502_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fosphenytoin   is predicted to   decrease   the exposure to   sofosbuvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766503",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766503_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lansoprazole\" outputclass=\"int-drug\">Lansoprazole</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/ledipasvir-with-sofosbuvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP108187\">ledipasvir with sofosbuvir</xref>, <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213021\">sofosbuvir with velpatasvir</xref>, and <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir-and-voxilaprevir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP215871\">sofosbuvir with velpatasvir and voxilaprevir</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lansoprazole   potentially   decreases   the exposure to   sofosbuvir .  Manufacturer advises adjust dose, see  ledipasvir with sofosbuvir ,  sofosbuvir with velpatasvir , and  sofosbuvir with velpatasvir and voxilaprevir .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lansoprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766504",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766504_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"modafinil\" outputclass=\"int-drug\">Modafinil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Modafinil   is predicted to   decrease   the exposure to   sofosbuvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Modafinil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766505",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766505_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"nizatidine\" outputclass=\"int-drug\">Nizatidine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/ledipasvir-with-sofosbuvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP108187\">ledipasvir with sofosbuvir</xref>, <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213021\">sofosbuvir with velpatasvir</xref>, and <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir-and-voxilaprevir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP215871\">sofosbuvir with velpatasvir and voxilaprevir</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Nizatidine   potentially   decreases   the exposure to   sofosbuvir .  Manufacturer advises adjust dose, see  ledipasvir with sofosbuvir ,  sofosbuvir with velpatasvir , and  sofosbuvir with velpatasvir and voxilaprevir .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nizatidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766506",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766506_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"omeprazole\" outputclass=\"int-drug\">Omeprazole</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/ledipasvir-with-sofosbuvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP108187\">ledipasvir with sofosbuvir</xref>, <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213021\">sofosbuvir with velpatasvir</xref>, and <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir-and-voxilaprevir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP215871\">sofosbuvir with velpatasvir and voxilaprevir</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Omeprazole   potentially   decreases   the exposure to   sofosbuvir .  Manufacturer advises adjust dose, see  ledipasvir with sofosbuvir ,  sofosbuvir with velpatasvir , and  sofosbuvir with velpatasvir and voxilaprevir .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Omeprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766507",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766507_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the exposure to   sofosbuvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxcarbazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766508",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766508_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pantoprazole\" outputclass=\"int-drug\">Pantoprazole</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/ledipasvir-with-sofosbuvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP108187\">ledipasvir with sofosbuvir</xref>, <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213021\">sofosbuvir with velpatasvir</xref>, and <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir-and-voxilaprevir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP215871\">sofosbuvir with velpatasvir and voxilaprevir</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pantoprazole   potentially   decreases   the exposure to   sofosbuvir .  Manufacturer advises adjust dose, see  ledipasvir with sofosbuvir ,  sofosbuvir with velpatasvir , and  sofosbuvir with velpatasvir and voxilaprevir .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pantoprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766509",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766509_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenobarbital   is predicted to   decrease   the exposure to   sofosbuvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766510",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766510_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenytoin   is predicted to   decrease   the exposure to   sofosbuvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766511",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766511_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Primidone   is predicted to   decrease   the exposure to   sofosbuvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766512",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766512_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rabeprazole\" outputclass=\"int-drug\">Rabeprazole</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/ledipasvir-with-sofosbuvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP108187\">ledipasvir with sofosbuvir</xref>, <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213021\">sofosbuvir with velpatasvir</xref>, and <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir-and-voxilaprevir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP215871\">sofosbuvir with velpatasvir and voxilaprevir</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Rabeprazole   potentially   decreases   the exposure to   sofosbuvir .  Manufacturer advises adjust dose, see  ledipasvir with sofosbuvir ,  sofosbuvir with velpatasvir , and  sofosbuvir with velpatasvir and voxilaprevir .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rabeprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766513",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766513_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ranitidine\" outputclass=\"int-drug\">Ranitidine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/ledipasvir-with-sofosbuvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP108187\">ledipasvir with sofosbuvir</xref>, <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213021\">sofosbuvir with velpatasvir</xref>, and <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir-and-voxilaprevir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP215871\">sofosbuvir with velpatasvir and voxilaprevir</xref></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ranitidine   potentially   decreases   the exposure to   sofosbuvir .  Manufacturer advises adjust dose, see  ledipasvir with sofosbuvir ,  sofosbuvir with velpatasvir , and  sofosbuvir with velpatasvir and voxilaprevir .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ranitidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766514",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766514_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rifabutin\" outputclass=\"int-drug\">Rifabutin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rifabutin   is predicted to   decrease   the exposure to   sofosbuvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifabutin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766515",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766515_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   is predicted to   decrease   the exposure to   sofosbuvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766516",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766516_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"St John's Wort\" outputclass=\"int-drug\">St John's Wort</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "St John's Wort   is predicted to   decrease   the exposure to   sofosbuvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>St John's Wort</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766517",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2#bnf_i1557280766517_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tipranavir\" outputclass=\"int-drug\">Tipranavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sofosbuvir\" outputclass=\"int-heading-drug\">sofosbuvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tipranavir   is predicted to   decrease   the exposure to   sofosbuvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tipranavir</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Sofosbuvir  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/sofosbuvir-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Sofosbuvir </title>"
+			},
+			"rdfs:label": "sofosbuvir"
+		}
+	]
+}

@@ -1,0 +1,259 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765946",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765946_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"captopril\" outputclass=\"int-drug\">Captopril</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypersensitivity when given with</ph> <ph otherprops=\"sodium aurothiomalate\" outputclass=\"int-heading-drug\">sodium aurothiomalate</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Captopril   is predicted to   increase   the risk of hypersensitivity when given with   sodium aurothiomalate .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Captopril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765947",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765947_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"enalapril\" outputclass=\"int-drug\">Enalapril</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypersensitivity when given with</ph> <ph otherprops=\"sodium aurothiomalate\" outputclass=\"int-heading-drug\">sodium aurothiomalate</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Enalapril   is predicted to   increase   the risk of hypersensitivity when given with   sodium aurothiomalate .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enalapril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765948",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765948_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosinopril\" outputclass=\"int-drug\">Fosinopril</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypersensitivity when given with</ph> <ph otherprops=\"sodium aurothiomalate\" outputclass=\"int-heading-drug\">sodium aurothiomalate</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fosinopril   is predicted to   increase   the risk of hypersensitivity when given with   sodium aurothiomalate .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosinopril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765949",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765949_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"imidapril\" outputclass=\"int-drug\">Imidapril</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypersensitivity when given with</ph> <ph otherprops=\"sodium aurothiomalate\" outputclass=\"int-heading-drug\">sodium aurothiomalate</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Imidapril   is predicted to   increase   the risk of hypersensitivity when given with   sodium aurothiomalate .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imidapril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765950",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765950_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lisinopril\" outputclass=\"int-drug\">Lisinopril</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypersensitivity when given with</ph> <ph otherprops=\"sodium aurothiomalate\" outputclass=\"int-heading-drug\">sodium aurothiomalate</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lisinopril   is predicted to   increase   the risk of hypersensitivity when given with   sodium aurothiomalate .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lisinopril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765951",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765951_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"sodium aurothiomalate\" outputclass=\"int-heading-drug\">Sodium aurothiomalate</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of side-effects when given with</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-drug\">penicillamine</ph> <ph outputclass=\"int-substanceQualifier\">(in those who have had previous adverse reactions to gold)</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Sodium aurothiomalate   potentially   increases   the risk of side-effects when given with   penicillamine   (in those who have had previous adverse reactions to gold) .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Penicillamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765952",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765952_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"perindopril\" outputclass=\"int-drug\">Perindopril</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypersensitivity when given with</ph> <ph otherprops=\"sodium aurothiomalate\" outputclass=\"int-heading-drug\">sodium aurothiomalate</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Perindopril   is predicted to   increase   the risk of hypersensitivity when given with   sodium aurothiomalate .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Perindopril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765953",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765953_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"quinapril\" outputclass=\"int-drug\">Quinapril</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypersensitivity when given with</ph> <ph otherprops=\"sodium aurothiomalate\" outputclass=\"int-heading-drug\">sodium aurothiomalate</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Quinapril   is predicted to   increase   the risk of hypersensitivity when given with   sodium aurothiomalate .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Quinapril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765954",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765954_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ramipril\" outputclass=\"int-drug\">Ramipril</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypersensitivity when given with</ph> <ph otherprops=\"sodium aurothiomalate\" outputclass=\"int-heading-drug\">sodium aurothiomalate</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ramipril   is predicted to   increase   the risk of hypersensitivity when given with   sodium aurothiomalate .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ramipril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765955",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2#bnf_i1557280765955_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"trandolapril\" outputclass=\"int-drug\">Trandolapril</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypersensitivity when given with</ph> <ph otherprops=\"sodium aurothiomalate\" outputclass=\"int-heading-drug\">sodium aurothiomalate</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Trandolapril   is predicted to   increase   the risk of hypersensitivity when given with   sodium aurothiomalate .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trandolapril</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Sodium aurothiomalate  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/sodium-aurothiomalate-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Sodium aurothiomalate </title>"
+			},
+			"rdfs:label": "sodium aurothiomalate"
+		}
+	]
+}

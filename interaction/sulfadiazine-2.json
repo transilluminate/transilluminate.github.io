@@ -1,0 +1,3074 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767989",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767989_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">Sulfadiazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"acenocoumarol\" outputclass=\"int-drug\">acenocoumarol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfadiazine   is predicted to   increase   the anticoagulant effect of   acenocoumarol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acenocoumarol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767990",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767990_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"afatinib\" outputclass=\"int-drug\">afatinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  afatinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Afatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767991",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767991_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"aflibercept\" outputclass=\"int-drug\">aflibercept</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  aflibercept  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aflibercept</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767992",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767992_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"alemtuzumab\" outputclass=\"int-drug\">alemtuzumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  alemtuzumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alemtuzumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767993",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767993_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"amsacrine\" outputclass=\"int-drug\">amsacrine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  amsacrine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amsacrine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767994",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767994_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"anakinra\" outputclass=\"int-drug\">anakinra</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  anakinra  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Anakinra</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767995",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767995_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"arsenic trioxide\" outputclass=\"int-drug\">arsenic trioxide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  arsenic trioxide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Arsenic trioxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767996",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767996_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"asparaginase\" outputclass=\"int-drug\">asparaginase</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  asparaginase  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Asparaginase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767997",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767997_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"axitinib\" outputclass=\"int-drug\">axitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  axitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Axitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767998",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767998_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"azacitidine\" outputclass=\"int-drug\">azacitidine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  azacitidine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Azacitidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767999",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280767999_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"azathioprine\" outputclass=\"int-drug\">azathioprine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  azathioprine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Azathioprine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768000",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768000_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"balsalazide\" outputclass=\"int-drug\">balsalazide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  balsalazide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Balsalazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768001",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768001_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"belimumab\" outputclass=\"int-drug\">belimumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  belimumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Belimumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768002",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768002_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"bendamustine\" outputclass=\"int-drug\">bendamustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  bendamustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bendamustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768003",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768003_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"bevacizumab\" outputclass=\"int-drug\">bevacizumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  bevacizumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bevacizumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768004",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768004_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"bleomycin\" outputclass=\"int-drug\">bleomycin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  bleomycin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bleomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768005",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768005_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"blinatumomab\" outputclass=\"int-drug\">blinatumomab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  blinatumomab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Blinatumomab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768006",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768006_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"bortezomib\" outputclass=\"int-drug\">bortezomib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  bortezomib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bortezomib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768007",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768007_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"bosutinib\" outputclass=\"int-drug\">bosutinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  bosutinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosutinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768008",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768008_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"brentuximab vedotin\" outputclass=\"int-drug\">brentuximab vedotin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  brentuximab vedotin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Brentuximab vedotin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768009",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768009_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"busulfan\" outputclass=\"int-drug\">busulfan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  busulfan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Busulfan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768010",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768010_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"cabazitaxel\" outputclass=\"int-drug\">cabazitaxel</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  cabazitaxel  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabazitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768011",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768011_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"cabozantinib\" outputclass=\"int-drug\">cabozantinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  cabozantinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabozantinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768012",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768012_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"canakinumab\" outputclass=\"int-drug\">canakinumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  canakinumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Canakinumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768013",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768013_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"capecitabine\" outputclass=\"int-drug\">capecitabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  capecitabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Capecitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768014",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768014_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"carbimazole\" outputclass=\"int-drug\">carbimazole</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  carbimazole  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbimazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768015",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768015_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"carboplatin\" outputclass=\"int-drug\">carboplatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  carboplatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carboplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768016",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768016_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"carfilzomib\" outputclass=\"int-drug\">carfilzomib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  carfilzomib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carfilzomib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768017",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768017_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"carmustine\" outputclass=\"int-drug\">carmustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  carmustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carmustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768018",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768018_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"ceritinib\" outputclass=\"int-drug\">ceritinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  ceritinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceritinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768019",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768019_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"cetuximab\" outputclass=\"int-drug\">cetuximab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  cetuximab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cetuximab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768020",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768020_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"chlorambucil\" outputclass=\"int-drug\">chlorambucil</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  chlorambucil  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorambucil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768021",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768021_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"cisplatin\" outputclass=\"int-drug\">cisplatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  cisplatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cisplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768022",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768022_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"cladribine\" outputclass=\"int-drug\">cladribine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  cladribine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cladribine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768023",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768023_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"clofarabine\" outputclass=\"int-drug\">clofarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  clofarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clofarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768024",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768024_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"clozapine\" outputclass=\"int-drug\">clozapine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  clozapine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clozapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768025",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768025_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"crisantaspase\" outputclass=\"int-drug\">crisantaspase</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  crisantaspase  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crisantaspase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768026",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768026_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"crizotinib\" outputclass=\"int-drug\">crizotinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  crizotinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crizotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768027",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768027_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"cyclophosphamide\" outputclass=\"int-drug\">cyclophosphamide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  cyclophosphamide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyclophosphamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768028",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768028_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"cytarabine\" outputclass=\"int-drug\">cytarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  cytarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cytarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768029",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768029_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"dabrafenib\" outputclass=\"int-drug\">dabrafenib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  dabrafenib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dabrafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768030",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768030_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"dacarbazine\" outputclass=\"int-drug\">dacarbazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  dacarbazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dacarbazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768031",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768031_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"dactinomycin\" outputclass=\"int-drug\">dactinomycin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  dactinomycin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dactinomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768032",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768032_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">Sulfadiazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of methaemoglobinaemia when given with</ph> <ph otherprops=\"dapsone\" outputclass=\"int-drug\">dapsone</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfadiazine   is predicted to   increase   the risk of methaemoglobinaemia when given with   dapsone .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dapsone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768033",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768033_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"dasatinib\" outputclass=\"int-drug\">dasatinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  dasatinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dasatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768034",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768034_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"daunorubicin\" outputclass=\"int-drug\">daunorubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  daunorubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Daunorubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768035",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768035_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"decitabine\" outputclass=\"int-drug\">decitabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  decitabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Decitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768036",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768036_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"deferiprone\" outputclass=\"int-drug\">deferiprone</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  deferiprone  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Deferiprone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768037",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768037_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"docetaxel\" outputclass=\"int-drug\">docetaxel</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  docetaxel  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Docetaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768038",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768038_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"doxorubicin\" outputclass=\"int-drug\">doxorubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  doxorubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxorubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768039",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768039_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"epirubicin\" outputclass=\"int-drug\">epirubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  epirubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Epirubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768040",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768040_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"eribulin\" outputclass=\"int-drug\">eribulin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  eribulin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eribulin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768041",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768041_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"estramustine\" outputclass=\"int-drug\">estramustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  estramustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Estramustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768042",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768042_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"ethosuximide\" outputclass=\"int-drug\">ethosuximide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  ethosuximide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ethosuximide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768043",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768043_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"etoposide\" outputclass=\"int-drug\">etoposide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  etoposide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etoposide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768044",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768044_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"everolimus\" outputclass=\"int-drug\">everolimus</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  everolimus  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Everolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768045",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768045_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"fludarabine\" outputclass=\"int-drug\">fludarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  fludarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "57",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fludarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768046",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768046_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"fluorouracil\" outputclass=\"int-drug\">fluorouracil</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  fluorouracil  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluorouracil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768047",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768047_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">Sulfadiazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">fosphenytoin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfadiazine   is predicted to   increase   the concentration of   fosphenytoin .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "59",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768048",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768048_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"ganciclovir\" outputclass=\"int-drug\">ganciclovir</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  ganciclovir  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "60",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768049",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768049_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"gefitinib\" outputclass=\"int-drug\">gefitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  gefitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "61",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gefitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768050",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768050_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"gemcitabine\" outputclass=\"int-drug\">gemcitabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  gemcitabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "62",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gemcitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768051",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768051_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">Sulfadiazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfadiazine   is predicted to   increase   the exposure to   glibenclamide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "63",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glibenclamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768052",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768052_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">Sulfadiazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"gliclazide\" outputclass=\"int-drug\">gliclazide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfadiazine   is predicted to   increase   the exposure to   gliclazide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "64",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gliclazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768053",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768053_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">Sulfadiazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glimepiride\" outputclass=\"int-drug\">glimepiride</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfadiazine   is predicted to   increase   the exposure to   glimepiride .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "65",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glimepiride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768054",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768054_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">Sulfadiazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glipizide\" outputclass=\"int-drug\">glipizide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfadiazine   is predicted to   increase   the exposure to   glipizide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "66",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glipizide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768055",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768055_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"hydroxycarbamide\" outputclass=\"int-drug\">hydroxycarbamide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  hydroxycarbamide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "67",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroxycarbamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768056",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768056_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"ibrutinib\" outputclass=\"int-drug\">ibrutinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  ibrutinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "68",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibrutinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768057",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768057_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"idarubicin\" outputclass=\"int-drug\">idarubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  idarubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "69",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Idarubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768058",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768058_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"idelalisib\" outputclass=\"int-drug\">idelalisib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  idelalisib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "70",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Idelalisib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768059",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768059_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"ifosfamide\" outputclass=\"int-drug\">ifosfamide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  ifosfamide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "71",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ifosfamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768060",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768060_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"imatinib\" outputclass=\"int-drug\">imatinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  imatinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "72",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768061",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768061_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"interferon alfa\" outputclass=\"int-drug\">interferon alfa</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  interferon alfa  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "73",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Interferon alfa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768062",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768062_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"interferon beta\" outputclass=\"int-drug\">interferon beta</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  interferon beta  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "74",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Interferon beta</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768063",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768063_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"irinotecan\" outputclass=\"int-drug\">irinotecan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  irinotecan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "75",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Irinotecan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768064",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768064_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"leflunomide\" outputclass=\"int-drug\">leflunomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  leflunomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "76",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Leflunomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768065",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768065_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"lenalidomide\" outputclass=\"int-drug\">lenalidomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  lenalidomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "77",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lenalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768066",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768066_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"linezolid\" outputclass=\"int-drug\">linezolid</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  linezolid  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "78",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Linezolid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768067",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768067_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"lomustine\" outputclass=\"int-drug\">lomustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  lomustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "79",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lomustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768068",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768068_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"melphalan\" outputclass=\"int-drug\">melphalan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  melphalan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "80",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Melphalan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768069",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768069_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"mercaptopurine\" outputclass=\"int-drug\">mercaptopurine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  mercaptopurine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "81",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mercaptopurine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768070",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768070_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"methotrexate\" outputclass=\"int-drug\">methotrexate</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  methotrexate  can increase the risk of myelosuppression. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768070_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">Sulfadiazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"methotrexate\" outputclass=\"int-drug\">methotrexate</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Sulfadiazine   is predicted to   increase   the exposure to   methotrexate .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "82",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methotrexate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768071",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768071_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"mitomycin\" outputclass=\"int-drug\">mitomycin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  mitomycin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "83",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768072",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768072_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"mitotane\" outputclass=\"int-drug\">mitotane</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  mitotane  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "84",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitotane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768073",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768073_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"mitoxantrone\" outputclass=\"int-drug\">mitoxantrone</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  mitoxantrone  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "85",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitoxantrone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768074",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768074_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"mycophenolate\" outputclass=\"int-drug\">mycophenolate</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  mycophenolate  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "86",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mycophenolate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768075",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768075_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"nelarabine\" outputclass=\"int-drug\">nelarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  nelarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "87",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nelarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768076",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768076_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"nilotinib\" outputclass=\"int-drug\">nilotinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  nilotinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "88",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nilotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768077",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768077_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"nivolumab\" outputclass=\"int-drug\">nivolumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  nivolumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "89",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nivolumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768078",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768078_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"obinutuzumab\" outputclass=\"int-drug\">obinutuzumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  obinutuzumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "90",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Obinutuzumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768079",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768079_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"ofatumumab\" outputclass=\"int-drug\">ofatumumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  ofatumumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "91",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ofatumumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768080",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768080_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"olanzapine\" outputclass=\"int-drug\">olanzapine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  olanzapine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "92",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olanzapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768081",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768081_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"olaparib\" outputclass=\"int-drug\">olaparib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  olaparib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "93",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olaparib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768082",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768082_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"olsalazine\" outputclass=\"int-drug\">olsalazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  olsalazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "94",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olsalazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768083",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768083_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"oxaliplatin\" outputclass=\"int-drug\">oxaliplatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  oxaliplatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "95",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxaliplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768084",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768084_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"paclitaxel\" outputclass=\"int-drug\">paclitaxel</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  paclitaxel  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "96",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paclitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768085",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768085_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"panitumumab\" outputclass=\"int-drug\">panitumumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  panitumumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "97",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Panitumumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768086",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768086_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"panobinostat\" outputclass=\"int-drug\">panobinostat</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  panobinostat  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "98",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Panobinostat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768087",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768087_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"pazopanib\" outputclass=\"int-drug\">pazopanib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  pazopanib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "99",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pazopanib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768088",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768088_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"pegaspargase\" outputclass=\"int-drug\">pegaspargase</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  pegaspargase  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "100",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pegaspargase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768089",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768089_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"peginterferon alfa\" outputclass=\"int-drug\">peginterferon alfa</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  peginterferon alfa  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "101",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Peginterferon alfa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768090",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768090_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"peginterferon beta-1a\" outputclass=\"int-drug\">peginterferon beta-1a</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  peginterferon beta-1a  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "102",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Peginterferon beta-1a</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768091",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768091_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"pemetrexed\" outputclass=\"int-drug\">pemetrexed</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  pemetrexed  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "103",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pemetrexed</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768092",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768092_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"pentamidine\" outputclass=\"int-drug\">pentamidine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  pentamidine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "104",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentamidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768093",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768093_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"pentostatin\" outputclass=\"int-drug\">pentostatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  pentostatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "105",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentostatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768094",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768094_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">Sulfadiazine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">phenytoin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfadiazine   increases   the concentration of   phenytoin .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "106",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768095",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768095_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"pixantrone\" outputclass=\"int-drug\">pixantrone</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  pixantrone  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "107",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pixantrone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768096",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768096_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"pomalidomide\" outputclass=\"int-drug\">pomalidomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  pomalidomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "108",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pomalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768097",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768097_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"potassium aminobenzoate\" outputclass=\"int-drug\">Potassium aminobenzoate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">affect</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Potassium aminobenzoate   is predicted to   affect   the efficacy of   sulfadiazine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "109",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Potassium aminobenzoate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768098",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768098_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">Sulfadiazine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of methaemoglobinaemia when given with</ph> <ph outputclass=\"int-route\">topical</ph> <ph otherprops=\"prilocaine\" outputclass=\"int-drug\">prilocaine</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfadiazine   potentially   increases   the risk of methaemoglobinaemia when given with   topical   prilocaine .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "110",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prilocaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768099",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768099_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"primaquine\" outputclass=\"int-drug\">primaquine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  primaquine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "111",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primaquine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768100",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768100_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"procarbazine\" outputclass=\"int-drug\">procarbazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  procarbazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "112",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Procarbazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768101",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768101_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"propylthiouracil\" outputclass=\"int-drug\">propylthiouracil</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  propylthiouracil  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "113",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propylthiouracil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768102",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768102_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"pyrimethamine\" outputclass=\"int-drug\">pyrimethamine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  pyrimethamine  can increase the risk of myelosuppression. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768102_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"pyrimethamine\" outputclass=\"int-drug\">Pyrimethamine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of side-effects when given with</ph> <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Pyrimethamine   increases   the risk of side-effects when given with   sulfadiazine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "114",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pyrimethamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768103",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768103_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"raltitrexed\" outputclass=\"int-drug\">raltitrexed</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  raltitrexed  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "115",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Raltitrexed</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768104",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768104_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"ramucirumab\" outputclass=\"int-drug\">ramucirumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  ramucirumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "116",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ramucirumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768105",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768105_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"regorafenib\" outputclass=\"int-drug\">regorafenib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  regorafenib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "117",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Regorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768106",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768106_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"rituximab\" outputclass=\"int-drug\">rituximab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  rituximab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "118",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rituximab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768107",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768107_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"ruxolitinib\" outputclass=\"int-drug\">ruxolitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  ruxolitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "119",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ruxolitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768108",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768108_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"siltuximab\" outputclass=\"int-drug\">siltuximab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  siltuximab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "120",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Siltuximab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768109",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768109_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"sorafenib\" outputclass=\"int-drug\">sorafenib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  sorafenib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "121",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768110",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768110_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"sulfasalazine\" outputclass=\"int-drug\">sulfasalazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  sulfasalazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "122",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfasalazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768111",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768111_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"sunitinib\" outputclass=\"int-drug\">sunitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  sunitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "123",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sunitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768112",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768112_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"temozolomide\" outputclass=\"int-drug\">temozolomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  temozolomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "124",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Temozolomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768113",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768113_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"temsirolimus\" outputclass=\"int-drug\">temsirolimus</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  temsirolimus  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "125",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Temsirolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768114",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768114_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"thalidomide\" outputclass=\"int-drug\">thalidomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  thalidomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "126",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768115",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768115_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">Sulfadiazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"thiopental\" outputclass=\"int-drug\">thiopental</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfadiazine   is predicted to   increase   the effects of   thiopental .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "127",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thiopental</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768116",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768116_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"thiotepa\" outputclass=\"int-drug\">thiotepa</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  thiotepa  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "128",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thiotepa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768117",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768117_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"tioguanine\" outputclass=\"int-drug\">tioguanine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  tioguanine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "129",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tioguanine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768118",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768118_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">Sulfadiazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfadiazine   is predicted to   increase   the exposure to   tolbutamide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "130",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolbutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768119",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768119_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"topotecan\" outputclass=\"int-drug\">topotecan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  topotecan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "131",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Topotecan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768120",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768120_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"trabectedin\" outputclass=\"int-drug\">trabectedin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  trabectedin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "132",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trabectedin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768121",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768121_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"trastuzumab emtansine\" outputclass=\"int-drug\">trastuzumab emtansine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  trastuzumab emtansine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "133",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trastuzumab emtansine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768122",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768122_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"treosulfan\" outputclass=\"int-drug\">treosulfan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  treosulfan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "134",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Treosulfan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768123",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768123_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"valganciclovir\" outputclass=\"int-drug\">valganciclovir</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  valganciclovir  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "135",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Valganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768124",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768124_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"vinblastine\" outputclass=\"int-drug\">vinblastine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  vinblastine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "136",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinblastine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768125",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768125_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"vincristine\" outputclass=\"int-drug\">vincristine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  vincristine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "137",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vincristine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768126",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768126_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"vindesine\" outputclass=\"int-drug\">vindesine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  vindesine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "138",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vindesine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768127",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768127_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"vinflunine\" outputclass=\"int-drug\">vinflunine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  vinflunine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "139",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinflunine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768128",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768128_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"vinorelbine\" outputclass=\"int-drug\">vinorelbine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  vinorelbine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "140",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinorelbine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768129",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768129_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"vismodegib\" outputclass=\"int-drug\">vismodegib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  vismodegib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "141",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vismodegib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768130",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768130_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">Sulfadiazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"warfarin\" outputclass=\"int-drug\">warfarin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfadiazine   is predicted to   increase   the anticoagulant effect of   warfarin .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "142",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Warfarin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768131",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2#bnf_i1557280768131_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"sulfadiazine\" outputclass=\"int-heading-drug\">sulfadiazine</ph> and <ph otherprops=\"zidovudine\" outputclass=\"int-drug\">zidovudine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  sulfadiazine  and  zidovudine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "143",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zidovudine</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Sulfadiazine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/sulfadiazine-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Sulfadiazine </title>"
+			},
+			"rdfs:label": "sulfadiazine"
+		}
+	]
+}

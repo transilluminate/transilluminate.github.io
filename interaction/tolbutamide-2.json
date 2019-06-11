@@ -1,0 +1,805 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774244",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774244_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"acarbose\" outputclass=\"int-drug\">acarbose</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  acarbose  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acarbose</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774245",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774245_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"alogliptin\" outputclass=\"int-drug\">alogliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  alogliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alogliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774246",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774246_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"amiodarone\" outputclass=\"int-drug\">Amiodarone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Amiodarone   is predicted to   increase   the exposure to   tolbutamide .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amiodarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774247",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774247_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-drug\">Bezafibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   is predicted to   increase   the risk of hypoglycaemia when given with   tolbutamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bezafibrate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774248",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774248_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"canagliflozin\" outputclass=\"int-drug\">canagliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  canagliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Canagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774249",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774249_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor blood glucose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   is predicted to   increase   the exposure to   tolbutamide .  Manufacturer advises monitor blood glucose .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chloramphenicol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774250",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774250_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ciprofibrate\" outputclass=\"int-drug\">Ciprofibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ciprofibrate   is predicted to   increase   the risk of hypoglycaemia when given with   tolbutamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciprofibrate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774251",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774251_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"clarithromycin\" outputclass=\"int-drug\">Clarithromycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Clarithromycin   is predicted to   slightly   increase   the exposure to   tolbutamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clarithromycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774252",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774252_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"co-trimoxazole\" outputclass=\"int-drug\">Co-trimoxazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Co-trimoxazole   is predicted to   increase   the exposure to   tolbutamide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Co-trimoxazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774253",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774253_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"dapagliflozin\" outputclass=\"int-drug\">dapagliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  dapagliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dapagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774254",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774254_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"dulaglutide\" outputclass=\"int-drug\">dulaglutide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  dulaglutide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dulaglutide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774255",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774255_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"empagliflozin\" outputclass=\"int-drug\">empagliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  empagliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Empagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774256",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774256_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"ertugliflozin\" outputclass=\"int-drug\">ertugliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  ertugliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ertugliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774257",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774257_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"exenatide\" outputclass=\"int-drug\">exenatide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  exenatide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Exenatide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774258",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774258_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fenofibrate\" outputclass=\"int-drug\">Fenofibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fenofibrate   is predicted to   increase   the risk of hypoglycaemia when given with   tolbutamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fenofibrate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774259",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774259_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fluconazole\" outputclass=\"int-drug\">Fluconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fluconazole   is predicted to   increase   the exposure to   tolbutamide .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774260",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774260_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the risk of hypoglycaemia when given with   tolbutamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gemfibrozil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774261",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774261_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"insulins\" outputclass=\"int-drug\">insulins</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  insulins  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Insulins</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774262",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774262_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"linagliptin\" outputclass=\"int-drug\">linagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  linagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Linagliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774263",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774263_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"liraglutide\" outputclass=\"int-drug\">liraglutide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  liraglutide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Liraglutide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774264",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774264_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"lixisenatide\" outputclass=\"int-drug\">lixisenatide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  lixisenatide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lixisenatide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774265",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774265_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"metformin\" outputclass=\"int-drug\">metformin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  metformin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metformin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774266",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774266_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"miconazole\" outputclass=\"int-drug\">Miconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Miconazole   is predicted to   increase   the exposure to   tolbutamide .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Miconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774267",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774267_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"nateglinide\" outputclass=\"int-drug\">nateglinide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  nateglinide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nateglinide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774268",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774268_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"pioglitazone\" outputclass=\"int-drug\">pioglitazone</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  pioglitazone  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pioglitazone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774269",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774269_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"repaglinide\" outputclass=\"int-drug\">repaglinide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  repaglinide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Repaglinide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774270",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774270_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   is predicted to   decrease   the exposure to   tolbutamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774271",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774271_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"saxagliptin\" outputclass=\"int-drug\">saxagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  saxagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Saxagliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774272",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774272_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"semaglutide\" outputclass=\"int-drug\">semaglutide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  semaglutide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Semaglutide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774273",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774273_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"sitagliptin\" outputclass=\"int-drug\">sitagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  sitagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sitagliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774274",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774274_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfadiazine\" outputclass=\"int-drug\">Sulfadiazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfadiazine   is predicted to   increase   the exposure to   tolbutamide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfadiazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774275",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774275_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfadoxine\" outputclass=\"int-drug\">Sulfadoxine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfadoxine   is predicted to   increase   the exposure to   tolbutamide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfadoxine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774276",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774276_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfamethoxazole\" outputclass=\"int-drug\">Sulfamethoxazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfamethoxazole   is predicted to   increase   the exposure to   tolbutamide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfamethoxazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774277",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774277_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfinpyrazone\" outputclass=\"int-drug\">Sulfinpyrazone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfinpyrazone   is predicted to   increase   the exposure to   tolbutamide .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfinpyrazone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774278",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774278_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph> and <ph otherprops=\"vildagliptin\" outputclass=\"int-drug\">vildagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  tolbutamide  and  vildagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vildagliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774279",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2#bnf_i1557280774279_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"voriconazole\" outputclass=\"int-drug\">Voriconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-heading-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Voriconazole   is predicted to   increase   the concentration of   tolbutamide .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Voriconazole</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Tolbutamide  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/tolbutamide-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Tolbutamide </title>"
+			},
+			"rdfs:label": "tolbutamide"
+		}
+	]
+}
