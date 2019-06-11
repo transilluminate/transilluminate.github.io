@@ -1,0 +1,280 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/loperamide",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735570",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735570_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ceritinib\" outputclass=\"int-drug\">Ceritinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"loperamide\" outputclass=\"int-heading-drug\">loperamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor side effects</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ceritinib   is predicted to   increase   the exposure to   loperamide .  Manufacturer advises caution and monitor side effects .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceritinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735571",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735571_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"loperamide\" outputclass=\"int-heading-drug\">Loperamide</ph> <ph outputclass=\"int-magnitude\">greatly</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"desmopressin\" outputclass=\"int-drug\">desmopressin</ph> <ph outputclass=\"int-substanceQualifier\">(and possibly sublingual)</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Loperamide   greatly   increases   the absorption of   oral   desmopressin   (and possibly sublingual) .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Desmopressin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735572",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735572_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dronedarone\" outputclass=\"int-drug\">Dronedarone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"loperamide\" outputclass=\"int-heading-drug\">loperamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dronedarone   is predicted to   increase   the exposure to   loperamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dronedarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735573",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735573_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"eliglustat\" outputclass=\"int-drug\">Eliglustat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"loperamide\" outputclass=\"int-heading-drug\">loperamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Eliglustat   is predicted to   increase   the exposure to   loperamide .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eliglustat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735574",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735574_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lapatinib\" outputclass=\"int-drug\">Lapatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"loperamide\" outputclass=\"int-heading-drug\">loperamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lapatinib   is predicted to   increase   the exposure to   loperamide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lapatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735575",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735575_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"mirabegron\" outputclass=\"int-drug\">Mirabegron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"loperamide\" outputclass=\"int-heading-drug\">loperamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Mirabegron   is predicted to   increase   the exposure to   loperamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mirabegron</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735576",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735576_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"opicapone\" outputclass=\"int-drug\">Opicapone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"loperamide\" outputclass=\"int-heading-drug\">loperamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Opicapone   is predicted to   increase   the exposure to   loperamide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Opicapone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735577",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735577_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"paritaprevir\" outputclass=\"int-drug\">Paritaprevir</ph> <ph outputclass=\"int-substanceQualifier\">(with ritonavir and ombitasvir)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"loperamide\" outputclass=\"int-heading-drug\">loperamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Paritaprevir   (with ritonavir and ombitasvir)   is predicted to   increase   the exposure to   loperamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paritaprevir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735578",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735578_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pibrentasvir\" outputclass=\"int-drug\">Pibrentasvir</ph> <ph outputclass=\"int-substanceQualifier\">(with glecaprevir)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"loperamide\" outputclass=\"int-heading-drug\">loperamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pibrentasvir   (with glecaprevir)   is predicted to   increase   the exposure to   loperamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pibrentasvir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735579",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735579_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"pitolisant\" outputclass=\"int-drug\">Pitolisant</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"loperamide\" outputclass=\"int-heading-drug\">loperamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Pitolisant   is predicted to   decrease   the exposure to   loperamide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pitolisant</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735580",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/loperamide#bnf_i1557280735580_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"velpatasvir\" outputclass=\"int-drug\">Velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"loperamide\" outputclass=\"int-heading-drug\">loperamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Velpatasvir   is predicted to   increase   the exposure to   loperamide .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Velpatasvir</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Loperamide  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/loperamide.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Loperamide </title>"
+			},
+			"rdfs:label": "loperamide"
+		}
+	]
+}

@@ -1,0 +1,280 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/memantine",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737966",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737966_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"amantadine\" outputclass=\"int-drug\">Amantadine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of CNS toxicity when given with</ph> <ph otherprops=\"memantine\" outputclass=\"int-heading-drug\">memantine</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution or avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Amantadine   increases   the risk of CNS toxicity when given with   memantine .  Manufacturer advises use with caution or avoid .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amantadine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737967",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737967_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"memantine\" outputclass=\"int-heading-drug\">Memantine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"apomorphine\" outputclass=\"int-drug\">apomorphine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Memantine   is predicted to   increase   the effects of   apomorphine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apomorphine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737968",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737968_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"memantine\" outputclass=\"int-heading-drug\">Memantine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"bromocriptine\" outputclass=\"int-drug\">bromocriptine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Memantine   is predicted to   increase   the effects of   bromocriptine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bromocriptine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737969",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737969_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"memantine\" outputclass=\"int-heading-drug\">Memantine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"cabergoline\" outputclass=\"int-drug\">cabergoline</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Memantine   is predicted to   increase   the effects of   cabergoline .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabergoline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737970",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737970_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"memantine\" outputclass=\"int-heading-drug\">Memantine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of CNS side-effects when given with</ph> <ph otherprops=\"ketamine\" outputclass=\"int-drug\">ketamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Memantine   is predicted to   increase   the risk of CNS side-effects when given with   ketamine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737971",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737971_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"memantine\" outputclass=\"int-heading-drug\">Memantine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"levodopa\" outputclass=\"int-drug\">levodopa</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Memantine   is predicted to   increase   the effects of   levodopa .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levodopa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737972",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737972_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"memantine\" outputclass=\"int-heading-drug\">Memantine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"pergolide\" outputclass=\"int-drug\">pergolide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Memantine   is predicted to   increase   the effects of   pergolide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pergolide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737973",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737973_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"memantine\" outputclass=\"int-heading-drug\">Memantine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"pramipexole\" outputclass=\"int-drug\">pramipexole</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Memantine   is predicted to   increase   the effects of   pramipexole .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pramipexole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737974",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737974_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"memantine\" outputclass=\"int-heading-drug\">Memantine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"quinagolide\" outputclass=\"int-drug\">quinagolide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Memantine   is predicted to   increase   the effects of   quinagolide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Quinagolide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737975",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737975_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"memantine\" outputclass=\"int-heading-drug\">Memantine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"ropinirole\" outputclass=\"int-drug\">ropinirole</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Memantine   is predicted to   increase   the effects of   ropinirole .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ropinirole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737976",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/memantine#bnf_i1557280737976_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"memantine\" outputclass=\"int-heading-drug\">Memantine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"rotigotine\" outputclass=\"int-drug\">rotigotine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Memantine   is predicted to   increase   the effects of   rotigotine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rotigotine</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Memantine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/memantine.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Memantine </title>"
+			},
+			"rdfs:label": "memantine"
+		}
+	]
+}

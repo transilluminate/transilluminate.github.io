@@ -1,0 +1,1099 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736874",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736874_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">Lymecycline</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"acenocoumarol\" outputclass=\"int-drug\">acenocoumarol</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor INR</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lymecycline   increases   the risk of bleeding events when given with   acenocoumarol .  Manufacturer advises monitor INR .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acenocoumarol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736875",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736875_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"acitretin\" outputclass=\"int-drug\">Acitretin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of benign intracranial hypertension when given with</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Acitretin   increases   the risk of benign intracranial hypertension when given with   lymecycline .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acitretin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736876",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736876_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"alcohol (beverage)\" outputclass=\"int-drug\">alcohol (beverage)</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  alcohol (beverage)  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alcohol (beverage)</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736877",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736877_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"alectinib\" outputclass=\"int-drug\">alectinib</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  alectinib  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alectinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736878",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736878_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"alitretinoin\" outputclass=\"int-drug\">Alitretinoin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of benign intracranial hypertension when given with</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Alitretinoin   increases   the risk of benign intracranial hypertension when given with   lymecycline .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alitretinoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736879",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736879_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"aluminium hydroxide\" outputclass=\"int-drug\">Aluminium hydroxide</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Aluminium hydroxide   decreases   the absorption of   lymecycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aluminium hydroxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736880",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736880_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"asparaginase\" outputclass=\"int-drug\">asparaginase</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  asparaginase  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Asparaginase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736881",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736881_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"atorvastatin\" outputclass=\"int-drug\">atorvastatin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  atorvastatin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atorvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736882",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736882_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"bedaquiline\" outputclass=\"int-drug\">bedaquiline</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  bedaquiline  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bedaquiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736883",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736883_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Calcium carbonate   is predicted to   decrease   the absorption of   lymecycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium carbonate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736884",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736884_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">carbamazepine</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  carbamazepine  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736885",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736885_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"clavulanic acid\" outputclass=\"int-drug\">clavulanic acid</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  clavulanic acid  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clavulanic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736886",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736886_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"crisantaspase\" outputclass=\"int-drug\">crisantaspase</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  crisantaspase  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crisantaspase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736887",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736887_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"dactinomycin\" outputclass=\"int-drug\">dactinomycin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  dactinomycin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dactinomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736888",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736888_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"dantrolene\" outputclass=\"int-drug\">dantrolene</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  dantrolene  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dantrolene</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736889",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736889_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"didanosine\" outputclass=\"int-drug\">didanosine</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  didanosine  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Didanosine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736890",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736890_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferric maltol\" outputclass=\"int-drug\">Ferric maltol</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/lymecycline.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3451\">lymecycline</xref></ph> should be taken 2 to 3 hours after <ph otherprops=\"ferric maltol\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ferric-maltol.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213389\">ferric maltol</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferric maltol   decreases   the absorption of   lymecycline .  Manufacturer advises  lymecycline  should be taken 2 to 3 hours after  ferric maltol .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ferric maltol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736891",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736891_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous fumarate\" outputclass=\"int-drug\">Ferrous fumarate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/lymecycline.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3451\">lymecycline</xref></ph> should be taken 2 to 3 hours after <ph otherprops=\"ferrous fumarate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ferrous-fumarate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5839\">ferrous fumarate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous fumarate   decreases   the absorption of   lymecycline .  Manufacturer advises  lymecycline  should be taken 2 to 3 hours after  ferrous fumarate .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ferrous fumarate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736892",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736892_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/lymecycline.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3451\">lymecycline</xref></ph> should be taken 2 to 3 hours after <ph otherprops=\"ferrous gluconate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous gluconate   decreases   the absorption of   lymecycline .  Manufacturer advises  lymecycline  should be taken 2 to 3 hours after  ferrous gluconate .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ferrous gluconate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736893",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736893_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous sulfate\" outputclass=\"int-drug\">Ferrous sulfate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/lymecycline.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3451\">lymecycline</xref></ph> should be taken 2 to 3 hours after <ph otherprops=\"ferrous sulfate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ferrous-sulfate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5823\">ferrous sulfate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ferrous sulfate   decreases   the absorption of   lymecycline .  Manufacturer advises  lymecycline  should be taken 2 to 3 hours after  ferrous sulfate .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ferrous sulfate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736894",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736894_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"flucloxacillin\" outputclass=\"int-drug\">flucloxacillin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  flucloxacillin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flucloxacillin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736895",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736895_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"fluconazole\" outputclass=\"int-drug\">fluconazole</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  fluconazole  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736896",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736896_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"fluvastatin\" outputclass=\"int-drug\">fluvastatin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  fluvastatin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736897",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736897_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"isoniazid\" outputclass=\"int-drug\">isoniazid</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  isoniazid  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isoniazid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736898",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736898_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"isotretinoin\" outputclass=\"int-drug\">Isotretinoin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of benign intracranial hypertension when given with</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Isotretinoin   increases   the risk of benign intracranial hypertension when given with   lymecycline .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isotretinoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736899",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736899_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"itraconazole\" outputclass=\"int-drug\">itraconazole</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  itraconazole  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Itraconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736900",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736900_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"kaolin\" outputclass=\"int-drug\">Kaolin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Kaolin   is predicted to   decrease   the absorption of   lymecycline .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Kaolin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736901",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736901_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-drug\">Lanthanum</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   is predicted to   decrease   the absorption of   lymecycline .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lanthanum</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736902",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736902_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"leflunomide\" outputclass=\"int-drug\">leflunomide</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  leflunomide  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Leflunomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736903",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736903_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"lenalidomide\" outputclass=\"int-drug\">lenalidomide</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  lenalidomide  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lenalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736904",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736904_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"lomitapide\" outputclass=\"int-drug\">lomitapide</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  lomitapide  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lomitapide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736905",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736905_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium carbonate\" outputclass=\"int-drug\">Magnesium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Magnesium carbonate   decreases   the absorption of   lymecycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Magnesium carbonate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736906",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736906_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium trisilicate\" outputclass=\"int-drug\">Magnesium trisilicate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Magnesium trisilicate   decreases   the absorption of   lymecycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Magnesium trisilicate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736907",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736907_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"mercaptopurine\" outputclass=\"int-drug\">mercaptopurine</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  mercaptopurine  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mercaptopurine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736908",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736908_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"methotrexate\" outputclass=\"int-drug\">methotrexate</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  methotrexate  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methotrexate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736909",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736909_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"micafungin\" outputclass=\"int-drug\">micafungin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  micafungin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Micafungin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736910",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736910_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"paracetamol\" outputclass=\"int-drug\">paracetamol</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  paracetamol  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paracetamol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736911",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736911_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"pegaspargase\" outputclass=\"int-drug\">pegaspargase</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  pegaspargase  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pegaspargase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736912",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736912_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"pravastatin\" outputclass=\"int-drug\">pravastatin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  pravastatin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pravastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736913",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736913_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"rosuvastatin\" outputclass=\"int-drug\">rosuvastatin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  rosuvastatin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rosuvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736914",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736914_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"simvastatin\" outputclass=\"int-drug\">simvastatin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  simvastatin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Simvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736915",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736915_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sodium feredetate\" outputclass=\"int-drug\">Sodium feredetate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/lymecycline.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3451\">lymecycline</xref></ph> should be taken 2 to 3 hours after <ph otherprops=\"sodium feredetate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/sodium-feredetate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5855\">sodium feredetate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sodium feredetate   decreases   the absorption of   lymecycline .  Manufacturer advises  lymecycline  should be taken 2 to 3 hours after  sodium feredetate .    \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sodium feredetate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736916",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736916_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"streptozocin\" outputclass=\"int-drug\">streptozocin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  streptozocin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Streptozocin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736917",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736917_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"sulfasalazine\" outputclass=\"int-drug\">sulfasalazine</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  sulfasalazine  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfasalazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736918",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736918_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"trabectedin\" outputclass=\"int-drug\">trabectedin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  trabectedin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trabectedin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736919",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736919_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tretinoin\" outputclass=\"int-drug\">Tretinoin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of benign intracranial hypertension when given with</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tretinoin   increases   the risk of benign intracranial hypertension when given with   lymecycline .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tretinoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736920",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736920_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"valproate\" outputclass=\"int-drug\">valproate</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  valproate  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Valproate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736921",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736921_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph> and <ph otherprops=\"vincristine\" outputclass=\"int-drug\">vincristine</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  lymecycline  and  vincristine  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vincristine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736922",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736922_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">Lymecycline</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of bleeding events when given with</ph> <ph otherprops=\"warfarin\" outputclass=\"int-drug\">warfarin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor INR</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lymecycline   increases   the risk of bleeding events when given with   warfarin .  Manufacturer advises monitor INR .    \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Warfarin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736923",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2#bnf_i1557280736923_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-drug\">zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-heading-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   zinc   is predicted to   decrease   the absorption of   lymecycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zinc</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Lymecycline  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/lymecycline-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Lymecycline </title>"
+			},
+			"rdfs:label": "lymecycline"
+		}
+	]
+}

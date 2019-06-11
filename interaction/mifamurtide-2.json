@@ -1,0 +1,952 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740893",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740893_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"aceclofenac\" outputclass=\"int-drug\">Aceclofenac</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Aceclofenac   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aceclofenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740894",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740894_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"beclometasone\" outputclass=\"int-drug\">Beclometasone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Beclometasone   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Beclometasone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740895",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740895_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"benzydamine\" outputclass=\"int-drug\">Benzydamine</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Benzydamine   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Benzydamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740896",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740896_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"betamethasone\" outputclass=\"int-drug\">Betamethasone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Betamethasone   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Betamethasone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740897",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740897_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bromfenac\" outputclass=\"int-drug\">Bromfenac</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bromfenac   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bromfenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740898",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740898_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"budesonide\" outputclass=\"int-drug\">Budesonide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Budesonide   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Budesonide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740899",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740899_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"celecoxib\" outputclass=\"int-drug\">Celecoxib</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Celecoxib   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Celecoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740900",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740900_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ciclesonide\" outputclass=\"int-drug\">Ciclesonide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ciclesonide   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciclesonide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740901",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740901_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ciclosporin\" outputclass=\"int-drug\">Ciclosporin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ciclosporin   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciclosporin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740902",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740902_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"deflazacort\" outputclass=\"int-drug\">Deflazacort</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Deflazacort   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Deflazacort</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740903",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740903_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dexamethasone\" outputclass=\"int-drug\">Dexamethasone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dexamethasone   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexamethasone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740904",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740904_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dexibuprofen\" outputclass=\"int-drug\">Dexibuprofen</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dexibuprofen   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexibuprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740905",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740905_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dexketoprofen\" outputclass=\"int-drug\">Dexketoprofen</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dexketoprofen   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexketoprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740906",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740906_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"diclofenac\" outputclass=\"int-drug\">Diclofenac</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Diclofenac   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diclofenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740907",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740907_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"etodolac\" outputclass=\"int-drug\">Etodolac</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Etodolac   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etodolac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740908",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740908_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"etoricoxib\" outputclass=\"int-drug\">Etoricoxib</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Etoricoxib   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etoricoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740909",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740909_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"felbinac\" outputclass=\"int-drug\">Felbinac</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Felbinac   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Felbinac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740910",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740910_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fludrocortisone\" outputclass=\"int-drug\">Fludrocortisone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fludrocortisone   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fludrocortisone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740911",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740911_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"flurbiprofen\" outputclass=\"int-drug\">Flurbiprofen</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Flurbiprofen   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flurbiprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740912",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740912_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fluticasone\" outputclass=\"int-drug\">Fluticasone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fluticasone   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluticasone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740913",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740913_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"hydrocortisone\" outputclass=\"int-drug\">Hydrocortisone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Hydrocortisone   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydrocortisone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740914",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740914_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ibuprofen\" outputclass=\"int-drug\">Ibuprofen</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ibuprofen   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibuprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740915",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740915_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"indometacin\" outputclass=\"int-drug\">Indometacin</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Indometacin   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Indometacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740916",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740916_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ketoprofen\" outputclass=\"int-drug\">Ketoprofen</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ketoprofen   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketoprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740917",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740917_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ketorolac\" outputclass=\"int-drug\">Ketorolac</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ketorolac   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketorolac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740918",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740918_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mefenamic acid\" outputclass=\"int-drug\">Mefenamic acid</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Mefenamic acid   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mefenamic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740919",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740919_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"meloxicam\" outputclass=\"int-drug\">Meloxicam</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Meloxicam   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Meloxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740920",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740920_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylprednisolone\" outputclass=\"int-drug\">Methylprednisolone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Methylprednisolone   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methylprednisolone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740921",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740921_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mometasone\" outputclass=\"int-drug\">Mometasone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Mometasone   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mometasone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740922",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740922_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nabumetone\" outputclass=\"int-drug\">Nabumetone</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Nabumetone   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nabumetone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740923",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740923_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"naproxen\" outputclass=\"int-drug\">Naproxen</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Naproxen   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Naproxen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740924",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740924_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nepafenac\" outputclass=\"int-drug\">Nepafenac</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Nepafenac   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nepafenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740925",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740925_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"parecoxib\" outputclass=\"int-drug\">Parecoxib</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Parecoxib   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Parecoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740926",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740926_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"pimecrolimus\" outputclass=\"int-drug\">Pimecrolimus</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Pimecrolimus   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pimecrolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740927",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740927_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"piroxicam\" outputclass=\"int-drug\">Piroxicam</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Piroxicam   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Piroxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740928",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740928_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"prednisolone\" outputclass=\"int-drug\">Prednisolone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Prednisolone   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prednisolone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740929",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740929_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"sirolimus\" outputclass=\"int-drug\">Sirolimus</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Sirolimus   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sirolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740930",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740930_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"sulindac\" outputclass=\"int-drug\">Sulindac</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Sulindac   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulindac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740931",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740931_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tacrolimus\" outputclass=\"int-drug\">Tacrolimus</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">affect</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tacrolimus   is predicted to   affect   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tacrolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740932",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740932_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tenoxicam\" outputclass=\"int-drug\">Tenoxicam</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tenoxicam   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tenoxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740933",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740933_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tiaprofenic acid\" outputclass=\"int-drug\">Tiaprofenic acid</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tiaprofenic acid   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tiaprofenic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740934",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740934_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tolfenamic acid\" outputclass=\"int-drug\">Tolfenamic acid</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tolfenamic acid   (high-dose)   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolfenamic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740935",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2#bnf_i1557280740935_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"triamcinolone\" outputclass=\"int-drug\">Triamcinolone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"mifamurtide\" outputclass=\"int-heading-drug\">mifamurtide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Triamcinolone   is predicted to   decrease   the efficacy of   mifamurtide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Triamcinolone</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Mifamurtide  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/mifamurtide-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Mifamurtide </title>"
+			},
+			"rdfs:label": "mifamurtide"
+		}
+	]
+}

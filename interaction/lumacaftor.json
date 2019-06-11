@@ -1,0 +1,574 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/lumacaftor",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736586",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736586_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">carbamazepine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   carbamazepine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736587",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736587_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ciclosporin\" outputclass=\"int-drug\">ciclosporin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   ciclosporin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciclosporin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736588",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736588_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"clarithromycin\" outputclass=\"int-drug\">clarithromycin</ph>. <ph outputclass=\"int-action\">Manufacturer advises consider alternatives</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   clarithromycin .  Manufacturer advises consider alternatives .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clarithromycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736589",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736589_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"combined hormonal contraceptives\" outputclass=\"int-drug\">combined hormonal contraceptives</ph>. <ph outputclass=\"int-action\">Manufacturer advises use additional contraceptive precautions</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the efficacy of   combined hormonal contraceptives .  Manufacturer advises use additional contraceptive precautions .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Combined hormonal contraceptives</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736590",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736590_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"erythromycin\" outputclass=\"int-drug\">erythromycin</ph>. <ph outputclass=\"int-action\">Manufacturer advises consider alternatives</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   erythromycin .  Manufacturer advises consider alternatives .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Erythromycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736591",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736591_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"everolimus\" outputclass=\"int-drug\">everolimus</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   everolimus .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Everolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736592",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736592_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fluconazole\" outputclass=\"int-drug\">fluconazole</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   fluconazole .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736593",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736593_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">fosphenytoin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   fosphenytoin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736594",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736594_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glecaprevir\" outputclass=\"int-drug\">glecaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   potentially   decreases   the exposure to   glecaprevir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glecaprevir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736595",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736595_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"itraconazole\" outputclass=\"int-drug\">itraconazole</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or monitor efficacy</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   itraconazole .  Manufacturer advises avoid or monitor efficacy .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Itraconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736596",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736596_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ketoconazole\" outputclass=\"int-drug\">ketoconazole</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or monitor efficacy</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   ketoconazole .  Manufacturer advises avoid or monitor efficacy .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketoconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736597",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736597_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"levonorgestrel\" outputclass=\"int-drug\">levonorgestrel</ph>. <ph outputclass=\"int-action\">Manufacturer advises use additional contraceptive precautions</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the efficacy of   levonorgestrel .  Manufacturer advises use additional contraceptive precautions .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levonorgestrel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736598",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736598_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"methylprednisolone\" outputclass=\"int-drug\">methylprednisolone</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   methylprednisolone .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methylprednisolone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736599",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736599_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"midazolam\" outputclass=\"int-drug\">midazolam</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   midazolam .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Midazolam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736600",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736600_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">phenobarbital</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   phenobarbital .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736601",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736601_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">phenytoin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   phenytoin .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736602",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736602_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pibrentasvir\" outputclass=\"int-drug\">pibrentasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   potentially   decreases   the exposure to   pibrentasvir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pibrentasvir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736603",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736603_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"posaconazole\" outputclass=\"int-drug\">posaconazole</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or monitor efficacy</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   posaconazole .  Manufacturer advises avoid or monitor efficacy .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Posaconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736604",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736604_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"primidone\" outputclass=\"int-drug\">primidone</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   primidone .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736605",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736605_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rifabutin\" outputclass=\"int-drug\">rifabutin</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   rifabutin .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifabutin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736606",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736606_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sirolimus\" outputclass=\"int-drug\">sirolimus</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   sirolimus .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sirolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736607",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736607_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tacrolimus\" outputclass=\"int-drug\">tacrolimus</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   tacrolimus .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tacrolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736608",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736608_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"temsirolimus\" outputclass=\"int-drug\">temsirolimus</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   temsirolimus .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Temsirolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736609",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736609_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"ulipristal\" outputclass=\"int-drug\">ulipristal</ph>. <ph outputclass=\"int-action\">Manufacturer advises use additional contraceptive precautions</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the efficacy of   ulipristal .  Manufacturer advises use additional contraceptive precautions .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ulipristal</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736610",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lumacaftor#bnf_i1557280736610_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-heading-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"voriconazole\" outputclass=\"int-drug\">voriconazole</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or monitor efficacy</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   voriconazole .  Manufacturer advises avoid or monitor efficacy .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Voriconazole</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Lumacaftor  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/lumacaftor.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Lumacaftor </title>"
+			},
+			"rdfs:label": "lumacaftor"
+		}
+	]
+}

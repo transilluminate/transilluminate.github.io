@@ -1,0 +1,690 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740318",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740318_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">Metronidazole</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"acenocoumarol\" outputclass=\"int-drug\">acenocoumarol</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor INR and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metronidazole   increases   the anticoagulant effect of   acenocoumarol .  Manufacturer advises monitor INR and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acenocoumarol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740319",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740319_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"alcohol (beverage)\" outputclass=\"int-drug\">Alcohol (beverage)</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">causes</ph> <ph outputclass=\"int-parameter\">a disulfiram-like reaction when given with</ph> <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid for at least 48 hours stopping treatment</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Alcohol (beverage)   potentially   causes   a disulfiram-like reaction when given with   metronidazole .  Manufacturer advises avoid for at least 48 hours stopping treatment .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alcohol (beverage)</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740320",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740320_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"amiodarone\" outputclass=\"int-drug\">amiodarone</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  amiodarone  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amiodarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740321",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740321_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"bortezomib\" outputclass=\"int-drug\">bortezomib</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  bortezomib  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bortezomib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740322",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740322_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"brentuximab vedotin\" outputclass=\"int-drug\">brentuximab vedotin</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  brentuximab vedotin  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Brentuximab vedotin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740323",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740323_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">Metronidazole</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of toxicity when given with</ph> <ph otherprops=\"busulfan\" outputclass=\"int-drug\">busulfan</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metronidazole   increases   the risk of toxicity when given with   busulfan .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Busulfan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740324",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740324_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"cabazitaxel\" outputclass=\"int-drug\">cabazitaxel</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  cabazitaxel  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabazitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740325",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740325_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">Metronidazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of capecitabine toxicity when given with</ph> <ph otherprops=\"capecitabine\" outputclass=\"int-drug\">capecitabine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metronidazole   is predicted to   increase   the risk of capecitabine toxicity when given with   capecitabine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Capecitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740326",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740326_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"cisplatin\" outputclass=\"int-drug\">cisplatin</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  cisplatin  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cisplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740327",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740327_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"didanosine\" outputclass=\"int-drug\">didanosine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  didanosine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Didanosine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740328",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740328_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"disulfiram\" outputclass=\"int-drug\">disulfiram</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  disulfiram  can increase the risk of peripheral neuropathy. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740328_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"disulfiram\" outputclass=\"int-drug\">Disulfiram</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of acute psychoses when given with</ph> <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Disulfiram   increases   the risk of acute psychoses when given with   metronidazole .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Disulfiram</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740329",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740329_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"docetaxel\" outputclass=\"int-drug\">docetaxel</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  docetaxel  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Docetaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740330",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740330_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"eribulin\" outputclass=\"int-drug\">eribulin</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  eribulin  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eribulin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740331",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740331_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">Metronidazole</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of toxicity when given with</ph> <ph otherprops=\"fluorouracil\" outputclass=\"int-drug\">fluorouracil</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metronidazole   increases   the risk of toxicity when given with   fluorouracil .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluorouracil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740332",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740332_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">fosphenytoin</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  fosphenytoin  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740333",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740333_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"isoniazid\" outputclass=\"int-drug\">isoniazid</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  isoniazid  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isoniazid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740334",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740334_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"lamivudine\" outputclass=\"int-drug\">lamivudine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  lamivudine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lamivudine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740335",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740335_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"nitrofurantoin\" outputclass=\"int-drug\">nitrofurantoin</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  nitrofurantoin  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nitrofurantoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740336",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740336_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"paclitaxel\" outputclass=\"int-drug\">paclitaxel</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  paclitaxel  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paclitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740337",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740337_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Phenobarbital   is predicted to   decrease   the exposure to   metronidazole .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740338",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740338_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">phenytoin</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  phenytoin  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740339",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740339_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Primidone   is predicted to   decrease   the exposure to   metronidazole .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740340",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740340_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"stavudine\" outputclass=\"int-drug\">stavudine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  stavudine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Stavudine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740341",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740341_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"thalidomide\" outputclass=\"int-drug\">thalidomide</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  thalidomide  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740342",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740342_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"vinblastine\" outputclass=\"int-drug\">vinblastine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  vinblastine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinblastine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740343",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740343_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"vincristine\" outputclass=\"int-drug\">vincristine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  vincristine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vincristine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740344",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740344_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"vindesine\" outputclass=\"int-drug\">vindesine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  vindesine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vindesine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740345",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740345_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"vinflunine\" outputclass=\"int-drug\">vinflunine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  vinflunine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinflunine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740346",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740346_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">metronidazole</ph> and <ph otherprops=\"vinorelbine\" outputclass=\"int-drug\">vinorelbine</ph> can increase the risk of peripheral neuropathy.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  metronidazole  and  vinorelbine  can increase the risk of peripheral neuropathy. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinorelbine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740347",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2#bnf_i1557280740347_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metronidazole\" outputclass=\"int-heading-drug\">Metronidazole</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"warfarin\" outputclass=\"int-drug\">warfarin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor INR and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metronidazole   increases   the anticoagulant effect of   warfarin .  Manufacturer advises monitor INR and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Warfarin</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Metronidazole  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/metronidazole-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Metronidazole </title>"
+			},
+			"rdfs:label": "metronidazole"
+		}
+	]
+}

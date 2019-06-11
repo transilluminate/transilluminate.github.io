@@ -1,0 +1,868 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/micafungin-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740593",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740593_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"alcohol (beverage)\" outputclass=\"int-drug\">alcohol (beverage)</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  alcohol (beverage)  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alcohol (beverage)</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740594",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740594_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"alectinib\" outputclass=\"int-drug\">alectinib</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  alectinib  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alectinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740595",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740595_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">Micafungin</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"amphotericin\" outputclass=\"int-drug\">amphotericin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or monitor toxicity</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Micafungin   slightly   increases   the exposure to   amphotericin .  Manufacturer advises avoid or monitor toxicity .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amphotericin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740596",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740596_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"asparaginase\" outputclass=\"int-drug\">asparaginase</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  asparaginase  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Asparaginase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740597",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740597_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"atorvastatin\" outputclass=\"int-drug\">atorvastatin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  atorvastatin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atorvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740598",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740598_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"bedaquiline\" outputclass=\"int-drug\">bedaquiline</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  bedaquiline  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bedaquiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740599",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740599_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">carbamazepine</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  carbamazepine  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740600",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740600_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"clavulanic acid\" outputclass=\"int-drug\">clavulanic acid</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  clavulanic acid  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clavulanic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740601",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740601_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"crisantaspase\" outputclass=\"int-drug\">crisantaspase</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  crisantaspase  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crisantaspase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740602",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740602_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"dactinomycin\" outputclass=\"int-drug\">dactinomycin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  dactinomycin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dactinomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740603",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740603_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"dantrolene\" outputclass=\"int-drug\">dantrolene</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  dantrolene  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dantrolene</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740604",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740604_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"demeclocycline\" outputclass=\"int-drug\">demeclocycline</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  demeclocycline  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Demeclocycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740605",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740605_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"didanosine\" outputclass=\"int-drug\">didanosine</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  didanosine  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Didanosine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740606",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740606_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"doxycycline\" outputclass=\"int-drug\">doxycycline</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  doxycycline  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxycycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740607",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740607_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"flucloxacillin\" outputclass=\"int-drug\">flucloxacillin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  flucloxacillin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flucloxacillin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740608",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740608_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"fluconazole\" outputclass=\"int-drug\">fluconazole</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  fluconazole  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740609",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740609_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"fluvastatin\" outputclass=\"int-drug\">fluvastatin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  fluvastatin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740610",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740610_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"isoniazid\" outputclass=\"int-drug\">isoniazid</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  isoniazid  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isoniazid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740611",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740611_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"itraconazole\" outputclass=\"int-drug\">itraconazole</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  itraconazole  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Itraconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740612",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740612_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"leflunomide\" outputclass=\"int-drug\">leflunomide</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  leflunomide  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Leflunomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740613",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740613_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"lenalidomide\" outputclass=\"int-drug\">lenalidomide</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  lenalidomide  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lenalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740614",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740614_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"lomitapide\" outputclass=\"int-drug\">lomitapide</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  lomitapide  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lomitapide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740615",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740615_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"lymecycline\" outputclass=\"int-drug\">lymecycline</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  lymecycline  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lymecycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740616",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740616_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"mercaptopurine\" outputclass=\"int-drug\">mercaptopurine</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  mercaptopurine  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mercaptopurine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740617",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740617_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"methotrexate\" outputclass=\"int-drug\">methotrexate</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  methotrexate  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methotrexate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740618",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740618_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"minocycline\" outputclass=\"int-drug\">minocycline</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  minocycline  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Minocycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740619",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740619_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"oxytetracycline\" outputclass=\"int-drug\">oxytetracycline</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  oxytetracycline  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxytetracycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740620",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740620_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"paracetamol\" outputclass=\"int-drug\">paracetamol</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  paracetamol  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paracetamol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740621",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740621_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"pegaspargase\" outputclass=\"int-drug\">pegaspargase</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  pegaspargase  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pegaspargase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740622",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740622_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"pravastatin\" outputclass=\"int-drug\">pravastatin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  pravastatin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pravastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740623",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740623_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"rosuvastatin\" outputclass=\"int-drug\">rosuvastatin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  rosuvastatin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rosuvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740624",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740624_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"simvastatin\" outputclass=\"int-drug\">simvastatin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  simvastatin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Simvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740625",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740625_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"streptozocin\" outputclass=\"int-drug\">streptozocin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  streptozocin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Streptozocin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740626",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740626_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"sulfasalazine\" outputclass=\"int-drug\">sulfasalazine</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  sulfasalazine  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfasalazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740627",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740627_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"tetracycline\" outputclass=\"int-drug\">tetracycline</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  tetracycline  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tetracycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740628",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740628_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"tigecycline\" outputclass=\"int-drug\">tigecycline</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  tigecycline  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tigecycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740629",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740629_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"trabectedin\" outputclass=\"int-drug\">trabectedin</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  trabectedin  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trabectedin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740630",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740630_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"valproate\" outputclass=\"int-drug\">valproate</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  valproate  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Valproate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740631",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/micafungin-2#bnf_i1557280740631_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"micafungin\" outputclass=\"int-heading-drug\">micafungin</ph> and <ph otherprops=\"vincristine\" outputclass=\"int-drug\">vincristine</ph> can increase the risk of hepatotoxicity.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  micafungin  and  vincristine  can increase the risk of hepatotoxicity. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vincristine</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Micafungin  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/micafungin-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Micafungin </title>"
+			},
+			"rdfs:label": "micafungin"
+		}
+	]
+}
