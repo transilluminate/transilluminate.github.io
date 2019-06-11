@@ -1,0 +1,3294 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/hydralazine",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724110",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724110_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"acebutolol\" outputclass=\"int-drug\">acebutolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  acebutolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acebutolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724111",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724111_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"alcohol (beverage)\" outputclass=\"int-drug\">alcohol (beverage)</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  alcohol (beverage)  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alcohol (beverage)</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724112",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724112_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"alfuzosin\" outputclass=\"int-drug\">alfuzosin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  alfuzosin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alfuzosin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724113",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724113_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"aliskiren\" outputclass=\"int-drug\">aliskiren</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  aliskiren  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aliskiren</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724114",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724114_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"alprostadil\" outputclass=\"int-drug\">alprostadil</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  alprostadil  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alprostadil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724115",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724115_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"amantadine\" outputclass=\"int-drug\">amantadine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  amantadine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amantadine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724116",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724116_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"amitriptyline\" outputclass=\"int-drug\">amitriptyline</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  amitriptyline  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amitriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724117",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724117_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"amlodipine\" outputclass=\"int-drug\">amlodipine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  amlodipine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amlodipine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724118",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724118_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"apomorphine\" outputclass=\"int-drug\">apomorphine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  apomorphine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apomorphine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724119",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724119_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"apraclonidine\" outputclass=\"int-drug\">apraclonidine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  apraclonidine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apraclonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724120",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724120_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"aripiprazole\" outputclass=\"int-drug\">aripiprazole</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  aripiprazole  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aripiprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724121",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724121_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"asenapine\" outputclass=\"int-drug\">asenapine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  asenapine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Asenapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724122",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724122_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"atenolol\" outputclass=\"int-drug\">atenolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  atenolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atenolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724123",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724123_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"avanafil\" outputclass=\"int-drug\">avanafil</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  avanafil  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Avanafil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724124",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724124_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"azilsartan\" outputclass=\"int-drug\">azilsartan</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  azilsartan  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Azilsartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724125",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724125_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"baclofen\" outputclass=\"int-drug\">baclofen</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  baclofen  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Baclofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724126",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724126_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"bendroflumethiazide\" outputclass=\"int-drug\">bendroflumethiazide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  bendroflumethiazide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bendroflumethiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724127",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724127_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"benperidol\" outputclass=\"int-drug\">benperidol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  benperidol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Benperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724128",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724128_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"betaxolol\" outputclass=\"int-drug\">betaxolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  betaxolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Betaxolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724129",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724129_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"bisoprolol\" outputclass=\"int-drug\">bisoprolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  bisoprolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bisoprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724130",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724130_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"bortezomib\" outputclass=\"int-drug\">bortezomib</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  bortezomib  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bortezomib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724131",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724131_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"brimonidine\" outputclass=\"int-drug\">brimonidine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  brimonidine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Brimonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724132",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724132_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"bromocriptine\" outputclass=\"int-drug\">bromocriptine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  bromocriptine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bromocriptine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724133",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724133_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"bumetanide\" outputclass=\"int-drug\">bumetanide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  bumetanide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bumetanide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724134",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724134_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"cabergoline\" outputclass=\"int-drug\">cabergoline</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  cabergoline  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabergoline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724135",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724135_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"canagliflozin\" outputclass=\"int-drug\">canagliflozin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  canagliflozin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Canagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724136",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724136_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"candesartan\" outputclass=\"int-drug\">candesartan</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  candesartan  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Candesartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724137",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724137_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"captopril\" outputclass=\"int-drug\">captopril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  captopril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Captopril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724138",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724138_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"cariprazine\" outputclass=\"int-drug\">cariprazine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  cariprazine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cariprazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724139",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724139_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"carvedilol\" outputclass=\"int-drug\">carvedilol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  carvedilol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carvedilol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724140",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724140_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"celiprolol\" outputclass=\"int-drug\">celiprolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  celiprolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Celiprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724141",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724141_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"chlorothiazide\" outputclass=\"int-drug\">chlorothiazide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  chlorothiazide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorothiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724142",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724142_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"chlorpromazine\" outputclass=\"int-drug\">chlorpromazine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  chlorpromazine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorpromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724143",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724143_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"chlortalidone\" outputclass=\"int-drug\">chlortalidone</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  chlortalidone  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlortalidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724144",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724144_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"clevidipine\" outputclass=\"int-drug\">clevidipine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  clevidipine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clevidipine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724145",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724145_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"clomipramine\" outputclass=\"int-drug\">clomipramine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  clomipramine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clomipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724146",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724146_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"clonidine\" outputclass=\"int-drug\">clonidine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  clonidine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724147",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724147_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"clozapine\" outputclass=\"int-drug\">clozapine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  clozapine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clozapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724148",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724148_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"dapagliflozin\" outputclass=\"int-drug\">dapagliflozin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  dapagliflozin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dapagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724149",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724149_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"desflurane\" outputclass=\"int-drug\">desflurane</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  desflurane  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Desflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724150",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724150_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"diazoxide\" outputclass=\"int-drug\">diazoxide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  diazoxide  can increase the risk of hypotension. \n\n"
+						},
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724150_message_1",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"diazoxide\" outputclass=\"int-drug\">Diazoxide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of severe hypotension when given with</ph> <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "2",
+							"hasTextContent": "Diazoxide   increases   the risk of severe hypotension when given with   hydralazine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diazoxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724151",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724151_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"diltiazem\" outputclass=\"int-drug\">diltiazem</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  diltiazem  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diltiazem</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724152",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724152_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"dipyridamole\" outputclass=\"int-drug\">dipyridamole</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  dipyridamole  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dipyridamole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724153",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724153_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"dosulepin\" outputclass=\"int-drug\">dosulepin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  dosulepin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dosulepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724154",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724154_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"doxazosin\" outputclass=\"int-drug\">doxazosin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  doxazosin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxazosin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724155",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724155_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"doxepin\" outputclass=\"int-drug\">doxepin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  doxepin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724156",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724156_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"droperidol\" outputclass=\"int-drug\">droperidol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  droperidol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Droperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724157",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724157_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"empagliflozin\" outputclass=\"int-drug\">empagliflozin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  empagliflozin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Empagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724158",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724158_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"enalapril\" outputclass=\"int-drug\">enalapril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  enalapril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enalapril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724159",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724159_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"eplerenone\" outputclass=\"int-drug\">eplerenone</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  eplerenone  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eplerenone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724160",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724160_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"eprosartan\" outputclass=\"int-drug\">eprosartan</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  eprosartan  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eprosartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724161",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724161_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"ertugliflozin\" outputclass=\"int-drug\">ertugliflozin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  ertugliflozin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ertugliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724162",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724162_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"esketamine\" outputclass=\"int-drug\">esketamine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  esketamine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Esketamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724163",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724163_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"esmolol\" outputclass=\"int-drug\">esmolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  esmolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Esmolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724164",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724164_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"etomidate\" outputclass=\"int-drug\">etomidate</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  etomidate  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etomidate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724165",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724165_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"felodipine\" outputclass=\"int-drug\">felodipine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  felodipine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Felodipine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724166",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724166_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"flupentixol\" outputclass=\"int-drug\">flupentixol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  flupentixol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "57",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flupentixol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724167",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724167_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"fluphenazine\" outputclass=\"int-drug\">fluphenazine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  fluphenazine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluphenazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724168",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724168_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"fosinopril\" outputclass=\"int-drug\">fosinopril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  fosinopril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "59",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosinopril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724169",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724169_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"furosemide\" outputclass=\"int-drug\">furosemide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  furosemide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "60",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Furosemide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724170",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724170_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"glyceryl trinitrate\" outputclass=\"int-drug\">glyceryl trinitrate</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  glyceryl trinitrate  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "61",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glyceryl trinitrate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724171",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724171_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"guanethidine\" outputclass=\"int-drug\">guanethidine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  guanethidine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "62",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Guanethidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724172",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724172_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"guanfacine\" outputclass=\"int-drug\">guanfacine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  guanfacine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "63",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Guanfacine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724173",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724173_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"haloperidol\" outputclass=\"int-drug\">haloperidol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  haloperidol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "64",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Haloperidol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724174",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724174_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"hydrochlorothiazide\" outputclass=\"int-drug\">hydrochlorothiazide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  hydrochlorothiazide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "65",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydrochlorothiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724175",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724175_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"hydroflumethiazide\" outputclass=\"int-drug\">hydroflumethiazide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  hydroflumethiazide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "66",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroflumethiazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724176",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724176_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"imidapril\" outputclass=\"int-drug\">imidapril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  imidapril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "67",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imidapril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724177",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724177_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"imipramine\" outputclass=\"int-drug\">imipramine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  imipramine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "68",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724178",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724178_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"indapamide\" outputclass=\"int-drug\">indapamide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  indapamide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "69",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Indapamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724179",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724179_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"indoramin\" outputclass=\"int-drug\">indoramin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  indoramin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "70",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Indoramin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724180",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724180_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"irbesartan\" outputclass=\"int-drug\">irbesartan</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  irbesartan  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "71",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Irbesartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724181",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724181_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"isocarboxazid\" outputclass=\"int-drug\">isocarboxazid</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  isocarboxazid  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "72",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isocarboxazid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724182",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724182_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"isoflurane\" outputclass=\"int-drug\">isoflurane</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  isoflurane  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "73",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isoflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724183",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724183_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"isosorbide dinitrate\" outputclass=\"int-drug\">isosorbide dinitrate</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  isosorbide dinitrate  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "74",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isosorbide dinitrate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724184",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724184_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"isosorbide mononitrate\" outputclass=\"int-drug\">isosorbide mononitrate</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  isosorbide mononitrate  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "75",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isosorbide mononitrate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724185",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724185_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"ketamine\" outputclass=\"int-drug\">ketamine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  ketamine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "76",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724186",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724186_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"labetalol\" outputclass=\"int-drug\">labetalol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  labetalol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "77",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Labetalol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724187",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724187_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"lacidipine\" outputclass=\"int-drug\">lacidipine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  lacidipine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "78",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lacidipine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724188",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724188_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"lercanidipine\" outputclass=\"int-drug\">lercanidipine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  lercanidipine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "79",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lercanidipine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724189",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724189_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"levobunolol\" outputclass=\"int-drug\">levobunolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  levobunolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "80",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levobunolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724190",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724190_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"levodopa\" outputclass=\"int-drug\">levodopa</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  levodopa  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "81",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levodopa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724191",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724191_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"levomepromazine\" outputclass=\"int-drug\">levomepromazine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  levomepromazine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "82",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levomepromazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724192",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724192_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"lisinopril\" outputclass=\"int-drug\">lisinopril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  lisinopril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "83",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lisinopril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724193",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724193_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"lofepramine\" outputclass=\"int-drug\">lofepramine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  lofepramine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "84",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lofepramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724194",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724194_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"lofexidine\" outputclass=\"int-drug\">lofexidine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  lofexidine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "85",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lofexidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724195",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724195_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"losartan\" outputclass=\"int-drug\">losartan</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  losartan  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "86",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Losartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724196",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724196_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"loxapine\" outputclass=\"int-drug\">loxapine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  loxapine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "87",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Loxapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724197",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724197_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"lurasidone\" outputclass=\"int-drug\">lurasidone</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  lurasidone  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "88",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lurasidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724198",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724198_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"methoxyflurane\" outputclass=\"int-drug\">methoxyflurane</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  methoxyflurane  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "89",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methoxyflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724199",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724199_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"methyldopa\" outputclass=\"int-drug\">methyldopa</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  methyldopa  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "90",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methyldopa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724200",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724200_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"metolazone\" outputclass=\"int-drug\">metolazone</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  metolazone  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "91",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metolazone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724201",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724201_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"metoprolol\" outputclass=\"int-drug\">metoprolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  metoprolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "92",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metoprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724202",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724202_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"minoxidil\" outputclass=\"int-drug\">minoxidil</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  minoxidil  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "93",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Minoxidil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724203",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724203_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"moxisylyte\" outputclass=\"int-drug\">moxisylyte</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  moxisylyte  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "94",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Moxisylyte</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724204",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724204_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"moxonidine\" outputclass=\"int-drug\">moxonidine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  moxonidine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "95",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Moxonidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724205",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724205_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"nadolol\" outputclass=\"int-drug\">nadolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  nadolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "96",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nadolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724206",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724206_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"nebivolol\" outputclass=\"int-drug\">nebivolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  nebivolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "97",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nebivolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724207",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724207_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"nicardipine\" outputclass=\"int-drug\">nicardipine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  nicardipine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "98",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nicardipine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724208",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724208_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"nicorandil\" outputclass=\"int-drug\">nicorandil</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  nicorandil  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "99",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nicorandil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724209",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724209_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"nifedipine\" outputclass=\"int-drug\">nifedipine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  nifedipine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "100",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nifedipine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724210",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724210_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"nimodipine\" outputclass=\"int-drug\">nimodipine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  nimodipine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "101",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nimodipine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724211",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724211_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"nitrous oxide\" outputclass=\"int-drug\">nitrous oxide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  nitrous oxide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "102",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nitrous oxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724212",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724212_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"nortriptyline\" outputclass=\"int-drug\">nortriptyline</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  nortriptyline  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "103",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nortriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724213",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724213_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"olanzapine\" outputclass=\"int-drug\">olanzapine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  olanzapine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "104",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olanzapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724214",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724214_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"olmesartan\" outputclass=\"int-drug\">olmesartan</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  olmesartan  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "105",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olmesartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724215",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724215_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"oxprenolol\" outputclass=\"int-drug\">oxprenolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  oxprenolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "106",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxprenolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724216",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724216_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"paliperidone\" outputclass=\"int-drug\">paliperidone</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  paliperidone  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "107",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paliperidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724217",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724217_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"pergolide\" outputclass=\"int-drug\">pergolide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  pergolide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "108",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pergolide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724218",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724218_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"pericyazine\" outputclass=\"int-drug\">pericyazine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  pericyazine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "109",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pericyazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724219",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724219_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"perindopril\" outputclass=\"int-drug\">perindopril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  perindopril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "110",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Perindopril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724220",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724220_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"phenelzine\" outputclass=\"int-drug\">phenelzine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  phenelzine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "111",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenelzine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724221",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724221_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"pimozide\" outputclass=\"int-drug\">pimozide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  pimozide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "112",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pimozide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724222",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724222_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"pindolol\" outputclass=\"int-drug\">pindolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  pindolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "113",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pindolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724223",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724223_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"pramipexole\" outputclass=\"int-drug\">pramipexole</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  pramipexole  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "114",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pramipexole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724224",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724224_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"prazosin\" outputclass=\"int-drug\">prazosin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  prazosin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "115",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prazosin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724225",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724225_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"prochlorperazine\" outputclass=\"int-drug\">prochlorperazine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  prochlorperazine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "116",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Prochlorperazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724226",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724226_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"promazine\" outputclass=\"int-drug\">promazine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  promazine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "117",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Promazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724227",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724227_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"propofol\" outputclass=\"int-drug\">propofol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  propofol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "118",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propofol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724228",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724228_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"propranolol\" outputclass=\"int-drug\">propranolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  propranolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "119",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propranolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724229",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724229_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"quetiapine\" outputclass=\"int-drug\">quetiapine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  quetiapine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "120",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Quetiapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724230",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724230_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"quinagolide\" outputclass=\"int-drug\">quinagolide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  quinagolide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "121",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Quinagolide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724231",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724231_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"quinapril\" outputclass=\"int-drug\">quinapril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  quinapril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "122",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Quinapril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724232",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724232_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"ramipril\" outputclass=\"int-drug\">ramipril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  ramipril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "123",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ramipril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724233",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724233_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"riociguat\" outputclass=\"int-drug\">riociguat</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  riociguat  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "124",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Riociguat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724234",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724234_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"risperidone\" outputclass=\"int-drug\">risperidone</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  risperidone  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "125",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Risperidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724235",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724235_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"ropinirole\" outputclass=\"int-drug\">ropinirole</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  ropinirole  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "126",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ropinirole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724236",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724236_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"rotigotine\" outputclass=\"int-drug\">rotigotine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  rotigotine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "127",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rotigotine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724237",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724237_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"sacubitril\" outputclass=\"int-drug\">sacubitril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  sacubitril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "128",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sacubitril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724238",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724238_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"sapropterin\" outputclass=\"int-drug\">sapropterin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  sapropterin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "129",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sapropterin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724239",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724239_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"selegiline\" outputclass=\"int-drug\">selegiline</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  selegiline  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "130",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Selegiline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724240",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724240_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"sevoflurane\" outputclass=\"int-drug\">sevoflurane</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  sevoflurane  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "131",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sevoflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724241",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724241_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"sildenafil\" outputclass=\"int-drug\">sildenafil</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  sildenafil  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "132",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sildenafil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724242",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724242_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"sodium nitroprusside\" outputclass=\"int-drug\">sodium nitroprusside</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  sodium nitroprusside  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "133",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sodium nitroprusside</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724243",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724243_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"sodium oxybate\" outputclass=\"int-drug\">sodium oxybate</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  sodium oxybate  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "134",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sodium oxybate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724244",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724244_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"sotalol\" outputclass=\"int-drug\">sotalol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  sotalol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "135",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sotalol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724245",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724245_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"spironolactone\" outputclass=\"int-drug\">spironolactone</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  spironolactone  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "136",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Spironolactone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724246",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724246_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"sulpiride\" outputclass=\"int-drug\">sulpiride</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  sulpiride  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "137",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulpiride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724247",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724247_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"tadalafil\" outputclass=\"int-drug\">tadalafil</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  tadalafil  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "138",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tadalafil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724248",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724248_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"tamsulosin\" outputclass=\"int-drug\">tamsulosin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  tamsulosin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "139",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tamsulosin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724249",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724249_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"telmisartan\" outputclass=\"int-drug\">telmisartan</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  telmisartan  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "140",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Telmisartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724250",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724250_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"terazosin\" outputclass=\"int-drug\">terazosin</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  terazosin  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "141",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Terazosin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724251",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724251_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"thiopental\" outputclass=\"int-drug\">thiopental</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  thiopental  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "142",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thiopental</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724252",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724252_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"timolol\" outputclass=\"int-drug\">timolol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  timolol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "143",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Timolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724253",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724253_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"tizanidine\" outputclass=\"int-drug\">tizanidine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  tizanidine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "144",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tizanidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724254",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724254_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"torasemide\" outputclass=\"int-drug\">torasemide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  torasemide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "145",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Torasemide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724255",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724255_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"trandolapril\" outputclass=\"int-drug\">trandolapril</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  trandolapril  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "146",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trandolapril</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724256",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724256_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"tranylcypromine\" outputclass=\"int-drug\">tranylcypromine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  tranylcypromine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "147",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tranylcypromine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724257",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724257_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"trifluoperazine\" outputclass=\"int-drug\">trifluoperazine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  trifluoperazine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "148",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trifluoperazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724258",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724258_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"trimipramine\" outputclass=\"int-drug\">trimipramine</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  trimipramine  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "149",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trimipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724259",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724259_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"valsartan\" outputclass=\"int-drug\">valsartan</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  valsartan  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "150",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Valsartan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724260",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724260_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"vardenafil\" outputclass=\"int-drug\">vardenafil</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  vardenafil  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "151",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vardenafil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724261",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724261_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"verapamil\" outputclass=\"int-drug\">verapamil</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  verapamil  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "152",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Verapamil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724262",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724262_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"xipamide\" outputclass=\"int-drug\">xipamide</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  xipamide  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "153",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Xipamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724263",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydralazine#bnf_i1557280724263_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"hydralazine\" outputclass=\"int-heading-drug\">hydralazine</ph> and <ph otherprops=\"zuclopenthixol\" outputclass=\"int-drug\">zuclopenthixol</ph> can increase the risk of hypotension.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  hydralazine  and  zuclopenthixol  can increase the risk of hypotension. \n\n"
+						}
+					],
+					"hasOrder": "154",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zuclopenthixol</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Hydralazine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/hydralazine.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Hydralazine </title>"
+			},
+			"rdfs:label": "hydralazine"
+		}
+	]
+}

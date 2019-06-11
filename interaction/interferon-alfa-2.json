@@ -1,0 +1,2821 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728434",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728434_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"afatinib\" outputclass=\"int-drug\">afatinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  afatinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Afatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728435",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728435_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"aflibercept\" outputclass=\"int-drug\">aflibercept</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  aflibercept  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aflibercept</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728436",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728436_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"alemtuzumab\" outputclass=\"int-drug\">alemtuzumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  alemtuzumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alemtuzumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728437",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728437_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">Interferon alfa</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"aminophylline\" outputclass=\"int-drug\">aminophylline</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Interferon alfa   is predicted to   slightly   increase   the exposure to   aminophylline .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aminophylline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728438",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728438_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"amsacrine\" outputclass=\"int-drug\">amsacrine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  amsacrine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amsacrine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728439",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728439_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"anakinra\" outputclass=\"int-drug\">anakinra</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  anakinra  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Anakinra</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728440",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728440_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"arsenic trioxide\" outputclass=\"int-drug\">arsenic trioxide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  arsenic trioxide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Arsenic trioxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728441",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728441_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"asparaginase\" outputclass=\"int-drug\">asparaginase</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  asparaginase  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Asparaginase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728442",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728442_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"axitinib\" outputclass=\"int-drug\">axitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  axitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Axitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728443",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728443_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"azacitidine\" outputclass=\"int-drug\">azacitidine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  azacitidine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Azacitidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728444",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728444_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"azathioprine\" outputclass=\"int-drug\">azathioprine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  azathioprine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Azathioprine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728445",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728445_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"balsalazide\" outputclass=\"int-drug\">balsalazide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  balsalazide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Balsalazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728446",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728446_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"belimumab\" outputclass=\"int-drug\">belimumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  belimumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Belimumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728447",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728447_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"bendamustine\" outputclass=\"int-drug\">bendamustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  bendamustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bendamustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728448",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728448_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"bevacizumab\" outputclass=\"int-drug\">bevacizumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  bevacizumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bevacizumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728449",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728449_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"bleomycin\" outputclass=\"int-drug\">bleomycin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  bleomycin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bleomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728450",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728450_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"blinatumomab\" outputclass=\"int-drug\">blinatumomab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  blinatumomab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Blinatumomab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728451",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728451_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"bortezomib\" outputclass=\"int-drug\">bortezomib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  bortezomib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bortezomib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728452",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728452_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"bosutinib\" outputclass=\"int-drug\">bosutinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  bosutinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosutinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728453",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728453_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"brentuximab vedotin\" outputclass=\"int-drug\">brentuximab vedotin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  brentuximab vedotin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Brentuximab vedotin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728454",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728454_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"busulfan\" outputclass=\"int-drug\">busulfan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  busulfan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Busulfan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728455",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728455_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"cabazitaxel\" outputclass=\"int-drug\">cabazitaxel</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  cabazitaxel  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabazitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728456",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728456_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"cabozantinib\" outputclass=\"int-drug\">cabozantinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  cabozantinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabozantinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728457",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728457_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"canakinumab\" outputclass=\"int-drug\">canakinumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  canakinumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Canakinumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728458",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728458_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"capecitabine\" outputclass=\"int-drug\">capecitabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  capecitabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Capecitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728459",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728459_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"carbimazole\" outputclass=\"int-drug\">carbimazole</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  carbimazole  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbimazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728460",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728460_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"carboplatin\" outputclass=\"int-drug\">carboplatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  carboplatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carboplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728461",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728461_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"carfilzomib\" outputclass=\"int-drug\">carfilzomib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  carfilzomib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carfilzomib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728462",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728462_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"carmustine\" outputclass=\"int-drug\">carmustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  carmustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carmustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728463",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728463_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"ceritinib\" outputclass=\"int-drug\">ceritinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  ceritinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceritinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728464",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728464_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"cetuximab\" outputclass=\"int-drug\">cetuximab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  cetuximab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cetuximab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728465",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728465_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"chlorambucil\" outputclass=\"int-drug\">chlorambucil</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  chlorambucil  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorambucil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728466",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728466_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"cisplatin\" outputclass=\"int-drug\">cisplatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  cisplatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cisplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728467",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728467_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"cladribine\" outputclass=\"int-drug\">cladribine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  cladribine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cladribine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728468",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728468_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"clofarabine\" outputclass=\"int-drug\">clofarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  clofarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clofarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728469",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728469_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"clozapine\" outputclass=\"int-drug\">clozapine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  clozapine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clozapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728470",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728470_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"co-trimoxazole\" outputclass=\"int-drug\">co-trimoxazole</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  co-trimoxazole  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Co-trimoxazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728471",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728471_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"crisantaspase\" outputclass=\"int-drug\">crisantaspase</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  crisantaspase  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crisantaspase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728472",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728472_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"crizotinib\" outputclass=\"int-drug\">crizotinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  crizotinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crizotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728473",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728473_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"cyclophosphamide\" outputclass=\"int-drug\">cyclophosphamide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  cyclophosphamide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyclophosphamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728474",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728474_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"cytarabine\" outputclass=\"int-drug\">cytarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  cytarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cytarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728475",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728475_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"dabrafenib\" outputclass=\"int-drug\">dabrafenib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  dabrafenib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dabrafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728476",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728476_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"dacarbazine\" outputclass=\"int-drug\">dacarbazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  dacarbazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dacarbazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728477",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728477_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"dactinomycin\" outputclass=\"int-drug\">dactinomycin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  dactinomycin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dactinomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728478",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728478_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"dasatinib\" outputclass=\"int-drug\">dasatinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  dasatinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dasatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728479",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728479_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"daunorubicin\" outputclass=\"int-drug\">daunorubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  daunorubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Daunorubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728480",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728480_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"decitabine\" outputclass=\"int-drug\">decitabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  decitabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Decitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728481",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728481_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"deferiprone\" outputclass=\"int-drug\">deferiprone</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  deferiprone  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Deferiprone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728482",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728482_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"docetaxel\" outputclass=\"int-drug\">docetaxel</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  docetaxel  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Docetaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728483",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728483_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"doxorubicin\" outputclass=\"int-drug\">doxorubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  doxorubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxorubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728484",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728484_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"epirubicin\" outputclass=\"int-drug\">epirubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  epirubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Epirubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728485",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728485_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"eribulin\" outputclass=\"int-drug\">eribulin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  eribulin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eribulin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728486",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728486_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"estramustine\" outputclass=\"int-drug\">estramustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  estramustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Estramustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728487",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728487_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"ethosuximide\" outputclass=\"int-drug\">ethosuximide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  ethosuximide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ethosuximide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728488",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728488_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"etoposide\" outputclass=\"int-drug\">etoposide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  etoposide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etoposide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728489",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728489_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"everolimus\" outputclass=\"int-drug\">everolimus</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  everolimus  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Everolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728490",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728490_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"fludarabine\" outputclass=\"int-drug\">fludarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  fludarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "57",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fludarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728491",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728491_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"fluorouracil\" outputclass=\"int-drug\">fluorouracil</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  fluorouracil  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluorouracil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728492",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728492_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"ganciclovir\" outputclass=\"int-drug\">ganciclovir</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  ganciclovir  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "59",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728493",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728493_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"gefitinib\" outputclass=\"int-drug\">gefitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  gefitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "60",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gefitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728494",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728494_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"gemcitabine\" outputclass=\"int-drug\">gemcitabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  gemcitabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "61",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gemcitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728495",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728495_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"hydroxycarbamide\" outputclass=\"int-drug\">hydroxycarbamide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  hydroxycarbamide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "62",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroxycarbamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728496",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728496_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"ibrutinib\" outputclass=\"int-drug\">ibrutinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  ibrutinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "63",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibrutinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728497",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728497_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"idarubicin\" outputclass=\"int-drug\">idarubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  idarubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "64",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Idarubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728498",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728498_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"idelalisib\" outputclass=\"int-drug\">idelalisib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  idelalisib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "65",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Idelalisib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728499",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728499_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"ifosfamide\" outputclass=\"int-drug\">ifosfamide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  ifosfamide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "66",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ifosfamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728500",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728500_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"imatinib\" outputclass=\"int-drug\">imatinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  imatinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "67",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728501",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728501_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"irinotecan\" outputclass=\"int-drug\">irinotecan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  irinotecan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "68",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Irinotecan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728502",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728502_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"leflunomide\" outputclass=\"int-drug\">leflunomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  leflunomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "69",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Leflunomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728503",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728503_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"lenalidomide\" outputclass=\"int-drug\">lenalidomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  lenalidomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "70",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lenalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728504",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728504_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"linezolid\" outputclass=\"int-drug\">linezolid</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  linezolid  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "71",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Linezolid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728505",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728505_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"lomustine\" outputclass=\"int-drug\">lomustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  lomustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "72",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lomustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728506",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728506_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"melphalan\" outputclass=\"int-drug\">melphalan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  melphalan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "73",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Melphalan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728507",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728507_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"mercaptopurine\" outputclass=\"int-drug\">mercaptopurine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  mercaptopurine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "74",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mercaptopurine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728508",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728508_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"methotrexate\" outputclass=\"int-drug\">methotrexate</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  methotrexate  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "75",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methotrexate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728509",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728509_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"mitomycin\" outputclass=\"int-drug\">mitomycin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  mitomycin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "76",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728510",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728510_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"mitotane\" outputclass=\"int-drug\">mitotane</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  mitotane  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "77",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitotane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728511",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728511_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"mitoxantrone\" outputclass=\"int-drug\">mitoxantrone</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  mitoxantrone  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "78",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitoxantrone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728512",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728512_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"mycophenolate\" outputclass=\"int-drug\">mycophenolate</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  mycophenolate  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "79",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mycophenolate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728513",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728513_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"nelarabine\" outputclass=\"int-drug\">nelarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  nelarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "80",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nelarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728514",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728514_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"nilotinib\" outputclass=\"int-drug\">nilotinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  nilotinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "81",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nilotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728515",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728515_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"nivolumab\" outputclass=\"int-drug\">nivolumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  nivolumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "82",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nivolumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728516",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728516_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"obinutuzumab\" outputclass=\"int-drug\">obinutuzumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  obinutuzumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "83",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Obinutuzumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728517",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728517_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"ofatumumab\" outputclass=\"int-drug\">ofatumumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  ofatumumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "84",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ofatumumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728518",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728518_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"olanzapine\" outputclass=\"int-drug\">olanzapine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  olanzapine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "85",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olanzapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728519",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728519_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"olaparib\" outputclass=\"int-drug\">olaparib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  olaparib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "86",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olaparib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728520",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728520_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"olsalazine\" outputclass=\"int-drug\">olsalazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  olsalazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "87",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olsalazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728521",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728521_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"oxaliplatin\" outputclass=\"int-drug\">oxaliplatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  oxaliplatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "88",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxaliplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728522",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728522_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"paclitaxel\" outputclass=\"int-drug\">paclitaxel</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  paclitaxel  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "89",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paclitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728523",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728523_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"panitumumab\" outputclass=\"int-drug\">panitumumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  panitumumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "90",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Panitumumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728524",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728524_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"panobinostat\" outputclass=\"int-drug\">panobinostat</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  panobinostat  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "91",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Panobinostat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728525",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728525_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"pazopanib\" outputclass=\"int-drug\">pazopanib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  pazopanib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "92",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pazopanib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728526",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728526_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"pegaspargase\" outputclass=\"int-drug\">pegaspargase</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  pegaspargase  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "93",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pegaspargase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728527",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728527_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"peginterferon beta-1a\" outputclass=\"int-drug\">peginterferon beta-1a</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  peginterferon beta-1a  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "94",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Peginterferon beta-1a</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728528",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728528_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"pemetrexed\" outputclass=\"int-drug\">pemetrexed</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  pemetrexed  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "95",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pemetrexed</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728529",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728529_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"pentamidine\" outputclass=\"int-drug\">pentamidine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  pentamidine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "96",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentamidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728530",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728530_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"pentostatin\" outputclass=\"int-drug\">pentostatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  pentostatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "97",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentostatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728531",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728531_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"pixantrone\" outputclass=\"int-drug\">pixantrone</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  pixantrone  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "98",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pixantrone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728532",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728532_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"pomalidomide\" outputclass=\"int-drug\">pomalidomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  pomalidomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "99",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pomalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728533",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728533_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"primaquine\" outputclass=\"int-drug\">primaquine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  primaquine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "100",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primaquine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728534",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728534_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"procarbazine\" outputclass=\"int-drug\">procarbazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  procarbazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "101",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Procarbazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728535",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728535_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"propylthiouracil\" outputclass=\"int-drug\">propylthiouracil</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  propylthiouracil  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "102",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propylthiouracil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728536",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728536_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"pyrimethamine\" outputclass=\"int-drug\">pyrimethamine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  pyrimethamine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "103",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pyrimethamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728537",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728537_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"raltitrexed\" outputclass=\"int-drug\">raltitrexed</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  raltitrexed  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "104",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Raltitrexed</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728538",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728538_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"ramucirumab\" outputclass=\"int-drug\">ramucirumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  ramucirumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "105",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ramucirumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728539",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728539_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"regorafenib\" outputclass=\"int-drug\">regorafenib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  regorafenib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "106",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Regorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728540",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728540_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"rituximab\" outputclass=\"int-drug\">rituximab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  rituximab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "107",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rituximab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728541",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728541_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"ruxolitinib\" outputclass=\"int-drug\">ruxolitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  ruxolitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "108",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ruxolitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728542",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728542_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"siltuximab\" outputclass=\"int-drug\">siltuximab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  siltuximab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "109",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Siltuximab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728543",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728543_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"sorafenib\" outputclass=\"int-drug\">sorafenib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  sorafenib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "110",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728544",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728544_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"sulfadiazine\" outputclass=\"int-drug\">sulfadiazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  sulfadiazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "111",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfadiazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728545",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728545_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"sulfasalazine\" outputclass=\"int-drug\">sulfasalazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  sulfasalazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "112",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfasalazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728546",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728546_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"sunitinib\" outputclass=\"int-drug\">sunitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  sunitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "113",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sunitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728547",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728547_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">Interferon alfa</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of peripheral neuropathy when given with</ph> <ph otherprops=\"telbivudine\" outputclass=\"int-drug\">telbivudine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Interferon alfa   is predicted to   increase   the risk of peripheral neuropathy when given with   telbivudine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "114",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Telbivudine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728548",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728548_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"temozolomide\" outputclass=\"int-drug\">temozolomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  temozolomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "115",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Temozolomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728549",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728549_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"temsirolimus\" outputclass=\"int-drug\">temsirolimus</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  temsirolimus  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "116",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Temsirolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728550",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728550_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"thalidomide\" outputclass=\"int-drug\">thalidomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  thalidomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "117",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728551",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728551_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">Interferon alfa</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"theophylline\" outputclass=\"int-drug\">theophylline</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Interferon alfa   slightly   increases   the exposure to   theophylline .  Manufacturer advises adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "118",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Theophylline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728552",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728552_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"thiotepa\" outputclass=\"int-drug\">thiotepa</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  thiotepa  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "119",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thiotepa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728553",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728553_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"tioguanine\" outputclass=\"int-drug\">tioguanine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  tioguanine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "120",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tioguanine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728554",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728554_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"topotecan\" outputclass=\"int-drug\">topotecan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  topotecan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "121",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Topotecan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728555",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728555_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"trabectedin\" outputclass=\"int-drug\">trabectedin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  trabectedin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "122",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trabectedin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728556",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728556_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"trastuzumab emtansine\" outputclass=\"int-drug\">trastuzumab emtansine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  trastuzumab emtansine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "123",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trastuzumab emtansine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728557",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728557_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"treosulfan\" outputclass=\"int-drug\">treosulfan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  treosulfan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "124",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Treosulfan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728558",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728558_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"valganciclovir\" outputclass=\"int-drug\">valganciclovir</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  valganciclovir  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "125",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Valganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728559",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728559_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"vinblastine\" outputclass=\"int-drug\">vinblastine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  vinblastine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "126",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinblastine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728560",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728560_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"vincristine\" outputclass=\"int-drug\">vincristine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  vincristine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "127",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vincristine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728561",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728561_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"vindesine\" outputclass=\"int-drug\">vindesine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  vindesine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "128",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vindesine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728562",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728562_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"vinflunine\" outputclass=\"int-drug\">vinflunine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  vinflunine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "129",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinflunine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728563",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728563_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"vinorelbine\" outputclass=\"int-drug\">vinorelbine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  vinorelbine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "130",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinorelbine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728564",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728564_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"vismodegib\" outputclass=\"int-drug\">vismodegib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  vismodegib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "131",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vismodegib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728565",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2#bnf_i1557280728565_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"interferon alfa\" outputclass=\"int-heading-drug\">interferon alfa</ph> and <ph otherprops=\"zidovudine\" outputclass=\"int-drug\">zidovudine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  interferon alfa  and  zidovudine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "132",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zidovudine</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Interferon alfa  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/interferon-alfa-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Interferon alfa </title>"
+			},
+			"rdfs:label": "interferon alfa"
+		}
+	]
+}

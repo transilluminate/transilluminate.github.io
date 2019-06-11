@@ -1,0 +1,931 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730517",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730517_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"apalutamide\" outputclass=\"int-drug\">Apalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Apalutamide   is predicted to   decrease   the exposure to   ivacaftor .  Manufacturer advises avoid or monitor .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730518",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730518_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"aprepitant\" outputclass=\"int-drug\">Aprepitant</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Aprepitant   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  tezacaftor with ivacaftor  dose with moderate inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aprepitant</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730519",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730519_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"atazanavir\" outputclass=\"int-drug\">Atazanavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/lumacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP202230\">lumacaftor with ivacaftor</xref> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with potent inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Atazanavir   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  lumacaftor with ivacaftor  or  tezacaftor with ivacaftor  dose with potent inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atazanavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730520",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730520_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bosentan\" outputclass=\"int-drug\">Bosentan</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bosentan   is predicted to   decrease   the exposure to   ivacaftor .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosentan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730521",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730521_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately to markedly</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Carbamazepine   is predicted to   moderately to markedly   decrease   the exposure to   ivacaftor .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730522",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730522_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"clarithromycin\" outputclass=\"int-drug\">Clarithromycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/lumacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP202230\">lumacaftor with ivacaftor</xref> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with potent inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Clarithromycin   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  lumacaftor with ivacaftor  or  tezacaftor with ivacaftor  dose with potent inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clarithromycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730523",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730523_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"cobicistat\" outputclass=\"int-drug\">Cobicistat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/lumacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP202230\">lumacaftor with ivacaftor</xref> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with potent inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Cobicistat   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  lumacaftor with ivacaftor  or  tezacaftor with ivacaftor  dose with potent inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cobicistat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730524",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730524_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"crizotinib\" outputclass=\"int-drug\">Crizotinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Crizotinib   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  tezacaftor with ivacaftor  dose with moderate inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crizotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730525",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730525_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"darunavir\" outputclass=\"int-drug\">Darunavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/lumacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP202230\">lumacaftor with ivacaftor</xref> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with potent inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Darunavir   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  lumacaftor with ivacaftor  or  tezacaftor with ivacaftor  dose with potent inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Darunavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730526",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730526_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">Ivacaftor</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ivacaftor   slightly   increases   the exposure to   digoxin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Digoxin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730527",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730527_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"diltiazem\" outputclass=\"int-drug\">Diltiazem</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Diltiazem   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  tezacaftor with ivacaftor  dose with moderate inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diltiazem</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730528",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730528_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dronedarone\" outputclass=\"int-drug\">Dronedarone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dronedarone   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  tezacaftor with ivacaftor  dose with moderate inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dronedarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730529",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730529_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"efavirenz\" outputclass=\"int-drug\">Efavirenz</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Efavirenz   is predicted to   decrease   the exposure to   ivacaftor .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Efavirenz</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730530",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730530_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"enzalutamide\" outputclass=\"int-drug\">Enzalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately to markedly</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Enzalutamide   is predicted to   moderately to markedly   decrease   the exposure to   ivacaftor .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enzalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730531",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730531_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"erythromycin\" outputclass=\"int-drug\">Erythromycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Erythromycin   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  tezacaftor with ivacaftor  dose with moderate inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Erythromycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730532",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730532_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fluconazole\" outputclass=\"int-drug\">Fluconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fluconazole   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  tezacaftor with ivacaftor  dose with moderate inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730533",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730533_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosamprenavir\" outputclass=\"int-drug\">Fosamprenavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/lumacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP202230\">lumacaftor with ivacaftor</xref> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with potent inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fosamprenavir   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  lumacaftor with ivacaftor  or  tezacaftor with ivacaftor  dose with potent inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosamprenavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730534",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730534_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately to markedly</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fosphenytoin   is predicted to   moderately to markedly   decrease   the exposure to   ivacaftor .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730535",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730535_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"grapefruit juice\" outputclass=\"int-drug\">Grapefruit juice</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Grapefruit juice   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Grapefruit juice</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730536",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730536_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"idelalisib\" outputclass=\"int-drug\">Idelalisib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/lumacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP202230\">lumacaftor with ivacaftor</xref> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with potent inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Idelalisib   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  lumacaftor with ivacaftor  or  tezacaftor with ivacaftor  dose with potent inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Idelalisib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730537",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730537_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"imatinib\" outputclass=\"int-drug\">Imatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Imatinib   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  tezacaftor with ivacaftor  dose with moderate inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730538",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730538_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"isavuconazole\" outputclass=\"int-drug\">Isavuconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Isavuconazole   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  tezacaftor with ivacaftor  dose with moderate inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isavuconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730539",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730539_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"itraconazole\" outputclass=\"int-drug\">Itraconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/lumacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP202230\">lumacaftor with ivacaftor</xref> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with potent inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Itraconazole   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  lumacaftor with ivacaftor  or  tezacaftor with ivacaftor  dose with potent inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Itraconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730540",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730540_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ketoconazole\" outputclass=\"int-drug\">Ketoconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/lumacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP202230\">lumacaftor with ivacaftor</xref> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with potent inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ketoconazole   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  lumacaftor with ivacaftor  or  tezacaftor with ivacaftor  dose with potent inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketoconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730541",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730541_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">Ivacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"lomitapide\" outputclass=\"int-drug\">lomitapide</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 12 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ivacaftor   is predicted to   increase   the exposure to   lomitapide .  Manufacturer advises separate administration by 12 hours .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lomitapide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730542",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730542_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lopinavir\" outputclass=\"int-drug\">Lopinavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/lumacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP202230\">lumacaftor with ivacaftor</xref> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with potent inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lopinavir   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  lumacaftor with ivacaftor  or  tezacaftor with ivacaftor  dose with potent inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lopinavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730543",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730543_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mitotane\" outputclass=\"int-drug\">Mitotane</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately to markedly</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Mitotane   is predicted to   moderately to markedly   decrease   the exposure to   ivacaftor .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitotane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730544",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730544_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"netupitant\" outputclass=\"int-drug\">Netupitant</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Netupitant   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  tezacaftor with ivacaftor  dose with moderate inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Netupitant</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730545",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730545_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nevirapine\" outputclass=\"int-drug\">Nevirapine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Nevirapine   is predicted to   decrease   the exposure to   ivacaftor .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nevirapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730546",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730546_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nilotinib\" outputclass=\"int-drug\">Nilotinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Nilotinib   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  tezacaftor with ivacaftor  dose with moderate inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nilotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730547",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730547_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately to markedly</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenobarbital   is predicted to   moderately to markedly   decrease   the exposure to   ivacaftor .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730548",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730548_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately to markedly</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenytoin   is predicted to   moderately to markedly   decrease   the exposure to   ivacaftor .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730549",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730549_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"posaconazole\" outputclass=\"int-drug\">Posaconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Posaconazole   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  tezacaftor with ivacaftor  dose with moderate inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Posaconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730550",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730550_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately to markedly</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Primidone   is predicted to   moderately to markedly   decrease   the exposure to   ivacaftor .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730551",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730551_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately to markedly</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   is predicted to   moderately to markedly   decrease   the exposure to   ivacaftor .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730552",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730552_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ritonavir\" outputclass=\"int-drug\">Ritonavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/lumacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP202230\">lumacaftor with ivacaftor</xref> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with potent inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ritonavir   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  lumacaftor with ivacaftor  or  tezacaftor with ivacaftor  dose with potent inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ritonavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730553",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730553_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"saquinavir\" outputclass=\"int-drug\">Saquinavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/lumacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP202230\">lumacaftor with ivacaftor</xref> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with potent inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Saquinavir   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  lumacaftor with ivacaftor  or  tezacaftor with ivacaftor  dose with potent inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Saquinavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730554",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730554_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"St John's Wort\" outputclass=\"int-drug\">St John's Wort</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "St John's Wort   is predicted to   decrease   the exposure to   ivacaftor .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>St John's Wort</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730555",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730555_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tipranavir\" outputclass=\"int-drug\">Tipranavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/lumacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP202230\">lumacaftor with ivacaftor</xref> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with potent inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tipranavir   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  lumacaftor with ivacaftor  or  tezacaftor with ivacaftor  dose with potent inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tipranavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730556",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730556_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"verapamil\" outputclass=\"int-drug\">Verapamil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Verapamil   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  tezacaftor with ivacaftor  dose with moderate inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Verapamil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730557",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730557_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"voriconazole\" outputclass=\"int-drug\">Voriconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">ivacaftor</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33421\">ivacaftor</xref></ph> or <xref format=\"dita\" href=\"drug/lumacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP202230\">lumacaftor with ivacaftor</xref> or <xref format=\"dita\" href=\"drug/tezacaftor-with-ivacaftor.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP218356\">tezacaftor with ivacaftor</xref> dose with potent inhibitors of CYP3A4</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Voriconazole   is predicted to   increase   the exposure to   ivacaftor .  Manufacturer advises adjust  ivacaftor  or  lumacaftor with ivacaftor  or  tezacaftor with ivacaftor  dose with potent inhibitors of CYP3A4 .    \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Voriconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730558",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2#bnf_i1557280730558_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ivacaftor\" outputclass=\"int-heading-drug\">Ivacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the anticoagulant effect of</ph> <ph otherprops=\"warfarin\" outputclass=\"int-drug\">warfarin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor INR</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ivacaftor   is predicted to   increase   the anticoagulant effect of   warfarin .  Manufacturer advises monitor INR .    \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Warfarin</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Ivacaftor  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/ivacaftor-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Ivacaftor </title>"
+			},
+			"rdfs:label": "ivacaftor"
+		}
+	]
+}

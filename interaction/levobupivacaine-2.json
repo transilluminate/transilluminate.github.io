@@ -1,0 +1,196 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/levobupivacaine-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/levobupivacaine-2#bnf_i1557280733283",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/levobupivacaine-2#bnf_i1557280733283_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"levobupivacaine\" outputclass=\"int-heading-drug\">Levobupivacaine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiodepression when given with</ph> <ph otherprops=\"adenosine\" outputclass=\"int-drug\">adenosine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Levobupivacaine   is predicted to   increase   the risk of cardiodepression when given with   adenosine .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Adenosine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/levobupivacaine-2#bnf_i1557280733284",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/levobupivacaine-2#bnf_i1557280733284_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"levobupivacaine\" outputclass=\"int-heading-drug\">Levobupivacaine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiodepression when given with</ph> <ph otherprops=\"amiodarone\" outputclass=\"int-drug\">amiodarone</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Levobupivacaine   is predicted to   increase   the risk of cardiodepression when given with   amiodarone .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amiodarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/levobupivacaine-2#bnf_i1557280733285",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/levobupivacaine-2#bnf_i1557280733285_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"levobupivacaine\" outputclass=\"int-heading-drug\">Levobupivacaine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiodepression when given with</ph> <ph otherprops=\"disopyramide\" outputclass=\"int-drug\">disopyramide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Levobupivacaine   is predicted to   increase   the risk of cardiodepression when given with   disopyramide .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Disopyramide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/levobupivacaine-2#bnf_i1557280733286",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/levobupivacaine-2#bnf_i1557280733286_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"levobupivacaine\" outputclass=\"int-heading-drug\">Levobupivacaine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiodepression when given with</ph> <ph otherprops=\"dronedarone\" outputclass=\"int-drug\">dronedarone</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Levobupivacaine   is predicted to   increase   the risk of cardiodepression when given with   dronedarone .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dronedarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/levobupivacaine-2#bnf_i1557280733287",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/levobupivacaine-2#bnf_i1557280733287_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"levobupivacaine\" outputclass=\"int-heading-drug\">Levobupivacaine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiodepression when given with</ph> <ph otherprops=\"flecainide\" outputclass=\"int-drug\">flecainide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Levobupivacaine   is predicted to   increase   the risk of cardiodepression when given with   flecainide .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flecainide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/levobupivacaine-2#bnf_i1557280733288",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/levobupivacaine-2#bnf_i1557280733288_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"levobupivacaine\" outputclass=\"int-heading-drug\">Levobupivacaine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiodepression when given with</ph> <ph otherprops=\"lidocaine\" outputclass=\"int-drug\">lidocaine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Levobupivacaine   is predicted to   increase   the risk of cardiodepression when given with   lidocaine .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lidocaine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/levobupivacaine-2#bnf_i1557280733289",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/levobupivacaine-2#bnf_i1557280733289_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"levobupivacaine\" outputclass=\"int-heading-drug\">Levobupivacaine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of cardiodepression when given with</ph> <ph otherprops=\"propafenone\" outputclass=\"int-drug\">propafenone</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Levobupivacaine   is predicted to   increase   the risk of cardiodepression when given with   propafenone .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propafenone</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Levobupivacaine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/levobupivacaine-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Levobupivacaine </title>"
+			},
+			"rdfs:label": "levobupivacaine"
+		}
+	]
+}

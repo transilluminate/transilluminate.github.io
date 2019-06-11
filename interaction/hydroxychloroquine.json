@@ -1,0 +1,280 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725237",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725237_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"hydroxychloroquine\" outputclass=\"int-heading-drug\">Hydroxychloroquine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"agalsidase\" outputclass=\"int-drug\">agalsidase</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Hydroxychloroquine   is predicted to   decrease   the effects of   agalsidase .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Agalsidase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725238",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725238_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"aluminium hydroxide\" outputclass=\"int-drug\">Aluminium hydroxide</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"hydroxychloroquine\" outputclass=\"int-heading-drug\">hydroxychloroquine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 4 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Aluminium hydroxide   decreases   the absorption of   hydroxychloroquine .  Manufacturer advises separate administration by at least 4 hours .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aluminium hydroxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725239",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725239_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"hydroxychloroquine\" outputclass=\"int-heading-drug\">hydroxychloroquine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 4 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Calcium carbonate   decreases   the absorption of   hydroxychloroquine .  Manufacturer advises separate administration by at least 4 hours .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium carbonate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725240",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725240_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"hydroxychloroquine\" outputclass=\"int-heading-drug\">Hydroxychloroquine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"cholera vaccine\" outputclass=\"int-drug\">cholera vaccine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Hydroxychloroquine   is predicted to   decrease   the efficacy of   oral   cholera vaccine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cholera vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725241",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725241_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cimetidine\" outputclass=\"int-drug\">Cimetidine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the clearance of</ph> <ph otherprops=\"hydroxychloroquine\" outputclass=\"int-heading-drug\">hydroxychloroquine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cimetidine   is predicted to   decrease   the clearance of   hydroxychloroquine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cimetidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725242",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725242_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-drug\">Lanthanum</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"hydroxychloroquine\" outputclass=\"int-heading-drug\">hydroxychloroquine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   is predicted to   decrease   the absorption of   hydroxychloroquine .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lanthanum</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725243",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725243_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"hydroxychloroquine\" outputclass=\"int-heading-drug\">Hydroxychloroquine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"laronidase\" outputclass=\"int-drug\">laronidase</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid simultaneous administration</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Hydroxychloroquine   is predicted to   decrease   the exposure to   laronidase .  Manufacturer advises avoid simultaneous administration .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Laronidase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725244",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725244_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium carbonate\" outputclass=\"int-drug\">Magnesium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"hydroxychloroquine\" outputclass=\"int-heading-drug\">hydroxychloroquine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 4 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Magnesium carbonate   decreases   the absorption of   hydroxychloroquine .  Manufacturer advises separate administration by at least 4 hours .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Magnesium carbonate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725245",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725245_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium trisilicate\" outputclass=\"int-drug\">Magnesium trisilicate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"hydroxychloroquine\" outputclass=\"int-heading-drug\">hydroxychloroquine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 4 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Magnesium trisilicate   decreases   the absorption of   hydroxychloroquine .  Manufacturer advises separate administration by at least 4 hours .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Magnesium trisilicate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725246",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725246_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"hydroxychloroquine\" outputclass=\"int-heading-drug\">Hydroxychloroquine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of haematological toxicity when given with</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-drug\">penicillamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Hydroxychloroquine   is predicted to   increase   the risk of haematological toxicity when given with   penicillamine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Penicillamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725247",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine#bnf_i1557280725247_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"hydroxychloroquine\" outputclass=\"int-heading-drug\">Hydroxychloroquine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">efficacy</ph> <ph otherprops=\"rabies vaccine\" outputclass=\"int-drug\">rabies vaccine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Hydroxychloroquine   is predicted to   decrease   efficacy   rabies vaccine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rabies vaccine</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Hydroxychloroquine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/hydroxychloroquine.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Hydroxychloroquine </title>"
+			},
+			"rdfs:label": "hydroxychloroquine"
+		}
+	]
+}

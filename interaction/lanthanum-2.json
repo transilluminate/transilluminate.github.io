@@ -1,0 +1,385 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732049",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732049_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\">Lanthanum</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"chloroquine\" outputclass=\"int-drug\">chloroquine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   is predicted to   decrease   the absorption of   chloroquine .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chloroquine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732050",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732050_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\">Lanthanum</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ciprofloxacin\" outputclass=\"int-drug\">ciprofloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"ciprofloxacin\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ciprofloxacin.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3665\">ciprofloxacin</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/lanthanum.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6145\">lanthanum</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   moderately   decreases   the exposure to   ciprofloxacin .  Manufacturer advises  ciprofloxacin  should be taken 2 hours before or 4 hours after  lanthanum .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciprofloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732051",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732051_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\">Lanthanum</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"demeclocycline\" outputclass=\"int-drug\">demeclocycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   is predicted to   decrease   the absorption of   demeclocycline .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Demeclocycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732052",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732052_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\">Lanthanum</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"doxycycline\" outputclass=\"int-drug\">doxycycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   is predicted to   decrease   the absorption of   doxycycline .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxycycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732053",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732053_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\">Lanthanum</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"hydroxychloroquine\" outputclass=\"int-drug\">hydroxychloroquine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   is predicted to   decrease   the absorption of   hydroxychloroquine .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroxychloroquine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732054",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732054_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\">Lanthanum</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"ketoconazole\" outputclass=\"int-drug\">ketoconazole</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   is predicted to   decrease   the absorption of   ketoconazole .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketoconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732055",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732055_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\">Lanthanum</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"levofloxacin\" outputclass=\"int-drug\">levofloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"levofloxacin\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/levofloxacin.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3668\">levofloxacin</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/lanthanum.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6145\">lanthanum</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   moderately   decreases   the exposure to   levofloxacin .  Manufacturer advises  levofloxacin  should be taken 2 hours before or 4 hours after  lanthanum .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levofloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732056",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732056_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\">Lanthanum</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"levothyroxine\" outputclass=\"int-drug\">levothyroxine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   decreases   the absorption of   levothyroxine .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levothyroxine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732057",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732057_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\">Lanthanum</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"liothyronine\" outputclass=\"int-drug\">liothyronine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   decreases   the absorption of   liothyronine .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Liothyronine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732058",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732058_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\">Lanthanum</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   is predicted to   decrease   the absorption of   lymecycline .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lymecycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732059",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732059_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\">Lanthanum</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"minocycline\" outputclass=\"int-drug\">minocycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   is predicted to   decrease   the absorption of   minocycline .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Minocycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732060",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732060_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\">Lanthanum</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"moxifloxacin\" outputclass=\"int-drug\">moxifloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"moxifloxacin\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/moxifloxacin.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3671\">moxifloxacin</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/lanthanum.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6145\">lanthanum</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   moderately   decreases   the exposure to   moxifloxacin .  Manufacturer advises  moxifloxacin  should be taken 2 hours before or 4 hours after  lanthanum .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Moxifloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732061",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732061_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\">Lanthanum</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ofloxacin\" outputclass=\"int-drug\">ofloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"ofloxacin\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ofloxacin.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3678\">ofloxacin</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/lanthanum.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6145\">lanthanum</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   moderately   decreases   the exposure to   ofloxacin .  Manufacturer advises  ofloxacin  should be taken 2 hours before or 4 hours after  lanthanum .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ofloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732062",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732062_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\">Lanthanum</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"oxytetracycline\" outputclass=\"int-drug\">oxytetracycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   is predicted to   decrease   the absorption of   oxytetracycline .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxytetracycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732063",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732063_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\">Lanthanum</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"tetracycline\" outputclass=\"int-drug\">tetracycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   is predicted to   decrease   the absorption of   tetracycline .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tetracycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732064",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2#bnf_i1557280732064_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lanthanum\" outputclass=\"int-heading-drug\">Lanthanum</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"tigecycline\" outputclass=\"int-drug\">tigecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lanthanum   is predicted to   decrease   the absorption of   tigecycline .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tigecycline</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Lanthanum  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/lanthanum-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Lanthanum </title>"
+			},
+			"rdfs:label": "lanthanum"
+		}
+	]
+}
