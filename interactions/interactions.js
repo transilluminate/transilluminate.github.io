@@ -33,7 +33,7 @@ function loadAvailableMedications(){	// load the medication list for the search 
 	$.getJSON('medicationsList.json', function(data) {					// localfile, built using buildAvailableMedications()
 		$.each( data, function( title, jsonLink ) {
 			availableMedications.push(title);							// push this into the array of medications
-			medicationDetails[title] = { 'json': jsonLink };			// and store the urls to the JSON separately (local)
+			medicationDetails[title] = { 'json': '/' + jsonLink };		// and store the urls to the JSON separately (local)
 			//medicationDetails[title] = { 'json': 'https://bnf.nice.org.uk/interaction/' + jsonLink };	// or use the remote ones (works with Safari for local scripts)
 			//console.log("Loading: '" + title + "' => '" + jsonLink + "'");	// uncomment to display the loading of the availableMedications
 		});
