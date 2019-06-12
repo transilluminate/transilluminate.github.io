@@ -39,7 +39,16 @@ function loadAvailableMedications(){	// load the medication list for the search 
 		});
 		// once searchArray has been loaded, initialise the typeahead
 		var searchSuggestions = new Bloodhound({					// initialise a new search engine...
- 										datumTokenizer:Bloodhound.tokenizers.whitespace,		// voodoo!
+										datumTokenizer: function(datum){			// custom substring tokenizer: https://stackoverflow.com/a/23618659
+											var tokens = [];						// blank to return
+											var entryLength = datum.length;			// get the length of each passed datum (i.e. entry in the availableMedications array)
+											for (var size = 1; size <= entryLength; size++) {
+												for (var i = 0; i + size <= entryLength; i++) {
+													tokens.push( datum.substr(i, size) );		// multiple combinations for every available size (eg. dog = d, o, g, do, og, dog)
+												}
+											}
+											return tokens;
+										},
  										queryTokenizer:Bloodhound.tokenizers.whitespace,		// magic!
  										local:availableMedications	// ... based on the array we just built
 									});
