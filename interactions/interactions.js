@@ -5,29 +5,29 @@ var availableMedications = [];	// array for all medications listed in the BNF ( 
 var displayMedications   = [];	// empty array of the meds we are going to add via the search box
 var medicationDetails    = {};	// this stores the details of the interactions of the medications
 
-function buildAvailableMedications() {	// scrapes the BNF and builds a JSON object for saving locally to avoid C.O.R.S. issues
-	$.ajax({ url:'https://bnf.nice.org.uk/interaction/index.html', type:'get', dataType:'html',
-		success:function(data){
-			var medications = {};	// data hash for medicationsList.json
-			var jsonLinks = [];		// json links to download the json files (sorry for scraping, no other way around C.O.R.S. unless hosted by NICE!)
-			var html = $.parseHTML(data);
-			var medicationsList = $(html).find('#A,#B,#C,#D,#E,#F,#G,#H,#I,#J,#K,#L,#M,#N,#O,#P,#Q,#R,#S,#T,#U,#V,#W,#X,#Y,#Z').find('li');
-			medicationsList.each( function(){
-				var title = $(this)[0].textContent.toLowerCase().trim();	// put this lowercase to make matching easier
-				var link = $(this)[0].innerHTML.replace(/<a href=\"(.+).html.*/,"$1.json"); // grab the json url
-				medications[title] = link;	// build local relative urls
-				
-				// list of the medication urls, one per line... cut and paste into 'interaction' folder 'urls.txt',
-				// then run 'wget -i urls.txt' or 'xargs -n 1 curl -O < urls.txt' in the 'interaction' folder to download:
-				// $("#results pre code").append("https://bnf.nice.org.uk/" + link + "<br>");
-
-			});
-			// cut and paste, save as 'medicationsList.json' in the root folder:
-			$("#results pre code").append( JSON.stringify( medications ) );
-		}
-	});
-}
-buildAvailableMedications(); // uncomment block to run, also uncomment the #results div in the html
+// function buildAvailableMedications() {	// scrapes the BNF and builds a JSON object for saving locally to avoid C.O.R.S. issues
+// 	$.ajax({ url:'https://bnf.nice.org.uk/interaction/index.html', type:'get', dataType:'html',
+// 		success:function(data){
+// 			var medications = {};	// data hash for medicationsList.json
+// 			var jsonLinks = [];		// json links to download the json files (sorry for scraping, no other way around C.O.R.S. unless hosted by NICE!)
+// 			var html = $.parseHTML(data);
+// 			var medicationsList = $(html).find('#A,#B,#C,#D,#E,#F,#G,#H,#I,#J,#K,#L,#M,#N,#O,#P,#Q,#R,#S,#T,#U,#V,#W,#X,#Y,#Z').find('li');
+// 			medicationsList.each( function(){
+// 				var title = $(this)[0].textContent.toLowerCase().trim();	// put this lowercase to make matching easier
+// 				var link = $(this)[0].innerHTML.replace(/<a href=\"(.+).html.*/,"$1.json"); // grab the json url
+// 				medications[title] = link;	// build local relative urls
+// 				
+// 				// list of the medication urls, one per line... cut and paste into 'interaction' folder 'urls.txt',
+// 				// then run 'wget -i urls.txt' or 'xargs -n 1 curl -O < urls.txt' in the 'interaction' folder to download:
+// 				// $("#results pre code").append("https://bnf.nice.org.uk/" + link + "<br>");
+// 
+// 			});
+// 			// cut and paste, save as 'medicationsList.json' in the root folder:
+// 			// $("#results pre code").append( JSON.stringify( medications ) );
+// 		}
+// 	});
+// }
+// buildAvailableMedications(); // uncomment block to run, also uncomment the #results div in the html
 
 function loadAvailableMedications(){	// load the medication list for the search terms
 	$.getJSON('medicationsList.json', function(data) {					// localfile, built using buildAvailableMedications()
