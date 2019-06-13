@@ -76,7 +76,8 @@ $("#searchForm").submit( function(event) {
 
 // add the data
 function addMedication(term) {
-	if (term && availableMedications.includes(term) && !displayMedications.includes(term) && medicationDetails[term]['json']) {	// sanity checks
+	// if (term && availableMedications.includes(term) && !displayMedications.includes(term) && medicationDetails[term]['json']) {	// IE doesn't support 'includes' :(
+	if (term && ($.inArray(term,availableMedications) >= 0) && ($.inArray(term, displayMedications) < 0) && medicationDetails[term]['json']) {
 		$.getJSON(medicationDetails[term]['json'], function(jsonObject){		// async call
 			// the JSON tree is fairly complex, use an online explorer to understand (i.e. https://jsonformatter.org/json-viewer)
 			var title = jsonObject['@graph'][0]['hasTitle']['@value'].replace(/(<([^>]+)>)/ig,"").trim().toLowerCase().toString();	// strip html
