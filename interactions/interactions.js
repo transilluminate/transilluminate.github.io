@@ -62,17 +62,23 @@ function loadAvailableMedications(){	// load the medication list for the search 
 // bind the 'submit' synonyms
 $('.typeahead').bind('typeahead:select', function(event,string) {
 	event.preventDefault();
+	console.log('typeahead select');
 	addMedication(string);
 });
 $("#submitButton").click( function(event) {
 	event.preventDefault();
+	console.log('submitButton click');
 	string = $("#searchBox").val().toLowerCase();
 	addMedication(string);
 });
 $("#searchForm").submit( function(event) {
 	event.preventDefault();	// stops the page reloading and blanking all the entries
+	console.log('searchForm submit');
 });
-$("#searchForm").trigger('submit');	// workaround for Internet Explorer. Bless. https://stackoverflow.com/a/16201435
+$("#searchForm").trigger( function(event) {
+	event.preventDefault();
+	console.log('searchForm trigger');
+});
 
 // add the data
 function addMedication(term) {
