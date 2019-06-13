@@ -114,7 +114,7 @@ function addMedication(term) {
 };
 
 function deleteMedication(entry) {
-	if (entry && ($.inArray(term, displayMedications) >= 0)) {	// .includes() replacement for IE compatiblity
+	if (entry && ($.inArray(entry, displayMedications) >= 0)) {	// .includes() replacement for IE compatiblity
 
 		index = $.inArray(entry, displayMedications);	// get the index
 		displayMedications.splice( index, 1 );			// splice it out
