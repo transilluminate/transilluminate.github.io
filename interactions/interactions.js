@@ -75,10 +75,10 @@ $("#searchForm").submit( function(event) {
 	event.preventDefault();	// stops the page reloading and blanking all the entries
 	console.log('searchForm submit');
 });
-$("#searchForm").trigger( function(event) {
-	event.preventDefault();
-	console.log('searchForm trigger');
-});
+// $("#searchForm").trigger( function(event) {
+// 	event.preventDefault();
+// 	console.log('searchForm trigger');
+// });
 
 // add the data
 function addMedication(term) {
