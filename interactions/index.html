@@ -1,27 +1,27 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
-		<meta name="author"    content="Adrian Robinson">
-		<meta name="copyright" content="&copy; 2019 Adrian Robinson">
+		<meta charset="utf-8" />
+		<meta name="author"    content="Adrian Robinson" />
+		<meta name="copyright" content="&copy; 2019 Adrian Robinson" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" integrity="sha256-BtbhCIbtfeVWGsqxk1vOHEYXS6qcvQvLMZqjtpWUEx8=" crossorigin="anonymous" />		
-		<link rel="stylesheet" href="interactions.css">
-		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-		<link rel="manifest" href="interactions-site.webmanifest">
-		<title>Medications Interactions</title>
+		<link rel="stylesheet" href="interactions.css" />
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+		<link rel="manifest" href="interactions-site.webmanifest" />
+		<title>Meds Interactions</title>
 	</head>
 	<body>
 		<header>
 			<nav class="navbar justify-content-between navbar-light" style="background-color: #eee">
-				<a class="navbar-brand mr-auto" href="#">
+				<a class="navbar-brand mr-auto" href="http://transilluminate.org/interactions/">
 					<img src="logo.svg" width="30" height="30" class="d-inline-block align-top" alt="logo: 3 intersecting rings">
 					Medication Interactions
 				</a>
 				<form id="searchForm" class="form-inline">
-					<input id="searchBox" class="form-control typeahead mr-sm-2" placeholder="Search BNF..." type="search" aria-label="Search" data-provide="typeahead" autocomplete="off">
+					<input id="searchBox" class="form-control typeahead mr-sm-2" placeholder="Search BNF..." type="search" aria-label="Search" data-provide="typeahead" autocomplete="off" />
 					<button id="submitButton" class="btn btn-outline-secondary disabled" type="submit">Add Medication</button>
 				</form>
 			</nav>
@@ -33,6 +33,8 @@
 			</div>
 		</main>
 		
+		<div class="container" id="console"><pre><code></code></pre></div>
+		
 		<footer class="footer fixed-bottom" style="background-color: #eee;">
 			<div class="container text-center">
 				<div class="text-muted small">
@@ -42,13 +44,13 @@
 				</div>
 				<div class="small text-danger">Warning: demo page, don't use for clinical decisions!</div>
 			</div>
-		</footer>
-		
-		<!-- <div class="container" id="results"><pre><code></code></pre></div> -->
+		</footer>		
+
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js" integrity="sha256-fTuUgtT7O2rqoImwjrhDgbXTKUwyxxujIMRIK7TbuNU=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha256-CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/corejs-typeahead/1.2.1/typeahead.bundle.min.js" integrity="sha256-VCsWOz+0GuHdS/sIICtQNTFJdbaDI80rxvoB7BXabrU=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.2.0/jszip.min.js" integrity="sha256-VwkT6wiZwXUbi2b4BOR1i5hw43XMzVsP88kpesvRYfU=" crossorigin="anonymous"></script>
 		<script src="interactions.js"></script>
 	</body>
 </html>

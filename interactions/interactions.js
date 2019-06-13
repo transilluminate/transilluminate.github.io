@@ -6,35 +6,34 @@ var displayMedications   = [];	// empty array of the meds we are going to add vi
 var medicationDetails    = {};	// this stores the details of the interactions of the medications
 
 // function buildAvailableMedications() {	// scrapes the BNF and builds a JSON object for saving locally to avoid C.O.R.S. issues
-// 	$.ajax({ url:'https://bnf.nice.org.uk/interaction/index.html', type:'get', dataType:'html',
-// 		success:function(data){
-// 			var medications = {};	// data hash for medicationsList.json
-// 			var jsonLinks = [];		// json links to download the json files (sorry for scraping, no other way around C.O.R.S. unless hosted by NICE!)
-// 			var html = $.parseHTML(data);
-// 			var medicationsList = $(html).find('#A,#B,#C,#D,#E,#F,#G,#H,#I,#J,#K,#L,#M,#N,#O,#P,#Q,#R,#S,#T,#U,#V,#W,#X,#Y,#Z').find('li');
-// 			medicationsList.each( function(){
-// 				var title = $(this)[0].textContent.toLowerCase().trim();	// put this lowercase to make matching easier
-// 				var link = $(this)[0].innerHTML.replace(/<a href=\"(.+).html.*/,"$1.json"); // grab the json url
-// 				medications[title] = link;	// build local relative urls
-// 				
-// 				// list of the medication urls, one per line... cut and paste into 'interaction' folder 'urls.txt',
-// 				// then run 'wget -i urls.txt' or 'xargs -n 1 curl -O < urls.txt' in the 'interaction' folder to download:
-// 				// $("#results pre code").append("https://bnf.nice.org.uk/" + link + "<br>");
-// 
-// 			});
-// 			// cut and paste, save as 'medicationsList.json' in the root folder:
-// 			// $("#results pre code").append( JSON.stringify( medications ) );
-// 		}
-// 	});
+//	$.ajax({ url:'https://bnf.nice.org.uk/interaction/index.html', type:'get', dataType:'html',
+//		success:function(data){
+//			var medications = {};	// data hash for medicationsList.json
+//			var jsonLinks = [];		// json links to download the json files (sorry for scraping, no other way around C.O.R.S. unless hosted by NICE!)
+//			var html = $.parseHTML(data);
+//			var medicationsList = $(html).find('#A,#B,#C,#D,#E,#F,#G,#H,#I,#J,#K,#L,#M,#N,#O,#P,#Q,#R,#S,#T,#U,#V,#W,#X,#Y,#Z').find('li');
+//			medicationsList.each( function(){
+//				var title = $(this)[0].textContent.toLowerCase().trim();	// put this lowercase to make matching easier
+//				var link = $(this)[0].innerHTML.replace(/<a href=\"(.+).html.*/,"$1.json"); // grab the json url
+//				medications[title] = link;	// build local relative urls
+//				// can now output the data either as list of urls to download, or as a key:value JSON file
+//				// 1. list of the urls:
+//				//		output one per line... cut and paste into the 'interaction' folder 'urls.txt'
+//				//		then run 'wget -i urls.txt' or 'xargs -n 1 curl -O < urls.txt' to download:
+//				// $("#console pre code").append("https://bnf.nice.org.uk/" + link + "<br>");
+//			});
+//			// 2. key:value JSON file: cut and paste, save as 'medicationsList.json' in the root folder:
+//			// $("#console pre code").append( JSON.stringify( medications ) );
+//		}
+//	});
 // }
-// buildAvailableMedications(); // uncomment block to run, also uncomment the #results div in the html
+// buildAvailableMedications(); // uncomment block to run, also uncomment the #console div in the html to see results
 
 function loadAvailableMedications(){	// load the medication list for the search terms
 	$.getJSON('medicationsList.json', function(data) {					// localfile, built using buildAvailableMedications()
 		$.each( data, function( title, jsonLink ) {
 			availableMedications.push(title);								// push the title into the array of medications
-			// can either use relative path files which avoids C.O.R.S issues, or on the NICE site if Safari
-			var baseURL = '/interaction/';									// local filepath
+			var baseURL = 'interaction/';									// local filepath
 			// var baseURL = 'https://bnf.nice.org.uk/interaction/';		// (works with Safari, not Chrome due to C.O.R.S.)
 			medicationDetails[title] = { 'json': baseURL + jsonLink };		// and store the urls to the JSON files
 		});
@@ -42,15 +41,15 @@ function loadAvailableMedications(){	// load the medication list for the search 
 		var searchSuggestions = new Bloodhound({					// initialise a new search engine...
 										datumTokenizer: function(datum){			// custom substring tokenizer: https://stackoverflow.com/a/23618659
 											var tokens = [];						// blank to return
-											var entryLength = datum.length;			// get the length of each passed datum (i.e. entry in the availableMedications array)
-											for (var size = 1; size <= entryLength; size++) {
-												for (var i = 0; i + size <= entryLength; i++) {
-													tokens.push( datum.substr(i, size) );		// multiple combinations for every available size (eg. dog = d, o, g, do, og, dog)
+											var letterCount = datum.length;			// get the length of each passed datum (i.e. entry in the availableMedications array)
+											for (var letters = 1; letters <= letterCount; letters ++) {
+												for (var i = 0; i + letters <= letterCount; i++) {
+													tokens.push( datum.substr(i, letters) );	// multiple combinations for every available size (eg. dog = d, o, g, do, og, dog)
 												}
 											}
 											return tokens;
 										},
- 										queryTokenizer:Bloodhound.tokenizers.whitespace,		// magic!
+ 										queryTokenizer:Bloodhound.tokenizers.whitespace,
  										local:availableMedications	// ... based on the array we just built
 									});
 		// attach the typeahead actions to the search box
@@ -62,22 +61,22 @@ function loadAvailableMedications(){	// load the medication list for the search 
 
 // bind the 'submit' synonyms
 $('.typeahead').bind('typeahead:select', function(event,string) {
-	event.preventDefault();	// stop the form from properly firing
+	event.preventDefault();
 	addMedication(string);
 });
 $("#submitButton").click( function(event) {
-	event.preventDefault();	// stop the form from properly firing
+	event.preventDefault();
 	string = $("#searchBox").val().toLowerCase();
 	addMedication(string);
 });
 $("#searchForm").submit( function(event) {
-	event.preventDefault();	// stop the form from properly firing
+	event.preventDefault();	// stops the page reloading and blanking all the entries
 });
+$("#searchForm").trigger('submit');	// workaround for Internet Explorer. Bless. https://stackoverflow.com/a/16201435
 
 // add the data
 function addMedication(term) {
 	if (term && availableMedications.includes(term) && !displayMedications.includes(term) && medicationDetails[term]['json']) {	// sanity checks
-
 		$.getJSON(medicationDetails[term]['json'], function(jsonObject){		// async call
 			// the JSON tree is fairly complex, use an online explorer to understand (i.e. https://jsonformatter.org/json-viewer)
 			var title = jsonObject['@graph'][0]['hasTitle']['@value'].replace(/(<([^>]+)>)/ig,"").trim().toLowerCase().toString();	// strip html
@@ -88,9 +87,20 @@ function addMedication(term) {
 			$.each(jsonObject['@graph'][0]['hasInteraction'], function( index, object ) {	// get the array object 'hasInteraction', iterate over it
 				var interactionTitle	= object['hasTitle']['@value'].replace(/(<([^>]+)>)/g,"").toLowerCase().toString();	// again, strip the HTML tags
 				var interactionLink		= object['@id'].replace(/#/,".html#").toString();						// add .html within the sctring, before '#'
-				var interactionSeverity	= object['hasMessage'][0]['hasImportance'].toString();					// grab the severity of interaction
-				// the info string needs a bit of tidying, multiple spaces, hanging periods...
-				var interactionDetails	= object['hasMessage'][0]['hasTextContent'].replace(/\r?\n|\r/g,"").replace(/ {1,}/g," ").replace(/ \./g,".").toString();
+				var interactionDetails = "";
+				var interactionSeverity = "";
+				for (var i = 0; i < object['hasMessage'].length; i++) { // handling for multiple interactions
+					var string = object['hasMessage'][i]['hasTextContent']
+									.replace(/\r?\n|\r/g,"")	// get rid of newlines
+									.replace(/ {1,}/g," ")		// get rid of trailing spaces
+									.replace(/ \./g,".")			// get rid of the space before period
+									.toString();				// make sure it's a string object
+					interactionDetails += string;				// append the string
+					if (i + 1 < object['hasMessage'].length) { interactionDetails += "<br><br>"; }	// line down
+					
+					var severity = object['hasMessage'][0]['hasImportance'].toString();	// get the severity of each
+					interactionSeverity = (severity == 'Severe') ? 'Severe' : interactionSeverity;	// set the maximum
+				}
 				// then push this into a fairly complex data structure, that can be easily expanded later:
 				medicationDetails[title]['interactions'][interactionTitle] = { 'url': interactionLink, 'severity': interactionSeverity, 'details': interactionDetails };
 				// for example:	medicationDetails['simvastatin']['interactions']['clarithromycin'][severity] = 'Severe'
@@ -103,15 +113,25 @@ function addMedication(term) {
 };
 
 function deleteMedication(entry) {
-	if (entry && displayMedications.includes(entry)) {							// sanity check
-		displayMedications.splice( $.inArray(entry, displayMedications), 1 );	// splice out the entry
-	}
-	redrawTable();	// refresh the table
+	if (entry && displayMedications.includes(entry)) {	// sanity check
+
+		index = $.inArray(entry, displayMedications);	// get the index
+		displayMedications.splice( index, 1 );			// splice it out
+		
+		// remove from the displayed table
+		$("#resultsTable").find('tr').eq(index + 1).css('background','#f00').fadeOut('slow', function() { $(this).remove(); });
+		$("#resultsTable tr").each( function() {
+			$(this).find('td,th').eq(index + 1).fadeOut('slow', function() { $(this).remove(); });
+		});
+		$('.tooltip').tooltip('hide');
+
+		// redrawTable();	// no need to call this now
+	};
 }
 
 function redrawTable() {
 	displayMedications.sort();									// sort the array alphabetically	
-	var tableSize = (displayMedications.length + 1);			// add 1 to the array length, so the table can have headers
+	var tableSize = (displayMedications.length + 1);				// add 1 to the array length, so the table can have headers
 	$("#resultsTable").empty();									// start with empty table
 	for (var y = 0; y < tableSize; y++) {						// step down line by line...
 		var row = ("<tr>");										// build a table row (note: don't *need* the brackets, but helps readablity)
@@ -160,13 +180,15 @@ function redrawTable() {
 						
 						var url = medicationDetails[rowTitle]['interactions'][columnTitle]['url'];				// get the details, link
 						var severity = medicationDetails[rowTitle]['interactions'][columnTitle]['severity'];		// ... severity ...
-						var details = medicationDetails[rowTitle]['interactions'][columnTitle]['details'];		// and info about the interaction
-														
+ 						var details = medicationDetails[rowTitle]['interactions'][columnTitle]['details'];		// and info about the interaction
+
+						// ***
+
 						var button = (severity == "Severe") ? "btn-danger" : "btn-warning";						// conditionally format the cell colour...
 						var icon = (severity == "Severe") ? "fas fa-exclamation-triangle" : "fas fa-balance-scale";	// ... and icon from font awesome
 									// cells have colourized button, link to the interaction details, and a tooltip
 						row += ("<td>");
-						row +=   ("<a class='btn " + button + "' role='button' target='_blank' href='" + url + "' data-toggle='tooltip' title='" + details + "'>");
+						row +=   ("<a class='btn " + button + "' role='button' target='_blank' href='" + url + "' data-toggle='tooltip' data-html='true' title='" + details + "'>");
 						row +=     ("<i class='" + icon + "'></i>");
 						row +=   ("</a>");
 						row += ("</td>");
@@ -197,13 +219,13 @@ function redrawTable() {
 };
 
 // bind jQuery to the many ways to change the selection
-$("#searchBox").keyup( function() { formatButton() });
-$("#searchBox").blur(  function() { formatButton() });
-$("#searchBox").focus( function() { formatButton() });
-$("#searchBox").click( function() { formatButton() });
-$('.typeahead').bind('typeahead:cursorchange', function() { formatButton() });
+$("#searchBox").keyup( function() { visualFeedback() });
+$("#searchBox").blur(  function() { visualFeedback() });
+$("#searchBox").focus( function() { visualFeedback() });
+$("#searchBox").click( function() { visualFeedback() });
+$('.typeahead').bind('typeahead:cursorchange', function() { visualFeedback() });
 
-function formatButton() {	// conditional formatting of the submitButton
+function visualFeedback() {	// conditional formatting of the submitButton and searchBox text
 	var searchTerm = $("#searchBox").val().toLowerCase();
 	if (searchTerm) {		// we have a non-empty box...
 		if (!displayMedications.includes(searchTerm)) {		// ... we don't already have it in the list...
@@ -211,23 +233,32 @@ function formatButton() {	// conditional formatting of the submitButton
 				$("#submitButton").prop('disabled', false);
 				$("#submitButton").removeClass('disabled btn-outline-danger btn-outline-secondary btn-outline-success');
 				$("#submitButton").addClass('btn-success');
+				$("#searchBox").addClass('text-success');
+				$("#searchBox").removeClass('text-secondary');
 			}
 			else {			// otherwise, it doesn't exist in the BNF
 				$("#submitButton").prop('disabled', true);
 				$("#submitButton").removeClass('btn-success btn-outline-success btn-outline-secondary');
 				$("#submitButton").addClass('btn-outline-danger disabled');
+				$("#searchBox").addClass('text-secondary');
+				$("#searchBox").removeClass('text-success');
 			}
 		}
 		else {				// or we already have it
 			$("#submitButton").prop('disabled', true);
 			$("#submitButton").removeClass('btn-outline-danger btn-outline-secondary btn-success');
 			$("#submitButton").addClass('btn-outline-success disabled');
+			$("#searchBox").addClass('text-success');
+			$("#searchBox").removeClass('text-secondary');
 		}
 	}
 	else {					// or we have an empty box
 		$("#submitButton").prop('disabled', true);
 		$("#submitButton").removeClass('btn-outline-danger btn-outline-success btn-success');
 		$("#submitButton").addClass('btn-outline-secondary disabled');
+		$("#searchBox").addClass('text-secondary');
+		$("#searchBox").removeClass('text-success');
+		
 	}
 }
 
