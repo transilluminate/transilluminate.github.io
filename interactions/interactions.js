@@ -75,10 +75,10 @@ $("#searchForm").submit( function(event) {
 	event.preventDefault();	// stops the page reloading and blanking all the entries
 	console.log('searchForm submit');
 });
-// $("#searchForm").trigger( function(event) {
-// 	event.preventDefault();
-// 	console.log('searchForm trigger');
-// });
+$("#searchForm").trigger('click');// function() {
+//	event.preventDefault();
+//	console.log('searchForm trigger');
+//});
 
 // add the data
 function addMedication(term) {
@@ -234,8 +234,8 @@ $('.typeahead').bind('typeahead:cursorchange', function() { visualFeedback() });
 function visualFeedback() {	// conditional formatting of the submitButton and searchBox text
 	var searchTerm = $("#searchBox").val().toLowerCase();
 	if (searchTerm) {		// we have a non-empty box...
-		if (!displayMedications.includes(searchTerm)) {		// ... we don't already have it in the list...
-			if (availableMedications.includes(searchTerm)) {		// ... and it exists in the BNF! Success!
+		if ($.inArray(searchTerm,displayMedications) < 0) {			// ... we don't already have it in the list...
+			if ($.inArray(searchTerm,availableMedications) >= 0) {		// ... and it exists in the BNF! Success!
 				$("#submitButton").prop('disabled', false);
 				$("#submitButton").removeClass('disabled btn-outline-danger btn-outline-secondary btn-outline-success');
 				$("#submitButton").addClass('btn-success');
