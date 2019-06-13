@@ -118,14 +118,14 @@ function deleteMedication(entry) {
 		index = $.inArray(entry, displayMedications);	// get the index
 		displayMedications.splice( index, 1 );			// splice it out
 		
-		// remove from the displayed table
-		$("#resultsTable").find('tr').eq(index + 1).css('background','#f00').fadeOut('slow', function() { $(this).remove(); });
-		$("#resultsTable tr").each( function() {
-			$(this).find('td,th').eq(index + 1).fadeOut('slow', function() { $(this).remove(); });
-		});
-		$('.tooltip').tooltip('hide');
+// 		// remove from the displayed table
+// 		$("#resultsTable").find('tr').eq(index + 1).css('background','#f00').fadeOut('slow', function() { $(this).remove(); });
+// 		$("#resultsTable tr").each( function() {
+// 			$(this).find('td,th').eq(index + 1).fadeOut('slow', function() { $(this).remove(); });
+// 		});
+// 		$('.tooltip').tooltip('hide');
 
-		// redrawTable();	// no need to call this now
+		redrawTable();	// no need to call this now
 	};
 }
 
