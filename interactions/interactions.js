@@ -213,7 +213,7 @@ function RefreshView() {
 	$(".typeahead").typeahead('val','');	
 }
 
-// get STOPP info
+// get STOPP info // TODO
 // function StoppInfo (Medication) {
 // 
 // }
@@ -231,13 +231,6 @@ function getTotalAnticholinergicScore(MedicationsArray,RiskScore) {
     };
     return score;
 };
-
-// bind jQuery to the many ways to change the selection
-$("#searchBox").keyup( function() { visualFeedback() });
-$("#searchBox").blur(  function() { visualFeedback() });
-$("#searchBox").focus( function() { visualFeedback() });
-$("#searchBox").click( function() { visualFeedback() });
-$('.typeahead').bind('typeahead:cursorchange', function() { visualFeedback() });
 
 function visualFeedback() {	// conditional formatting of the submitButton and searchBox text
 	var searchTerm = $("#searchBox").val().toLowerCase();
@@ -340,16 +333,40 @@ function CreateTypeahead(){
 	return Typeahead;
 }
 
+// escape html (for the tooltips)
 var entityMap = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;', '/': '&#x2F;', '`': '&#x60;', '=': '&#x3D;' };
 function escapeHtml (string) {
   return String(string).replace(/[&<>"'`=\/]/g, function (s) { return entityMap[s]; });
 }
 
-// BuildMedications();	// uncomment to run
-var Typeahead = CreateTypeahead();
-$("#searchBox").typeahead({ hint:false, highlight:true, minLength:1 },{ source:Typeahead, limit:10 });
+// try to limit to the UK
+$.get("https://ipinfo.io/json", function (response) {
+	var country = response.country;
+	if (country != "GB") {
+		alert("Sorry, this demo can only be used from within the the UK...");
+		window.location.replace("https://www.royal.uk");
+	}
+}, "jsonp");
 
+// lets go:
+
+// BuildMedications();	// uncomment to run
+
+// hide the info by default
 $("#interactionsInfo").hide();
+
+// bind jQuery to the many ways to change the selection
+$("#searchBox").keyup( function() { visualFeedback() });
+$("#searchBox").blur(  function() { visualFeedback() });
+$("#searchBox").focus( function() { visualFeedback() });
+$("#searchBox").click( function() { visualFeedback() });
+$('.typeahead').bind('typeahead:cursorchange', function() { visualFeedback() });
+
+// create typeahead
+var Typeahead = CreateTypeahead();
+
+// bind the typeahead to the searchbox
+$("#searchBox").typeahead({ hint:false, highlight:true, minLength:1 },{ source:Typeahead, limit:10 });
 
 // bind the 'submit' synonyms
 $('.typeahead').bind('typeahead:select', function(event,string) {
@@ -369,7 +386,10 @@ $("#searchForm").submit( function(event) {
 // bind the  tooltip to all the dynamically created items with 'data-toggle' properties
 $('body').tooltip({ selector: '[data-toggle="tooltip"]', delay: { 'show':300, 'hide':100 }, placement:'right' });
 
+// redraw the page
 RefreshView();
+
+// nab the focus to the searchbox
 $("#searchBox").focus();
 
 }); // end of document ready
