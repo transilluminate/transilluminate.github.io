@@ -37,7 +37,7 @@ function AddMedication(Medication) {
 				MedicationDetails[Medication]['interactions'][InteractionTitle] = {
 					'url': InteractionLink,
 					'severity': InteractionSeverity,
-					'details': InteractionDetails.join("<br><br>")
+					'details': InteractionDetails
 				};
 			});
 		})
@@ -70,12 +70,14 @@ function inAvailableMedications(string){
 function RefreshView() {
 	var tableSize = (DisplayMedications.length + 1);
 	$("#interactionsTable").empty().hide();
-	$("#interactionsInfo").empty().hide();
+	$("#interactionDetails").empty().hide();
+	$("#stoppDetails").empty().hide();	
 	
 	var AnticholinergicBurden = getTotalAnticholinergicScore(DisplayMedications,ACB);
-	$("#interactionsInfo").append("<br><strong>Medications:</strong> " + DisplayMedications.join(', '));
-	$("#interactionsInfo").append("<br><strong>Total Anticholinergic Burden:</strong> " + getTotalAnticholinergicScore(DisplayMedications,ACB));
-	$("#interactionsInfo").append("<br><strong>Interactions:</strong> ");
+	$("#interactionDetails").append("<br><strong>Medications List:</strong> " + DisplayMedications.join(', '));
+	$("#interactionDetails").append("<br><strong>Total Anticholinergic Burden:</strong> " + getTotalAnticholinergicScore(DisplayMedications,ACB));
+	$("#interactionDetails").append("<br><strong>Interactions:</strong> ");
+	$("#stoppDetails").append("<br><strong><a target='_blank' href='https://doi.org/10.1093/ageing/afu145'>STOPP</a> Critera:</strong>")
 	
 	for (var y = 0; y < tableSize; y++) {						// step down line by line...
 	
@@ -94,8 +96,11 @@ function RefreshView() {
 				else {
 					row += "<td style='text-align:left; vertical-align:bottom'>";
 					
-					// toggle info button
-					row += "<button id='toggleInteractionDetails' class='btn btn-outline-secondary mr-sm-2 mt-sm-2'>Details <i id='infoToggleIcon' class='far fa-caret-square-down'></i></button>";
+					// Interaction Details
+					row += "<button id='toggleInteractionDetails' class='btn btn-outline-secondary mr-sm-2 mt-sm-2'>Interactions <i id='toggleInteractionDetailsIcon' class='far fa-caret-square-down'></i></button>";
+
+					// STOPP Criteria
+					row += "<button id='toggleStoppDetails' class='btn btn-outline-secondary mr-sm-2 mt-sm-2'>STOPP <i id='toggleStoppDetailsIcon' class='far fa-caret-square-down'></i></button>";
 
 					// polypharmacy alert!
 					if (tableSize >= 6) {
@@ -103,6 +108,7 @@ function RefreshView() {
 						row += "<button class='btn mr-sm-2 mt-sm-2 disabled " + button + "' data-toggle='tooltip' title='Polypharmacy!'><i class='fas fa-exclamation-triangle'></i></button>";
 					}
 					
+					// Anticholinergic Burden
 					if (AnticholinergicBurden) {
 						var button = (AnticholinergicBurden >= 3) ? 'btn-outline-danger' : 'btn-outline-warning';
 						row += "<button class='btn mr-sm-2 disabled " + button + " mr-sm-2 mt-sm-2' data-toggle='tooltip' title='Anticholinergic Burden = " + AnticholinergicBurden + "'>ACB " + AnticholinergicBurden + "</button>";
@@ -118,7 +124,6 @@ function RefreshView() {
 				
 				var rowTitle = DisplayMedications[y - 1];		// get the row header
 				var columnTitle = DisplayMedications[x - 1];	// and the column header
-				var AnticholinergicBurden = getAnticholinergicScore(rowTitle,ACB);
 				
 				if (y == 0) {	// create column headers
 					row += ("<th scope='column' class='rotate col-xs-2'>");
@@ -130,14 +135,36 @@ function RefreshView() {
 					row += ("</th>");
 				}
 				else if (x == 0) {		// create row headers
+				
+					var AnticholinergicBurden = getAnticholinergicScore(rowTitle,ACB);
+					
+					// messy
+					var stoppInfo = StoppInfo(rowTitle);
+					if (stoppInfo) {
+						$.each( stoppInfo, function( index, value ) {
+							var text = value['txt'];
+							var refs = value['refs'];
+							var html = "<li><strong>" + rowTitle + "</strong>: " + text;
+							var references = [];
+							$.each( refs, function( index, value ) {
+								var url = (value['PMID']) ? ("https://www.ncbi.nlm.nih.gov/pubmed/" + value['PMID']) : "#";
+								references.push("<a data-toggle='tooltip' title='" + value['ref'] + "' target='_blank' href='" + url + "'>" + (index+1) + "</a>");
+							});
+							var string = references.join(',');
+							html += string;
+							$("#stoppDetails").append(html);
+						});
+					}
+				
 					row += ("<th class='elementRow' scope='row' style='text-align:right'>");
 					row +=   ("<a class='btn btn-outline-secondary mr-sm-2' data-toggle='tooltip' title='" + rowTitle + "' role='button' target='_blank' href='" + MedicationDetails[rowTitle]['url'] + "'>");
 					row +=     (rowTitle);
 					row +=   ("</a>");
 
 					// anticholinergic burden
-					if (AnticholinergicBurden < 3) { button = 'btn-outline-warning' }
-					else if (AnticholinergicBurden >= 3) { button = 'btn-outline-danger' }
+					var button = 'btn-outline-success';
+					if (AnticholinergicBurden >= 1) { button = 'btn-outline-warning' }
+					if (AnticholinergicBurden >= 3) { button = 'btn-outline-danger' }
 					row +=   ("<button class='btn mr-sm-2 disabled " + button + "' data-toggle='tooltip' title='Anticholinergic Burden = " + AnticholinergicBurden + "'>");
 					row +=     (AnticholinergicBurden);
 					row +=   ("</button>");		
@@ -160,14 +187,14 @@ function RefreshView() {
 						var icon = (severity == "Severe") ? "fas fa-exclamation-triangle" : "fas fa-balance-scale";	// ... and icon from font awesome
 									// cells have colourized button, link to the interaction details, and a tooltip
 						row += ("<td>");
-						row +=   ("<a class='btn " + button + "' role='button' target='_blank' href='" + url + "' data-toggle='tooltip' data-html='true' title='" + details + "'>");
+						row +=   ("<a class='btn " + button + "' role='button' target='_blank' href='" + url + "' data-toggle='tooltip' data-html='true' title='" + details.join('<br><br>') + "'>");
 						row +=     ("<i class='" + icon + "'></i>");
 						row +=   ("</a>");
 						row += ("</td>");
 						
 						// add a note with explanatory text
 						if (DisplayMedications.length > 1 && x <= y) {
-							$("#interactionsInfo").append("<li>" + details);
+							$("#interactionDetails").append("<li>" + details.join('<li>'));
 						}
 					}
 					else {			// no interaction found, colour a blank cell green with a thumbs up!
@@ -192,19 +219,35 @@ function RefreshView() {
 	});
 
 	$("#toggleInteractionDetails").click( function() {
-		if ( $("#interactionsInfo").is(":visible") ) {
+		if ( $("#interactionDetails").is(":visible") ) {
 			// hide details
-			$("#interactionsInfo").fadeOut( "fast", function() {});
-			$("#infoToggleIcon").removeClass("fa-caret-square-up");
-			$("#infoToggleIcon").addClass("fa-caret-square-down");
+			$("#interactionDetails").fadeOut( "fast", function() {});
+			$("#toggleInteractionDetailsIcon").removeClass("fa-caret-square-up");
+			$("#toggleInteractionDetailsIcon").addClass("fa-caret-square-down");
 		}
 		else {
 			// show details
-			$("#interactionsInfo").fadeIn( "slow", function() {});
-			$("#infoToggleIcon").removeClass("fa-caret-square-down");
-			$("#infoToggleIcon").addClass("fa-caret-square-up");
+			$("#interactionDetails").fadeIn( "fast", function() {});
+			$("#toggleInteractionDetailsIcon").removeClass("fa-caret-square-down");
+			$("#toggleInteractionDetailsIcon").addClass("fa-caret-square-up");
 		}		
 	});
+
+	$("#toggleStoppDetails").click( function() {
+		if ( $("#stoppDetails").is(":visible") ) {
+			// hide details
+			$("#stoppDetails").fadeOut( "fast", function() {});
+			$("#toggleStoppDetailsIcon").removeClass("fa-caret-square-up");
+			$("#toggleStoppDetailsIcon").addClass("fa-caret-square-down");
+		}
+		else {
+			// show details
+			$("#stoppDetails").fadeIn( "fast", function() {});
+			$("#toggleStoppDetailsIcon").removeClass("fa-caret-square-down");
+			$("#toggleStoppDetailsIcon").addClass("fa-caret-square-up");
+		}		
+	});
+
 
 	// clear up and get ready for more!
 	$('.tooltip').tooltip('hide');	
@@ -212,11 +255,6 @@ function RefreshView() {
 	$("#searchBox").val('');
 	$(".typeahead").typeahead('val','');	
 }
-
-// get STOPP info // TODO
-// function StoppInfo (Medication) {
-// 
-// }
 
 // get anticholinergic risk
 function getAnticholinergicScore(Medication,RiskScore) {
@@ -231,6 +269,28 @@ function getTotalAnticholinergicScore(MedicationsArray,RiskScore) {
     };
     return score;
 };
+
+
+// get STOPP info
+function StoppInfo(Medication) {
+	var info = [];
+	$.each( STOPP, function( key, value ) {
+		$.each(key.split("|"), function (i,s){
+  			if (s == Medication) {
+  				info.push(value);
+  			}
+  			else if (MedicationClasses[s]) {
+  				$.each(MedicationClasses[s], function(i,s) {
+		  			if (s == Medication) {
+  						info.push(value);
+  					}
+  				})
+  			}
+		})
+	});
+	return info;
+}
+
 
 function visualFeedback() {	// conditional formatting of the submitButton and searchBox text
 	var searchTerm = $("#searchBox").val().toLowerCase();
@@ -297,6 +357,7 @@ function BuildMedications() {
 			// JSON file: cut and paste, insert into MedicationDetails variable
 			var jsonText = JSON.stringify(details);
 			// DownloadText(jsonText,'jsonText.txt');	// uncomment to download
+			console.log(jsonText);			
 		}
 	});
 }
@@ -353,7 +414,9 @@ $.get("https://ipinfo.io/json", function (response) {
 // BuildMedications();	// uncomment to run
 
 // hide the info by default
-$("#interactionsInfo").hide();
+$("#interactionDetails").hide();
+$("#stoppDetails").hide();
+
 
 // bind jQuery to the many ways to change the selection
 $("#searchBox").keyup( function() { visualFeedback() });
@@ -384,7 +447,7 @@ $("#searchForm").submit( function(event) {
 });
 
 // bind the  tooltip to all the dynamically created items with 'data-toggle' properties
-$('body').tooltip({ selector: '[data-toggle="tooltip"]', delay: { 'show':300, 'hide':100 }, placement:'right' });
+$('body').tooltip({ selector: '[data-toggle="tooltip"]', delay: { 'show':300, 'hide':100 } });
 
 // redraw the page
 RefreshView();
