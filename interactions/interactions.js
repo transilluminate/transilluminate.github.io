@@ -104,13 +104,13 @@ function RefreshView() {
 
 					// polypharmacy alert!
 					if (tableSize >= 6) {
-						var button = (tableSize >= 8) ? 'btn-outline-danger' : 'btn-outline-warning';
+						var button = (tableSize >= 8) ? 'btn-danger' : 'btn-warning';
 						row += "<button class='btn mr-sm-2 mt-sm-2 disabled " + button + "' data-toggle='tooltip' title='Polypharmacy!'><i class='fas fa-exclamation-triangle'></i></button>";
 					}
 					
 					// Anticholinergic Burden
 					if (AnticholinergicBurden) {
-						var button = (AnticholinergicBurden >= 3) ? 'btn-outline-danger' : 'btn-outline-warning';
+						var button = (AnticholinergicBurden >= 3) ? 'btn-danger' : 'btn-warning';
 						row += "<button class='btn mr-sm-2 disabled " + button + " mr-sm-2 mt-sm-2' data-toggle='tooltip' title='Anticholinergic Burden = " + AnticholinergicBurden + "'>ACB " + AnticholinergicBurden + "</button>";
 					}
 					
