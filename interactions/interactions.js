@@ -438,7 +438,7 @@ $('.typeahead').bind('typeahead:select', function(event,string) {
 });
 $("#submitButton").click( function(event) {
 	event.preventDefault();
-	string = $("#searchBox").val().toLowerCase();
+	var string = $("#searchBox").val().toLowerCase();
 	AddMedication(string);
 });
 $("#searchForm").submit( function(event) {
