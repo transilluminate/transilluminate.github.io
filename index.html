@@ -1,55 +1,145 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<meta name="author"    content="Adrian Robinson" />
-		<meta name="copyright" content="&copy; 2019 Adrian Robinson" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" integrity="sha256-BtbhCIbtfeVWGsqxk1vOHEYXS6qcvQvLMZqjtpWUEx8=" crossorigin="anonymous" />		
-		<link rel="stylesheet" href="interactions.css" />
-		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-		<link rel="manifest" href="interactions-site.webmanifest" />
-		<title>Meds Interactions</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Adrian Robinson">
+		<title>transilluminate</title>
+
+		<!-- Google analytics -->
+		<script type="application/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-100645523-1', 'auto');ga('send', 'pageview');</script>
+
+		<!-- Icons -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+		<link rel="manifest" href="/icons/manifest.json">
+		<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="/icons/favicon.ico">
+		<meta name="msapplication-config" content="/icons/browserconfig.xml">
+
+		<!-- Local hosted css with custom classes to avoid adblocking social icons -->
+		<link rel="stylesheet" href="fontawesome-4.7.0.css">
+
+		<!-- jQuery and Velocity.js javascript libraries -->
+		<script type="application/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
+
+		<style type="text/css">
+			html { height: 100%; width: 100%; } // fixing background gradient bug on chrome
+			* { margin: 0px; padding: 0px; border:0px; overflow: visible; }
+			body {
+				height: 100%; width: 100%; margin:0px; padding: 0px; border: 0px;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background: rgba(115,167,221,1);
+				background: -moz-linear-gradient(top, rgba(115,167,221,1) 0%, rgba(204,225,245,1) 100%);
+				background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(115,167,221,1)), color-stop(100%, rgba(204,225,245,1)));
+				background: -webkit-linear-gradient(top, rgba(115,167,221,1) 0%, rgba(204,225,245,1) 100%);
+				background: -o-linear-gradient(top, rgba(115,167,221,1) 0%, rgba(204,225,245,1) 100%);
+				background: -ms-linear-gradient(top, rgba(115,167,221,1) 0%, rgba(204,225,245,1) 100%);
+				background: linear-gradient(to bottom, rgba(115,167,221,1) 0%, rgba(204,225,245,1) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73a7dd', endColorstr='#cce1f5', GradientType=0 );
+			}
+			#bottomBar { position:fixed; width:100%; height:126px; bottom:-100px; background:#0f0f0f; }
+			#bottomBarText {
+				position:absolute; top:0; width: auto; right: 384px; left: 0px; height: 26px;
+				font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px; text-align: left; padding-left: 20px; color:rgba(115,167,221,1);
+			}
+			a { color:rgba(145,197,251,1); text-decoration:none; border-bottom:none; }
+			#lookingUp img { position:fixed; width:284px; height:284px; bottom:0px; right:100px; }
+			#cloudContainer { position: absolute; width: auto; height: auto; left: 100px; right: 100px; top: 50px; bottom: 200px; }
+			#cloudDiv { position: absolute; width:20px; height:20px; margin-left:-10px; margin-top:-10px; }
+			#cloudImg { position: absolute; width: 256px; height: 256px; margin-left: -128px; margin-top: -128px; }
+			#cloudTxt { position: absolute; width: 80px; height: 80px; margin-top:-40px; margin-left:-40px; font-size:80px; line-height:0px; top: 0px; }
+		</style>
+
+		<script type="application/javascript">
+			function addCloud(positionX,positionY,density,scale) {
+				var cloudDiv = document.createElement("div");
+				$(cloudDiv).attr("id","cloudDiv");
+				$(cloudDiv).css( {left: positionX+"%"} );
+				$(cloudDiv).css( {top: positionY+"%"} );
+				$(cloudContainer).append(cloudDiv);
+				for( var i = 0; i < density; i++ ) {
+					var cloudImg = document.createElement("img");
+					$(cloudImg).attr("id","cloudImg");
+					$(cloudImg).attr("src","cloud_transparent.png"); // hard code the .png with transparency at 20%
+					var x = (50 - (Math.floor( Math.random() * 100))) * scale;
+					var y = (50 - (Math.floor( Math.random() * 100))) * scale;
+					var z = ( Math.floor( Math.random() * 360 ));
+					$(cloudImg).css("transform","translateX("+x+"px) translateY("+y+"px) rotate("+z+"deg) scale("+scale+","+scale+")");
+					$(cloudDiv).append(cloudImg);
+				};
+			};
+			function addText(positionX,positionY,html) {
+				var cloudTxt = document.createElement("div");
+				$(cloudTxt).attr("id","cloudTxt");
+				$(cloudTxt).css( {left: positionX+"%"} );
+				$(cloudTxt).css( {top: positionY+"%"} );
+				$(cloudTxt).css("opacity","0.6");
+				$(cloudTxt).html(html);
+				$(cloudContainer).append(cloudTxt);
+			};
+			function buildClouds() {
+				// 2 thought bubbles
+				addCloud(80,90,8,0.3);
+				addCloud(70,70,8,0.7);
+				// some random 'fluffiness'
+				addCloud(0,10,4,0.5);
+				addCloud(30,20,4,2.0);
+				addCloud(50,35,4,1.6);
+				addCloud(40,30,4,1.2);
+				addCloud(50,20,4,1.2);
+				addCloud(70,20,4,0.8);
+				addCloud(80,25,4,1.4);
+				// dense clouds covering the social media places
+				addCloud(10,24,8,1); // twitter
+				addCloud(25,38,8,1); // facebook
+				addCloud(33,13,8,1); // instagram
+				addCloud(40,45,8,1); // reddit
+				addCloud(54,25,8,1); // linkedin
+				addCloud(68,15,8,1); // github
+				addCloud(90,20,8,1); // keybase
+			};
+			function buildIcons() {
+				var facebookHTML = "<a href='https://facebook.com/transilluminate' target='_blank'><i class='fa fa-ffaacceebbooookk-official' aria-hidden='true' title='Facebook: facebook.com/transilluminate' aria-label='Facebook'></i></a>";
+				var twitterHTML = "<a href='https://twitter.com/transilluminate' target='_blank'><i class='fa fa-ttwwiitttteerr' aria-hidden='true' title='Twitter: twitter.com/transilluminate' aria-label='Twitter'></i></a>";
+				var instagramHTML = "<a href='https://www.instagram.com/transilluminate/' target='_blank'><i class='fa fa-iinnssttaaggrraamm' aria-hidden='true' title='Instagram: instagram.com/transilluminate' aria-label='Instagram'></i></a>";
+				var githubHTML = "<a href='https://github.com/transilluminate' target='_blank'><i class='fa fa-ggiitthhuubb' aria-hidden='true' title='Github: github.com/transilluminate' aria-label='Github'></i></a>";
+				var linkedinHTML = "<a href='https://www.linkedin.com/in/transilluminate/' target='_blank'><i class='fa fa-lliinnkkeeddiinn-square' aria-hidden='true' title='LinkedIn linkedin.com/in/transilluminate' aria-label='LinkedIn'></i></a>";
+				var keybaseHTML = "<a href='https://keybase.io/transilluminate' target='_blank' title='Keybase'><i class='fa fa-lock' aria-hidden='true' title='Keybase: keybase.io/transilluminate' aria-label='Keybase'></i></a>";
+				var redditHTML = "<a href='https://www.reddit.com/user/transilluminate' target='_blank' title='Reddit'><i class='fa fa-reddit-alien' aria-hidden='true' title='Reddit: reddit.com/u/transilluminate' aria-label='Reddit'></i></a>";
+				var mediumHTML = "<a href='https://medium.com/@transilluminate' target='_blank' title='Medium'><i class='fa fa-medium' aria-hidden='true' title='Medium: medium.com/@transilluminate' aria-label='Medium'></i></a>";
+				// social icons
+				addText(10,24,twitterHTML);
+				addText(25,38,facebookHTML);
+				addText(33,13,instagramHTML);
+				addText(40,45,redditHTML);
+				addText(54,25,linkedinHTML);
+				addText(68,15,githubHTML);
+				addText(90,20,keybaseHTML);
+			};
+			$(document).ready(function(){
+				buildClouds();
+				buildIcons();
+				$(cloudContainer).hide().velocity("fadeIn", {duration: 1500} );
+				$(cloudTxt).hover(zoomIn,zoomOut);
+				function zoomIn(){ $(this).velocity( {opacity:1, scale: 1.6} ); };
+				function zoomOut(){ $(this).velocity("reverse") };
+			});
+		</script>
 	</head>
 	<body>
-		<header>
-			<nav class="navbar justify-content-between navbar-light" style="background-color: #eee">
-				<a class="navbar-brand mr-auto" href="https://transilluminate.org/interactions/">
-					<img src="logo.svg" width="30" height="30" class="d-inline-block align-top" alt="logo: 3 intersecting rings">
-					Medication Interactions
-				</a>
-				<form id="searchForm" class="form-inline">
-					<input id="searchBox" class="form-control typeahead mr-sm-2" placeholder="Search BNF..." type="search" aria-label="Search" data-provide="typeahead" autocomplete="off" />
-					<button id="submitButton" class="btn btn-outline-secondary disabled" type="submit">Add Medication</button>
-				</form>
-			</nav>
-		</header>
-		
-		<main>
-			<div class="container-fluid">
-				<table id="resultsTable" class="table text-center"></table>
-			</div>
-		</main>
-		
-		<div class="container" id="console" aria-hidden="true"><pre><code></code></pre></div>
-		
-		<footer class="footer fixed-bottom" style="background-color: #eee;">
-			<div class="container text-center">
-				<div class="text-muted small">
-					Copyright &copy; Adrian Robinson 2019
-					| <a href='https://transilluminate.org/' target='_blank'>transilluminate.org</a>
-					| Data from the <a href='https://bnf.nice.org.uk/interaction/' target='_blank'>BNF</a> <i class="fas fa-heart text-danger"></i>					
-				</div>
-				<div class="small text-danger">Warning: demo page, don't use for clinical decisions!</div>
-			</div>
-		</footer>		
-
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js" integrity="sha256-fTuUgtT7O2rqoImwjrhDgbXTKUwyxxujIMRIK7TbuNU=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha256-CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/corejs-typeahead/1.2.1/typeahead.bundle.min.js" integrity="sha256-VCsWOz+0GuHdS/sIICtQNTFJdbaDI80rxvoB7BXabrU=" crossorigin="anonymous"></script>
-		<script src="interactions.js"></script>
+		<div id="cloudContainer"></div>
+		<div id="bottomBar"><div id="bottomBarText"><a href="https://transilluminate.org">transilluminate.org</a></div></div>
+		<div id="lookingUp"><img alt="@transilluminate looking up" src="lookingUp.png"/></div>
 	</body>
 </html>
+<!--
+Thanks for looking! I used inspiration from a CSS 3D clouds tutorial from https://www.clicktorelease.com/code/css3dclouds/,
+but with many modifications mostly to use jQuery instead of a DOM model. The background gradient was generated using the
+http://www.cssmatic.com/gradient-generator, the social media icons are from http://fontawesome.io, and the PNG cloud
+was used from http://www.scri8e.com/stars/PNG_Clouds/. As they don't have any copyright info on scri8e and the cloud is
+drastically changed from the original, I believe this to be fair use! Any issues, please get in contact on any of the social
+media sites above. Images were optimised with http://tinypng.com, hosted on http://github.com pages. Much love <3
+-->
