@@ -411,7 +411,7 @@ $.get("https://ipinfo.io/json", function (response) {
 	}
 }, "jsonp");
 
-// try to limit to the UK
+// add disclaimer popup
 alert("Disclaimer:\n\nThe materials on this site are meant for proof-of-concept and demonstration purposes only, and are not meant to be used for clinical decision making in any way.\n\nIn no event will the author be held liable for any decision made or action taken in reliance upon the information provided. \n\nUse at your own risk!");
 
 // lets go:
