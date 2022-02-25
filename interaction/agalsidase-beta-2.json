@@ -1,0 +1,196 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/agalsidase-beta-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/agalsidase-beta-2#bnf_i1643857922501",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/agalsidase-beta-2#bnf_i1643857922501_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"amikacin\" outputclass=\"int-drug\">Amikacin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"agalsidase beta\" outputclass=\"int-heading-drug\">agalsidase beta</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Amikacin   is predicted to   decrease   the effects of   agalsidase beta .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amikacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/agalsidase-beta-2#bnf_i1643857922502",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/agalsidase-beta-2#bnf_i1643857922502_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"amiodarone\" outputclass=\"int-drug\">Amiodarone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"agalsidase beta\" outputclass=\"int-heading-drug\">agalsidase beta</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Amiodarone   is predicted to   decrease   the effects of   agalsidase beta .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amiodarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/agalsidase-beta-2#bnf_i1643857922503",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/agalsidase-beta-2#bnf_i1643857922503_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloroquine\" outputclass=\"int-drug\">Chloroquine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"agalsidase beta\" outputclass=\"int-heading-drug\">agalsidase beta</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloroquine   is predicted to   decrease   the effects of   agalsidase beta .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chloroquine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/agalsidase-beta-2#bnf_i1643857922504",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/agalsidase-beta-2#bnf_i1643857922504_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gentamicin\" outputclass=\"int-drug\">Gentamicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"agalsidase beta\" outputclass=\"int-heading-drug\">agalsidase beta</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gentamicin   is predicted to   decrease   the effects of   agalsidase beta .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gentamicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/agalsidase-beta-2#bnf_i1643857922505",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/agalsidase-beta-2#bnf_i1643857922505_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"hydroxychloroquine\" outputclass=\"int-drug\">Hydroxychloroquine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"agalsidase beta\" outputclass=\"int-heading-drug\">agalsidase beta</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Hydroxychloroquine   is predicted to   decrease   the exposure to   agalsidase beta .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroxychloroquine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/agalsidase-beta-2#bnf_i1643857922506",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/agalsidase-beta-2#bnf_i1643857922506_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"streptomycin\" outputclass=\"int-drug\">Streptomycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"agalsidase beta\" outputclass=\"int-heading-drug\">agalsidase beta</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Streptomycin   is predicted to   decrease   the effects of   agalsidase beta .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Streptomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/agalsidase-beta-2#bnf_i1643857922507",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/agalsidase-beta-2#bnf_i1643857922507_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tobramycin\" outputclass=\"int-drug\">Tobramycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"agalsidase beta\" outputclass=\"int-heading-drug\">agalsidase beta</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tobramycin   is predicted to   decrease   the effects of   agalsidase beta .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tobramycin</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Agalsidase beta  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/agalsidase-beta-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Agalsidase beta </title>"
+			},
+			"rdfs:label": "agalsidase beta"
+		}
+	]
+}

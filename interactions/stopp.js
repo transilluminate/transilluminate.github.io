@@ -1,4 +1,4 @@
-// stopp.js
+// © Copyright 2019-2022 Adrian Robinson. All rights reserved.
 
 // STOPP/START criteria for potentially inappropriate prescribing in older people, version 2: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4339726/
 // Supplementary Data: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4339726/bin/supp_44_2_213__index.html

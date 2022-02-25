@@ -1,0 +1,69 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/oxytocin-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/oxytocin-2#bnf_i1643857997497",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/oxytocin-2#bnf_i1643857997497_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"misoprostol\" outputclass=\"int-drug\">Misoprostol</ph> <ph outputclass=\"int-effect\">can cause</ph> <ph outputclass=\"int-parameter\">uterine contractions, as can</ph> <ph otherprops=\"oxytocin\" outputclass=\"int-heading-drug\">oxytocin</ph> <ph outputclass=\"int-substanceQualifier\">; concurrent use might increase the risk of developing this effect</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 4 hours after stopping <ph otherprops=\"misoprostol\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/misoprostol.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP428\">misoprostol</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Misoprostol   can cause   uterine contractions, as can   oxytocin   ; concurrent use might increase the risk of developing this effect .  Manufacturer advises avoid and for 4 hours after stopping  misoprostol .    \n\n"
+						}
+					],
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Misoprostol</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Oxytocin  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/oxytocin-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Oxytocin </title>"
+			},
+			"rdfs:label": "oxytocin"
+		}
+	]
+}

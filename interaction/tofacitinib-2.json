@@ -35,10 +35,52 @@
 			"@type": "InteractionList",
 			"hasInteraction": [
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774196",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024444",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774196_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024444_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">Tofacitinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding when given with</ph> <ph otherprops=\"acenocoumarol\" outputclass=\"int-drug\">acenocoumarol</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tofacitinib   is predicted to   increase   the risk of bleeding when given with   acenocoumarol .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acenocoumarol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024445",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024445_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"apalutamide\" outputclass=\"int-drug\">Apalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Apalutamide   is predicted to   decrease   the exposure to   tofacitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024446",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024446_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"aprepitant\" outputclass=\"int-drug\">Aprepitant</ph> <ph outputclass=\"int-substanceQualifier\">given with a potent CYP2C19 inhibitor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -49,17 +91,17 @@
 							"hasTextContent": "Aprepitant   given with a potent CYP2C19 inhibitor   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "1",
+					"hasOrder": "3",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Aprepitant</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774197",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024447",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774197_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024447_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"atazanavir\" outputclass=\"int-drug\">Atazanavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -70,17 +112,17 @@
 							"hasTextContent": "Atazanavir   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "2",
+					"hasOrder": "4",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Atazanavir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774198",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024448",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774198_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024448_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"Bacillus Calmette-Guérin vaccine\" outputclass=\"int-drug\">Bacillus Calmette-Guérin vaccine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -91,17 +133,17 @@
 							"hasTextContent": "Bacillus Calmette-Guérin vaccine   potentially   increases   the risk of generalised infection (possibly life-threatening) when given with   tofacitinib .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "3",
+					"hasOrder": "5",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Bacillus Calmette-Guérin vaccine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774199",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024449",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774199_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024449_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"bosentan\" outputclass=\"int-drug\">Bosentan</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -112,17 +154,17 @@
 							"hasTextContent": "Bosentan   is predicted to   decrease   the exposure to   tofacitinib .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "4",
+					"hasOrder": "6",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Bosentan</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774200",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024450",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774200_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024450_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -133,17 +175,17 @@
 							"hasTextContent": "Carbamazepine   is predicted to   decrease   the exposure to   tofacitinib .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "5",
+					"hasOrder": "7",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Carbamazepine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774201",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024451",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774201_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024451_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ciclosporin\" outputclass=\"int-drug\">Ciclosporin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -154,17 +196,17 @@
 							"hasTextContent": "Ciclosporin   increases   the exposure to   tofacitinib .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "6",
+					"hasOrder": "8",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Ciclosporin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774202",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024452",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774202_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024452_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"clarithromycin\" outputclass=\"int-drug\">Clarithromycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -175,17 +217,17 @@
 							"hasTextContent": "Clarithromycin   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "7",
+					"hasOrder": "9",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Clarithromycin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774203",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024453",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774203_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024453_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cobicistat\" outputclass=\"int-drug\">Cobicistat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -196,17 +238,17 @@
 							"hasTextContent": "Cobicistat   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "8",
+					"hasOrder": "10",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Cobicistat</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774204",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024454",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774204_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024454_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"crizotinib\" outputclass=\"int-drug\">Crizotinib</ph> <ph outputclass=\"int-substanceQualifier\">given with a potent CYP2C19 inhibitor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -217,17 +259,38 @@
 							"hasTextContent": "Crizotinib   given with a potent CYP2C19 inhibitor   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "9",
+					"hasOrder": "11",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Crizotinib</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774205",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024455",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774205_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024455_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"dabrafenib\" outputclass=\"int-drug\">Dabrafenib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Dabrafenib   is predicted to   decrease   the exposure to   tofacitinib .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dabrafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024456",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024456_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"darunavir\" outputclass=\"int-drug\">Darunavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -238,17 +301,17 @@
 							"hasTextContent": "Darunavir   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "10",
+					"hasOrder": "13",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Darunavir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774206",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024457",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774206_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024457_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"diltiazem\" outputclass=\"int-drug\">Diltiazem</ph> <ph outputclass=\"int-substanceQualifier\">given with a potent CYP2C19 inhibitor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -259,17 +322,17 @@
 							"hasTextContent": "Diltiazem   given with a potent CYP2C19 inhibitor   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "11",
+					"hasOrder": "14",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Diltiazem</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774207",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024458",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774207_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024458_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"dronedarone\" outputclass=\"int-drug\">Dronedarone</ph> <ph outputclass=\"int-substanceQualifier\">given with a potent CYP2C19 inhibitor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -280,17 +343,17 @@
 							"hasTextContent": "Dronedarone   given with a potent CYP2C19 inhibitor   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "12",
+					"hasOrder": "15",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Dronedarone</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774208",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024459",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774208_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024459_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"efavirenz\" outputclass=\"int-drug\">Efavirenz</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -301,17 +364,17 @@
 							"hasTextContent": "Efavirenz   is predicted to   decrease   the exposure to   tofacitinib .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "13",
+					"hasOrder": "16",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Efavirenz</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774209",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024460",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774209_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024460_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"enzalutamide\" outputclass=\"int-drug\">Enzalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -322,17 +385,17 @@
 							"hasTextContent": "Enzalutamide   is predicted to   decrease   the exposure to   tofacitinib .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "14",
+					"hasOrder": "17",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Enzalutamide</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774210",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024461",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774210_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024461_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"erythromycin\" outputclass=\"int-drug\">Erythromycin</ph> <ph outputclass=\"int-substanceQualifier\">given with a potent CYP2C19 inhibitor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -343,38 +406,59 @@
 							"hasTextContent": "Erythromycin   given with a potent CYP2C19 inhibitor   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "15",
+					"hasOrder": "18",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Erythromycin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774211",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024462",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774211_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024462_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fluconazole\" outputclass=\"int-drug\">Fluconazole</ph> <ph outputclass=\"int-substanceQualifier\">given with a potent CYP2C19 inhibitor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"filgotinib\" outputclass=\"int-drug\">Filgotinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of immunosuppression when given with</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Filgotinib   is predicted to   increase   the risk of immunosuppression when given with   tofacitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Filgotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024463",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024463_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fluconazole\" outputclass=\"int-drug\">Fluconazole</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Fluconazole   given with a potent CYP2C19 inhibitor   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
+							"hasTextContent": "Fluconazole   increases   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "16",
+					"hasOrder": "20",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Fluconazole</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774212",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024464",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774212_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024464_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fluoxetine\" outputclass=\"int-drug\">Fluoxetine</ph> <ph outputclass=\"int-substanceQualifier\">given with a moderate CYP3A4 inhibitor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -385,17 +469,17 @@
 							"hasTextContent": "Fluoxetine   given with a moderate CYP3A4 inhibitor   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "17",
+					"hasOrder": "21",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Fluoxetine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774213",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024465",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774213_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024465_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fluvoxamine\" outputclass=\"int-drug\">Fluvoxamine</ph> <ph outputclass=\"int-substanceQualifier\">given with a moderate CYP3A4 inhibitor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -406,17 +490,17 @@
 							"hasTextContent": "Fluvoxamine   given with a moderate CYP3A4 inhibitor   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "18",
+					"hasOrder": "22",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Fluvoxamine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774214",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024466",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774214_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024466_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fosamprenavir\" outputclass=\"int-drug\">Fosamprenavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -427,17 +511,17 @@
 							"hasTextContent": "Fosamprenavir   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "19",
+					"hasOrder": "23",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Fosamprenavir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774215",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024467",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774215_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024467_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -448,17 +532,38 @@
 							"hasTextContent": "Fosphenytoin   is predicted to   decrease   the exposure to   tofacitinib .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "20",
+					"hasOrder": "24",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Fosphenytoin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774216",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024468",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774216_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024468_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"herpes-zoster vaccine, live\" outputclass=\"int-drug\">Herpes-zoster vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Herpes-zoster vaccine, live   potentially   increases   the risk of generalised infection (possibly life-threatening) when given with   tofacitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Herpes-zoster vaccine, live</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024469",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024469_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"idelalisib\" outputclass=\"int-drug\">Idelalisib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -469,17 +574,17 @@
 							"hasTextContent": "Idelalisib   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "21",
+					"hasOrder": "26",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Idelalisib</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774217",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024470",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774217_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024470_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"imatinib\" outputclass=\"int-drug\">Imatinib</ph> <ph outputclass=\"int-substanceQualifier\">given with a potent CYP2C19 inhibitor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -490,17 +595,17 @@
 							"hasTextContent": "Imatinib   given with a potent CYP2C19 inhibitor   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "22",
+					"hasOrder": "27",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Imatinib</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774218",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024471",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774218_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024471_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"influenza vaccine (live)\" outputclass=\"int-drug\">Influenza vaccine (live)</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -511,17 +616,17 @@
 							"hasTextContent": "Influenza vaccine (live)   potentially   increases   the risk of generalised infection (possibly life-threatening) when given with   tofacitinib .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "23",
+					"hasOrder": "28",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Influenza vaccine (live)</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774219",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024472",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774219_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024472_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"isavuconazole\" outputclass=\"int-drug\">Isavuconazole</ph> <ph outputclass=\"int-substanceQualifier\">given with a potent CYP2C19 inhibitor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -532,17 +637,17 @@
 							"hasTextContent": "Isavuconazole   given with a potent CYP2C19 inhibitor   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "24",
+					"hasOrder": "29",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Isavuconazole</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774220",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024473",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774220_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024473_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"itraconazole\" outputclass=\"int-drug\">Itraconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -553,17 +658,17 @@
 							"hasTextContent": "Itraconazole   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "25",
+					"hasOrder": "30",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Itraconazole</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774221",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024474",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774221_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024474_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ketoconazole\" outputclass=\"int-drug\">Ketoconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -574,17 +679,38 @@
 							"hasTextContent": "Ketoconazole   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "26",
+					"hasOrder": "31",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Ketoconazole</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774222",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024475",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774222_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024475_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"letermovir\" outputclass=\"int-drug\">Letermovir</ph> <ph outputclass=\"int-substanceQualifier\">given with a potent CYP2C19 inhibitor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Letermovir   given with a potent CYP2C19 inhibitor   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Letermovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024476",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024476_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lopinavir\" outputclass=\"int-drug\">Lopinavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -595,17 +721,17 @@
 							"hasTextContent": "Lopinavir   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "27",
+					"hasOrder": "33",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Lopinavir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774223",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024477",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774223_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024477_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"measles, mumps and rubella vaccine, live\" outputclass=\"int-drug\">Measles, mumps and rubella vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -616,17 +742,17 @@
 							"hasTextContent": "Measles, mumps and rubella vaccine, live   potentially   increases   the risk of generalised infection (possibly life-threatening) when given with   tofacitinib .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "28",
+					"hasOrder": "34",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Measles, mumps and rubella vaccine, live</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774224",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024478",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774224_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024478_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mitotane\" outputclass=\"int-drug\">Mitotane</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -637,17 +763,17 @@
 							"hasTextContent": "Mitotane   is predicted to   decrease   the exposure to   tofacitinib .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "29",
+					"hasOrder": "35",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Mitotane</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774225",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024479",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774225_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024479_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"netupitant\" outputclass=\"int-drug\">Netupitant</ph> <ph outputclass=\"int-substanceQualifier\">given with a potent CYP2C19 inhibitor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -658,17 +784,17 @@
 							"hasTextContent": "Netupitant   given with a potent CYP2C19 inhibitor   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "30",
+					"hasOrder": "36",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Netupitant</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774226",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024480",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774226_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024480_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"nevirapine\" outputclass=\"int-drug\">Nevirapine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -679,17 +805,17 @@
 							"hasTextContent": "Nevirapine   is predicted to   decrease   the exposure to   tofacitinib .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "31",
+					"hasOrder": "37",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Nevirapine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774227",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024481",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774227_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024481_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"nilotinib\" outputclass=\"int-drug\">Nilotinib</ph> <ph outputclass=\"int-substanceQualifier\">given with a potent CYP2C19 inhibitor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -700,17 +826,38 @@
 							"hasTextContent": "Nilotinib   given with a potent CYP2C19 inhibitor   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "32",
+					"hasOrder": "38",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Nilotinib</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774228",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024482",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774228_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024482_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">Tofacitinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding when given with</ph> <ph otherprops=\"phenindione\" outputclass=\"int-drug\">phenindione</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tofacitinib   is predicted to   increase   the risk of bleeding when given with   phenindione .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenindione</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024483",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024483_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -721,17 +868,17 @@
 							"hasTextContent": "Phenobarbital   is predicted to   decrease   the exposure to   tofacitinib .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "33",
+					"hasOrder": "40",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Phenobarbital</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774229",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024484",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774229_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024484_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -742,38 +889,38 @@
 							"hasTextContent": "Phenytoin   is predicted to   decrease   the exposure to   tofacitinib .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "34",
+					"hasOrder": "41",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Phenytoin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774230",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024485",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774230_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024485_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"posaconazole\" outputclass=\"int-drug\">Posaconazole</ph> <ph outputclass=\"int-substanceQualifier\">given with a potent CYP2C19 inhibitor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
 							},
-							"hasEvidence": "Study",
+							"hasEvidence": "Theoretical",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
 							"hasTextContent": "Posaconazole   given with a potent CYP2C19 inhibitor   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "35",
+					"hasOrder": "42",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Posaconazole</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774231",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024486",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774231_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024486_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -784,17 +931,17 @@
 							"hasTextContent": "Primidone   is predicted to   decrease   the exposure to   tofacitinib .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "36",
+					"hasOrder": "43",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Primidone</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774232",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024487",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774232_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024487_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -805,17 +952,17 @@
 							"hasTextContent": "Rifampicin   is predicted to   decrease   the exposure to   tofacitinib .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "37",
+					"hasOrder": "44",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Rifampicin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774233",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024488",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774233_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024488_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ritonavir\" outputclass=\"int-drug\">Ritonavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -826,17 +973,17 @@
 							"hasTextContent": "Ritonavir   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "38",
+					"hasOrder": "45",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Ritonavir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774234",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024489",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774234_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024489_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rotavirus vaccine\" outputclass=\"int-drug\">Rotavirus vaccine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -847,59 +994,38 @@
 							"hasTextContent": "Rotavirus vaccine   potentially   increases   the risk of generalised infection (possibly life-threatening) when given with   tofacitinib .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "39",
+					"hasOrder": "46",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Rotavirus vaccine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774235",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024490",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774235_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024490_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"saquinavir\" outputclass=\"int-drug\">Saquinavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"St John's wort\" outputclass=\"int-drug\">St John's wort</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Saquinavir   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
+							"hasTextContent": "St John's wort   is predicted to   decrease   the exposure to   tofacitinib .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "40",
+					"hasOrder": "47",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Saquinavir</title>"
+						"@value": "<title>St John's wort</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774236",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024491",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774236_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"St John's Wort\" outputclass=\"int-drug\">St John's Wort</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
-							},
-							"hasEvidence": "Study",
-							"hasImportance": "Moderate",
-							"hasOrder": "1",
-							"hasTextContent": "St John's Wort   is predicted to   decrease   the exposure to   tofacitinib .  Manufacturer makes no recommendation .    \n\n"
-						}
-					],
-					"hasOrder": "41",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>St John's Wort</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774237",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774237_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024491_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tacrolimus\" outputclass=\"int-drug\">Tacrolimus</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -910,17 +1036,17 @@
 							"hasTextContent": "Tacrolimus   increases   the exposure to   tofacitinib .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "42",
+					"hasOrder": "48",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Tacrolimus</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774238",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024492",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774238_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024492_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tipranavir\" outputclass=\"int-drug\">Tipranavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -931,17 +1057,17 @@
 							"hasTextContent": "Tipranavir   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "43",
+					"hasOrder": "49",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Tipranavir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774239",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024493",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774239_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024493_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"typhoid vaccine, oral\" outputclass=\"int-drug\">Typhoid vaccine, oral</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -952,17 +1078,17 @@
 							"hasTextContent": "Typhoid vaccine, oral   potentially   increases   the risk of generalised infection (possibly life-threatening) when given with   tofacitinib .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "44",
+					"hasOrder": "50",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Typhoid vaccine, oral</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774240",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024494",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774240_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024494_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"varicella-zoster vaccine\" outputclass=\"int-drug\">Varicella-zoster vaccine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -973,17 +1099,17 @@
 							"hasTextContent": "Varicella-zoster vaccine   potentially   increases   the risk of generalised infection (possibly life-threatening) when given with   tofacitinib .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "45",
+					"hasOrder": "51",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Varicella-zoster vaccine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774241",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024495",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774241_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024495_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"verapamil\" outputclass=\"int-drug\">Verapamil</ph> <ph outputclass=\"int-substanceQualifier\">given with a potent CYP2C19 inhibitor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -994,17 +1120,17 @@
 							"hasTextContent": "Verapamil   given with a potent CYP2C19 inhibitor   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "46",
+					"hasOrder": "52",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Verapamil</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774242",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024496",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774242_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024496_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"voriconazole\" outputclass=\"int-drug\">Voriconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tofacitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213798\">tofacitinib</xref></ph> dose</ph>.  </p>"
@@ -1015,17 +1141,38 @@
 							"hasTextContent": "Voriconazole   is predicted to   increase   the exposure to   tofacitinib .  Manufacturer advises adjust  tofacitinib  dose .    \n\n"
 						}
 					],
-					"hasOrder": "47",
+					"hasOrder": "53",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Voriconazole</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774243",
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024497",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1557280774243_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024497_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">Tofacitinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of bleeding when given with</ph> <ph otherprops=\"warfarin\" outputclass=\"int-drug\">warfarin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tofacitinib   is predicted to   increase   the risk of bleeding when given with   warfarin .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Warfarin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024498",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tofacitinib-2#bnf_i1643858024498_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"yellow fever vaccine, live\" outputclass=\"int-drug\">Yellow fever vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"tofacitinib\" outputclass=\"int-heading-drug\">tofacitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -1036,7 +1183,7 @@
 							"hasTextContent": "Yellow fever vaccine, live   potentially   increases   the risk of generalised infection (possibly life-threatening) when given with   tofacitinib .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "48",
+					"hasOrder": "55",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Yellow fever vaccine, live</title>"

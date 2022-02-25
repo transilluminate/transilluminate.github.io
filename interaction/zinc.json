@@ -35,31 +35,52 @@
 			"@type": "InteractionList",
 			"hasInteraction": [
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782701",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034367",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782701_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034367_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"alendronic acid\" outputclass=\"int-drug\">alendronic acid</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> (<ph otherprops=\"zinc acetate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/zinc-acetate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6306\">zinc acetate</xref></ph>, <ph otherprops=\"zinc sulfate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/zinc-sulfate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6172\">zinc sulfate</xref></ph>) should be taken at least 30 minutes before <ph otherprops=\"alendronic acid\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/alendronic-acid.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4656\">alendronic acid</xref></ph></ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"alendronate\" outputclass=\"int-drug\">alendronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"alendronate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/alendronic-acid.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4656\">alendronate</xref></ph> should be taken at least 30 minutes before <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> (<ph otherprops=\"zinc acetate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/zinc-acetate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6306\">zinc acetate</xref></ph>, <ph otherprops=\"zinc sulfate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/zinc-sulfate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6172\">zinc sulfate</xref></ph>)</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Oral   zinc   decreases   the absorption of   oral   alendronic acid .  Manufacturer advises  zinc  ( zinc acetate ,  zinc sulfate ) should be taken at least 30 minutes before  alendronic acid .    \n\n"
+							"hasTextContent": "Oral   zinc   decreases   the absorption of   oral   alendronate .  Manufacturer advises  alendronate  should be taken at least 30 minutes before  zinc  ( zinc acetate ,  zinc sulfate ) .    \n\n"
 						}
 					],
 					"hasOrder": "1",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Alendronic acid</title>"
+						"@value": "<title>Alendronate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782702",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034368",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782702_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034368_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of the active metabolite of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"baloxavir marboxil\" outputclass=\"int-drug\">baloxavir marboxil</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   zinc   might   decrease   the concentration of the active metabolite of   oral   baloxavir marboxil .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Baloxavir marboxil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034369",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034369_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium acetate\" outputclass=\"int-drug\">calcium acetate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -70,17 +91,17 @@
 							"hasTextContent": "Oral   calcium acetate   decreases   the absorption of   zinc .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "2",
+					"hasOrder": "3",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Calcium acetate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782703",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034370",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782703_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034370_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-drug\">calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -91,17 +112,17 @@
 							"hasTextContent": "Oral   calcium carbonate   decreases   the absorption of   zinc .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "3",
+					"hasOrder": "4",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Calcium carbonate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782704",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034371",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782704_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034371_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium chloride\" outputclass=\"int-drug\">calcium chloride</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -112,17 +133,17 @@
 							"hasTextContent": "Oral   calcium chloride   decreases   the absorption of   zinc .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "4",
+					"hasOrder": "5",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Calcium chloride</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782705",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034372",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782705_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034372_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-drug\">calcium gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -133,17 +154,17 @@
 							"hasTextContent": "Oral   calcium gluconate   decreases   the absorption of   zinc .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "5",
+					"hasOrder": "6",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Calcium gluconate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782706",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034373",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782706_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034373_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium lactate\" outputclass=\"int-drug\">calcium lactate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -154,17 +175,17 @@
 							"hasTextContent": "Oral   calcium lactate   decreases   the absorption of   zinc .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "6",
+					"hasOrder": "7",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Calcium lactate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782707",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034374",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782707_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034374_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium phosphate\" outputclass=\"int-drug\">calcium phosphate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -175,17 +196,17 @@
 							"hasTextContent": "Oral   calcium phosphate   decreases   the absorption of   zinc .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "7",
+					"hasOrder": "8",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Calcium phosphate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782708",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034375",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782708_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034375_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">Zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ciprofloxacin\" outputclass=\"int-drug\">ciprofloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
@@ -196,17 +217,80 @@
 							"hasTextContent": "Zinc   is predicted to   decrease   the exposure to   ciprofloxacin .  Manufacturer advises separate administration by 2 hours .    \n\n"
 						}
 					],
-					"hasOrder": "8",
+					"hasOrder": "9",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Ciprofloxacin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782709",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034376",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782709_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034376_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"clodronate\" outputclass=\"int-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> (<ph otherprops=\"zinc acetate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/zinc-acetate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6306\">zinc acetate</xref></ph>, <ph otherprops=\"zinc sulfate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/zinc-sulfate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6172\">zinc sulfate</xref></ph>) for 2 hours before or 1 hour after <ph otherprops=\"clodronate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/sodium-clodronate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4681\">clodronate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   zinc   decreases   the absorption of   oral   clodronate .  Manufacturer advises avoid  zinc  ( zinc acetate ,  zinc sulfate ) for 2 hours before or 1 hour after  clodronate .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clodronate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034377",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034377_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"deferiprone\" outputclass=\"int-drug\">deferiprone</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   zinc   is predicted to   decrease   the absorption of   oral   deferiprone .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Deferiprone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034378",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034378_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">Zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"delafloxacin\" outputclass=\"int-drug\">delafloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Zinc   is predicted to   decrease   the exposure to   delafloxacin .  Manufacturer advises separate administration by 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Delafloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034379",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034379_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"demeclocycline\" outputclass=\"int-drug\">demeclocycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
@@ -217,17 +301,17 @@
 							"hasTextContent": "Oral   zinc   is predicted to   decrease   the absorption of   demeclocycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
 						}
 					],
-					"hasOrder": "9",
+					"hasOrder": "13",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Demeclocycline</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782710",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034380",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782710_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034380_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"doxycycline\" outputclass=\"int-drug\">doxycycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
@@ -238,17 +322,17 @@
 							"hasTextContent": "Oral   zinc   is predicted to   decrease   the absorption of   doxycycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
 						}
 					],
-					"hasOrder": "10",
+					"hasOrder": "14",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Doxycycline</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782711",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034381",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782711_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034381_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> (<ph otherprops=\"zinc acetate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/zinc-acetate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6306\">zinc acetate</xref></ph>, <ph otherprops=\"zinc sulfate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/zinc-sulfate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6172\">zinc sulfate</xref></ph>)</ph>.  </p>"
@@ -259,122 +343,59 @@
 							"hasTextContent": "Oral   zinc   is predicted to   decrease   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  zinc  ( zinc acetate ,  zinc sulfate ) .    \n\n"
 						}
 					],
-					"hasOrder": "11",
+					"hasOrder": "15",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Eltrombopag</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782712",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034382",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782712_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034382_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">Zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"ferric maltol\" outputclass=\"int-drug\">ferric maltol</ph> and <ph otherprops=\"ferric maltol\" outputclass=\"int-drug\">ferric maltol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
-							},
-							"hasEvidence": "Study",
-							"hasImportance": "Moderate",
-							"hasOrder": "1",
-							"hasTextContent": "Zinc   is predicted to   decrease   the efficacy of   ferric maltol  and  ferric maltol   is predicted to   decreases   the efficacy of   zinc .  Manufacturer makes no recommendation .    \n\n"
-						}
-					],
-					"hasOrder": "12",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Ferric maltol</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782713",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782713_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">Zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"ferrous fumarate\" outputclass=\"int-drug\">ferrous fumarate</ph> and <ph otherprops=\"ferrous fumarate\" outputclass=\"int-drug\">ferrous fumarate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
-							},
-							"hasEvidence": "Study",
-							"hasImportance": "Moderate",
-							"hasOrder": "1",
-							"hasTextContent": "Zinc   is predicted to   decrease   the efficacy of   ferrous fumarate  and  ferrous fumarate   is predicted to   decreases   the efficacy of   zinc .  Manufacturer makes no recommendation .    \n\n"
-						}
-					],
-					"hasOrder": "13",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Ferrous fumarate</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782714",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782714_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">Zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"ferrous gluconate\" outputclass=\"int-drug\">ferrous gluconate</ph> and <ph otherprops=\"ferrous gluconate\" outputclass=\"int-drug\">ferrous gluconate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
-							},
-							"hasEvidence": "Study",
-							"hasImportance": "Moderate",
-							"hasOrder": "1",
-							"hasTextContent": "Zinc   is predicted to   decrease   the efficacy of   ferrous gluconate  and  ferrous gluconate   is predicted to   decreases   the efficacy of   zinc .  Manufacturer makes no recommendation .    \n\n"
-						}
-					],
-					"hasOrder": "14",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Ferrous gluconate</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782715",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782715_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">Zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"ferrous sulfate\" outputclass=\"int-drug\">ferrous sulfate</ph> and <ph otherprops=\"ferrous sulfate\" outputclass=\"int-drug\">ferrous sulfate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
-							},
-							"hasEvidence": "Study",
-							"hasImportance": "Moderate",
-							"hasOrder": "1",
-							"hasTextContent": "Zinc   is predicted to   decrease   the efficacy of   ferrous sulfate  and  ferrous sulfate   is predicted to   decreases   the efficacy of   zinc .  Manufacturer makes no recommendation .    \n\n"
-						}
-					],
-					"hasOrder": "15",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Ferrous sulfate</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782716",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782716_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"ibandronic acid\" outputclass=\"int-drug\">ibandronic acid</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> (<ph otherprops=\"zinc acetate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/zinc-acetate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6306\">zinc acetate</xref></ph>, <ph otherprops=\"zinc sulfate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/zinc-sulfate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6172\">zinc sulfate</xref></ph>) for at least 6 hours before or 1 hour after <ph otherprops=\"ibandronic acid\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ibandronic-acid.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4671\">ibandronic acid</xref></ph></ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"ibandronate\" outputclass=\"int-drug\">ibandronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> (<ph otherprops=\"zinc acetate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/zinc-acetate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6306\">zinc acetate</xref></ph>, <ph otherprops=\"zinc sulfate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/zinc-sulfate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6172\">zinc sulfate</xref></ph>) for at least 6 hours before or 1 hour after <ph otherprops=\"ibandronate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ibandronic-acid.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4671\">ibandronate</xref></ph></ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Oral   zinc   is predicted to   decrease   the absorption of   oral   ibandronic acid .  Manufacturer advises avoid  zinc  ( zinc acetate ,  zinc sulfate ) for at least 6 hours before or 1 hour after  ibandronic acid .    \n\n"
+							"hasTextContent": "Oral   zinc   is predicted to   decrease   the absorption of   oral   ibandronate .  Manufacturer advises avoid  zinc  ( zinc acetate ,  zinc sulfate ) for at least 6 hours before or 1 hour after  ibandronate .    \n\n"
 						}
 					],
 					"hasOrder": "16",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Ibandronic acid</title>"
+						"@value": "<title>Ibandronate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782717",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034383",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782717_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034383_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"iron\" outputclass=\"int-drug\">iron</ph> and <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"iron\" outputclass=\"int-drug\">iron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   zinc   is predicted to   decrease   the efficacy of   oral   iron  and  oral   iron   is predicted to   decrease   the efficacy of   oral   zinc .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Iron</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034384",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034384_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">Zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"levofloxacin\" outputclass=\"int-drug\">levofloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
@@ -385,17 +406,17 @@
 							"hasTextContent": "Zinc   is predicted to   decrease   the exposure to   levofloxacin .  Manufacturer advises separate administration by 2 hours .    \n\n"
 						}
 					],
-					"hasOrder": "17",
+					"hasOrder": "18",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Levofloxacin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782718",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034385",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782718_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034385_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
@@ -406,17 +427,17 @@
 							"hasTextContent": "Oral   zinc   is predicted to   decrease   the absorption of   lymecycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
 						}
 					],
-					"hasOrder": "18",
+					"hasOrder": "19",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Lymecycline</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782719",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034386",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782719_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034386_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"minocycline\" outputclass=\"int-drug\">minocycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
@@ -427,17 +448,17 @@
 							"hasTextContent": "Oral   zinc   is predicted to   decrease   the absorption of   minocycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
 						}
 					],
-					"hasOrder": "19",
+					"hasOrder": "20",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Minocycline</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782720",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034387",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782720_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034387_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">Zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"moxifloxacin\" outputclass=\"int-drug\">moxifloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
@@ -448,17 +469,17 @@
 							"hasTextContent": "Zinc   is predicted to   decrease   the exposure to   moxifloxacin .  Manufacturer advises separate administration by 2 hours .    \n\n"
 						}
 					],
-					"hasOrder": "20",
+					"hasOrder": "21",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Moxifloxacin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782721",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034388",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782721_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034388_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">Zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ofloxacin\" outputclass=\"int-drug\">ofloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
@@ -469,17 +490,17 @@
 							"hasTextContent": "Zinc   is predicted to   decrease   the exposure to   ofloxacin .  Manufacturer advises separate administration by 2 hours .    \n\n"
 						}
 					],
-					"hasOrder": "21",
+					"hasOrder": "22",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Ofloxacin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782722",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034389",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782722_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034389_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"oxytetracycline\" outputclass=\"int-drug\">oxytetracycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
@@ -490,17 +511,17 @@
 							"hasTextContent": "Oral   zinc   is predicted to   decrease   the absorption of   oxytetracycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
 						}
 					],
-					"hasOrder": "22",
+					"hasOrder": "23",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Oxytetracycline</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782723",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034390",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782723_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034390_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">Zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-drug\">penicillamine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -511,17 +532,17 @@
 							"hasTextContent": "Zinc   is predicted to   decrease   the absorption of   penicillamine .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "23",
+					"hasOrder": "24",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Penicillamine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782724",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034391",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782724_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034391_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"risedronate\" outputclass=\"int-drug\">risedronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
@@ -532,59 +553,17 @@
 							"hasTextContent": "Oral   zinc   decreases   the absorption of   oral   risedronate .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
 						}
 					],
-					"hasOrder": "24",
+					"hasOrder": "25",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Risedronate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782725",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034392",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782725_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"sodium clodronate\" outputclass=\"int-drug\">sodium clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> (<ph otherprops=\"zinc acetate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/zinc-acetate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6306\">zinc acetate</xref></ph>, <ph otherprops=\"zinc sulfate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/zinc-sulfate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6172\">zinc sulfate</xref></ph>) for 2 hours before or 1 hour after <ph otherprops=\"sodium clodronate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/sodium-clodronate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4681\">sodium clodronate</xref></ph></ph>.  </p>"
-							},
-							"hasEvidence": "Study",
-							"hasImportance": "Moderate",
-							"hasOrder": "1",
-							"hasTextContent": "Oral   zinc   decreases   the absorption of   oral   sodium clodronate .  Manufacturer advises avoid  zinc  ( zinc acetate ,  zinc sulfate ) for 2 hours before or 1 hour after  sodium clodronate .    \n\n"
-						}
-					],
-					"hasOrder": "25",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Sodium clodronate</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782726",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782726_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">Zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"sodium feredetate\" outputclass=\"int-drug\">sodium feredetate</ph> and <ph otherprops=\"sodium feredetate\" outputclass=\"int-drug\">sodium feredetate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
-							},
-							"hasEvidence": "Study",
-							"hasImportance": "Moderate",
-							"hasOrder": "1",
-							"hasTextContent": "Zinc   is predicted to   decrease   the efficacy of   sodium feredetate  and  sodium feredetate   is predicted to   decreases   the efficacy of   zinc .  Manufacturer makes no recommendation .    \n\n"
-						}
-					],
-					"hasOrder": "26",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Sodium feredetate</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782727",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782727_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034392_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"tetracycline\" outputclass=\"int-drug\">tetracycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
@@ -595,38 +574,17 @@
 							"hasTextContent": "Oral   zinc   is predicted to   decrease   the absorption of   tetracycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
 						}
 					],
-					"hasOrder": "27",
+					"hasOrder": "26",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Tetracycline</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782728",
+					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034393",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782728_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"tigecycline\" outputclass=\"int-drug\">tigecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
-							},
-							"hasEvidence": "Theoretical",
-							"hasImportance": "Moderate",
-							"hasOrder": "1",
-							"hasTextContent": "Oral   zinc   is predicted to   decrease   the absorption of   tigecycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
-						}
-					],
-					"hasOrder": "28",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Tigecycline</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782729",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1557280782729_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/zinc#bnf_i1643858034393_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"trientine\" outputclass=\"int-drug\">Trientine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"zinc\" outputclass=\"int-heading-drug\">zinc</ph>. <ph outputclass=\"int-action\">Manufacturer advises separating administration</ph>.  </p>"
@@ -637,7 +595,7 @@
 							"hasTextContent": "Trientine   potentially   decreases   the absorption of   zinc .  Manufacturer advises separating administration .    \n\n"
 						}
 					],
-					"hasOrder": "29",
+					"hasOrder": "27",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Trientine</title>"

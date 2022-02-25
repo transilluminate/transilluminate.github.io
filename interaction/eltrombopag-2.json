@@ -35,31 +35,52 @@
 			"@type": "InteractionList",
 			"hasInteraction": [
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712569",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958462",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712569_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958462_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"aluminium hydroxide\" outputclass=\"int-drug\">Aluminium hydroxide</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"aluminium hydroxide\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/aluminium-hydroxide.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP287\">aluminium hydroxide</xref></ph></ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">Eltrombopag</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"alpelisib\" outputclass=\"int-drug\">alpelisib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor for toxicity</ph>.  </p>"
 							},
-							"hasEvidence": "Study",
-							"hasImportance": "Severe",
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Aluminium hydroxide   decreases   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  aluminium hydroxide .    \n\n"
+							"hasTextContent": "Eltrombopag   is predicted to   increase   the exposure to   alpelisib .  Manufacturer advises caution and monitor for toxicity .    \n\n"
 						}
 					],
 					"hasOrder": "1",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Aluminium hydroxide</title>"
+						"@value": "<title>Alpelisib</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712570",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958463",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712570_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958463_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"antacids\" outputclass=\"int-drug\">antacids</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after antacids</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   antacids   decrease   the absorption of   oral   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after antacids .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Antacids</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958464",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958464_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">Eltrombopag</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atorvastatin\" outputclass=\"int-drug\">atorvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
@@ -70,17 +91,38 @@
 							"hasTextContent": "Eltrombopag   is predicted to   increase   the exposure to   atorvastatin .  Manufacturer advises monitor and adjust dose .    \n\n"
 						}
 					],
-					"hasOrder": "2",
+					"hasOrder": "3",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Atorvastatin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712571",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958465",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712571_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958465_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">Eltrombopag</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"berotralstat\" outputclass=\"int-drug\">berotralstat</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Eltrombopag   is predicted to   increase   the exposure to   berotralstat .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Berotralstat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958466",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958466_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium acetate\" outputclass=\"int-drug\">calcium acetate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"calcium acetate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-acetate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP104228\">calcium acetate</xref></ph></ph>.  </p>"
@@ -91,17 +133,17 @@
 							"hasTextContent": "Oral   calcium acetate   decreases   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  calcium acetate .    \n\n"
 						}
 					],
-					"hasOrder": "3",
+					"hasOrder": "5",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Calcium acetate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712572",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958467",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712572_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958467_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-drug\">calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"calcium carbonate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph></ph>.  </p>"
@@ -112,17 +154,17 @@
 							"hasTextContent": "Oral   calcium carbonate   decreases   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  calcium carbonate .    \n\n"
 						}
 					],
-					"hasOrder": "4",
+					"hasOrder": "6",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Calcium carbonate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712573",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958468",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712573_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958468_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium chloride\" outputclass=\"int-drug\">calcium chloride</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"calcium chloride\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-chloride.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93603\">calcium chloride</xref></ph></ph>.  </p>"
@@ -133,17 +175,17 @@
 							"hasTextContent": "Oral   calcium chloride   decreases   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  calcium chloride .    \n\n"
 						}
 					],
-					"hasOrder": "5",
+					"hasOrder": "7",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Calcium chloride</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712574",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958469",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712574_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958469_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-drug\">calcium gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"calcium gluconate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93600\">calcium gluconate</xref></ph></ph>.  </p>"
@@ -154,17 +196,17 @@
 							"hasTextContent": "Oral   calcium gluconate   decreases   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  calcium gluconate .    \n\n"
 						}
 					],
-					"hasOrder": "6",
+					"hasOrder": "8",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Calcium gluconate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712575",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958470",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712575_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958470_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium lactate\" outputclass=\"int-drug\">calcium lactate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"calcium lactate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-lactate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93601\">calcium lactate</xref></ph></ph>.  </p>"
@@ -175,17 +217,17 @@
 							"hasTextContent": "Oral   calcium lactate   decreases   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  calcium lactate .    \n\n"
 						}
 					],
-					"hasOrder": "7",
+					"hasOrder": "9",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Calcium lactate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712576",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958471",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712576_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958471_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium phosphate\" outputclass=\"int-drug\">calcium phosphate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"calcium phosphate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-phosphate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP107980\">calcium phosphate</xref></ph></ph>.  </p>"
@@ -196,143 +238,38 @@
 							"hasTextContent": "Oral   calcium phosphate   decreases   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  calcium phosphate .    \n\n"
 						}
 					],
-					"hasOrder": "8",
+					"hasOrder": "10",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Calcium phosphate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712577",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958472",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712577_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958472_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ciclosporin\" outputclass=\"int-drug\">Ciclosporin</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ciclosporin\" outputclass=\"int-drug\">Ciclosporin</ph> <ph outputclass=\"int-effect\">causes a small decrease in</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor platelet count and adjust dose</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Ciclosporin   decreases   the exposure to   eltrombopag .  Manufacturer advises monitor and adjust dose .    \n\n"
+							"hasTextContent": "Ciclosporin   causes a small decrease in   the exposure to   eltrombopag .  Manufacturer advises monitor platelet count and adjust dose .    \n\n"
 						}
 					],
-					"hasOrder": "9",
+					"hasOrder": "11",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Ciclosporin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712578",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958473",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712578_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dairy products\" outputclass=\"int-drug\">Dairy products</ph> <ph outputclass=\"int-effectQualifier\">are predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"dairy products\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/dairy-products.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP107561\">dairy products</xref></ph></ph>.  </p>"
-							},
-							"hasEvidence": "Theoretical",
-							"hasImportance": "Severe",
-							"hasOrder": "1",
-							"hasTextContent": "Dairy products   are predicted to   decrease   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  dairy products .    \n\n"
-						}
-					],
-					"hasOrder": "10",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Dairy products</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712579",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712579_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ferric maltol\" outputclass=\"int-drug\">Ferric maltol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"ferric maltol\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ferric-maltol.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213389\">ferric maltol</xref></ph></ph>.  </p>"
-							},
-							"hasEvidence": "Theoretical",
-							"hasImportance": "Severe",
-							"hasOrder": "1",
-							"hasTextContent": "Ferric maltol   is predicted to   decreases   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  ferric maltol .    \n\n"
-						}
-					],
-					"hasOrder": "11",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Ferric maltol</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712580",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712580_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous fumarate\" outputclass=\"int-drug\">Ferrous fumarate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"ferrous fumarate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ferrous-fumarate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5839\">ferrous fumarate</xref></ph></ph>.  </p>"
-							},
-							"hasEvidence": "Theoretical",
-							"hasImportance": "Severe",
-							"hasOrder": "1",
-							"hasTextContent": "Ferrous fumarate   is predicted to   decreases   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  ferrous fumarate .    \n\n"
-						}
-					],
-					"hasOrder": "12",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Ferrous fumarate</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712581",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712581_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous gluconate\" outputclass=\"int-drug\">Ferrous gluconate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"ferrous gluconate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph></ph>.  </p>"
-							},
-							"hasEvidence": "Theoretical",
-							"hasImportance": "Severe",
-							"hasOrder": "1",
-							"hasTextContent": "Ferrous gluconate   is predicted to   decreases   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  ferrous gluconate .    \n\n"
-						}
-					],
-					"hasOrder": "13",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Ferrous gluconate</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712582",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712582_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ferrous sulfate\" outputclass=\"int-drug\">Ferrous sulfate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"ferrous sulfate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ferrous-sulfate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5823\">ferrous sulfate</xref></ph></ph>.  </p>"
-							},
-							"hasEvidence": "Theoretical",
-							"hasImportance": "Severe",
-							"hasOrder": "1",
-							"hasTextContent": "Ferrous sulfate   is predicted to   decreases   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  ferrous sulfate .    \n\n"
-						}
-					],
-					"hasOrder": "14",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Ferrous sulfate</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712583",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712583_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958473_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">Eltrombopag</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fluvastatin\" outputclass=\"int-drug\">fluvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
@@ -343,17 +280,17 @@
 							"hasTextContent": "Eltrombopag   is predicted to   increase   the exposure to   fluvastatin .  Manufacturer advises monitor and adjust dose .    \n\n"
 						}
 					],
-					"hasOrder": "15",
+					"hasOrder": "12",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Fluvastatin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712584",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958474",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712584_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958474_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fluvoxamine\" outputclass=\"int-drug\">Fluvoxamine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -364,17 +301,59 @@
 							"hasTextContent": "Fluvoxamine   is predicted to   increase   the exposure to   eltrombopag .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "16",
+					"hasOrder": "13",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Fluvoxamine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712585",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958475",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712585_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958475_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-drug\">iron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after iron</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   is predicted to   decrease   the absorption of   oral   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after iron .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Iron</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958476",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958476_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">Eltrombopag</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"larotrectinib\" outputclass=\"int-drug\">larotrectinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Eltrombopag   is predicted to   increase   the exposure to   larotrectinib .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Larotrectinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958477",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958477_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">Eltrombopag</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"letermovir\" outputclass=\"int-drug\">letermovir</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
@@ -385,59 +364,17 @@
 							"hasTextContent": "Eltrombopag   is predicted to   increase   the concentration of   letermovir .  Manufacturer advises caution .    \n\n"
 						}
 					],
-					"hasOrder": "17",
+					"hasOrder": "16",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Letermovir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712586",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958478",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712586_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium carbonate\" outputclass=\"int-drug\">Magnesium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"magnesium carbonate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/magnesium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP298\">magnesium carbonate</xref></ph></ph>.  </p>"
-							},
-							"hasEvidence": "Study",
-							"hasImportance": "Severe",
-							"hasOrder": "1",
-							"hasTextContent": "Magnesium carbonate   decreases   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  magnesium carbonate .    \n\n"
-						}
-					],
-					"hasOrder": "18",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Magnesium carbonate</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712587",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712587_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium trisilicate\" outputclass=\"int-drug\">Magnesium trisilicate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"magnesium trisilicate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/magnesium-trisilicate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP304\">magnesium trisilicate</xref></ph></ph>.  </p>"
-							},
-							"hasEvidence": "Study",
-							"hasImportance": "Severe",
-							"hasOrder": "1",
-							"hasTextContent": "Magnesium trisilicate   decreases   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  magnesium trisilicate .    \n\n"
-						}
-					],
-					"hasOrder": "19",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Magnesium trisilicate</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712588",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712588_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958478_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">Eltrombopag</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"methotrexate\" outputclass=\"int-drug\">methotrexate</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
@@ -448,17 +385,38 @@
 							"hasTextContent": "Eltrombopag   is predicted to   increase   the concentration of   methotrexate .  Manufacturer advises caution .    \n\n"
 						}
 					],
-					"hasOrder": "20",
+					"hasOrder": "17",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Methotrexate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712589",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958479",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712589_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958479_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">Eltrombopag</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to the active metabolites of</ph> <ph otherprops=\"ozanimod\" outputclass=\"int-drug\">ozanimod</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Eltrombopag   is predicted to   increase   the exposure to the active metabolites of   ozanimod .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ozanimod</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958480",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958480_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">Eltrombopag</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pravastatin\" outputclass=\"int-drug\">pravastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
@@ -469,17 +427,17 @@
 							"hasTextContent": "Eltrombopag   is predicted to   increase   the exposure to   pravastatin .  Manufacturer advises monitor and adjust dose .    \n\n"
 						}
 					],
-					"hasOrder": "21",
+					"hasOrder": "19",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Pravastatin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712590",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958481",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712590_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958481_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph> and <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">rifampicin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -490,17 +448,17 @@
 							"hasTextContent": "Rifampicin   is predicted to   decrease   the exposure to   eltrombopag  and  eltrombopag   is predicted to   increase   the concentration of   rifampicin .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "22",
+					"hasOrder": "20",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Rifampicin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712591",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958482",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712591_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958482_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">Eltrombopag</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rosuvastatin\" outputclass=\"int-drug\">rosuvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
@@ -511,17 +469,17 @@
 							"hasTextContent": "Eltrombopag   is predicted to   increase   the exposure to   rosuvastatin .  Manufacturer advises monitor and adjust dose .    \n\n"
 						}
 					],
-					"hasOrder": "23",
+					"hasOrder": "21",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Rosuvastatin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712592",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958483",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712592_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958483_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"selenium\" outputclass=\"int-drug\">selenium</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"selenium\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/selenium.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6176\">selenium</xref></ph></ph>.  </p>"
@@ -532,17 +490,17 @@
 							"hasTextContent": "Oral   selenium   is predicted to   decrease   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  selenium .    \n\n"
 						}
 					],
-					"hasOrder": "24",
+					"hasOrder": "22",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Selenium</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712593",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958484",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712593_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958484_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">Eltrombopag</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"simvastatin\" outputclass=\"int-drug\">simvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
@@ -553,38 +511,38 @@
 							"hasTextContent": "Eltrombopag   is predicted to   increase   the exposure to   simvastatin .  Manufacturer advises monitor and adjust dose .    \n\n"
 						}
 					],
-					"hasOrder": "25",
+					"hasOrder": "23",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Simvastatin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712594",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958485",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712594_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958485_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"sodium feredetate\" outputclass=\"int-drug\">Sodium feredetate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"sodium feredetate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/sodium-feredetate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5855\">sodium feredetate</xref></ph></ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">Eltrombopag</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"talazoparib\" outputclass=\"int-drug\">talazoparib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or monitor</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
-							"hasImportance": "Severe",
+							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Sodium feredetate   is predicted to   decreases   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  sodium feredetate .    \n\n"
+							"hasTextContent": "Eltrombopag   is predicted to   increase   the exposure to   talazoparib .  Manufacturer advises avoid or monitor .    \n\n"
 						}
 					],
-					"hasOrder": "26",
+					"hasOrder": "24",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Sodium feredetate</title>"
+						"@value": "<title>Talazoparib</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712595",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958486",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712595_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958486_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">Eltrombopag</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir alafenamide\" outputclass=\"int-drug\">tenofovir alafenamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -595,17 +553,17 @@
 							"hasTextContent": "Eltrombopag   is predicted to   increase   the exposure to   tenofovir alafenamide .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "27",
+					"hasOrder": "25",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Tenofovir alafenamide</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712596",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958487",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712596_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958487_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">Eltrombopag</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tenofovir disoproxil\" outputclass=\"int-drug\">tenofovir disoproxil</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -616,17 +574,38 @@
 							"hasTextContent": "Eltrombopag   is predicted to   increase   the exposure to   tenofovir disoproxil .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "28",
+					"hasOrder": "26",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Tenofovir disoproxil</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712597",
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958488",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1557280712597_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958488_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">Eltrombopag</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"venetoclax\" outputclass=\"int-drug\">venetoclax</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or monitor for toxicity</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Eltrombopag   is predicted to   increase   the exposure to   venetoclax .  Manufacturer advises avoid or monitor for toxicity .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Venetoclax</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958489",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/eltrombopag-2#bnf_i1643857958489_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-drug\">zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"zinc\" outputclass=\"int-drug\">zinc</ph> (<ph otherprops=\"zinc acetate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/zinc-acetate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6306\">zinc acetate</xref></ph>, <ph otherprops=\"zinc sulfate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/zinc-sulfate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6172\">zinc sulfate</xref></ph>)</ph>.  </p>"
@@ -637,7 +616,7 @@
 							"hasTextContent": "Oral   zinc   is predicted to   decrease   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  zinc  ( zinc acetate ,  zinc sulfate ) .    \n\n"
 						}
 					],
-					"hasOrder": "29",
+					"hasOrder": "28",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Zinc</title>"

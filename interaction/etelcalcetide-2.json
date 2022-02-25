@@ -35,10 +35,10 @@
 			"@type": "InteractionList",
 			"hasInteraction": [
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/etelcalcetide-2#bnf_i1557280716092",
+					"@id": "http://bnf.nice.org.uk/interaction/etelcalcetide-2#bnf_i1643857962499",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/etelcalcetide-2#bnf_i1557280716092_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/etelcalcetide-2#bnf_i1643857962499_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"cinacalcet\" outputclass=\"int-drug\">Cinacalcet</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypocalcaemia when given with</ph> <ph otherprops=\"etelcalcetide\" outputclass=\"int-heading-drug\">etelcalcetide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -49,9 +49,31 @@
 							"hasTextContent": "Cinacalcet   increases   the risk of hypocalcaemia when given with   etelcalcetide .  Manufacturer advises avoid .    \n\n"
 						}
 					],
+					"hasOrder": "1",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Cinacalcet</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/etelcalcetide-2#bnf_i1643857962500",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/etelcalcetide-2#bnf_i1643857962500_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"etelcalcetide\" outputclass=\"int-heading-drug\">Etelcalcetide</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypocalcaemia when given with</ph> <ph otherprops=\"denosumab\" outputclass=\"int-drug\">denosumab</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Etelcalcetide   might   increase   the risk of hypocalcaemia when given with   denosumab .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Denosumab</title>"
 					}
 				}
 			],

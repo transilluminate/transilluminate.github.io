@@ -1,0 +1,553 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921303",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921303_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"apalutamide\" outputclass=\"int-drug\">Apalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">abrocitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Apalutamide   is predicted to   decrease   the exposure to   abrocitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921304",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921304_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"Bacillus Calmette-Guérin vaccine\" outputclass=\"int-drug\">Bacillus Calmette-Guérin vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">abrocitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bacillus Calmette-Guérin vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   abrocitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bacillus Calmette-Guérin vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921305",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921305_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">Abrocitinib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ciclosporin\" outputclass=\"int-drug\">ciclosporin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Abrocitinib   might   increase   the exposure to   ciclosporin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciclosporin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921306",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921306_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">Abrocitinib</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dabigatran\" outputclass=\"int-drug\">dabigatran</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Abrocitinib   slightly   increases   the exposure to   dabigatran .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dabigatran</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921307",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921307_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">Abrocitinib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Abrocitinib   might   increase   the exposure to   digoxin .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Digoxin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921308",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921308_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">Abrocitinib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"edoxaban\" outputclass=\"int-drug\">edoxaban</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Abrocitinib   might   increase   the exposure to   edoxaban .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Edoxaban</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921309",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921309_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"efavirenz\" outputclass=\"int-drug\">Efavirenz</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">abrocitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Efavirenz   is predicted to   decrease   the exposure to   abrocitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Efavirenz</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921310",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921310_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"enzalutamide\" outputclass=\"int-drug\">Enzalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">abrocitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Enzalutamide   is predicted to   decrease   the exposure to   abrocitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enzalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921311",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921311_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">Abrocitinib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"everolimus\" outputclass=\"int-drug\">everolimus</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Abrocitinib   might   increase   the exposure to   everolimus .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Everolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921312",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921312_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fluconazole\" outputclass=\"int-drug\">Fluconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">abrocitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/abrocitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP223393\">abrocitinib</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fluconazole   is predicted to   increase   the exposure to   abrocitinib .  Manufacturer advises adjust  abrocitinib  dose .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921313",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921313_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fluoxetine\" outputclass=\"int-drug\">Fluoxetine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">abrocitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/abrocitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP223393\">abrocitinib</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fluoxetine   is predicted to   increase   the exposure to   abrocitinib .  Manufacturer advises adjust  abrocitinib  dose .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluoxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921314",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921314_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fluvoxamine\" outputclass=\"int-drug\">Fluvoxamine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">abrocitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/abrocitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP223393\">abrocitinib</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fluvoxamine   is predicted to   increase   the exposure to   abrocitinib .  Manufacturer advises adjust  abrocitinib  dose .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluvoxamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921315",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921315_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">abrocitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fosphenytoin   is predicted to   decrease   the exposure to   abrocitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921316",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921316_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"herpes-zoster vaccine, live\" outputclass=\"int-drug\">Herpes-zoster vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">abrocitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Herpes-zoster vaccine, live   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   abrocitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Herpes-zoster vaccine, live</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921317",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921317_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"influenza vaccine (live)\" outputclass=\"int-drug\">Influenza vaccine (live)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">abrocitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Influenza vaccine (live)   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   abrocitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Influenza vaccine (live)</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921318",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921318_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"measles, mumps and rubella vaccine, live\" outputclass=\"int-drug\">Measles, mumps and rubella vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">abrocitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Measles, mumps and rubella vaccine, live   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   abrocitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Measles, mumps and rubella vaccine, live</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921319",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921319_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">abrocitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Phenytoin   is predicted to   decrease   the exposure to   abrocitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921320",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921320_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">abrocitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   is predicted to   decrease   the exposure to   abrocitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921321",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921321_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">Abrocitinib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rivaroxaban\" outputclass=\"int-drug\">rivaroxaban</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Abrocitinib   might   increase   the exposure to   rivaroxaban .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rivaroxaban</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921322",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921322_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rotavirus vaccine\" outputclass=\"int-drug\">Rotavirus vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">abrocitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rotavirus vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   abrocitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rotavirus vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921323",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921323_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">Abrocitinib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sirolimus\" outputclass=\"int-drug\">sirolimus</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Abrocitinib   might   increase   the exposure to   sirolimus .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sirolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921324",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921324_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"typhoid vaccine, oral\" outputclass=\"int-drug\">Typhoid vaccine, oral</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">abrocitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Typhoid vaccine, oral   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   abrocitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Typhoid vaccine, oral</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921325",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921325_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"varicella-zoster vaccine\" outputclass=\"int-drug\">Varicella-zoster vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">abrocitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Varicella-zoster vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   abrocitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Varicella-zoster vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921326",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2#bnf_i1643857921326_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"yellow fever vaccine, live\" outputclass=\"int-drug\">Yellow fever vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"abrocitinib\" outputclass=\"int-heading-drug\">abrocitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Yellow fever vaccine, live   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   abrocitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Yellow fever vaccine, live</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Abrocitinib  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/abrocitinib-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Abrocitinib </title>"
+			},
+			"rdfs:label": "abrocitinib"
+		}
+	]
+}

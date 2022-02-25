@@ -35,10 +35,10 @@
 			"@type": "InteractionList",
 			"hasInteraction": [
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/fampridine-2#bnf_i1557280717254",
+					"@id": "http://bnf.nice.org.uk/interaction/fampridine-2#bnf_i1643857963481",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/fampridine-2#bnf_i1557280717254_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/fampridine-2#bnf_i1643857963481_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"cimetidine\" outputclass=\"int-drug\">Cimetidine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"fampridine\" outputclass=\"int-heading-drug\">fampridine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -49,9 +49,31 @@
 							"hasTextContent": "Cimetidine   increases   the concentration of   fampridine .  Manufacturer advises avoid .    \n\n"
 						}
 					],
+					"hasOrder": "1",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Cimetidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fampridine-2#bnf_i1643857963482",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fampridine-2#bnf_i1643857963482_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dolutegravir\" outputclass=\"int-drug\">Dolutegravir</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"fampridine\" outputclass=\"int-heading-drug\">fampridine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dolutegravir   might   increase   the concentration of   fampridine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dolutegravir</title>"
 					}
 				}
 			],

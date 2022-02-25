@@ -1,0 +1,406 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949708",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949708_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\">Dacomitinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atomoxetine\" outputclass=\"int-drug\">atomoxetine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dacomitinib   is predicted to   markedly   increase   the exposure to   atomoxetine .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atomoxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949709",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949709_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"cimetidine\" outputclass=\"int-drug\">Cimetidine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\">dacomitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/dacomitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219440\">dacomitinib</xref></ph> should be taken 2 hours before or 10 hours after <ph otherprops=\"cimetidine\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/cimetidine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP404\">cimetidine</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Cimetidine   is predicted to   decrease   the concentration of   dacomitinib .  Manufacturer advises  dacomitinib  should be taken 2 hours before or 10 hours after  cimetidine .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cimetidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949710",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949710_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\">Dacomitinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"eliglustat\" outputclass=\"int-drug\">eliglustat</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose—consult product literature</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dacomitinib   is predicted to   markedly   increase   the exposure to   eliglustat .  Manufacturer advises avoid or adjust dose—consult product literature .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eliglustat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949711",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949711_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"esomeprazole\" outputclass=\"int-drug\">Esomeprazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\">dacomitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Esomeprazole   is predicted to   decrease   the exposure to   dacomitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Esomeprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949712",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949712_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"famotidine\" outputclass=\"int-drug\">Famotidine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\">dacomitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/dacomitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219440\">dacomitinib</xref></ph> should be taken 2 hours before or 10 hours after <ph otherprops=\"famotidine\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/famotidine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP407\">famotidine</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Famotidine   is predicted to   decrease   the concentration of   dacomitinib .  Manufacturer advises  dacomitinib  should be taken 2 hours before or 10 hours after  famotidine .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Famotidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949713",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949713_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\">Dacomitinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"imipramine\" outputclass=\"int-drug\">imipramine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dacomitinib   is predicted to   markedly   increase   the exposure to   imipramine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949714",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949714_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lansoprazole\" outputclass=\"int-drug\">Lansoprazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\">dacomitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lansoprazole   is predicted to   decrease   the exposure to   dacomitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lansoprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949715",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949715_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\">Dacomitinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"metoprolol\" outputclass=\"int-drug\">metoprolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dacomitinib   is predicted to   markedly   increase   the exposure to   metoprolol .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metoprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949716",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949716_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\">Dacomitinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"nebivolol\" outputclass=\"int-drug\">nebivolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dacomitinib   is predicted to   markedly   increase   the exposure to   nebivolol .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nebivolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949717",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949717_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"nizatidine\" outputclass=\"int-drug\">Nizatidine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\">dacomitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/dacomitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219440\">dacomitinib</xref></ph> should be taken 2 hours before or 10 hours after <ph otherprops=\"nizatidine\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/nizatidine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP410\">nizatidine</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Nizatidine   is predicted to   decrease   the concentration of   dacomitinib .  Manufacturer advises  dacomitinib  should be taken 2 hours before or 10 hours after  nizatidine .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nizatidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949718",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949718_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\">Dacomitinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"nortriptyline\" outputclass=\"int-drug\">nortriptyline</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dacomitinib   is predicted to   markedly   increase   the exposure to   nortriptyline .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nortriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949719",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949719_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"omeprazole\" outputclass=\"int-drug\">Omeprazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\">dacomitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Omeprazole   is predicted to   decrease   the exposure to   dacomitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Omeprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949720",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949720_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pantoprazole\" outputclass=\"int-drug\">Pantoprazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\">dacomitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pantoprazole   is predicted to   decrease   the exposure to   dacomitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pantoprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949721",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949721_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\">Dacomitinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"propranolol\" outputclass=\"int-drug\">propranolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dacomitinib   is predicted to   markedly   increase   the exposure to   propranolol .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propranolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949722",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949722_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rabeprazole\" outputclass=\"int-drug\">Rabeprazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\">dacomitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Rabeprazole   is predicted to   decrease   the exposure to   dacomitinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rabeprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949723",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949723_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"ranitidine\" outputclass=\"int-drug\">Ranitidine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\">dacomitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/dacomitinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219440\">dacomitinib</xref></ph> should be taken 2 hours before or 10 hours after <ph otherprops=\"ranitidine\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ranitidine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP413\">ranitidine</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Ranitidine   is predicted to   decrease   the concentration of   dacomitinib .  Manufacturer advises  dacomitinib  should be taken 2 hours before or 10 hours after  ranitidine .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ranitidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949724",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2#bnf_i1643857949724_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dacomitinib\" outputclass=\"int-heading-drug\">Dacomitinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tolterodine\" outputclass=\"int-drug\">tolterodine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dacomitinib   is predicted to   markedly   increase   the exposure to   tolterodine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolterodine</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Dacomitinib  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/dacomitinib-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Dacomitinib </title>"
+			},
+			"rdfs:label": "dacomitinib"
+		}
+	]
+}

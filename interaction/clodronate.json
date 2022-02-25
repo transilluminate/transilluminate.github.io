@@ -1,0 +1,952 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/clodronate",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946090",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946090_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"aceclofenac\" outputclass=\"int-drug\">Aceclofenac</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Aceclofenac   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aceclofenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946091",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946091_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"amikacin\" outputclass=\"int-drug\">Amikacin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypocalcaemia when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Amikacin   increases   the risk of hypocalcaemia when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amikacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946092",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946092_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"antacids\" outputclass=\"int-drug\">antacids</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid antacids for 2 hours before or 1 hour after <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/sodium-clodronate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4681\">clodronate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   antacids   decrease   the absorption of   oral   clodronate .  Manufacturer advises avoid antacids for 2 hours before or 1 hour after  clodronate .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Antacids</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946093",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946093_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"aspirin\" outputclass=\"int-drug\">Aspirin</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Aspirin   (high-dose)   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aspirin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946094",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946094_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"benzydamine\" outputclass=\"int-drug\">Benzydamine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Benzydamine   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Benzydamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946095",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946095_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"bromfenac\" outputclass=\"int-drug\">Bromfenac</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Bromfenac   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bromfenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946096",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946096_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium acetate\" outputclass=\"int-drug\">calcium acetate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"calcium acetate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-acetate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP104228\">calcium acetate</xref></ph> for 2 hours before or 1 hour after <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/sodium-clodronate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4681\">clodronate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium acetate   decreases   the absorption of   clodronate .  Manufacturer advises avoid  calcium acetate  for 2 hours before or 1 hour after  clodronate .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium acetate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946097",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946097_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-drug\">calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"calcium carbonate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph> for 2 hours before or 1 hour after <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/sodium-clodronate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4681\">clodronate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium carbonate   decreases   the absorption of   clodronate .  Manufacturer advises avoid  calcium carbonate  for 2 hours before or 1 hour after  clodronate .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium carbonate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946098",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946098_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium chloride\" outputclass=\"int-drug\">calcium chloride</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"calcium chloride\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-chloride.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93603\">calcium chloride</xref></ph> for 2 hours before or 1 hour after <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/sodium-clodronate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4681\">clodronate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium chloride   decreases   the absorption of   clodronate .  Manufacturer advises avoid  calcium chloride  for 2 hours before or 1 hour after  clodronate .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium chloride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946099",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946099_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium gluconate\" outputclass=\"int-drug\">calcium gluconate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"calcium gluconate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93600\">calcium gluconate</xref></ph> for 2 hours before or 1 hour after <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/sodium-clodronate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4681\">clodronate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium gluconate   decreases   the absorption of   clodronate .  Manufacturer advises avoid  calcium gluconate  for 2 hours before or 1 hour after  clodronate .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium gluconate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946100",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946100_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium lactate\" outputclass=\"int-drug\">calcium lactate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"calcium lactate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-lactate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93601\">calcium lactate</xref></ph> for 2 hours before or 1 hour after <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/sodium-clodronate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4681\">clodronate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium lactate   decreases   the absorption of   clodronate .  Manufacturer advises avoid  calcium lactate  for 2 hours before or 1 hour after  clodronate .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium lactate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946101",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946101_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium phosphate\" outputclass=\"int-drug\">calcium phosphate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"calcium phosphate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-phosphate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP107980\">calcium phosphate</xref></ph> for 2 hours before or 1 hour after <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/sodium-clodronate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4681\">clodronate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium phosphate   decreases   the absorption of   clodronate .  Manufacturer advises avoid  calcium phosphate  for 2 hours before or 1 hour after  clodronate .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium phosphate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946102",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946102_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"celecoxib\" outputclass=\"int-drug\">Celecoxib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Celecoxib   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Celecoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946103",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946103_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">Clodronate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of gastrointestinal bleeding when given with</ph> <ph otherprops=\"deferasirox\" outputclass=\"int-drug\">deferasirox</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Clodronate   is predicted to   increase   the risk of gastrointestinal bleeding when given with   deferasirox .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Deferasirox</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946104",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946104_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"dexketoprofen\" outputclass=\"int-drug\">Dexketoprofen</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Dexketoprofen   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexketoprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946105",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946105_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"diclofenac\" outputclass=\"int-drug\">Diclofenac</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Diclofenac   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diclofenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946106",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946106_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"etodolac\" outputclass=\"int-drug\">Etodolac</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Etodolac   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etodolac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946107",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946107_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"etoricoxib\" outputclass=\"int-drug\">Etoricoxib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Etoricoxib   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etoricoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946108",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946108_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"felbinac\" outputclass=\"int-drug\">Felbinac</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Felbinac   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Felbinac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946109",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946109_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"flurbiprofen\" outputclass=\"int-drug\">Flurbiprofen</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Flurbiprofen   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Flurbiprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946110",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946110_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gentamicin\" outputclass=\"int-drug\">Gentamicin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypocalcaemia when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gentamicin   increases   the risk of hypocalcaemia when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gentamicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946111",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946111_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ibuprofen\" outputclass=\"int-drug\">Ibuprofen</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ibuprofen   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibuprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946112",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946112_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"indometacin\" outputclass=\"int-drug\">Indometacin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Indometacin   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Indometacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946113",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946113_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/sodium-clodronate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4681\">clodronate</xref></ph> should be taken 1 hour before or 2 hours after iron</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the absorption of   oral   clodronate .  Manufacturer advises  clodronate  should be taken 1 hour before or 2 hours after iron .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Iron</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946114",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946114_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ketoprofen\" outputclass=\"int-drug\">Ketoprofen</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ketoprofen   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketoprofen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946115",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946115_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ketorolac\" outputclass=\"int-drug\">Ketorolac</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ketorolac   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketorolac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946116",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946116_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"magnesium\" outputclass=\"int-drug\">magnesium</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid magnesium for 2 hours before or 1 hour after <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/sodium-clodronate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4681\">clodronate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   magnesium   decreases   the absorption of   oral   clodronate .  Manufacturer advises avoid magnesium for 2 hours before or 1 hour after  clodronate .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Magnesium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946117",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946117_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"mefenamic acid\" outputclass=\"int-drug\">Mefenamic acid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Mefenamic acid   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mefenamic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946118",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946118_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"meloxicam\" outputclass=\"int-drug\">Meloxicam</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Meloxicam   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Meloxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946119",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946119_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"nabumetone\" outputclass=\"int-drug\">Nabumetone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Nabumetone   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nabumetone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946120",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946120_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"naproxen\" outputclass=\"int-drug\">Naproxen</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Naproxen   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Naproxen</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946121",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946121_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"nepafenac\" outputclass=\"int-drug\">Nepafenac</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Nepafenac   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nepafenac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946122",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946122_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">Clodronate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"parathyroid hormone\" outputclass=\"int-drug\">parathyroid hormone</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Clodronate   is predicted to   decrease   the effects of   parathyroid hormone .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Parathyroid hormone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946123",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946123_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"parecoxib\" outputclass=\"int-drug\">Parecoxib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Parecoxib   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Parecoxib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946124",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946124_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"phenazone\" outputclass=\"int-drug\">Phenazone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Phenazone   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenazone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946125",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946125_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"piroxicam\" outputclass=\"int-drug\">Piroxicam</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Piroxicam   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Piroxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946126",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946126_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"streptomycin\" outputclass=\"int-drug\">Streptomycin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypocalcaemia when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Streptomycin   increases   the risk of hypocalcaemia when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Streptomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946127",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946127_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sulindac\" outputclass=\"int-drug\">Sulindac</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sulindac   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulindac</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946128",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946128_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tenoxicam\" outputclass=\"int-drug\">Tenoxicam</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tenoxicam   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tenoxicam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946129",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946129_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tiaprofenic acid\" outputclass=\"int-drug\">Tiaprofenic acid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tiaprofenic acid   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tiaprofenic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946130",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946130_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tobramycin\" outputclass=\"int-drug\">Tobramycin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypocalcaemia when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tobramycin   increases   the risk of hypocalcaemia when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tobramycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946131",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946131_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tolfenamic acid\" outputclass=\"int-drug\">Tolfenamic acid</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of renal impairment when given with</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tolfenamic acid   is predicted to   increase   the risk of renal impairment when given with   clodronate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolfenamic acid</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946132",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/clodronate#bnf_i1643857946132_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-drug\">zinc</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"zinc\" outputclass=\"int-drug\">zinc</ph> (<ph otherprops=\"zinc acetate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/zinc-acetate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6306\">zinc acetate</xref></ph>, <ph otherprops=\"zinc sulfate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/zinc-sulfate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6172\">zinc sulfate</xref></ph>) for 2 hours before or 1 hour after <ph otherprops=\"clodronate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/sodium-clodronate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4681\">clodronate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   zinc   decreases   the absorption of   oral   clodronate .  Manufacturer advises avoid  zinc  ( zinc acetate ,  zinc sulfate ) for 2 hours before or 1 hour after  clodronate .    \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zinc</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Clodronate  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/clodronate.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Clodronate </title>"
+			},
+			"rdfs:label": "clodronate"
+		}
+	]
+}

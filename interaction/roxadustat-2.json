@@ -1,0 +1,469 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012837",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012837_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"aluminium hydroxide\" outputclass=\"int-drug\">Aluminium hydroxide</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">roxadustat</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/roxadustat.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP223244\">roxadustat</xref></ph> should be taken at least 1 hour after aluminium hydroxide</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Aluminium hydroxide   might   decrease   the exposure to   roxadustat .  Manufacturer advises  roxadustat  should be taken at least 1 hour after aluminium hydroxide .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aluminium hydroxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012838",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012838_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"antacids\" outputclass=\"int-drug\">Antacids</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">roxadustat</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/roxadustat.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP223244\">roxadustat</xref></ph> should be taken at least 1 hour after antacids</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Antacids   might   decrease   the exposure to   roxadustat .  Manufacturer advises  roxadustat  should be taken at least 1 hour after antacids .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Antacids</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012839",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012839_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">Roxadustat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atorvastatin\" outputclass=\"int-drug\">atorvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor adverse effects and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Roxadustat   is predicted to   increase   the exposure to   atorvastatin .  Manufacturer advises monitor adverse effects and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atorvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012840",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012840_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">Roxadustat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"bosentan\" outputclass=\"int-drug\">bosentan</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor adverse effects and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Roxadustat   is predicted to   increase   the exposure to   bosentan .  Manufacturer advises monitor adverse effects and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosentan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012841",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012841_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium acetate\" outputclass=\"int-drug\">Calcium acetate</ph> <ph outputclass=\"int-magnitude\">minimally</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">roxadustat</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/roxadustat.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP223244\">roxadustat</xref></ph> should be taken at least 1 hour after <ph otherprops=\"calcium acetate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-acetate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP104228\">calcium acetate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Calcium acetate   minimally   decreases   the exposure to   roxadustat .  Manufacturer advises  roxadustat  should be taken at least 1 hour after  calcium acetate .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium acetate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012842",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012842_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">Roxadustat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fexofenadine\" outputclass=\"int-drug\">fexofenadine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor adverse effects and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Roxadustat   is predicted to   increase   the exposure to   fexofenadine .  Manufacturer advises monitor adverse effects and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fexofenadine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012843",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012843_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">Roxadustat</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fluvastatin\" outputclass=\"int-drug\">fluvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor adverse effects and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Roxadustat   might   increase   the exposure to   fluvastatin .  Manufacturer advises monitor adverse effects and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012844",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012844_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-drug\">Gemfibrozil</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">roxadustat</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor haemoglobin and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   moderately   increases   the exposure to   roxadustat .  Manufacturer advises monitor haemoglobin and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gemfibrozil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012845",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012845_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">Roxadustat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor adverse effects and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Roxadustat   is predicted to   increase   the exposure to   glibenclamide .  Manufacturer advises monitor adverse effects and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glibenclamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012846",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012846_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"iron\" outputclass=\"int-drug\">Iron</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">roxadustat</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/roxadustat.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP223244\">roxadustat</xref></ph> should be taken at least 1 hour after iron</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Iron   might   decrease   the exposure to   roxadustat .  Manufacturer advises  roxadustat  should be taken at least 1 hour after iron .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Iron</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012847",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012847_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"magnesium\" outputclass=\"int-drug\">Magnesium</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">roxadustat</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/roxadustat.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP223244\">roxadustat</xref></ph> should be taken at least 1 hour after magnesium</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Magnesium   might   decrease   the exposure to   roxadustat .  Manufacturer advises  roxadustat  should be taken at least 1 hour after magnesium .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Magnesium</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012848",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012848_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">Roxadustat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pravastatin\" outputclass=\"int-drug\">pravastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor adverse effects and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Roxadustat   is predicted to   increase   the exposure to   pravastatin .  Manufacturer advises monitor adverse effects and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pravastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012849",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012849_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">Roxadustat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"repaglinide\" outputclass=\"int-drug\">repaglinide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor adverse effects and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Roxadustat   is predicted to   increase   the exposure to   repaglinide .  Manufacturer advises monitor adverse effects and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Repaglinide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012850",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012850_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">roxadustat</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor haemoglobin and adjust <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/roxadustat.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP223244\">roxadustat</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   might   decrease   the exposure to   roxadustat .  Manufacturer advises monitor haemoglobin and adjust  roxadustat  dose .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012851",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012851_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">Roxadustat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rosuvastatin\" outputclass=\"int-drug\">rosuvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor adverse effects and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Roxadustat   is predicted to   increase   the exposure to   rosuvastatin .  Manufacturer advises monitor adverse effects and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rosuvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012852",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012852_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sevelamer\" outputclass=\"int-drug\">Sevelamer</ph> <ph outputclass=\"int-magnitude\">modestly</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">roxadustat</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/roxadustat.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP223244\">roxadustat</xref></ph> should be taken at least 1 hour after <ph otherprops=\"sevelamer\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/sevelamer.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93604\">sevelamer</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sevelamer   modestly   decreases   the exposure to   roxadustat .  Manufacturer advises  roxadustat  should be taken at least 1 hour after  sevelamer .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sevelamer</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012853",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012853_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">Roxadustat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"simvastatin\" outputclass=\"int-drug\">simvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor adverse effects and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Roxadustat   is predicted to   increase   the exposure to   simvastatin .  Manufacturer advises monitor adverse effects and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Simvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012854",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012854_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sucroferric oxyhydroxide\" outputclass=\"int-drug\">Sucroferric oxyhydroxide</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">roxadustat</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/roxadustat.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP223244\">roxadustat</xref></ph> should be taken at least 1 hour after <ph otherprops=\"sucroferric oxyhydroxide\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/sucroferric-oxyhydroxide.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP108188\">sucroferric oxyhydroxide</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sucroferric oxyhydroxide   might   decrease   the exposure to   roxadustat .  Manufacturer advises  roxadustat  should be taken at least 1 hour after  sucroferric oxyhydroxide .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sucroferric oxyhydroxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012855",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012855_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">Roxadustat</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sulfasalazine\" outputclass=\"int-drug\">sulfasalazine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor adverse effects and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Roxadustat   might   increase   the exposure to   sulfasalazine .  Manufacturer advises monitor adverse effects and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfasalazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012856",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2#bnf_i1643858012856_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"roxadustat\" outputclass=\"int-heading-drug\">Roxadustat</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"topotecan\" outputclass=\"int-drug\">topotecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor adverse effects and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Roxadustat   might   increase   the exposure to   topotecan .  Manufacturer advises monitor adverse effects and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Topotecan</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Roxadustat  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/roxadustat-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Roxadustat </title>"
+			},
+			"rdfs:label": "roxadustat"
+		}
+	]
+}

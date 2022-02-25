@@ -1,0 +1,658 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004114",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004114_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"apalutamide\" outputclass=\"int-drug\">Apalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Apalutamide   is predicted to   decrease   the exposure to   polatuzumab vedotin .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004115",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004115_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"atazanavir\" outputclass=\"int-drug\">Atazanavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Atazanavir   is predicted to   increase   the exposure to   polatuzumab vedotin .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atazanavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004116",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004116_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"Bacillus Calmette-Guérin vaccine\" outputclass=\"int-drug\">Bacillus Calmette-Guérin vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">UKHSA advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bacillus Calmette-Guérin vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   polatuzumab vedotin .  UKHSA advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bacillus Calmette-Guérin vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004117",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004117_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Carbamazepine   is predicted to   decrease   the exposure to   polatuzumab vedotin .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004118",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004118_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"clarithromycin\" outputclass=\"int-drug\">Clarithromycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Clarithromycin   is predicted to   increase   the exposure to   polatuzumab vedotin .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clarithromycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004119",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004119_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cobicistat\" outputclass=\"int-drug\">Cobicistat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cobicistat   is predicted to   increase   the exposure to   polatuzumab vedotin .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cobicistat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004120",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004120_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"darunavir\" outputclass=\"int-drug\">Darunavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Darunavir   is predicted to   increase   the exposure to   polatuzumab vedotin .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Darunavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004121",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004121_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"enzalutamide\" outputclass=\"int-drug\">Enzalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Enzalutamide   is predicted to   decrease   the exposure to   polatuzumab vedotin .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enzalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004122",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004122_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fosamprenavir\" outputclass=\"int-drug\">Fosamprenavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fosamprenavir   is predicted to   increase   the exposure to   polatuzumab vedotin .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosamprenavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004123",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004123_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fosphenytoin   is predicted to   decrease   the exposure to   polatuzumab vedotin .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004124",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004124_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"herpes-zoster vaccine, live\" outputclass=\"int-drug\">Herpes-zoster vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">UKHSA advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Herpes-zoster vaccine, live   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   polatuzumab vedotin .  UKHSA advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Herpes-zoster vaccine, live</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004125",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004125_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"idelalisib\" outputclass=\"int-drug\">Idelalisib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Idelalisib   is predicted to   increase   the exposure to   polatuzumab vedotin .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Idelalisib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004126",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004126_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"influenza vaccine (live)\" outputclass=\"int-drug\">Influenza vaccine (live)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">UKHSA advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Influenza vaccine (live)   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   polatuzumab vedotin .  UKHSA advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Influenza vaccine (live)</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004127",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004127_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"itraconazole\" outputclass=\"int-drug\">Itraconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Itraconazole   is predicted to   increase   the exposure to   polatuzumab vedotin .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Itraconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004128",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004128_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ketoconazole\" outputclass=\"int-drug\">Ketoconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ketoconazole   is predicted to   increase   the exposure to   polatuzumab vedotin .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketoconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004129",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004129_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lopinavir\" outputclass=\"int-drug\">Lopinavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lopinavir   is predicted to   increase   the exposure to   polatuzumab vedotin .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lopinavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004130",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004130_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"measles, mumps and rubella vaccine, live\" outputclass=\"int-drug\">Measles, mumps and rubella vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">UKHSA advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Measles, mumps and rubella vaccine, live   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   polatuzumab vedotin .  UKHSA advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Measles, mumps and rubella vaccine, live</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004131",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004131_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"mitotane\" outputclass=\"int-drug\">Mitotane</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Mitotane   is predicted to   decrease   the exposure to   polatuzumab vedotin .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitotane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004132",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004132_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Phenobarbital   is predicted to   decrease   the exposure to   polatuzumab vedotin .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004133",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004133_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Phenytoin   is predicted to   decrease   the exposure to   polatuzumab vedotin .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004134",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004134_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Primidone   is predicted to   decrease   the exposure to   polatuzumab vedotin .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004135",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004135_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   is predicted to   decrease   the exposure to   polatuzumab vedotin .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004136",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004136_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ritonavir\" outputclass=\"int-drug\">Ritonavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ritonavir   is predicted to   increase   the exposure to   polatuzumab vedotin .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ritonavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004137",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004137_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rotavirus vaccine\" outputclass=\"int-drug\">Rotavirus vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">UKHSA advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rotavirus vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   polatuzumab vedotin .  UKHSA advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rotavirus vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004138",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004138_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tipranavir\" outputclass=\"int-drug\">Tipranavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tipranavir   is predicted to   increase   the exposure to   polatuzumab vedotin .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tipranavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004139",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004139_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"typhoid vaccine, oral\" outputclass=\"int-drug\">Typhoid vaccine, oral</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">UKHSA advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Typhoid vaccine, oral   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   polatuzumab vedotin .  UKHSA advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Typhoid vaccine, oral</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004140",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004140_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"varicella-zoster vaccine\" outputclass=\"int-drug\">Varicella-zoster vaccine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">UKHSA advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Varicella-zoster vaccine   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   polatuzumab vedotin .  UKHSA advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Varicella-zoster vaccine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004141",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004141_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"voriconazole\" outputclass=\"int-drug\">Voriconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Voriconazole   is predicted to   increase   the exposure to   polatuzumab vedotin .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Voriconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004142",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2#bnf_i1643858004142_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"yellow fever vaccine, live\" outputclass=\"int-drug\">Yellow fever vaccine, live</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of generalised infection (possibly life-threatening) when given with</ph> <ph otherprops=\"polatuzumab vedotin\" outputclass=\"int-heading-drug\">polatuzumab vedotin</ph>. <ph outputclass=\"int-action\">UKHSA advises avoid (refer to Green Book)</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Yellow fever vaccine, live   is predicted to   increase   the risk of generalised infection (possibly life-threatening) when given with   polatuzumab vedotin .  UKHSA advises avoid (refer to Green Book) .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Yellow fever vaccine, live</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Polatuzumab vedotin  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/polatuzumab-vedotin-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Polatuzumab vedotin </title>"
+			},
+			"rdfs:label": "polatuzumab vedotin"
+		}
+	]
+}

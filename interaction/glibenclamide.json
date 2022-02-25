@@ -1,0 +1,1036 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/glibenclamide",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968979",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968979_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"acarbose\" outputclass=\"int-drug\">acarbose</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  acarbose  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Acarbose</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968980",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968980_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"alogliptin\" outputclass=\"int-drug\">alogliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  alogliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alogliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968981",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968981_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"amiodarone\" outputclass=\"int-drug\">Amiodarone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Amiodarone   is predicted to   increase   the exposure to   glibenclamide .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amiodarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968982",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968982_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"bezafibrate\" outputclass=\"int-drug\">Bezafibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Bezafibrate   is predicted to   increase   the risk of hypoglycaemia when given with   glibenclamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bezafibrate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968983",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968983_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bosentan\" outputclass=\"int-drug\">Bosentan</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hepatotoxicity when given with</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bosentan   increases   the risk of hepatotoxicity when given with   glibenclamide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosentan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968984",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968984_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cabazitaxel\" outputclass=\"int-drug\">Cabazitaxel</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">affect</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises take 12 hours before or 3 hours after <ph otherprops=\"cabazitaxel\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/cabazitaxel.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5557\">cabazitaxel</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cabazitaxel   is predicted to   affect   the exposure to   glibenclamide .  Manufacturer advises take 12 hours before or 3 hours after  cabazitaxel .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabazitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968985",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968985_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"canagliflozin\" outputclass=\"int-drug\">canagliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  canagliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Canagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968986",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968986_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ceftobiprole\" outputclass=\"int-drug\">Ceftobiprole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ceftobiprole   is predicted to   increase   the concentration of   glibenclamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceftobiprole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968987",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968987_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor blood glucose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   is predicted to   increase   the exposure to   glibenclamide .  Manufacturer advises monitor blood glucose .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chloramphenicol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968988",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968988_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ciprofibrate\" outputclass=\"int-drug\">Ciprofibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ciprofibrate   is predicted to   increase   the risk of hypoglycaemia when given with   glibenclamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciprofibrate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968989",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968989_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"clarithromycin\" outputclass=\"int-drug\">Clarithromycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Clarithromycin   is predicted to   slightly   increase   the exposure to   glibenclamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clarithromycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968990",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968990_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"dapagliflozin\" outputclass=\"int-drug\">dapagliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  dapagliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dapagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968991",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968991_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"darolutamide\" outputclass=\"int-drug\">Darolutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Darolutamide   is predicted to   increase   the concentration of   glibenclamide .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Darolutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968992",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968992_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"dulaglutide\" outputclass=\"int-drug\">dulaglutide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  dulaglutide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dulaglutide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968993",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968993_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"elexacaftor\" outputclass=\"int-drug\">Elexacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Elexacaftor   is predicted to   increase   the exposure to   glibenclamide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Elexacaftor</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968994",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968994_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"empagliflozin\" outputclass=\"int-drug\">empagliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  empagliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Empagliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968995",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968995_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"ertugliflozin\" outputclass=\"int-drug\">ertugliflozin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  ertugliflozin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ertugliflozin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968996",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968996_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"exenatide\" outputclass=\"int-drug\">exenatide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  exenatide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Exenatide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968997",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968997_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fenfluramine\" outputclass=\"int-drug\">Fenfluramine</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">blood glucose concentrations when given with</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fenfluramine   might   decrease   blood glucose concentrations when given with   glibenclamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fenfluramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968998",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968998_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fenofibrate\" outputclass=\"int-drug\">Fenofibrate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fenofibrate   is predicted to   increase   the risk of hypoglycaemia when given with   glibenclamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fenofibrate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968999",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857968999_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"filgotinib\" outputclass=\"int-drug\">Filgotinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Filgotinib   is predicted to   increase   the exposure to   glibenclamide .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Filgotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969000",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969000_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fluconazole\" outputclass=\"int-drug\">Fluconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fluconazole   is predicted to   increase   the exposure to   glibenclamide .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969001",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969001_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"fluvastatin\" outputclass=\"int-drug\">Fluvastatin</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Fluvastatin   slightly   increases   the exposure to   glibenclamide .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969002",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969002_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the risk of hypoglycaemia when given with   glibenclamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gemfibrozil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969003",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969003_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"insulin\" outputclass=\"int-drug\">insulin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  insulin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Insulin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969004",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969004_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"leflunomide\" outputclass=\"int-drug\">Leflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Leflunomide   is predicted to   increase   the exposure to   glibenclamide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Leflunomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969005",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969005_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"letermovir\" outputclass=\"int-drug\">Letermovir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Letermovir   is predicted to   increase   the concentration of   glibenclamide .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Letermovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969006",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969006_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"linagliptin\" outputclass=\"int-drug\">linagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  linagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Linagliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969007",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969007_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"liraglutide\" outputclass=\"int-drug\">liraglutide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  liraglutide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Liraglutide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969008",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969008_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"lixisenatide\" outputclass=\"int-drug\">lixisenatide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  lixisenatide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lixisenatide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969009",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969009_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"metformin\" outputclass=\"int-drug\">metformin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  metformin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metformin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969010",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969010_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metreleptin\" outputclass=\"int-drug\">Metreleptin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor blood glucose and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metreleptin   is predicted to   increase   the risk of hypoglycaemia when given with   glibenclamide .  Manufacturer advises monitor blood glucose and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metreleptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969011",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969011_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"miconazole\" outputclass=\"int-drug\">Miconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Miconazole   is predicted to   increase   the exposure to   glibenclamide .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Miconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969012",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969012_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"pioglitazone\" outputclass=\"int-drug\">pioglitazone</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  pioglitazone  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pioglitazone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969013",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969013_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"repaglinide\" outputclass=\"int-drug\">repaglinide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  repaglinide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Repaglinide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969014",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969014_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   is predicted to   decrease   the exposure to   glibenclamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969015",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969015_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"roxadustat\" outputclass=\"int-drug\">Roxadustat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor adverse effects and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Roxadustat   is predicted to   increase   the exposure to   glibenclamide .  Manufacturer advises monitor adverse effects and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Roxadustat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969016",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969016_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"saxagliptin\" outputclass=\"int-drug\">saxagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  saxagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Saxagliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969017",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969017_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"semaglutide\" outputclass=\"int-drug\">semaglutide</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  semaglutide  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Semaglutide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969018",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969018_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"sitagliptin\" outputclass=\"int-drug\">sitagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  sitagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sitagliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969019",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969019_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfadiazine\" outputclass=\"int-drug\">Sulfadiazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfadiazine   is predicted to   increase   the exposure to   glibenclamide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfadiazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969020",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969020_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfadoxine\" outputclass=\"int-drug\">Sulfadoxine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfadoxine   is predicted to   increase   the exposure to   glibenclamide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfadoxine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969021",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969021_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sulfamethoxazole\" outputclass=\"int-drug\">Sulfamethoxazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sulfamethoxazole   is predicted to   increase   the exposure to   glibenclamide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfamethoxazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969022",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969022_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   glibenclamide .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Teriflunomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969023",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969023_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"venetoclax\" outputclass=\"int-drug\">Venetoclax</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Venetoclax   is predicted to   increase   the exposure to   glibenclamide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Venetoclax</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969024",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969024_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph> and <ph otherprops=\"vildagliptin\" outputclass=\"int-drug\">vildagliptin</ph> can increase the risk of hypoglycaemia.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  glibenclamide  and  vildagliptin  can increase the risk of hypoglycaemia. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vildagliptin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969025",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/glibenclamide#bnf_i1643857969025_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"voriconazole\" outputclass=\"int-drug\">Voriconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-heading-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Voriconazole   is predicted to   increase   the concentration of   glibenclamide .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Voriconazole</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Glibenclamide  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/glibenclamide.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Glibenclamide </title>"
+			},
+			"rdfs:label": "glibenclamide"
+		}
+	]
+}

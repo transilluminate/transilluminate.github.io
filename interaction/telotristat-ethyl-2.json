@@ -35,10 +35,31 @@
 			"@type": "InteractionList",
 			"hasInteraction": [
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/telotristat-ethyl-2#bnf_i1557280770360",
+					"@id": "http://bnf.nice.org.uk/interaction/telotristat-ethyl-2#bnf_i1643858020129",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/telotristat-ethyl-2#bnf_i1557280770360_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/telotristat-ethyl-2#bnf_i1643858020129_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"telotristat ethyl\" outputclass=\"int-heading-drug\">Telotristat ethyl</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <xref format=\"dita\" href=\"drug/doravirine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219163\">doravirine</xref> or <xref format=\"dita\" href=\"drug/lamivudine-with-tenofovir-disoproxil-and-doravirine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219192\">lamivudine with tenofovir disoproxil and doravirine</xref> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Telotristat ethyl   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid or adjust  doravirine  or  lamivudine with tenofovir disoproxil and doravirine  dose .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doravirine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/telotristat-ethyl-2#bnf_i1643858020130",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/telotristat-ethyl-2#bnf_i1643858020130_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"telotristat ethyl\" outputclass=\"int-heading-drug\">Telotristat ethyl</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"midazolam\" outputclass=\"int-drug\">midazolam</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
@@ -49,17 +70,17 @@
 							"hasTextContent": "Telotristat ethyl   decreases   the exposure to   midazolam .  Manufacturer advises monitor .    \n\n"
 						}
 					],
-					"hasOrder": "1",
+					"hasOrder": "2",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Midazolam</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/telotristat-ethyl-2#bnf_i1557280770361",
+					"@id": "http://bnf.nice.org.uk/interaction/telotristat-ethyl-2#bnf_i1643858020131",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/telotristat-ethyl-2#bnf_i1557280770361_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/telotristat-ethyl-2#bnf_i1643858020131_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"octreotide\" outputclass=\"int-drug\">Octreotide</ph> <ph outputclass=\"int-substanceQualifier\">(short-acting)</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"telotristat ethyl\" outputclass=\"int-heading-drug\">telotristat ethyl</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"telotristat ethyl\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/telotristat-ethyl.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP216388\">telotristat ethyl</xref></ph> should be taken at least 30 minutes before <ph otherprops=\"octreotide\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/octreotide.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5807\">octreotide</xref></ph></ph>.  </p>"
@@ -70,7 +91,7 @@
 							"hasTextContent": "Octreotide   (short-acting)   decreases   the exposure to   telotristat ethyl .  Manufacturer advises  telotristat ethyl  should be taken at least 30 minutes before  octreotide .    \n\n"
 						}
 					],
-					"hasOrder": "2",
+					"hasOrder": "3",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Octreotide</title>"

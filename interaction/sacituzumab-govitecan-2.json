@@ -1,0 +1,469 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013292",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013292_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"atazanavir\" outputclass=\"int-drug\">Atazanavir</ph> <ph outputclass=\"int-substanceQualifier\">boosted with ritonavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor efficacy</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Atazanavir   boosted with ritonavir   is predicted to   decrease   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor efficacy .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atazanavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013293",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013293_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor efficacy</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Carbamazepine   is predicted to   decrease   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor efficacy .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013294",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013294_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"darunavir\" outputclass=\"int-drug\">Darunavir</ph> <ph outputclass=\"int-substanceQualifier\">boosted with ritonavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor efficacy</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Darunavir   boosted with ritonavir   is predicted to   decrease   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor efficacy .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Darunavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013295",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013295_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"encorafenib\" outputclass=\"int-drug\">Encorafenib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor adverse effects</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Encorafenib   is predicted to   increase   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor adverse effects .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Encorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013296",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013296_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"erlotinib\" outputclass=\"int-drug\">Erlotinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor adverse effects</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Erlotinib   is predicted to   increase   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor adverse effects .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Erlotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013297",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013297_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosamprenavir\" outputclass=\"int-drug\">Fosamprenavir</ph> <ph outputclass=\"int-substanceQualifier\">boosted with ritonavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor efficacy</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fosamprenavir   boosted with ritonavir   is predicted to   decrease   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor efficacy .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosamprenavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013298",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013298_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor efficacy</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fosphenytoin   is predicted to   decrease   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor efficacy .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013299",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013299_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gefitinib\" outputclass=\"int-drug\">Gefitinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor adverse effects</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gefitinib   is predicted to   increase   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor adverse effects .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gefitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013300",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013300_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ketoconazole\" outputclass=\"int-drug\">Ketoconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor adverse effects</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ketoconazole   is predicted to   increase   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor adverse effects .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketoconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013301",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013301_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lapatinib\" outputclass=\"int-drug\">Lapatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor adverse effects</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lapatinib   is predicted to   increase   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor adverse effects .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lapatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013302",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013302_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lopinavir\" outputclass=\"int-drug\">Lopinavir</ph> <ph outputclass=\"int-substanceQualifier\">boosted with ritonavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor efficacy</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lopinavir   boosted with ritonavir   is predicted to   decrease   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor efficacy .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lopinavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013303",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013303_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nilotinib\" outputclass=\"int-drug\">Nilotinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor adverse effects</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Nilotinib   is predicted to   increase   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor adverse effects .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nilotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013304",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013304_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"pazopanib\" outputclass=\"int-drug\">Pazopanib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor adverse effects</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Pazopanib   is predicted to   increase   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor adverse effects .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pazopanib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013305",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013305_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor efficacy</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenytoin   is predicted to   decrease   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor efficacy .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013306",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013306_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"propofol\" outputclass=\"int-drug\">Propofol</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor adverse effects</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Propofol   is predicted to   increase   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor adverse effects .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Propofol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013307",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013307_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"regorafenib\" outputclass=\"int-drug\">Regorafenib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor adverse effects</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Regorafenib   is predicted to   increase   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor adverse effects .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Regorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013308",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013308_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor efficacy</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   is predicted to   decrease   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor efficacy .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013309",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013309_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ritonavir\" outputclass=\"int-drug\">Ritonavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor efficacy</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ritonavir   is predicted to   decrease   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor efficacy .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ritonavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013310",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013310_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"sorafenib\" outputclass=\"int-drug\">Sorafenib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor adverse effects</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Sorafenib   is predicted to   increase   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor adverse effects .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013311",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2#bnf_i1643858013311_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tipranavir\" outputclass=\"int-drug\">Tipranavir</ph> <ph outputclass=\"int-substanceQualifier\">boosted with ritonavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to the active component of</ph> <ph otherprops=\"sacituzumab govitecan\" outputclass=\"int-heading-drug\">sacituzumab govitecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor efficacy</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tipranavir   boosted with ritonavir   is predicted to   decrease   the exposure to the active component of   sacituzumab govitecan .  Manufacturer advises caution and monitor efficacy .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tipranavir</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Sacituzumab govitecan  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/sacituzumab-govitecan-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Sacituzumab govitecan </title>"
+			},
+			"rdfs:label": "sacituzumab govitecan"
+		}
+	]
+}

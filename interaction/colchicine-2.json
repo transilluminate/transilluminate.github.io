@@ -35,10 +35,31 @@
 			"@type": "InteractionList",
 			"hasInteraction": [
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703083",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948020",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703083_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948020_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"amiodarone\" outputclass=\"int-drug\">Amiodarone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid P-glycoprotein inhibitors or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Amiodarone   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid P-glycoprotein inhibitors or adjust  colchicine  dose .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amiodarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948021",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948021_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"apalutamide\" outputclass=\"int-drug\">Apalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
@@ -49,101 +70,122 @@
 							"hasTextContent": "Apalutamide   is predicted to   decrease   the exposure to   colchicine .  Manufacturer advises monitor .    \n\n"
 						}
 					],
-					"hasOrder": "1",
+					"hasOrder": "2",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Apalutamide</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703084",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948022",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703084_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948022_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"aprepitant\" outputclass=\"int-drug\">Aprepitant</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"aprepitant\" outputclass=\"int-drug\">Aprepitant</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate CYP3A4 inhibitors</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Aprepitant   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate inhibitors of CYP3A4 .    \n\n"
+							"hasTextContent": "Aprepitant   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate CYP3A4 inhibitors .    \n\n"
 						}
 					],
-					"hasOrder": "2",
+					"hasOrder": "3",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Aprepitant</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703085",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948023",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703085_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948023_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"atazanavir\" outputclass=\"int-drug\">Atazanavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"atazanavir\" outputclass=\"int-drug\">Atazanavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent CYP3A4 inhibitors or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Atazanavir   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust  colchicine  dose .    \n\n"
+							"hasTextContent": "Atazanavir   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent CYP3A4 inhibitors or adjust  colchicine  dose .    \n\n"
 						}
 					],
-					"hasOrder": "3",
+					"hasOrder": "4",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Atazanavir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703086",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948024",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703086_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948024_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">Colchicine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"atorvastatin\" outputclass=\"int-drug\">atorvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">Colchicine</ph> <ph outputclass=\"int-effectQualifier\">has been reported to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">rhabdomyolysis when given with</ph> <ph otherprops=\"atorvastatin\" outputclass=\"int-drug\">atorvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution or monitor</ph>.  </p>"
 							},
 							"hasEvidence": "Anecdotal",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Colchicine   increases   the risk of rhabdomyolysis when given with   atorvastatin .  Manufacturer makes no recommendation .    \n\n"
+							"hasTextContent": "Colchicine   has been reported to   cause   rhabdomyolysis when given with   atorvastatin .  Manufacturer advises caution or monitor .    \n\n"
 						}
 					],
-					"hasOrder": "4",
+					"hasOrder": "5",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Atorvastatin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703087",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948025",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703087_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948025_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"azithromycin\" outputclass=\"int-drug\">Azithromycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"azithromycin\" outputclass=\"int-drug\">Azithromycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid P-glycoprotein inhibitors or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Azithromycin   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid or adjust  colchicine  dose .    \n\n"
+							"hasTextContent": "Azithromycin   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid P-glycoprotein inhibitors or adjust  colchicine  dose .    \n\n"
 						}
 					],
-					"hasOrder": "5",
+					"hasOrder": "6",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Azithromycin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703088",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948026",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703088_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948026_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"berotralstat\" outputclass=\"int-drug\">Berotralstat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Berotralstat   is predicted to   increase   the concentration of   colchicine .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Berotralstat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948027",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948027_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">Colchicine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"bezafibrate\" outputclass=\"int-drug\">bezafibrate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -154,59 +196,59 @@
 							"hasTextContent": "Colchicine   increases   the risk of rhabdomyolysis when given with   bezafibrate .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "6",
+					"hasOrder": "8",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Bezafibrate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703089",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948028",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703089_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948028_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ceritinib\" outputclass=\"int-drug\">Ceritinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor side effects</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ceritinib\" outputclass=\"int-drug\">Ceritinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution and monitor adverse effects</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Ceritinib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises caution and monitor side effects .    \n\n"
+							"hasTextContent": "Ceritinib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises caution and monitor adverse effects .    \n\n"
 						}
 					],
-					"hasOrder": "7",
+					"hasOrder": "9",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Ceritinib</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703090",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948029",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703090_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948029_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ciclosporin\" outputclass=\"int-drug\">Ciclosporin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ciclosporin\" outputclass=\"int-drug\">Ciclosporin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid P-glycoprotein inhibitors or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Ciclosporin   increases   the exposure to   colchicine .  Manufacturer advises avoid or adjust  colchicine  dose .    \n\n"
+							"hasTextContent": "Ciclosporin   increases   the exposure to   colchicine .  Manufacturer advises avoid P-glycoprotein inhibitors or adjust  colchicine  dose .    \n\n"
 						}
 					],
-					"hasOrder": "8",
+					"hasOrder": "10",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Ciclosporin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703091",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948030",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703091_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948030_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">Colchicine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"ciprofibrate\" outputclass=\"int-drug\">ciprofibrate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -217,143 +259,143 @@
 							"hasTextContent": "Colchicine   increases   the risk of rhabdomyolysis when given with   ciprofibrate .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "9",
+					"hasOrder": "11",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Ciprofibrate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703092",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948031",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703092_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948031_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"clarithromycin\" outputclass=\"int-drug\">Clarithromycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"clarithromycin\" outputclass=\"int-drug\">Clarithromycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent CYP3A4 inhibitors or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Clarithromycin   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust  colchicine  dose .    \n\n"
+							"hasTextContent": "Clarithromycin   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent CYP3A4 inhibitors or adjust  colchicine  dose .    \n\n"
 						}
 					],
-					"hasOrder": "10",
+					"hasOrder": "12",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Clarithromycin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703093",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948032",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703093_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948032_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"cobicistat\" outputclass=\"int-drug\">Cobicistat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"cobicistat\" outputclass=\"int-drug\">Cobicistat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent CYP3A4 inhibitors or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Cobicistat   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust  colchicine  dose .    \n\n"
+							"hasTextContent": "Cobicistat   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent CYP3A4 inhibitors or adjust  colchicine  dose .    \n\n"
 						}
 					],
-					"hasOrder": "11",
+					"hasOrder": "13",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Cobicistat</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703094",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948033",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703094_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948033_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"crizotinib\" outputclass=\"int-drug\">Crizotinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"crizotinib\" outputclass=\"int-drug\">Crizotinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate CYP3A4 inhibitors</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Crizotinib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate inhibitors of CYP3A4 .    \n\n"
+							"hasTextContent": "Crizotinib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate CYP3A4 inhibitors .    \n\n"
 						}
 					],
-					"hasOrder": "12",
+					"hasOrder": "14",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Crizotinib</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703095",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948034",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703095_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948034_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"darunavir\" outputclass=\"int-drug\">Darunavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"darunavir\" outputclass=\"int-drug\">Darunavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent CYP3A4 inhibitors or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Darunavir   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust  colchicine  dose .    \n\n"
+							"hasTextContent": "Darunavir   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent CYP3A4 inhibitors or adjust  colchicine  dose .    \n\n"
 						}
 					],
-					"hasOrder": "13",
+					"hasOrder": "15",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Darunavir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703096",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948035",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703096_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948035_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"diltiazem\" outputclass=\"int-drug\">Diltiazem</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"diltiazem\" outputclass=\"int-drug\">Diltiazem</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate CYP3A4 inhibitors</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Diltiazem   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate inhibitors of CYP3A4 .    \n\n"
+							"hasTextContent": "Diltiazem   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate CYP3A4 inhibitors .    \n\n"
 						}
 					],
-					"hasOrder": "14",
+					"hasOrder": "16",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Diltiazem</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703097",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948036",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703097_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948036_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dronedarone\" outputclass=\"int-drug\">Dronedarone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dronedarone\" outputclass=\"int-drug\">Dronedarone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate CYP3A4 inhibitors</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Dronedarone   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate inhibitors of CYP3A4 .    \n\n"
+							"hasTextContent": "Dronedarone   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate CYP3A4 inhibitors .    \n\n"
 						}
 					],
-					"hasOrder": "15",
+					"hasOrder": "17",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Dronedarone</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703098",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948037",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703098_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948037_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"eliglustat\" outputclass=\"int-drug\">Eliglustat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
@@ -364,38 +406,38 @@
 							"hasTextContent": "Eliglustat   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid or adjust  colchicine  dose .    \n\n"
 						}
 					],
-					"hasOrder": "16",
+					"hasOrder": "18",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Eliglustat</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703099",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948038",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703099_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948038_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"erythromycin\" outputclass=\"int-drug\">Erythromycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"erythromycin\" outputclass=\"int-drug\">Erythromycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate CYP3A4 inhibitors</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Erythromycin   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate inhibitors of CYP3A4 .    \n\n"
+							"hasTextContent": "Erythromycin   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate CYP3A4 inhibitors .    \n\n"
 						}
 					],
-					"hasOrder": "17",
+					"hasOrder": "19",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Erythromycin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703100",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948039",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703100_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948039_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">Colchicine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"fenofibrate\" outputclass=\"int-drug\">fenofibrate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -406,80 +448,80 @@
 							"hasTextContent": "Colchicine   increases   the risk of rhabdomyolysis when given with   fenofibrate .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "18",
+					"hasOrder": "20",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Fenofibrate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703101",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948040",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703101_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948040_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fluconazole\" outputclass=\"int-drug\">Fluconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fluconazole\" outputclass=\"int-drug\">Fluconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate CYP3A4 inhibitors</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Fluconazole   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate inhibitors of CYP3A4 .    \n\n"
+							"hasTextContent": "Fluconazole   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate CYP3A4 inhibitors .    \n\n"
 						}
 					],
-					"hasOrder": "19",
+					"hasOrder": "21",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Fluconazole</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703102",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948041",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703102_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948041_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">Colchicine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"fluvastatin\" outputclass=\"int-drug\">fluvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">Colchicine</ph> <ph outputclass=\"int-effectQualifier\">has been reported to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">rhabdomyolysis when given with</ph> <ph otherprops=\"fluvastatin\" outputclass=\"int-drug\">fluvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution or monitor</ph>.  </p>"
 							},
 							"hasEvidence": "Anecdotal",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Colchicine   increases   the risk of rhabdomyolysis when given with   fluvastatin .  Manufacturer makes no recommendation .    \n\n"
+							"hasTextContent": "Colchicine   has been reported to   cause   rhabdomyolysis when given with   fluvastatin .  Manufacturer advises caution or monitor .    \n\n"
 						}
 					],
-					"hasOrder": "20",
+					"hasOrder": "22",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Fluvastatin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703103",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948042",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703103_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948042_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosamprenavir\" outputclass=\"int-drug\">Fosamprenavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosamprenavir\" outputclass=\"int-drug\">Fosamprenavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent CYP3A4 inhibitors or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Fosamprenavir   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust  colchicine  dose .    \n\n"
+							"hasTextContent": "Fosamprenavir   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent CYP3A4 inhibitors or adjust  colchicine  dose .    \n\n"
 						}
 					],
-					"hasOrder": "21",
+					"hasOrder": "23",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Fosamprenavir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703104",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948043",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703104_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948043_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">Colchicine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"gemfibrozil\" outputclass=\"int-drug\">gemfibrozil</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -490,164 +532,248 @@
 							"hasTextContent": "Colchicine   increases   the risk of rhabdomyolysis when given with   gemfibrozil .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "22",
+					"hasOrder": "24",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Gemfibrozil</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703105",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948044",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703105_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948044_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"idelalisib\" outputclass=\"int-drug\">Idelalisib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ibrutinib\" outputclass=\"int-drug\">Ibrutinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 6 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ibrutinib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises separate administration by at least 6 hours .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibrutinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948045",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948045_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"idelalisib\" outputclass=\"int-drug\">Idelalisib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent CYP3A4 inhibitors or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Idelalisib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust  colchicine  dose .    \n\n"
+							"hasTextContent": "Idelalisib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent CYP3A4 inhibitors or adjust  colchicine  dose .    \n\n"
 						}
 					],
-					"hasOrder": "23",
+					"hasOrder": "26",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Idelalisib</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703106",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948046",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703106_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948046_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"imatinib\" outputclass=\"int-drug\">Imatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"imatinib\" outputclass=\"int-drug\">Imatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate CYP3A4 inhibitors</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Imatinib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate inhibitors of CYP3A4 .    \n\n"
+							"hasTextContent": "Imatinib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate CYP3A4 inhibitors .    \n\n"
 						}
 					],
-					"hasOrder": "24",
+					"hasOrder": "27",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Imatinib</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703107",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948047",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703107_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948047_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"isavuconazole\" outputclass=\"int-drug\">Isavuconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"isavuconazole\" outputclass=\"int-drug\">Isavuconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate CYP3A4 inhibitors</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Isavuconazole   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate inhibitors of CYP3A4 .    \n\n"
+							"hasTextContent": "Isavuconazole   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate CYP3A4 inhibitors .    \n\n"
 						}
 					],
-					"hasOrder": "25",
+					"hasOrder": "28",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Isavuconazole</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703108",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948048",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703108_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948048_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"itraconazole\" outputclass=\"int-drug\">Itraconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"itraconazole\" outputclass=\"int-drug\">Itraconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent CYP3A4 inhibitors or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Itraconazole   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust  colchicine  dose .    \n\n"
+							"hasTextContent": "Itraconazole   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent CYP3A4 inhibitors or adjust  colchicine  dose .    \n\n"
 						}
 					],
-					"hasOrder": "26",
+					"hasOrder": "29",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Itraconazole</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703109",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948049",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703109_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948049_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ketoconazole\" outputclass=\"int-drug\">Ketoconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ivacaftor\" outputclass=\"int-drug\">Ivacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ivacaftor   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ivacaftor</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948050",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948050_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ketoconazole\" outputclass=\"int-drug\">Ketoconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent CYP3A4 inhibitors or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Ketoconazole   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust  colchicine  dose .    \n\n"
+							"hasTextContent": "Ketoconazole   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent CYP3A4 inhibitors or adjust  colchicine  dose .    \n\n"
 						}
 					],
-					"hasOrder": "27",
+					"hasOrder": "31",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Ketoconazole</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703110",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948051",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703110_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948051_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lapatinib\" outputclass=\"int-drug\">Lapatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lapatinib\" outputclass=\"int-drug\">Lapatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid P-glycoprotein inhibitors or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Lapatinib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid or adjust  colchicine  dose .    \n\n"
+							"hasTextContent": "Lapatinib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid P-glycoprotein inhibitors or adjust  colchicine  dose .    \n\n"
 						}
 					],
-					"hasOrder": "28",
+					"hasOrder": "32",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Lapatinib</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703111",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948052",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703111_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948052_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lopinavir\" outputclass=\"int-drug\">Lopinavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"letermovir\" outputclass=\"int-drug\">Letermovir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate CYP3A4 inhibitors</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Lopinavir   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust  colchicine  dose .    \n\n"
+							"hasTextContent": "Letermovir   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate CYP3A4 inhibitors .    \n\n"
 						}
 					],
-					"hasOrder": "29",
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Letermovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948053",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948053_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lopinavir\" outputclass=\"int-drug\">Lopinavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent CYP3A4 inhibitors or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lopinavir   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent CYP3A4 inhibitors or adjust  colchicine  dose .    \n\n"
+						}
+					],
+					"hasOrder": "34",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Lopinavir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703112",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948054",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703112_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948054_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lorlatinib\" outputclass=\"int-drug\">Lorlatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lorlatinib   is predicted to   decrease   the exposure to   colchicine .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lorlatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948055",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948055_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"mirabegron\" outputclass=\"int-drug\">Mirabegron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -658,80 +784,164 @@
 							"hasTextContent": "Mirabegron   is predicted to   increase   the exposure to   colchicine .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "30",
+					"hasOrder": "36",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Mirabegron</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703113",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948056",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703113_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948056_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"netupitant\" outputclass=\"int-drug\">Netupitant</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"neratinib\" outputclass=\"int-drug\">Neratinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Neratinib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Neratinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948057",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948057_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"netupitant\" outputclass=\"int-drug\">Netupitant</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate CYP3A4 inhibitors</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Netupitant   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate inhibitors of CYP3A4 .    \n\n"
+							"hasTextContent": "Netupitant   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate CYP3A4 inhibitors .    \n\n"
 						}
 					],
-					"hasOrder": "31",
+					"hasOrder": "38",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Netupitant</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703114",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948058",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703114_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948058_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nilotinib\" outputclass=\"int-drug\">Nilotinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nilotinib\" outputclass=\"int-drug\">Nilotinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate CYP3A4 inhibitors</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Nilotinib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate inhibitors of CYP3A4 .    \n\n"
+							"hasTextContent": "Nilotinib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate CYP3A4 inhibitors .    \n\n"
 						}
 					],
-					"hasOrder": "32",
+					"hasOrder": "39",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Nilotinib</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703115",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948059",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703115_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948059_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pibrentasvir\" outputclass=\"int-drug\">Pibrentasvir</ph> <ph outputclass=\"int-substanceQualifier\">(with glecaprevir)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"olaparib\" outputclass=\"int-drug\">Olaparib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Olaparib   might   increase   the exposure to   colchicine .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olaparib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948060",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948060_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"osimertinib\" outputclass=\"int-drug\">Osimertinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Pibrentasvir   (with glecaprevir)   is predicted to   increase   the exposure to   colchicine .  Manufacturer makes no recommendation .    \n\n"
+							"hasTextContent": "Osimertinib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises monitor .    \n\n"
 						}
 					],
-					"hasOrder": "33",
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Osimertinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948061",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948061_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pemigatinib\" outputclass=\"int-drug\">Pemigatinib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 6 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pemigatinib   might   increase   the exposure to   colchicine .  Manufacturer advises separate administration by at least 6 hours .    \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pemigatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948062",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948062_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pibrentasvir\" outputclass=\"int-drug\">Pibrentasvir</ph> <ph outputclass=\"int-substanceQualifier\">with glecaprevir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pibrentasvir   with glecaprevir   is predicted to   increase   the exposure to   colchicine .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "43",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Pibrentasvir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703116",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948063",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703116_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948063_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph otherprops=\"pitolisant\" outputclass=\"int-drug\">Pitolisant</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
@@ -742,206 +952,248 @@
 							"hasTextContent": "Pitolisant   is predicted to   decrease   the exposure to   colchicine .  Manufacturer advises caution .    \n\n"
 						}
 					],
-					"hasOrder": "34",
+					"hasOrder": "44",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Pitolisant</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703117",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948064",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703117_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948064_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"posaconazole\" outputclass=\"int-drug\">Posaconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"posaconazole\" outputclass=\"int-drug\">Posaconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate CYP3A4 inhibitors</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Posaconazole   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate inhibitors of CYP3A4 .    \n\n"
+							"hasTextContent": "Posaconazole   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate CYP3A4 inhibitors .    \n\n"
 						}
 					],
-					"hasOrder": "35",
+					"hasOrder": "45",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Posaconazole</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703118",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948065",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703118_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948065_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">Colchicine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"pravastatin\" outputclass=\"int-drug\">pravastatin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">Colchicine</ph> <ph outputclass=\"int-effectQualifier\">has been reported to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">rhabdomyolysis when given with</ph> <ph otherprops=\"pravastatin\" outputclass=\"int-drug\">pravastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution or monitor</ph>.  </p>"
 							},
 							"hasEvidence": "Anecdotal",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Colchicine   increases   the risk of rhabdomyolysis when given with   pravastatin .  Manufacturer makes no recommendation .    \n\n"
+							"hasTextContent": "Colchicine   has been reported to   cause   rhabdomyolysis when given with   pravastatin .  Manufacturer advises caution or monitor .    \n\n"
 						}
 					],
-					"hasOrder": "36",
+					"hasOrder": "46",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Pravastatin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703119",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948066",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703119_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948066_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ranolazine\" outputclass=\"int-drug\">Ranolazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ranolazine\" outputclass=\"int-drug\">Ranolazine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid P-glycoprotein inhibitors or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Ranolazine   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid or adjust  colchicine  dose .    \n\n"
+							"hasTextContent": "Ranolazine   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid P-glycoprotein inhibitors or adjust  colchicine  dose .    \n\n"
 						}
 					],
-					"hasOrder": "37",
+					"hasOrder": "47",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Ranolazine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703120",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948067",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703120_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948067_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ritonavir\" outputclass=\"int-drug\">Ritonavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ritonavir\" outputclass=\"int-drug\">Ritonavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent CYP3A4 inhibitors or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Ritonavir   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust  colchicine  dose .    \n\n"
+							"hasTextContent": "Ritonavir   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent CYP3A4 inhibitors or adjust  colchicine  dose .    \n\n"
 						}
 					],
-					"hasOrder": "38",
+					"hasOrder": "48",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Ritonavir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703121",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948068",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703121_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948068_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rolapitant\" outputclass=\"int-drug\">Rolapitant</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
-							},
-							"hasEvidence": "Study",
-							"hasImportance": "Moderate",
-							"hasOrder": "1",
-							"hasTextContent": "Rolapitant   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises monitor .    \n\n"
-						}
-					],
-					"hasOrder": "39",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Rolapitant</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703122",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703122_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">Colchicine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"rosuvastatin\" outputclass=\"int-drug\">rosuvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">Colchicine</ph> <ph outputclass=\"int-effectQualifier\">has been reported to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">rhabdomyolysis when given with</ph> <ph otherprops=\"rosuvastatin\" outputclass=\"int-drug\">rosuvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution or monitor</ph>.  </p>"
 							},
 							"hasEvidence": "Anecdotal",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Colchicine   increases   the risk of rhabdomyolysis when given with   rosuvastatin .  Manufacturer makes no recommendation .    \n\n"
+							"hasTextContent": "Colchicine   has been reported to   cause   rhabdomyolysis when given with   rosuvastatin .  Manufacturer advises caution or monitor .    \n\n"
 						}
 					],
-					"hasOrder": "40",
+					"hasOrder": "49",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Rosuvastatin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703123",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948069",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703123_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948069_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"saquinavir\" outputclass=\"int-drug\">Saquinavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
-							},
-							"hasEvidence": "Study",
-							"hasImportance": "Severe",
-							"hasOrder": "1",
-							"hasTextContent": "Saquinavir   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust  colchicine  dose .    \n\n"
-						}
-					],
-					"hasOrder": "41",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Saquinavir</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703124",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703124_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">Colchicine</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of rhabdomyolysis when given with</ph> <ph otherprops=\"simvastatin\" outputclass=\"int-drug\">simvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">Colchicine</ph> <ph outputclass=\"int-effectQualifier\">has been reported to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">rhabdomyolysis when given with</ph> <ph otherprops=\"simvastatin\" outputclass=\"int-drug\">simvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution or monitor</ph>.  </p>"
 							},
 							"hasEvidence": "Anecdotal",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Colchicine   increases   the risk of rhabdomyolysis when given with   simvastatin .  Manufacturer makes no recommendation .    \n\n"
+							"hasTextContent": "Colchicine   has been reported to   cause   rhabdomyolysis when given with   simvastatin .  Manufacturer advises caution or monitor .    \n\n"
 						}
 					],
-					"hasOrder": "42",
+					"hasOrder": "50",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Simvastatin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703125",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948070",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703125_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948070_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tipranavir\" outputclass=\"int-drug\">Tipranavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"sotorasib\" outputclass=\"int-drug\">Sotorasib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Sotorasib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sotorasib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948071",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948071_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tepotinib\" outputclass=\"int-drug\">Tepotinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Tipranavir   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust  colchicine  dose .    \n\n"
+							"hasTextContent": "Tepotinib   is predicted to   increase   the concentration of   colchicine .  Manufacturer advises monitor .    \n\n"
 						}
 					],
-					"hasOrder": "43",
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tepotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948072",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948072_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tipranavir\" outputclass=\"int-drug\">Tipranavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent CYP3A4 inhibitors or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tipranavir   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent CYP3A4 inhibitors or adjust  colchicine  dose .    \n\n"
+						}
+					],
+					"hasOrder": "53",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Tipranavir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703126",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948073",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703126_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948073_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tucatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948074",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948074_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"vandetanib\" outputclass=\"int-drug\">Vandetanib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Vandetanib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vandetanib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948075",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948075_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"velpatasvir\" outputclass=\"int-drug\">Velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
@@ -952,70 +1204,91 @@
 							"hasTextContent": "Velpatasvir   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises monitor .    \n\n"
 						}
 					],
-					"hasOrder": "44",
+					"hasOrder": "56",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Velpatasvir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703127",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948076",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703127_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948076_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"vemurafenib\" outputclass=\"int-drug\">Vemurafenib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"vemurafenib\" outputclass=\"int-drug\">Vemurafenib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid P-glycoprotein inhibitors or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Vemurafenib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid or adjust  colchicine  dose .    \n\n"
+							"hasTextContent": "Vemurafenib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid P-glycoprotein inhibitors or adjust  colchicine  dose .    \n\n"
 						}
 					],
-					"hasOrder": "45",
+					"hasOrder": "57",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Vemurafenib</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703128",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948077",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703128_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948077_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"verapamil\" outputclass=\"int-drug\">Verapamil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate inhibitors of CYP3A4</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"venetoclax\" outputclass=\"int-drug\">Venetoclax</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Verapamil   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate inhibitors of CYP3A4 .    \n\n"
+							"hasTextContent": "Venetoclax   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid or adjust dose .    \n\n"
 						}
 					],
-					"hasOrder": "46",
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Venetoclax</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948078",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948078_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"verapamil\" outputclass=\"int-drug\">Verapamil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose with moderate CYP3A4 inhibitors</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Verapamil   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises adjust  colchicine  dose with moderate CYP3A4 inhibitors .    \n\n"
+						}
+					],
+					"hasOrder": "59",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Verapamil</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703129",
+					"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948079",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1557280703129_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/colchicine-2#bnf_i1643857948079_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"voriconazole\" outputclass=\"int-drug\">Voriconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"voriconazole\" outputclass=\"int-drug\">Voriconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid potent CYP3A4 inhibitors or adjust <ph otherprops=\"colchicine\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/colchicine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP6662\">colchicine</xref></ph> dose</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Voriconazole   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent inhibitors of CYP3A4 or adjust  colchicine  dose .    \n\n"
+							"hasTextContent": "Voriconazole   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises avoid potent CYP3A4 inhibitors or adjust  colchicine  dose .    \n\n"
 						}
 					],
-					"hasOrder": "47",
+					"hasOrder": "60",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Voriconazole</title>"

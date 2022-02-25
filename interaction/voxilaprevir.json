@@ -35,52 +35,73 @@
 			"@type": "InteractionList",
 			"hasInteraction": [
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781843",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033589",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781843_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033589_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"atazanavir\" outputclass=\"int-drug\">Atazanavir</ph> <ph outputclass=\"int-substanceQualifier\">(boosted with ritonavir)</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"apalutamide\" outputclass=\"int-drug\">Apalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Atazanavir   (boosted with ritonavir)   increases   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
+							"hasTextContent": "Apalutamide   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
 					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033590",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033590_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"atazanavir\" outputclass=\"int-drug\">Atazanavir</ph> <ph outputclass=\"int-substanceQualifier\">boosted with ritonavir</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Atazanavir   boosted with ritonavir   increases   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Atazanavir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781844",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033591",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781844_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033591_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atorvastatin\" outputclass=\"int-drug\">atorvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">with sofosbuvir and velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atorvastatin\" outputclass=\"int-drug\">atorvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"atorvastatin\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/atorvastatin.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP1633\">atorvastatin</xref></ph> dose</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Voxilaprevir   is predicted to   increase   the exposure to   atorvastatin .  Manufacturer advises avoid .    \n\n"
+							"hasTextContent": "Voxilaprevir   with sofosbuvir and velpatasvir   is predicted to   increase   the exposure to   atorvastatin .  Manufacturer advises adjust  atorvastatin  dose .    \n\n"
 						}
 					],
-					"hasOrder": "2",
+					"hasOrder": "3",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Atorvastatin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781845",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033592",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781845_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033592_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bosentan\" outputclass=\"int-drug\">Bosentan</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -91,17 +112,17 @@
 							"hasTextContent": "Bosentan   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "3",
+					"hasOrder": "4",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Bosentan</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781846",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033593",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781846_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033593_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -112,17 +133,17 @@
 							"hasTextContent": "Carbamazepine   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "4",
+					"hasOrder": "5",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Carbamazepine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781847",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033594",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781847_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033594_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ciclosporin\" outputclass=\"int-drug\">Ciclosporin</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -133,101 +154,122 @@
 							"hasTextContent": "Ciclosporin   increases   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "5",
+					"hasOrder": "6",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Ciclosporin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781848",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033595",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781848_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033595_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"combined hormonal contraceptives\" outputclass=\"int-drug\">Combined hormonal contraceptives</ph> <ph outputclass=\"int-substanceQualifier\">(containing ethinylestradiol)</ph> <ph outputclass=\"int-effectQualifier\">are predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of increased ALT concentrations when given with</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">(with sofosbuvir and velpatasvir)</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"combined hormonal contraceptives\" outputclass=\"int-drug\">Combined hormonal contraceptives</ph> <ph outputclass=\"int-substanceQualifier\">(containing ethinylestradiol)</ph> <ph outputclass=\"int-effectQualifier\">are predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of increased ALT concentrations when given with</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">with sofosbuvir and velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Combined hormonal contraceptives   (containing ethinylestradiol)   are predicted to   increase   the risk of increased ALT concentrations when given with   voxilaprevir   (with sofosbuvir and velpatasvir) .  Manufacturer advises avoid .    \n\n"
+							"hasTextContent": "Combined hormonal contraceptives   (containing ethinylestradiol)   are predicted to   increase   the risk of increased ALT concentrations when given with   voxilaprevir   with sofosbuvir and velpatasvir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "6",
+					"hasOrder": "7",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Combined hormonal contraceptives</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781849",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033596",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781849_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033596_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">(with sofosbuvir and velpatasvir)</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"dabigatran\" outputclass=\"int-drug\">dabigatran</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">with sofosbuvir and velpatasvir</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"dabigatran\" outputclass=\"int-drug\">dabigatran</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Voxilaprevir   (with sofosbuvir and velpatasvir)   increases   the concentration of   dabigatran .  Manufacturer advises avoid .    \n\n"
+							"hasTextContent": "Voxilaprevir   with sofosbuvir and velpatasvir   increases   the concentration of   dabigatran .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "7",
+					"hasOrder": "8",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Dabigatran</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781850",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033597",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781850_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033597_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">(with sofosbuvir and velpatasvir)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dabrafenib\" outputclass=\"int-drug\">Dabrafenib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Voxilaprevir   (with sofosbuvir and velpatasvir)   is predicted to   increase   the exposure to   digoxin .  Manufacturer advises monitor and adjust dose .    \n\n"
+							"hasTextContent": "Dabrafenib   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "8",
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dabrafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033598",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033598_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">with sofosbuvir and velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Voxilaprevir   with sofosbuvir and velpatasvir   is predicted to   increase   the exposure to   digoxin .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "10",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Digoxin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781851",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033599",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781851_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033599_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">(with sofosbuvir and velpatasvir)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"edoxaban\" outputclass=\"int-drug\">edoxaban</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">with sofosbuvir and velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"edoxaban\" outputclass=\"int-drug\">edoxaban</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Voxilaprevir   (with sofosbuvir and velpatasvir)   is predicted to   increase   the concentration of   edoxaban .  Manufacturer advises avoid .    \n\n"
+							"hasTextContent": "Voxilaprevir   with sofosbuvir and velpatasvir   is predicted to   increase   the concentration of   edoxaban .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "9",
+					"hasOrder": "11",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Edoxaban</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781852",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033600",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781852_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033600_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"efavirenz\" outputclass=\"int-drug\">Efavirenz</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -238,17 +280,17 @@
 							"hasTextContent": "Efavirenz   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "10",
+					"hasOrder": "12",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Efavirenz</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781853",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033601",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781853_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033601_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"enzalutamide\" outputclass=\"int-drug\">Enzalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -259,17 +301,17 @@
 							"hasTextContent": "Enzalutamide   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "11",
+					"hasOrder": "13",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Enzalutamide</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781854",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033602",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781854_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033602_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"esomeprazole\" outputclass=\"int-drug\">Esomeprazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir-and-voxilaprevir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP215871\">sofosbuvir with velpatasvir and voxilaprevir</xref></ph>.  </p>"
@@ -280,38 +322,38 @@
 							"hasTextContent": "Esomeprazole   is predicted to   decrease   the exposure to   voxilaprevir .  Manufacturer advises adjust dose, see  sofosbuvir with velpatasvir and voxilaprevir .    \n\n"
 						}
 					],
-					"hasOrder": "12",
+					"hasOrder": "14",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Esomeprazole</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781855",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033603",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781855_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033603_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">(with sofosbuvir and velpatasvir)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fluvastatin\" outputclass=\"int-drug\">fluvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">with sofosbuvir and velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fluvastatin\" outputclass=\"int-drug\">fluvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Voxilaprevir   (with sofosbuvir and velpatasvir)   is predicted to   increase   the exposure to   fluvastatin .  Manufacturer advises avoid .    \n\n"
+							"hasTextContent": "Voxilaprevir   with sofosbuvir and velpatasvir   is predicted to   increase   the exposure to   fluvastatin .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "13",
+					"hasOrder": "15",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Fluvastatin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781856",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033604",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781856_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033604_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -322,17 +364,17 @@
 							"hasTextContent": "Fosphenytoin   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "14",
+					"hasOrder": "16",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Fosphenytoin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781857",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033605",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781857_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033605_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lansoprazole\" outputclass=\"int-drug\">Lansoprazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir-and-voxilaprevir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP215871\">sofosbuvir with velpatasvir and voxilaprevir</xref></ph>.  </p>"
@@ -343,38 +385,38 @@
 							"hasTextContent": "Lansoprazole   is predicted to   decrease   the exposure to   voxilaprevir .  Manufacturer advises adjust dose, see  sofosbuvir with velpatasvir and voxilaprevir .    \n\n"
 						}
 					],
-					"hasOrder": "15",
+					"hasOrder": "17",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Lansoprazole</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781858",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033606",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781858_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033606_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lopinavir\" outputclass=\"int-drug\">Lopinavir</ph> <ph outputclass=\"int-substanceQualifier\">(boosted with ritonavir)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lopinavir\" outputclass=\"int-drug\">Lopinavir</ph> <ph outputclass=\"int-substanceQualifier\">boosted with ritonavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Lopinavir   (boosted with ritonavir)   is predicted to   increase   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
+							"hasTextContent": "Lopinavir   boosted with ritonavir   is predicted to   increase   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "16",
+					"hasOrder": "18",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Lopinavir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781859",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033607",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781859_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033607_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mitotane\" outputclass=\"int-drug\">Mitotane</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -385,17 +427,17 @@
 							"hasTextContent": "Mitotane   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "17",
+					"hasOrder": "19",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Mitotane</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781860",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033608",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781860_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033608_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"modafinil\" outputclass=\"int-drug\">Modafinil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -406,17 +448,17 @@
 							"hasTextContent": "Modafinil   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "18",
+					"hasOrder": "20",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Modafinil</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781861",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033609",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781861_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033609_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nevirapine\" outputclass=\"int-drug\">Nevirapine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -427,17 +469,17 @@
 							"hasTextContent": "Nevirapine   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "19",
+					"hasOrder": "21",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Nevirapine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781862",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033610",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781862_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033610_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"omeprazole\" outputclass=\"int-drug\">Omeprazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir-and-voxilaprevir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP215871\">sofosbuvir with velpatasvir and voxilaprevir</xref></ph>.  </p>"
@@ -448,17 +490,17 @@
 							"hasTextContent": "Omeprazole   is predicted to   decrease   the exposure to   voxilaprevir .  Manufacturer advises adjust dose, see  sofosbuvir with velpatasvir and voxilaprevir .    \n\n"
 						}
 					],
-					"hasOrder": "20",
+					"hasOrder": "22",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Omeprazole</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781863",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033611",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781863_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033611_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -469,17 +511,17 @@
 							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "21",
+					"hasOrder": "23",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Oxcarbazepine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781864",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033612",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781864_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033612_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pantoprazole\" outputclass=\"int-drug\">Pantoprazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir-and-voxilaprevir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP215871\">sofosbuvir with velpatasvir and voxilaprevir</xref></ph>.  </p>"
@@ -490,17 +532,17 @@
 							"hasTextContent": "Pantoprazole   is predicted to   decrease   the exposure to   voxilaprevir .  Manufacturer advises adjust dose, see  sofosbuvir with velpatasvir and voxilaprevir .    \n\n"
 						}
 					],
-					"hasOrder": "22",
+					"hasOrder": "24",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Pantoprazole</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781865",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033613",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781865_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033613_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -511,17 +553,17 @@
 							"hasTextContent": "Phenobarbital   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "23",
+					"hasOrder": "25",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Phenobarbital</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781866",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033614",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781866_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033614_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -532,38 +574,38 @@
 							"hasTextContent": "Phenytoin   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "24",
+					"hasOrder": "26",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Phenytoin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781867",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033615",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781867_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033615_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">(with sofosbuvir and velpatasvir)</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pravastatin\" outputclass=\"int-drug\">pravastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust <ph otherprops=\"pravastatin\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/pravastatin-sodium.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP1642\">pravastatin</xref></ph> dose</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">with sofosbuvir and velpatasvir</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pravastatin\" outputclass=\"int-drug\">pravastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust <ph otherprops=\"pravastatin\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/pravastatin-sodium.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP1642\">pravastatin</xref></ph> dose</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Voxilaprevir   (with sofosbuvir and velpatasvir)   moderately   increases   the exposure to   pravastatin .  Manufacturer advises monitor and adjust  pravastatin  dose .    \n\n"
+							"hasTextContent": "Voxilaprevir   with sofosbuvir and velpatasvir   moderately   increases   the exposure to   pravastatin .  Manufacturer advises monitor and adjust  pravastatin  dose .    \n\n"
 						}
 					],
-					"hasOrder": "25",
+					"hasOrder": "27",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Pravastatin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781868",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033616",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781868_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033616_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -574,17 +616,17 @@
 							"hasTextContent": "Primidone   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "26",
+					"hasOrder": "28",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Primidone</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781869",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033617",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781869_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033617_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rabeprazole\" outputclass=\"int-drug\">Rabeprazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust dose, see <xref format=\"dita\" href=\"drug/sofosbuvir-with-velpatasvir-and-voxilaprevir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP215871\">sofosbuvir with velpatasvir and voxilaprevir</xref></ph>.  </p>"
@@ -595,17 +637,17 @@
 							"hasTextContent": "Rabeprazole   is predicted to   decrease   the exposure to   voxilaprevir .  Manufacturer advises adjust dose, see  sofosbuvir with velpatasvir and voxilaprevir .    \n\n"
 						}
 					],
-					"hasOrder": "27",
+					"hasOrder": "29",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Rabeprazole</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781870",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033618",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781870_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033618_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rifabutin\" outputclass=\"int-drug\">Rifabutin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -616,17 +658,17 @@
 							"hasTextContent": "Rifabutin   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "28",
+					"hasOrder": "30",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Rifabutin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781871",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033619",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781871_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033619_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -637,80 +679,80 @@
 							"hasTextContent": "Rifampicin   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "29",
+					"hasOrder": "31",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Rifampicin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781872",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033620",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781872_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033620_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">(with sofosbuvir and velpatasvir)</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rosuvastatin\" outputclass=\"int-drug\">rosuvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">with sofosbuvir and velpatasvir</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rosuvastatin\" outputclass=\"int-drug\">rosuvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Voxilaprevir   (with sofosbuvir and velpatasvir)   markedly   increases   the exposure to   rosuvastatin .  Manufacturer advises avoid .    \n\n"
+							"hasTextContent": "Voxilaprevir   with sofosbuvir and velpatasvir   markedly   increases   the exposure to   rosuvastatin .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "30",
+					"hasOrder": "32",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Rosuvastatin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781873",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033621",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781873_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033621_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">(with sofosbuvir and velpatasvir)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"simvastatin\" outputclass=\"int-drug\">simvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">with sofosbuvir and velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"simvastatin\" outputclass=\"int-drug\">simvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Voxilaprevir   (with sofosbuvir and velpatasvir)   is predicted to   increase   the exposure to   simvastatin .  Manufacturer advises avoid .    \n\n"
+							"hasTextContent": "Voxilaprevir   with sofosbuvir and velpatasvir   is predicted to   increase   the exposure to   simvastatin .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "31",
+					"hasOrder": "33",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Simvastatin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781874",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033622",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781874_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033622_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"St John's Wort\" outputclass=\"int-drug\">St John's Wort</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"St John's wort\" outputclass=\"int-drug\">St John's wort</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "St John's Wort   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
+							"hasTextContent": "St John's wort   is predicted to   decrease   the concentration of   voxilaprevir .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "32",
+					"hasOrder": "34",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
-						"@value": "<title>St John's Wort</title>"
+						"@value": "<title>St John's wort</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781875",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033623",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781875_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033623_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"sulfasalazine\" outputclass=\"int-drug\">sulfasalazine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -721,59 +763,59 @@
 							"hasTextContent": "Voxilaprevir   is predicted to   increase   the concentration of   sulfasalazine .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "33",
+					"hasOrder": "35",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Sulfasalazine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781876",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033624",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781876_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033624_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">(with sofosbuvir and velpatasvir)</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"tenofovir disoproxil\" outputclass=\"int-drug\">tenofovir disoproxil</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor side effects</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-substanceQualifier\">with sofosbuvir and velpatasvir</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"tenofovir disoproxil\" outputclass=\"int-drug\">tenofovir disoproxil</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor adverse effects</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Voxilaprevir   (with sofosbuvir and velpatasvir)   potentially   increases   the concentration of   tenofovir disoproxil .  Manufacturer advises monitor side effects .    \n\n"
+							"hasTextContent": "Voxilaprevir   with sofosbuvir and velpatasvir   potentially   increases   the concentration of   tenofovir disoproxil .  Manufacturer advises monitor adverse effects .    \n\n"
 						}
 					],
-					"hasOrder": "34",
+					"hasOrder": "36",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Tenofovir disoproxil</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781877",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033625",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781877_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033625_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tipranavir\" outputclass=\"int-drug\">Tipranavir</ph> <ph outputclass=\"int-substanceQualifier\">(boosted with ritonavir)</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tipranavir\" outputclass=\"int-drug\">Tipranavir</ph> <ph outputclass=\"int-substanceQualifier\">boosted with ritonavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">voxilaprevir</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Tipranavir   (boosted with ritonavir)   is predicted to   increase   the concentration of   voxilaprevir .  Manufacturer makes no recommendation .    \n\n"
+							"hasTextContent": "Tipranavir   boosted with ritonavir   is predicted to   increase   the concentration of   voxilaprevir .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "35",
+					"hasOrder": "37",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Tipranavir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781878",
+					"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033626",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1557280781878_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/voxilaprevir#bnf_i1643858033626_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"voxilaprevir\" outputclass=\"int-heading-drug\">Voxilaprevir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"topotecan\" outputclass=\"int-drug\">topotecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -784,7 +826,7 @@
 							"hasTextContent": "Voxilaprevir   is predicted to   increase   the concentration of   topotecan .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "36",
+					"hasOrder": "38",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Topotecan</title>"

@@ -1,14 +1,14 @@
-// controller.js
-"use strict";
+// © Copyright 2019-2022 Adrian Robinson. All rights reserved.
 
 jQuery(document).ready( function(){
 
 // add selected medication
 function AddMedication(Medication) {
 	if (Medication && inAvailableMedications(Medication) && !inDisplayMedications(Medication)){
-		var filepath = '/interaction/';
+		var filepath = 'interaction/';
 		var filename = MedicationDetails[Medication]['json'];
 		var url = [filepath,filename].join('');
+		console.log("adding:" + url);
 		
 		$.getJSON( url, function(json){
 			var MedicationLink = [json['@graph'][0]['@id'],".html"].join('');
@@ -328,13 +328,14 @@ function visualFeedback() {	// conditional formatting of the submitButton and se
 	}
 }
 
-// scrape the BNF to get a list of medications and their links
+// scrape the BNF to get a list of medications and their links, we have to do this and host the data locally
+// as most modern and safe browsers don't allow cross site scripting (and JSON files are javascript)
 function BuildMedications() {
 	var url = 'https://bnf.nice.org.uk/interaction/index.html';
 	$.ajax({ url:url, type:'get', dataType:'html',
 		success:function(data){
 			var html = $.parseHTML(data);
-			var baseURL = "https://bnf.nice.org.uk/";
+			var baseURL = "https://bnf.nice.org.uk/interaction/";
 			var urls = [];
 			var details = {};
 			var list = $(html)
@@ -353,11 +354,12 @@ function BuildMedications() {
 			// then run: 'wget -i urlText.txt' or 'xargs -n 1 curl -O < urlText.txt' to download
 			var urlText = urls.join("\n");
  			// DownloadText(urlText,'urlText.txt');		// uncomment to download
+			// console.log(urlText); 			
  			
 			// JSON file: cut and paste, insert into MedicationDetails variable
 			var jsonText = JSON.stringify(details);
 			// DownloadText(jsonText,'jsonText.txt');	// uncomment to download
-			console.log(jsonText);			
+			// console.log(jsonText);			
 		}
 	});
 }
@@ -409,14 +411,19 @@ $.get("https://ipinfo.io/json", function (response) {
 	}
 }, "jsonp");
 
+// try to limit to the UK
+alert("Disclaimer:\n\nThe materials on this site are meant for proof-of-concept and demonstration purposes only, and are not meant to be used for clinical decision making in any way.\n\nIn no event will the author be held liable for any decision made or action taken in reliance upon the information provided. \n\nUse at your own risk!");
+
 // lets go:
 
 // BuildMedications();	// uncomment to run
 
+// create typeahead
+var Typeahead = CreateTypeahead();
+
 // hide the info by default
 $("#interactionDetails").hide();
 $("#stoppDetails").hide();
-
 
 // bind jQuery to the many ways to change the selection
 $("#searchBox").keyup( function() { visualFeedback() });
@@ -424,9 +431,6 @@ $("#searchBox").blur(  function() { visualFeedback() });
 $("#searchBox").focus( function() { visualFeedback() });
 $("#searchBox").click( function() { visualFeedback() });
 $('.typeahead').bind('typeahead:cursorchange', function() { visualFeedback() });
-
-// create typeahead
-var Typeahead = CreateTypeahead();
 
 // bind the typeahead to the searchbox
 $("#searchBox").typeahead({ hint:false, highlight:true, minLength:1 },{ source:Typeahead, limit:10 });

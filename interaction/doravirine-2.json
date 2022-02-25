@@ -1,0 +1,511 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/doravirine-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955737",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955737_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"apalutamide\" outputclass=\"int-drug\">Apalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Apalutamide   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955738",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955738_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bosentan\" outputclass=\"int-drug\">Bosentan</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <xref format=\"dita\" href=\"drug/doravirine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219163\">doravirine</xref> or <xref format=\"dita\" href=\"drug/lamivudine-with-tenofovir-disoproxil-and-doravirine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219192\">lamivudine with tenofovir disoproxil and doravirine</xref> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bosentan   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid or adjust  doravirine  or  lamivudine with tenofovir disoproxil and doravirine  dose .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosentan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955739",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955739_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Carbamazepine   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955740",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955740_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dabrafenib\" outputclass=\"int-drug\">Dabrafenib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <xref format=\"dita\" href=\"drug/doravirine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219163\">doravirine</xref> or <xref format=\"dita\" href=\"drug/lamivudine-with-tenofovir-disoproxil-and-doravirine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219192\">lamivudine with tenofovir disoproxil and doravirine</xref> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dabrafenib   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid or adjust  doravirine  or  lamivudine with tenofovir disoproxil and doravirine  dose .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dabrafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955741",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955741_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"efavirenz\" outputclass=\"int-drug\">Efavirenz</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <xref format=\"dita\" href=\"drug/doravirine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219163\">doravirine</xref> or <xref format=\"dita\" href=\"drug/lamivudine-with-tenofovir-disoproxil-and-doravirine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219192\">lamivudine with tenofovir disoproxil and doravirine</xref> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Efavirenz   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid or adjust  doravirine  or  lamivudine with tenofovir disoproxil and doravirine  dose .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Efavirenz</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955742",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955742_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"enzalutamide\" outputclass=\"int-drug\">Enzalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Enzalutamide   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enzalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955743",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955743_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"etravirine\" outputclass=\"int-drug\">Etravirine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Etravirine   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etravirine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955744",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955744_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fosphenytoin   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955745",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955745_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lumacaftor\" outputclass=\"int-drug\">Lumacaftor</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lumacaftor   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lumacaftor</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955746",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955746_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mitotane\" outputclass=\"int-drug\">Mitotane</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Mitotane   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitotane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955747",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955747_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"modafinil\" outputclass=\"int-drug\">Modafinil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <xref format=\"dita\" href=\"drug/doravirine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219163\">doravirine</xref> or <xref format=\"dita\" href=\"drug/lamivudine-with-tenofovir-disoproxil-and-doravirine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219192\">lamivudine with tenofovir disoproxil and doravirine</xref> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Modafinil   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid or adjust  doravirine  or  lamivudine with tenofovir disoproxil and doravirine  dose .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Modafinil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955748",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955748_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nevirapine\" outputclass=\"int-drug\">Nevirapine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <xref format=\"dita\" href=\"drug/doravirine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219163\">doravirine</xref> or <xref format=\"dita\" href=\"drug/lamivudine-with-tenofovir-disoproxil-and-doravirine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219192\">lamivudine with tenofovir disoproxil and doravirine</xref> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Nevirapine   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid or adjust  doravirine  or  lamivudine with tenofovir disoproxil and doravirine  dose .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nevirapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955749",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955749_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"oxcarbazepine\" outputclass=\"int-drug\">Oxcarbazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oxcarbazepine   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxcarbazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955750",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955750_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenobarbital   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955751",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955751_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenytoin   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955752",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955752_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Primidone   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955753",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955753_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rifabutin\" outputclass=\"int-drug\">Rifabutin</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <xref format=\"dita\" href=\"drug/doravirine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219163\">doravirine</xref> or <xref format=\"dita\" href=\"drug/lamivudine-with-tenofovir-disoproxil-and-doravirine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219192\">lamivudine with tenofovir disoproxil and doravirine</xref> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Rifabutin   moderately   decreases   the exposure to   doravirine .  Manufacturer advises adjust  doravirine  or  lamivudine with tenofovir disoproxil and doravirine  dose .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifabutin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955754",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955754_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955755",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955755_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">Doravirine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sirolimus\" outputclass=\"int-drug\">sirolimus</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor <ph otherprops=\"sirolimus\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/sirolimus.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5637\">sirolimus</xref></ph> concentration and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Doravirine   is predicted to   decrease   the exposure to   sirolimus .  Manufacturer advises monitor  sirolimus  concentration and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sirolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955756",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955756_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"St John's wort\" outputclass=\"int-drug\">St John's wort</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "St John's wort   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>St John's wort</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955757",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955757_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">Doravirine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tacrolimus\" outputclass=\"int-drug\">tacrolimus</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor <ph otherprops=\"tacrolimus\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/tacrolimus.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5639\">tacrolimus</xref></ph> concentration and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Doravirine   is predicted to   decrease   the exposure to   tacrolimus .  Manufacturer advises monitor  tacrolimus  concentration and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tacrolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955758",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/doravirine-2#bnf_i1643857955758_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"telotristat ethyl\" outputclass=\"int-drug\">Telotristat ethyl</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"doravirine\" outputclass=\"int-heading-drug\">doravirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <xref format=\"dita\" href=\"drug/doravirine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219163\">doravirine</xref> or <xref format=\"dita\" href=\"drug/lamivudine-with-tenofovir-disoproxil-and-doravirine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP219192\">lamivudine with tenofovir disoproxil and doravirine</xref> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Telotristat ethyl   is predicted to   decrease   the exposure to   doravirine .  Manufacturer advises avoid or adjust  doravirine  or  lamivudine with tenofovir disoproxil and doravirine  dose .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Telotristat ethyl</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Doravirine  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/doravirine-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Doravirine </title>"
+			},
+			"rdfs:label": "doravirine"
+		}
+	]
+}

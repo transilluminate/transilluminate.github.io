@@ -1,0 +1,763 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/dienogest-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953918",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953918_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"apalutamide\" outputclass=\"int-drug\">Apalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Apalutamide   is predicted to   markedly   decrease   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953919",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953919_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"aprepitant\" outputclass=\"int-drug\">Aprepitant</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Aprepitant   is predicted to   slightly   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aprepitant</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953920",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953920_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"atazanavir\" outputclass=\"int-drug\">Atazanavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Atazanavir   is predicted to   moderately   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atazanavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953921",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953921_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Carbamazepine   is predicted to   markedly   decrease   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953922",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953922_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"clarithromycin\" outputclass=\"int-drug\">Clarithromycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Clarithromycin   is predicted to   moderately   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clarithromycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953923",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953923_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cobicistat\" outputclass=\"int-drug\">Cobicistat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cobicistat   is predicted to   moderately   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cobicistat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953924",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953924_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"crizotinib\" outputclass=\"int-drug\">Crizotinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Crizotinib   is predicted to   slightly   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crizotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953925",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953925_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"darunavir\" outputclass=\"int-drug\">Darunavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Darunavir   is predicted to   moderately   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Darunavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953926",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953926_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"diltiazem\" outputclass=\"int-drug\">Diltiazem</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Diltiazem   is predicted to   slightly   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diltiazem</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953927",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953927_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"dronedarone\" outputclass=\"int-drug\">Dronedarone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Dronedarone   is predicted to   slightly   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dronedarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953928",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953928_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"enzalutamide\" outputclass=\"int-drug\">Enzalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Enzalutamide   is predicted to   markedly   decrease   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enzalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953929",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953929_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"erythromycin\" outputclass=\"int-drug\">Erythromycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Erythromycin   is predicted to   slightly   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Erythromycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953930",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953930_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fluconazole\" outputclass=\"int-drug\">Fluconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fluconazole   is predicted to   slightly   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953931",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953931_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fosamprenavir\" outputclass=\"int-drug\">Fosamprenavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fosamprenavir   is predicted to   moderately   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosamprenavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953932",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953932_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fosphenytoin   is predicted to   markedly   decrease   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953933",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953933_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"idelalisib\" outputclass=\"int-drug\">Idelalisib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Idelalisib   is predicted to   moderately   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Idelalisib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953934",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953934_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"imatinib\" outputclass=\"int-drug\">Imatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Imatinib   is predicted to   slightly   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953935",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953935_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"isavuconazole\" outputclass=\"int-drug\">Isavuconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Isavuconazole   is predicted to   slightly   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isavuconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953936",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953936_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"itraconazole\" outputclass=\"int-drug\">Itraconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Itraconazole   is predicted to   moderately   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Itraconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953937",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953937_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ketoconazole\" outputclass=\"int-drug\">Ketoconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ketoconazole   is predicted to   moderately   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketoconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953938",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953938_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"letermovir\" outputclass=\"int-drug\">Letermovir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Letermovir   is predicted to   slightly   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Letermovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953939",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953939_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lopinavir\" outputclass=\"int-drug\">Lopinavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lopinavir   is predicted to   moderately   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lopinavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953940",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953940_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mitotane\" outputclass=\"int-drug\">Mitotane</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Mitotane   is predicted to   markedly   decrease   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitotane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953941",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953941_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"netupitant\" outputclass=\"int-drug\">Netupitant</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Netupitant   is predicted to   slightly   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Netupitant</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953942",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953942_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"nilotinib\" outputclass=\"int-drug\">Nilotinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Nilotinib   is predicted to   slightly   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nilotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953943",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953943_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenobarbital   is predicted to   markedly   decrease   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953944",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953944_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenytoin   is predicted to   markedly   decrease   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953945",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953945_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"posaconazole\" outputclass=\"int-drug\">Posaconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Posaconazole   is predicted to   slightly   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Posaconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953946",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953946_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Primidone   is predicted to   markedly   decrease   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953947",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953947_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   is predicted to   markedly   decrease   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953948",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953948_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ritonavir\" outputclass=\"int-drug\">Ritonavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ritonavir   is predicted to   moderately   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ritonavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953949",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953949_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tipranavir\" outputclass=\"int-drug\">Tipranavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tipranavir   is predicted to   moderately   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tipranavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953950",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953950_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"verapamil\" outputclass=\"int-drug\">Verapamil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Verapamil   is predicted to   slightly   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Verapamil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953951",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/dienogest-2#bnf_i1643857953951_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"voriconazole\" outputclass=\"int-drug\">Voriconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dienogest\" outputclass=\"int-heading-drug\">dienogest</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Voriconazole   is predicted to   moderately   increase   the exposure to   dienogest .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Voriconazole</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Dienogest  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/dienogest-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Dienogest </title>"
+			},
+			"rdfs:label": "dienogest"
+		}
+	]
+}

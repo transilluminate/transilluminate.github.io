@@ -35,10 +35,52 @@
 			"@type": "InteractionList",
 			"hasInteraction": [
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739589",
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987264",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739589_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987264_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"alcohol\" outputclass=\"int-drug\">Alcohol</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">methylphenidate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Alcohol   might   increase   the concentration of   methylphenidate .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alcohol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987265",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987265_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"amitriptyline\" outputclass=\"int-drug\">amitriptyline</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Methylphenidate   might   increase   the concentration of   amitriptyline .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amitriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987266",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987266_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"apraclonidine\" outputclass=\"int-drug\">apraclonidine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -49,122 +91,395 @@
 							"hasTextContent": "Methylphenidate   is predicted to   decrease   the effects of   apraclonidine .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "1",
+					"hasOrder": "3",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Apraclonidine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739590",
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987267",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739590_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987267_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"isocarboxazid\" outputclass=\"int-drug\">isocarboxazid</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">methylphenidate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Carbamazepine   might   decrease   the concentration of   methylphenidate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987268",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987268_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"clomipramine\" outputclass=\"int-drug\">clomipramine</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Methylphenidate   might   increase   the concentration of   clomipramine .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clomipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987269",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987269_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and arrhythmias when given with</ph> <ph otherprops=\"desflurane\" outputclass=\"int-drug\">desflurane</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/methylphenidate-hydrochloride.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP2479\">methylphenidate</xref></ph> on day of surgery</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Methylphenidate   is predicted to   increase   the risk of a hypertensive crisis when given with   isocarboxazid .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+							"hasTextContent": "Methylphenidate   might   increase   the risk of hypertension and arrhythmias when given with   desflurane .  Manufacturer advises avoid  methylphenidate  on day of surgery .    \n\n"
 						}
 					],
-					"hasOrder": "2",
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Desflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987270",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987270_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">has been reported to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">psychotic symptoms when given with</ph> <ph otherprops=\"disulfiram\" outputclass=\"int-drug\">disulfiram</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Methylphenidate   has been reported to   cause   psychotic symptoms when given with   disulfiram .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Disulfiram</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987271",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987271_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"dosulepin\" outputclass=\"int-drug\">dosulepin</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Methylphenidate   might   increase   the concentration of   dosulepin .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dosulepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987272",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987272_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"doxepin\" outputclass=\"int-drug\">doxepin</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Methylphenidate   might   increase   the concentration of   doxepin .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxepin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987273",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987273_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"imipramine\" outputclass=\"int-drug\">imipramine</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Methylphenidate   might   increase   the concentration of   imipramine .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987274",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987274_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effect\">causes</ph> <ph outputclass=\"int-parameter\">a hypertensive crisis when given with</ph> <ph otherprops=\"isocarboxazid\" outputclass=\"int-drug\">isocarboxazid</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Methylphenidate   causes   a hypertensive crisis when given with   isocarboxazid .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+						}
+					],
+					"hasOrder": "11",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Isocarboxazid</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739591",
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987275",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739591_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987275_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of elevated blood pressure when given with</ph> <ph otherprops=\"linezolid\" outputclass=\"int-drug\">linezolid</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and arrhythmias when given with</ph> <ph otherprops=\"isoflurane\" outputclass=\"int-drug\">isoflurane</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/methylphenidate-hydrochloride.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP2479\">methylphenidate</xref></ph> on day of surgery</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Methylphenidate   is predicted to   increase   the risk of elevated blood pressure when given with   linezolid .  Manufacturer advises avoid .    \n\n"
+							"hasTextContent": "Methylphenidate   might   increase   the risk of hypertension and arrhythmias when given with   isoflurane .  Manufacturer advises avoid  methylphenidate  on day of surgery .    \n\n"
 						}
 					],
-					"hasOrder": "3",
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isoflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987276",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987276_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of elevated blood pressure when given with</ph> <ph otherprops=\"linezolid\" outputclass=\"int-drug\">linezolid</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Methylphenidate   might   increase   the risk of elevated blood pressure when given with   linezolid .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "13",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Linezolid</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739592",
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987277",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739592_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987277_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"moclobemide\" outputclass=\"int-drug\">moclobemide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"lofepramine\" outputclass=\"int-drug\">lofepramine</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Methylphenidate   might   increase   the concentration of   lofepramine .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lofepramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987278",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987278_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and arrhythmias when given with</ph> <ph otherprops=\"methoxyflurane\" outputclass=\"int-drug\">methoxyflurane</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/methylphenidate-hydrochloride.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP2479\">methylphenidate</xref></ph> on day of surgery</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Methylphenidate   is predicted to   increase   the risk of a hypertensive crisis when given with   moclobemide .  Manufacturer makes no recommendation .    \n\n"
+							"hasTextContent": "Methylphenidate   might   increase   the risk of hypertension and arrhythmias when given with   methoxyflurane .  Manufacturer advises avoid  methylphenidate  on day of surgery .    \n\n"
 						}
 					],
-					"hasOrder": "4",
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methoxyflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987279",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987279_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">a hypertensive crisis when given with</ph> <ph otherprops=\"methylthioninium chloride\" outputclass=\"int-drug\">methylthioninium chloride</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Methylphenidate   is predicted to   cause   a hypertensive crisis when given with   methylthioninium chloride .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methylthioninium chloride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987280",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987280_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">cause</ph> <ph outputclass=\"int-parameter\">a hypertensive crisis when given with</ph> <ph otherprops=\"moclobemide\" outputclass=\"int-drug\">moclobemide</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Methylphenidate   is predicted to   cause   a hypertensive crisis when given with   moclobemide .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "17",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Moclobemide</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739593",
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987281",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739593_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987281_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of dyskinesias when given with</ph> <ph otherprops=\"paliperidone\" outputclass=\"int-drug\">paliperidone</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"nortriptyline\" outputclass=\"int-drug\">nortriptyline</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Methylphenidate   might   increase   the concentration of   nortriptyline .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nortriptyline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987282",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987282_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"ozanimod\" outputclass=\"int-drug\">ozanimod</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Methylphenidate   increases   the risk of dyskinesias when given with   paliperidone .  Manufacturer advises caution .    \n\n"
+							"hasTextContent": "Methylphenidate   is predicted to   increase   the risk of a hypertensive crisis when given with   ozanimod .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "5",
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ozanimod</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987283",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987283_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of dyskinesias when given with</ph> <ph otherprops=\"paliperidone\" outputclass=\"int-drug\">paliperidone</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Methylphenidate   might   increase   the risk of dyskinesias when given with   paliperidone .  Manufacturer advises caution .    \n\n"
+						}
+					],
+					"hasOrder": "20",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Paliperidone</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739594",
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987284",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739594_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987284_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"phenelzine\" outputclass=\"int-drug\">phenelzine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effect\">causes</ph> <ph outputclass=\"int-parameter\">a hypertensive crisis when given with</ph> <ph otherprops=\"phenelzine\" outputclass=\"int-drug\">phenelzine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Methylphenidate   is predicted to   increase   the risk of a hypertensive crisis when given with   phenelzine .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+							"hasTextContent": "Methylphenidate   causes   a hypertensive crisis when given with   phenelzine .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
 						}
 					],
-					"hasOrder": "6",
+					"hasOrder": "21",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Phenelzine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739595",
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987285",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739595_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987285_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rasagiline\" outputclass=\"int-drug\">Rasagiline</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">methylphenidate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -175,73 +490,136 @@
 							"hasTextContent": "Rasagiline   is predicted to   increase   the risk of a hypertensive crisis when given with   methylphenidate .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "7",
+					"hasOrder": "22",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Rasagiline</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739596",
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987286",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739596_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987286_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"risperidone\" outputclass=\"int-drug\">Risperidone</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of dyskinesias when given with</ph> <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">methylphenidate</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of dyskinesias when given with</ph> <ph otherprops=\"risperidone\" outputclass=\"int-drug\">risperidone</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
 							},
 							"hasEvidence": "Anecdotal",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Risperidone   increases   the risk of dyskinesias when given with   methylphenidate .  Manufacturer advises caution .    \n\n"
+							"hasTextContent": "Methylphenidate   increases   the risk of dyskinesias when given with   risperidone .  Manufacturer advises caution .    \n\n"
 						}
 					],
-					"hasOrder": "8",
+					"hasOrder": "23",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Risperidone</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739597",
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987287",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739597_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987287_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"selegiline\" outputclass=\"int-drug\">Selegiline</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">methylphenidate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"selegiline\" outputclass=\"int-drug\">Selegiline</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">methylphenidate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Selegiline   is predicted to   increase   the risk of a hypertensive crisis when given with   methylphenidate .  Manufacturer advises avoid .    \n\n"
+							"hasTextContent": "Selegiline   might   increase   the risk of a hypertensive crisis when given with   methylphenidate .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "9",
+					"hasOrder": "24",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Selegiline</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739598",
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987288",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1557280739598_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987288_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of a hypertensive crisis when given with</ph> <ph otherprops=\"tranylcypromine\" outputclass=\"int-drug\">tranylcypromine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypertension and arrhythmias when given with</ph> <ph otherprops=\"sevoflurane\" outputclass=\"int-drug\">sevoflurane</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/methylphenidate-hydrochloride.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP2479\">methylphenidate</xref></ph> on day of surgery</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Methylphenidate   is predicted to   increase   the risk of a hypertensive crisis when given with   tranylcypromine .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+							"hasTextContent": "Methylphenidate   might   increase   the risk of hypertension and arrhythmias when given with   sevoflurane .  Manufacturer advises avoid  methylphenidate  on day of surgery .    \n\n"
 						}
 					],
-					"hasOrder": "10",
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sevoflurane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987289",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987289_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effect\">causes</ph> <ph outputclass=\"int-parameter\">a hypertensive crisis when given with</ph> <ph otherprops=\"tranylcypromine\" outputclass=\"int-drug\">tranylcypromine</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid and for 14 days after stopping the MAOI</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Methylphenidate   causes   a hypertensive crisis when given with   tranylcypromine .  Manufacturer advises avoid and for 14 days after stopping the MAOI .    \n\n"
+						}
+					],
+					"hasOrder": "26",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Tranylcypromine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987290",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987290_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">Methylphenidate</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"trimipramine\" outputclass=\"int-drug\">trimipramine</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Methylphenidate   might   increase   the concentration of   trimipramine .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trimipramine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987291",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/methylphenidate#bnf_i1643857987291_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"valproate\" outputclass=\"int-drug\">Valproate</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">enhance</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"methylphenidate\" outputclass=\"int-heading-drug\">methylphenidate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Valproate   might   enhance   the effects of   methylphenidate .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Valproate</title>"
 					}
 				}
 			],

@@ -1,0 +1,700 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/iron",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976315",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976315_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"antacids\" outputclass=\"int-drug\">antacids</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph>. <ph outputclass=\"int-action\">Manufacturer advises iron should be taken 1 hour before or 2 hours after antacids</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   antacids   decrease   the absorption of   oral   iron .  Manufacturer advises iron should be taken 1 hour before or 2 hours after antacids .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Antacids</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976316",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976316_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of the active metabolite of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"baloxavir marboxil\" outputclass=\"int-drug\">baloxavir marboxil</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   might   decrease   the concentration of the active metabolite of   oral   baloxavir marboxil .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Baloxavir marboxil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976317",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976317_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"bictegravir\" outputclass=\"int-drug\">bictegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises bictegravir should be taken 2 hours before iron</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the exposure to   oral   bictegravir .  Manufacturer advises bictegravir should be taken 2 hours before iron .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bictegravir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976318",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976318_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-drug\">calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"calcium carbonate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph> should be taken 1 hour before or 2 hours after iron</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium carbonate   decreases   the absorption of   oral   iron .  Manufacturer advises  calcium carbonate  should be taken 1 hour before or 2 hours after iron .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Calcium carbonate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976319",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976319_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"carbidopa\" outputclass=\"int-drug\">carbidopa</ph>. <ph outputclass=\"int-action\">Manufacturer advises separating administration</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   is predicted to   decrease   the exposure to   oral   carbidopa .  Manufacturer advises separating administration .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbidopa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976320",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976320_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"chloramphenicol\" outputclass=\"int-drug\">Chloramphenicol</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Chloramphenicol   decreases   the efficacy of   iron .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chloramphenicol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976321",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976321_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"ciprofloxacin\" outputclass=\"int-drug\">ciprofloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the exposure to   oral   ciprofloxacin .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciprofloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976322",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976322_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"clodronate\" outputclass=\"int-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"clodronate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/sodium-clodronate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4681\">clodronate</xref></ph> should be taken 1 hour before or 2 hours after iron</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the absorption of   oral   clodronate .  Manufacturer advises  clodronate  should be taken 1 hour before or 2 hours after iron .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clodronate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976323",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976323_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"deferiprone\" outputclass=\"int-drug\">deferiprone</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   is predicted to   decrease   the absorption of   oral   deferiprone .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Deferiprone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976324",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976324_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"delafloxacin\" outputclass=\"int-drug\">delafloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the exposure to   oral   delafloxacin .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Delafloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976325",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976325_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"demeclocycline\" outputclass=\"int-drug\">demeclocycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"demeclocycline\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/demeclocycline-hydrochloride.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3442\">demeclocycline</xref></ph> should be taken 2 to 3 hours after iron</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the absorption of   oral   demeclocycline .  Manufacturer advises  demeclocycline  should be taken 2 to 3 hours after iron .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Demeclocycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976326",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976326_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dolutegravir\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/dolutegravir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP34479\">dolutegravir</xref></ph> should be taken 2 hours before or 6 hours after iron</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the absorption of   oral   dolutegravir .  Manufacturer advises  dolutegravir  should be taken 2 hours before or 6 hours after iron .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dolutegravir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976327",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976327_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"doxycycline\" outputclass=\"int-drug\">doxycycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"doxycycline\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/doxycycline.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3445\">doxycycline</xref></ph> should be taken 2 to 3 hours after iron</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the absorption of   oral   doxycycline .  Manufacturer advises  doxycycline  should be taken 2 to 3 hours after iron .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxycycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976328",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976328_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after iron</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   is predicted to   decrease   the absorption of   oral   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after iron .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eltrombopag</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976329",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976329_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"entacapone\" outputclass=\"int-drug\">entacapone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   entacapone   is predicted to   decrease   the absorption of   oral   iron .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Entacapone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976330",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976330_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"ibandronate\" outputclass=\"int-drug\">ibandronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"ibandronate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ibandronic-acid.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4671\">ibandronate</xref></ph> should be taken 1 hour before or 6 hours after iron</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   is predicted to   decrease   the absorption of   oral   ibandronate .  Manufacturer advises  ibandronate  should be taken 1 hour before or 6 hours after iron .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibandronate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976331",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976331_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"levodopa\" outputclass=\"int-drug\">levodopa</ph>. <ph outputclass=\"int-action\">Manufacturer advises separating administration</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the absorption of   oral   levodopa .  Manufacturer advises separating administration .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levodopa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976332",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976332_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"levofloxacin\" outputclass=\"int-drug\">levofloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the exposure to   oral   levofloxacin .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levofloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976333",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976333_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"levothyroxine\" outputclass=\"int-drug\">levothyroxine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 4 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the absorption of   oral   levothyroxine .  Manufacturer advises separate administration by at least 4 hours .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Levothyroxine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976334",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976334_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"lymecycline\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/lymecycline.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3451\">lymecycline</xref></ph> should be taken 2 to 3 hours after iron</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the absorption of   oral   lymecycline .  Manufacturer advises  lymecycline  should be taken 2 to 3 hours after iron .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lymecycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976335",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976335_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"methyldopa\" outputclass=\"int-drug\">methyldopa</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the effects of   oral   methyldopa .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methyldopa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976336",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976336_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"minocycline\" outputclass=\"int-drug\">minocycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"minocycline\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/minocycline.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3453\">minocycline</xref></ph> should be taken 2 to 3 hours after iron</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the absorption of   oral   minocycline .  Manufacturer advises  minocycline  should be taken 2 to 3 hours after iron .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Minocycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976337",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976337_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"moxifloxacin\" outputclass=\"int-drug\">moxifloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the exposure to   oral   moxifloxacin .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Moxifloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976338",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976338_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"ofloxacin\" outputclass=\"int-drug\">ofloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the exposure to   oral   ofloxacin .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ofloxacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976339",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976339_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"oxytetracycline\" outputclass=\"int-drug\">oxytetracycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"oxytetracycline\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/oxytetracycline.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3460\">oxytetracycline</xref></ph> should be taken 2 to 3 hours after iron</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the absorption of   oral   oxytetracycline .  Manufacturer advises  oxytetracycline  should be taken 2 to 3 hours after iron .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxytetracycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976340",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976340_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"penicillamine\" outputclass=\"int-drug\">penicillamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   is predicted to   decrease   the absorption of   oral   penicillamine .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Penicillamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976341",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976341_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"risedronate\" outputclass=\"int-drug\">risedronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the absorption of   oral   risedronate .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Risedronate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976342",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976342_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">Iron</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"roxadustat\" outputclass=\"int-drug\">roxadustat</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"roxadustat\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/roxadustat.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP223244\">roxadustat</xref></ph> should be taken at least 1 hour after iron</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Iron   might   decrease   the exposure to   roxadustat .  Manufacturer advises  roxadustat  should be taken at least 1 hour after iron .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Roxadustat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976343",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976343_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"tetracycline\" outputclass=\"int-drug\">tetracycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"tetracycline\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/tetracycline.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3439\">tetracycline</xref></ph> should be taken 2 to 3 hours after iron</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   iron   decreases   the absorption of   oral   tetracycline .  Manufacturer advises  tetracycline  should be taken 2 to 3 hours after iron .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tetracycline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976344",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976344_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"trientine\" outputclass=\"int-drug\">trientine</ph> <ph outputclass=\"int-effectQualifier\">potentially</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph>. <ph outputclass=\"int-action\">Manufacturer advises separating administration</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   trientine   potentially   decreases   the absorption of   oral   iron .  Manufacturer advises separating administration .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trientine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976345",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/iron#bnf_i1643857976345_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-drug\">zinc</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> and <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"iron\" outputclass=\"int-heading-drug\">iron</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"zinc\" outputclass=\"int-drug\">zinc</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   zinc   is predicted to   decrease   the efficacy of   oral   iron  and  oral   iron   is predicted to   decrease   the efficacy of   oral   zinc .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Zinc</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Iron  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/iron.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Iron </title>"
+			},
+			"rdfs:label": "iron"
+		}
+	]
+}

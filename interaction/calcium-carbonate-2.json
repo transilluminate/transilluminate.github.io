@@ -35,31 +35,73 @@
 			"@type": "InteractionList",
 			"hasInteraction": [
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693464",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937929",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693464_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937929_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"alendronic acid\" outputclass=\"int-drug\">alendronic acid</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"alendronic acid\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/alendronic-acid.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4656\">alendronic acid</xref></ph> should be taken at least 30 minutes before <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph></ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-substanceQualifier\">-containing antacids</ph> <ph outputclass=\"int-magnitude\">modestly</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"acalabrutinib\" outputclass=\"int-drug\">acalabrutinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Oral   calcium carbonate   decreases   the absorption of   alendronic acid .  Manufacturer advises  alendronic acid  should be taken at least 30 minutes before  calcium carbonate .    \n\n"
+							"hasTextContent": "Oral   calcium carbonate   -containing antacids   modestly   decreases   the exposure to   oral   acalabrutinib .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
 						}
 					],
 					"hasOrder": "1",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Alendronic acid</title>"
+						"@value": "<title>Acalabrutinib</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693465",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937930",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693465_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937930_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"alendronate\" outputclass=\"int-drug\">alendronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"alendronate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/alendronic-acid.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4656\">alendronate</xref></ph> should be taken at least 30 minutes before <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium carbonate   decreases   the absorption of   alendronate .  Manufacturer advises  alendronate  should be taken at least 30 minutes before  calcium carbonate .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alendronate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937931",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937931_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of the active metabolite of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"baloxavir marboxil\" outputclass=\"int-drug\">baloxavir marboxil</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium carbonate   might   decrease   the concentration of the active metabolite of   oral   baloxavir marboxil .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Baloxavir marboxil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937932",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937932_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bendroflumethiazide\" outputclass=\"int-drug\">Bendroflumethiazide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -70,38 +112,59 @@
 							"hasTextContent": "Bendroflumethiazide   increases   the risk of hypercalcaemia when given with   calcium carbonate .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "2",
+					"hasOrder": "4",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Bendroflumethiazide</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693466",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937933",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693466_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937933_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"chloroquine\" outputclass=\"int-drug\">chloroquine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 4 hours</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-substanceQualifier\">-containing antacids</ph> <ph outputclass=\"int-effectQualifier\">are predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"bosutinib\" outputclass=\"int-drug\">bosutinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"bosutinib\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/bosutinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP33920\">bosutinib</xref></ph> should be taken at least 12 hours before antacids</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium carbonate   -containing antacids   are predicted to   decrease   the absorption of   oral   bosutinib .  Manufacturer advises  bosutinib  should be taken at least 12 hours before antacids .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosutinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937934",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937934_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"chloroquine\" outputclass=\"int-drug\">chloroquine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 4 hours</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Calcium carbonate   decreases   the absorption of   chloroquine .  Manufacturer advises separate administration by at least 4 hours .    \n\n"
+							"hasTextContent": "Calcium carbonate   might   decrease   the absorption of   chloroquine .  Manufacturer advises separate administration by at least 4 hours .    \n\n"
 						}
 					],
-					"hasOrder": "3",
+					"hasOrder": "6",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Chloroquine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693467",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937935",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693467_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937935_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chlorothiazide\" outputclass=\"int-drug\">Chlorothiazide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -112,17 +175,17 @@
 							"hasTextContent": "Chlorothiazide   increases   the risk of hypercalcaemia when given with   calcium carbonate .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "4",
+					"hasOrder": "7",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Chlorothiazide</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693468",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937936",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693468_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937936_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"chlortalidone\" outputclass=\"int-drug\">Chlortalidone</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -133,17 +196,17 @@
 							"hasTextContent": "Chlortalidone   increases   the risk of hypercalcaemia when given with   calcium carbonate .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "5",
+					"hasOrder": "8",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Chlortalidone</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693469",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937937",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693469_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937937_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"ciprofloxacin\" outputclass=\"int-drug\">ciprofloxacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
@@ -154,17 +217,59 @@
 							"hasTextContent": "Calcium carbonate   decreases   the absorption of   ciprofloxacin .  Manufacturer advises separate administration by 2 hours .    \n\n"
 						}
 					],
-					"hasOrder": "6",
+					"hasOrder": "9",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Ciprofloxacin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693470",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937938",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693470_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937938_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"clodronate\" outputclass=\"int-drug\">clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph> for 2 hours before or 1 hour after <ph otherprops=\"clodronate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/sodium-clodronate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4681\">clodronate</xref></ph></ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium carbonate   decreases   the absorption of   clodronate .  Manufacturer advises avoid  calcium carbonate  for 2 hours before or 1 hour after  clodronate .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clodronate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937939",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937939_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-substanceQualifier\">-containing antacids</ph> <ph outputclass=\"int-effectQualifier\">are predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"dasatinib\" outputclass=\"int-drug\">dasatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium carbonate   -containing antacids   are predicted to   decrease   the exposure to   oral   dasatinib .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dasatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937940",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937940_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"demeclocycline\" outputclass=\"int-drug\">demeclocycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
@@ -175,38 +280,38 @@
 							"hasTextContent": "Calcium carbonate   is predicted to   decrease   the absorption of   demeclocycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
 						}
 					],
-					"hasOrder": "7",
+					"hasOrder": "12",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Demeclocycline</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693471",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937941",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693471_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937941_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Intravenous</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Intravenous</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the effects of</ph> <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
 							},
 							"hasEvidence": "Anecdotal",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Intravenous   calcium carbonate   increases   the concentration of   digoxin .  Manufacturer advises avoid .    \n\n"
+							"hasTextContent": "Intravenous   calcium carbonate   increases   the effects of   digoxin .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "8",
+					"hasOrder": "13",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Digoxin</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693472",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937942",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693472_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937942_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"dolutegravir\" outputclass=\"int-drug\">dolutegravir</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"dolutegravir\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/dolutegravir.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP34479\">dolutegravir</xref></ph> should be taken 2 hours before or 6 hours after <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph></ph>.  </p>"
@@ -217,17 +322,17 @@
 							"hasTextContent": "Oral   calcium carbonate   decreases   the absorption of   dolutegravir .  Manufacturer advises  dolutegravir  should be taken 2 hours before or 6 hours after  calcium carbonate .    \n\n"
 						}
 					],
-					"hasOrder": "9",
+					"hasOrder": "14",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Dolutegravir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693473",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937943",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693473_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937943_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"doxycycline\" outputclass=\"int-drug\">doxycycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
@@ -238,17 +343,17 @@
 							"hasTextContent": "Calcium carbonate   is predicted to   decrease   the absorption of   doxycycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
 						}
 					],
-					"hasOrder": "10",
+					"hasOrder": "15",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Doxycycline</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693474",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937944",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693474_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937944_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"eltrombopag\" outputclass=\"int-drug\">eltrombopag</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"eltrombopag\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/eltrombopag.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5928\">eltrombopag</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph></ph>.  </p>"
@@ -259,17 +364,38 @@
 							"hasTextContent": "Oral   calcium carbonate   decreases   the absorption of   eltrombopag .  Manufacturer advises  eltrombopag  should be taken 2 hours before or 4 hours after  calcium carbonate .    \n\n"
 						}
 					],
-					"hasOrder": "11",
+					"hasOrder": "16",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Eltrombopag</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693475",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937945",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693475_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937945_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-substanceQualifier\">-containing antacids</ph> <ph outputclass=\"int-effectQualifier\">are predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"erlotinib\" outputclass=\"int-drug\">erlotinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"erlotinib\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/erlotinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5529\">erlotinib</xref></ph> should be taken 2 hours before or 4 hours after antacids</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium carbonate   -containing antacids   are predicted to   decrease   the absorption of   oral   erlotinib .  Manufacturer advises  erlotinib  should be taken 2 hours before or 4 hours after antacids .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Erlotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937946",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937946_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"estramustine\" outputclass=\"int-drug\">estramustine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separating administration</ph>.  </p>"
@@ -280,101 +406,38 @@
 							"hasTextContent": "Oral   calcium carbonate   decreases   the absorption of   estramustine .  Manufacturer advises separating administration .    \n\n"
 						}
 					],
-					"hasOrder": "12",
+					"hasOrder": "18",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Estramustine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693476",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937947",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693476_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937947_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"ferric maltol\" outputclass=\"int-drug\">ferric maltol</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph> should be taken 1 hour before or 2 hours after <ph otherprops=\"ferric maltol\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ferric-maltol.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP213389\">ferric maltol</xref></ph></ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-substanceQualifier\">-containing antacids</ph> <ph outputclass=\"int-effectQualifier\">are predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"gefitinib\" outputclass=\"int-drug\">gefitinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises caution</ph>.  </p>"
 							},
-							"hasEvidence": "Study",
+							"hasEvidence": "Theoretical",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Calcium carbonate   decreases   the absorption of   ferric maltol .  Manufacturer advises  calcium carbonate  should be taken 1 hour before or 2 hours after  ferric maltol .    \n\n"
+							"hasTextContent": "Oral   calcium carbonate   -containing antacids   are predicted to   decrease   the exposure to   oral   gefitinib .  Manufacturer advises caution .    \n\n"
 						}
 					],
-					"hasOrder": "13",
+					"hasOrder": "19",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Ferric maltol</title>"
+						"@value": "<title>Gefitinib</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693477",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937948",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693477_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"ferrous fumarate\" outputclass=\"int-drug\">ferrous fumarate</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph> should be taken 1 hour before or 2 hours after <ph otherprops=\"ferrous fumarate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ferrous-fumarate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5839\">ferrous fumarate</xref></ph></ph>.  </p>"
-							},
-							"hasEvidence": "Study",
-							"hasImportance": "Moderate",
-							"hasOrder": "1",
-							"hasTextContent": "Calcium carbonate   decreases   the absorption of   ferrous fumarate .  Manufacturer advises  calcium carbonate  should be taken 1 hour before or 2 hours after  ferrous fumarate .    \n\n"
-						}
-					],
-					"hasOrder": "14",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Ferrous fumarate</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693478",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693478_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"ferrous gluconate\" outputclass=\"int-drug\">ferrous gluconate</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph> should be taken 1 hour before or 2 hours after <ph otherprops=\"ferrous gluconate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ferrous-gluconate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5851\">ferrous gluconate</xref></ph></ph>.  </p>"
-							},
-							"hasEvidence": "Study",
-							"hasImportance": "Moderate",
-							"hasOrder": "1",
-							"hasTextContent": "Calcium carbonate   decreases   the absorption of   ferrous gluconate .  Manufacturer advises  calcium carbonate  should be taken 1 hour before or 2 hours after  ferrous gluconate .    \n\n"
-						}
-					],
-					"hasOrder": "15",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Ferrous gluconate</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693479",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693479_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"ferrous sulfate\" outputclass=\"int-drug\">ferrous sulfate</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph> should be taken 1 hour before or 2 hours after <ph otherprops=\"ferrous sulfate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ferrous-sulfate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5823\">ferrous sulfate</xref></ph></ph>.  </p>"
-							},
-							"hasEvidence": "Study",
-							"hasImportance": "Moderate",
-							"hasOrder": "1",
-							"hasTextContent": "Calcium carbonate   decreases   the absorption of   ferrous sulfate .  Manufacturer advises  calcium carbonate  should be taken 1 hour before or 2 hours after  ferrous sulfate .    \n\n"
-						}
-					],
-					"hasOrder": "16",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Ferrous sulfate</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693480",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693480_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937948_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"hydrochlorothiazide\" outputclass=\"int-drug\">Hydrochlorothiazide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -385,17 +448,17 @@
 							"hasTextContent": "Hydrochlorothiazide   increases   the risk of hypercalcaemia when given with   calcium carbonate .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "17",
+					"hasOrder": "20",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Hydrochlorothiazide</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693481",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937949",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693481_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937949_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"hydroflumethiazide\" outputclass=\"int-drug\">Hydroflumethiazide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -406,59 +469,59 @@
 							"hasTextContent": "Hydroflumethiazide   increases   the risk of hypercalcaemia when given with   calcium carbonate .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "18",
+					"hasOrder": "21",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Hydroflumethiazide</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693482",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937950",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693482_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937950_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"hydroxychloroquine\" outputclass=\"int-drug\">hydroxychloroquine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 4 hours</ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"hydroxychloroquine\" outputclass=\"int-drug\">hydroxychloroquine</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
 							},
-							"hasEvidence": "Study",
+							"hasEvidence": "Theoretical",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Calcium carbonate   decreases   the absorption of   hydroxychloroquine .  Manufacturer advises separate administration by at least 4 hours .    \n\n"
+							"hasTextContent": "Calcium carbonate   is predicted to   decrease   the absorption of   hydroxychloroquine .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "19",
+					"hasOrder": "22",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Hydroxychloroquine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693483",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937951",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693483_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937951_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"ibandronic acid\" outputclass=\"int-drug\">ibandronic acid</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph> for at least 6 hours before or 1 hour after <ph otherprops=\"ibandronic acid\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ibandronic-acid.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4671\">ibandronic acid</xref></ph></ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"ibandronate\" outputclass=\"int-drug\">ibandronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph> for at least 6 hours before or 1 hour after <ph otherprops=\"ibandronate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/ibandronic-acid.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4671\">ibandronate</xref></ph></ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Oral   calcium carbonate   is predicted to   decrease   the absorption of   oral   ibandronic acid .  Manufacturer advises avoid  calcium carbonate  for at least 6 hours before or 1 hour after  ibandronic acid .    \n\n"
+							"hasTextContent": "Oral   calcium carbonate   is predicted to   decrease   the absorption of   oral   ibandronate .  Manufacturer advises avoid  calcium carbonate  for at least 6 hours before or 1 hour after  ibandronate .    \n\n"
 						}
 					],
-					"hasOrder": "20",
+					"hasOrder": "23",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Ibandronic acid</title>"
+						"@value": "<title>Ibandronate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693484",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937952",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693484_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937952_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"indapamide\" outputclass=\"int-drug\">Indapamide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -469,17 +532,59 @@
 							"hasTextContent": "Indapamide   increases   the risk of hypercalcaemia when given with   calcium carbonate .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "21",
+					"hasOrder": "24",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Indapamide</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693485",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937953",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693485_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937953_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"iron\" outputclass=\"int-drug\">iron</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph> should be taken 1 hour before or 2 hours after iron</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium carbonate   decreases   the absorption of   oral   iron .  Manufacturer advises  calcium carbonate  should be taken 1 hour before or 2 hours after iron .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Iron</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937954",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937954_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-substanceQualifier\">-containing antacids</ph> <ph outputclass=\"int-effectQualifier\">are predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"lapatinib\" outputclass=\"int-drug\">lapatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium carbonate   -containing antacids   are predicted to   decrease   the absorption of   oral   lapatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lapatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937955",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937955_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ledipasvir\" outputclass=\"int-drug\">ledipasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 4 hours</ph>.  </p>"
@@ -490,17 +595,17 @@
 							"hasTextContent": "Calcium carbonate   is predicted to   decrease   the exposure to   ledipasvir .  Manufacturer advises separate administration by 4 hours .    \n\n"
 						}
 					],
-					"hasOrder": "22",
+					"hasOrder": "27",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Ledipasvir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693486",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937956",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693486_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937956_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"levothyroxine\" outputclass=\"int-drug\">levothyroxine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 4 hours</ph>.  </p>"
@@ -511,17 +616,17 @@
 							"hasTextContent": "Oral   calcium carbonate   is predicted to   decrease   the absorption of   levothyroxine .  Manufacturer advises separate administration by at least 4 hours .    \n\n"
 						}
 					],
-					"hasOrder": "23",
+					"hasOrder": "28",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Levothyroxine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693487",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937957",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693487_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937957_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"lymecycline\" outputclass=\"int-drug\">lymecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
@@ -532,17 +637,17 @@
 							"hasTextContent": "Calcium carbonate   is predicted to   decrease   the absorption of   lymecycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
 						}
 					],
-					"hasOrder": "24",
+					"hasOrder": "29",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Lymecycline</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693488",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937958",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693488_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937958_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metolazone\" outputclass=\"int-drug\">Metolazone</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -553,17 +658,17 @@
 							"hasTextContent": "Metolazone   increases   the risk of hypercalcaemia when given with   calcium carbonate .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "25",
+					"hasOrder": "30",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Metolazone</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693489",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937959",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693489_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937959_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"minocycline\" outputclass=\"int-drug\">minocycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
@@ -574,17 +679,59 @@
 							"hasTextContent": "Calcium carbonate   is predicted to   decrease   the absorption of   minocycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
 						}
 					],
-					"hasOrder": "26",
+					"hasOrder": "31",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Minocycline</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693490",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937960",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693490_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937960_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Mild\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-substanceQualifier\">-containing antacids</ph> <ph outputclass=\"int-effectQualifier\">are predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"neratinib\" outputclass=\"int-drug\">neratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 3 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Mild",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium carbonate   -containing antacids   are predicted to   decrease   the exposure to   oral   neratinib .  Manufacturer advises separate administration by at least 3 hours .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Neratinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937961",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937961_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-substanceQualifier\">-containing antacids</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">affect</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"nilotinib\" outputclass=\"int-drug\">nilotinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium carbonate   -containing antacids   might   affect   the exposure to   oral   nilotinib .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nilotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937962",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937962_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"oxytetracycline\" outputclass=\"int-drug\">oxytetracycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
@@ -595,17 +742,38 @@
 							"hasTextContent": "Calcium carbonate   is predicted to   decrease   the absorption of   oxytetracycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
 						}
 					],
-					"hasOrder": "27",
+					"hasOrder": "34",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Oxytetracycline</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693491",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937963",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693491_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937963_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-substanceQualifier\">-containing antacids</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"pazopanib\" outputclass=\"int-drug\">pazopanib</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"pazopanib\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/pazopanib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5542\">pazopanib</xref></ph> should be taken 1 hour before or 2 hours after antacids</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium carbonate   -containing antacids   might   decrease   the absorption of   oral   pazopanib .  Manufacturer advises  pazopanib  should be taken 1 hour before or 2 hours after antacids .    \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pazopanib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937964",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937964_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"proguanil\" outputclass=\"int-drug\">proguanil</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
@@ -616,17 +784,17 @@
 							"hasTextContent": "Calcium carbonate   is predicted to   decrease   the absorption of   proguanil .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
 						}
 					],
-					"hasOrder": "28",
+					"hasOrder": "36",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Proguanil</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693492",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937965",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693492_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937965_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-magnitude\">greatly</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"raltegravir\" outputclass=\"int-drug\">raltegravir</ph> <ph outputclass=\"int-substanceQualifier\">(high-dose)</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
@@ -637,38 +805,38 @@
 							"hasTextContent": "Calcium carbonate   greatly   decreases   the exposure to   raltegravir   (high-dose) .  Manufacturer advises avoid .    \n\n"
 						}
 					],
-					"hasOrder": "29",
+					"hasOrder": "37",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Raltegravir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693493",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937966",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693493_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937966_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rilpivirine\" outputclass=\"int-drug\">rilpivirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph> should be taken 2 hours before or 4 hours after <ph otherprops=\"rilpivirine\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/rilpivirine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3830\">rilpivirine</xref></ph></ph>.  </p>"
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-substanceQualifier\">-containing antacids</ph> <ph outputclass=\"int-effectQualifier\">are predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"rilpivirine\" outputclass=\"int-drug\">rilpivirine</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"rilpivirine\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/rilpivirine.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP3830\">rilpivirine</xref></ph> should be taken 4 hours before or 2 hours after antacids</ph>.  </p>"
 							},
 							"hasEvidence": "Theoretical",
 							"hasImportance": "Severe",
 							"hasOrder": "1",
-							"hasTextContent": "Calcium carbonate   is predicted to   slightly   decrease   the exposure to   rilpivirine .  Manufacturer advises  calcium carbonate  should be taken 2 hours before or 4 hours after  rilpivirine .    \n\n"
+							"hasTextContent": "Oral   calcium carbonate   -containing antacids   are predicted to   decrease   the exposure to   oral   rilpivirine .  Manufacturer advises  rilpivirine  should be taken 4 hours before or 2 hours after antacids .    \n\n"
 						}
 					],
-					"hasOrder": "30",
+					"hasOrder": "38",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Rilpivirine</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693494",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937967",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693494_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937967_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"risedronate\" outputclass=\"int-drug\">risedronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 2 hours</ph>.  </p>"
@@ -679,59 +847,59 @@
 							"hasTextContent": "Oral   calcium carbonate   decreases   the absorption of   risedronate .  Manufacturer advises separate administration by at least 2 hours .    \n\n"
 						}
 					],
-					"hasOrder": "31",
+					"hasOrder": "39",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Risedronate</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693495",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937968",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693495_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937968_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"sodium clodronate\" outputclass=\"int-drug\">sodium clodronate</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph> for 2 hours before or 1 hour after <ph otherprops=\"sodium clodronate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/sodium-clodronate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP4681\">sodium clodronate</xref></ph></ph>.  </p>"
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph outputclass=\"int-route\">oral</ph> <ph otherprops=\"sotorasib\" outputclass=\"int-drug\">sotorasib</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"sotorasib\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/sotorasib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP223696\">sotorasib</xref></ph> should be taken 4 hours before or 10 hours after antacids</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Oral   calcium carbonate   is predicted to   decrease   the exposure to   oral   sotorasib .  Manufacturer advises  sotorasib  should be taken 4 hours before or 10 hours after antacids .    \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sotorasib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937969",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937969_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"strontium\" outputclass=\"int-drug\">strontium</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 hours</ph>.  </p>"
 							},
 							"hasEvidence": "Study",
 							"hasImportance": "Moderate",
 							"hasOrder": "1",
-							"hasTextContent": "Oral   calcium carbonate   decreases   the absorption of   sodium clodronate .  Manufacturer advises avoid  calcium carbonate  for 2 hours before or 1 hour after  sodium clodronate .    \n\n"
+							"hasTextContent": "Oral   calcium carbonate   decreases   the exposure to   strontium .  Manufacturer advises separate administration by 2 hours .    \n\n"
 						}
 					],
-					"hasOrder": "32",
+					"hasOrder": "41",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Sodium clodronate</title>"
+						"@value": "<title>Strontium</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693496",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937970",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693496_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"sodium feredetate\" outputclass=\"int-drug\">sodium feredetate</ph>. <ph outputclass=\"int-action\">Manufacturer advises <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/calcium-carbonate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP93602\">calcium carbonate</xref></ph> should be taken 1 hour before or 2 hours after <ph otherprops=\"sodium feredetate\" outputclass=\"int-drug\"><xref format=\"dita\" href=\"drug/sodium-feredetate.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP5855\">sodium feredetate</xref></ph></ph>.  </p>"
-							},
-							"hasEvidence": "Study",
-							"hasImportance": "Moderate",
-							"hasOrder": "1",
-							"hasTextContent": "Calcium carbonate   decreases   the absorption of   sodium feredetate .  Manufacturer advises  calcium carbonate  should be taken 1 hour before or 2 hours after  sodium feredetate .    \n\n"
-						}
-					],
-					"hasOrder": "33",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Sodium feredetate</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693497",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693497_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937970_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"tetracycline\" outputclass=\"int-drug\">tetracycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
@@ -742,38 +910,17 @@
 							"hasTextContent": "Calcium carbonate   is predicted to   decrease   the absorption of   tetracycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
 						}
 					],
-					"hasOrder": "34",
+					"hasOrder": "42",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Tetracycline</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693498",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937971",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693498_message_0",
-							"hasDitaContent": {
-								"@type": "rdf:XMLLiteral",
-								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"tigecycline\" outputclass=\"int-drug\">tigecycline</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 2 to 3 hours</ph>.  </p>"
-							},
-							"hasEvidence": "Theoretical",
-							"hasImportance": "Moderate",
-							"hasOrder": "1",
-							"hasTextContent": "Calcium carbonate   is predicted to   decrease   the absorption of   tigecycline .  Manufacturer advises separate administration by 2 to 3 hours .    \n\n"
-						}
-					],
-					"hasOrder": "35",
-					"hasTitle": {
-						"@type": "rdf:XMLLiteral",
-						"@value": "<title>Tigecycline</title>"
-					}
-				},
-				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693499",
-					"hasMessage": [
-						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693499_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937971_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">Calcium carbonate</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the concentration of</ph> <ph otherprops=\"velpatasvir\" outputclass=\"int-drug\">velpatasvir</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by 4 hours</ph>.  </p>"
@@ -784,17 +931,17 @@
 							"hasTextContent": "Calcium carbonate   is predicted to   decrease   the concentration of   velpatasvir .  Manufacturer advises separate administration by 4 hours .    \n\n"
 						}
 					],
-					"hasOrder": "36",
+					"hasOrder": "43",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Velpatasvir</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693500",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937972",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693500_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937972_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"xipamide\" outputclass=\"int-drug\">Xipamide</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the risk of hypercalcaemia when given with</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -805,17 +952,17 @@
 							"hasTextContent": "Xipamide   increases   the risk of hypercalcaemia when given with   calcium carbonate .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "37",
+					"hasOrder": "44",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Xipamide</title>"
 					}
 				},
 				{
-					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693501",
+					"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937973",
 					"hasMessage": [
 						{
-							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1557280693501_message_0",
+							"@id": "http://bnf.nice.org.uk/interaction/calcium-carbonate-2#bnf_i1643857937973_message_0",
 							"hasDitaContent": {
 								"@type": "rdf:XMLLiteral",
 								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph outputclass=\"int-route\">Oral</ph> <ph otherprops=\"calcium carbonate\" outputclass=\"int-heading-drug\">calcium carbonate</ph> <ph outputclass=\"int-effect\">decreases</ph> <ph outputclass=\"int-parameter\">the absorption of</ph> <ph otherprops=\"zinc\" outputclass=\"int-drug\">zinc</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
@@ -826,7 +973,7 @@
 							"hasTextContent": "Oral   calcium carbonate   decreases   the absorption of   zinc .  Manufacturer makes no recommendation .    \n\n"
 						}
 					],
-					"hasOrder": "38",
+					"hasOrder": "45",
 					"hasTitle": {
 						"@type": "rdf:XMLLiteral",
 						"@value": "<title>Zinc</title>"

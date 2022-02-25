@@ -1,0 +1,931 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028766",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028766_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"alfentanil\" outputclass=\"int-drug\">alfentanil</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   alfentanil .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alfentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028767",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028767_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"aliskiren\" outputclass=\"int-drug\">aliskiren</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   aliskiren .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aliskiren</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028768",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028768_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"apalutamide\" outputclass=\"int-drug\">Apalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">tucatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Apalutamide   is predicted to   decrease   the exposure to   tucatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028769",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028769_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"avanafil\" outputclass=\"int-drug\">avanafil</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   avanafil .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Avanafil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028770",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028770_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"buspirone\" outputclass=\"int-drug\">buspirone</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   buspirone .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Buspirone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028771",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028771_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">tucatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Carbamazepine   is predicted to   decrease   the exposure to   tucatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028772",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028772_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"clopidogrel\" outputclass=\"int-drug\">Clopidogrel</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">tucatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tucatinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP223636\">tucatinib</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Clopidogrel   is predicted to   increase   the exposure to   tucatinib .  Manufacturer advises avoid or adjust  tucatinib  dose .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clopidogrel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028773",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028773_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   colchicine .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Colchicine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028774",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028774_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dabigatran\" outputclass=\"int-drug\">dabigatran</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   dabigatran .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dabigatran</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028775",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028775_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"darifenacin\" outputclass=\"int-drug\">darifenacin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   darifenacin .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Darifenacin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028776",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028776_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"darunavir\" outputclass=\"int-drug\">darunavir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   darunavir .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Darunavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028777",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028777_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"deferasirox\" outputclass=\"int-drug\">Deferasirox</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">tucatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Deferasirox   is predicted to   increase   the exposure to   tucatinib .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Deferasirox</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028778",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028778_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-magnitude\">slightly</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   slightly   increases   the exposure to   digoxin .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Digoxin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028779",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028779_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"docetaxel\" outputclass=\"int-drug\">docetaxel</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   docetaxel .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Docetaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028780",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028780_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"edoxaban\" outputclass=\"int-drug\">edoxaban</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   edoxaban .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Edoxaban</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028781",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028781_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"enzalutamide\" outputclass=\"int-drug\">Enzalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">tucatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Enzalutamide   is predicted to   decrease   the exposure to   tucatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enzalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028782",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028782_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"everolimus\" outputclass=\"int-drug\">everolimus</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   everolimus .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Everolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028783",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028783_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fexofenadine\" outputclass=\"int-drug\">fexofenadine</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   fexofenadine .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fexofenadine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028784",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028784_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">tucatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fosphenytoin   is predicted to   decrease   the exposure to   tucatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028785",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028785_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"gemfibrozil\" outputclass=\"int-drug\">Gemfibrozil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">tucatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/tucatinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP223636\">tucatinib</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Gemfibrozil   is predicted to   increase   the exposure to   tucatinib .  Manufacturer advises avoid or adjust  tucatinib  dose .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gemfibrozil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028786",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028786_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ibrutinib\" outputclass=\"int-drug\">ibrutinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   ibrutinib .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibrutinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028787",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028787_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"leflunomide\" outputclass=\"int-drug\">Leflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">tucatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Leflunomide   is predicted to   increase   the exposure to   tucatinib .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Leflunomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028788",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028788_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"lomitapide\" outputclass=\"int-drug\">lomitapide</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   lomitapide .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lomitapide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028789",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028789_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"loperamide\" outputclass=\"int-drug\">loperamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   loperamide .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Loperamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028790",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028790_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-magnitude\">markedly</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"midazolam\" outputclass=\"int-drug\">midazolam</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   markedly   increases   the exposure to   midazolam .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Midazolam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028791",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028791_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mitotane\" outputclass=\"int-drug\">Mitotane</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">tucatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Mitotane   is predicted to   decrease   the exposure to   tucatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitotane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028792",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028792_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"naloxegol\" outputclass=\"int-drug\">naloxegol</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   naloxegol .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Naloxegol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028793",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028793_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"paclitaxel\" outputclass=\"int-drug\">paclitaxel</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   paclitaxel .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paclitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028794",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028794_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">tucatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenobarbital   is predicted to   decrease   the exposure to   tucatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028795",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028795_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">tucatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenytoin   is predicted to   decrease   the exposure to   tucatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028796",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028796_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">tucatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Primidone   is predicted to   decrease   the exposure to   tucatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028797",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028797_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">tucatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   is predicted to   decrease   the exposure to   tucatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028798",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028798_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rivaroxaban\" outputclass=\"int-drug\">rivaroxaban</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   rivaroxaban .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rivaroxaban</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028799",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028799_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"simvastatin\" outputclass=\"int-drug\">simvastatin</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   simvastatin .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Simvastatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028800",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028800_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sirolimus\" outputclass=\"int-drug\">sirolimus</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   sirolimus .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sirolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028801",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028801_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"St John's wort\" outputclass=\"int-drug\">St John's wort</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">tucatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "St John's wort   is predicted to   decrease   the exposure to   tucatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>St John's wort</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028802",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028802_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tacrolimus\" outputclass=\"int-drug\">tacrolimus</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   tacrolimus .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tacrolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028803",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028803_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"talazoparib\" outputclass=\"int-drug\">talazoparib</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   talazoparib .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Talazoparib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028804",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028804_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"teriflunomide\" outputclass=\"int-drug\">Teriflunomide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">tucatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Teriflunomide   is predicted to   increase   the exposure to   tucatinib .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Teriflunomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028805",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028805_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"tipranavir\" outputclass=\"int-drug\">tipranavir</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   tipranavir .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tipranavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028806",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028806_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"topotecan\" outputclass=\"int-drug\">topotecan</ph>. <ph outputclass=\"int-action\">Manufacturer advises use with caution and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   topotecan .  Manufacturer advises use with caution and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Topotecan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028807",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2#bnf_i1643858028807_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tucatinib\" outputclass=\"int-heading-drug\">Tucatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"vardenafil\" outputclass=\"int-drug\">vardenafil</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tucatinib   is predicted to   increase   the exposure to   vardenafil .  Manufacturer advises avoid or adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vardenafil</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Tucatinib  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/tucatinib-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Tucatinib </title>"
+			},
+			"rdfs:label": "tucatinib"
+		}
+	]
+}

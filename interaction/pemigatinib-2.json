@@ -1,0 +1,1225 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000237",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000237_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"apalutamide\" outputclass=\"int-drug\">Apalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Apalutamide   is predicted to   decrease   the exposure to   pemigatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000238",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000238_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"aprepitant\" outputclass=\"int-drug\">Aprepitant</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Aprepitant   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aprepitant</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000239",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000239_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"atazanavir\" outputclass=\"int-drug\">Atazanavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/pemigatinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222826\">pemigatinib</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Atazanavir   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer advises avoid or adjust  pemigatinib  dose .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atazanavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000240",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000240_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"bosentan\" outputclass=\"int-drug\">Bosentan</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Bosentan   is predicted to   decrease   the exposure to   pemigatinib .  Manufacturer advises avoid or monitor .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosentan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000241",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000241_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Carbamazepine   is predicted to   decrease   the exposure to   pemigatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000242",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000242_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"clarithromycin\" outputclass=\"int-drug\">Clarithromycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/pemigatinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222826\">pemigatinib</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Clarithromycin   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer advises avoid or adjust  pemigatinib  dose .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clarithromycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000243",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000243_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"cobicistat\" outputclass=\"int-drug\">Cobicistat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/pemigatinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222826\">pemigatinib</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Cobicistat   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer advises avoid or adjust  pemigatinib  dose .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cobicistat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000244",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000244_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">Pemigatinib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"colchicine\" outputclass=\"int-drug\">colchicine</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 6 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pemigatinib   might   increase   the exposure to   colchicine .  Manufacturer advises separate administration by at least 6 hours .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Colchicine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000245",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000245_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"crizotinib\" outputclass=\"int-drug\">Crizotinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Crizotinib   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crizotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000246",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000246_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">Pemigatinib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to the active metabolite of</ph> <ph otherprops=\"cyclophosphamide\" outputclass=\"int-drug\">cyclophosphamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pemigatinib   might   increase   the exposure to the active metabolite of   cyclophosphamide .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyclophosphamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000247",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000247_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">Pemigatinib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"dabigatran\" outputclass=\"int-drug\">dabigatran</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 6 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pemigatinib   might   increase   the exposure to   dabigatran .  Manufacturer advises separate administration by at least 6 hours .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dabigatran</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000248",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000248_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dabrafenib\" outputclass=\"int-drug\">Dabrafenib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dabrafenib   is predicted to   decrease   the exposure to   pemigatinib .  Manufacturer advises avoid or monitor .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dabrafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000249",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000249_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"darunavir\" outputclass=\"int-drug\">Darunavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/pemigatinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222826\">pemigatinib</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Darunavir   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer advises avoid or adjust  pemigatinib  dose .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Darunavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000250",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000250_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">Pemigatinib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"digoxin\" outputclass=\"int-drug\">digoxin</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 6 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pemigatinib   might   increase   the exposure to   digoxin .  Manufacturer advises separate administration by at least 6 hours .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Digoxin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000251",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000251_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"diltiazem\" outputclass=\"int-drug\">Diltiazem</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Diltiazem   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diltiazem</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000252",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000252_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"dronedarone\" outputclass=\"int-drug\">Dronedarone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Dronedarone   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dronedarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000253",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000253_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">Pemigatinib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"edoxaban\" outputclass=\"int-drug\">edoxaban</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 6 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pemigatinib   might   increase   the exposure to   edoxaban .  Manufacturer advises separate administration by at least 6 hours .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Edoxaban</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000254",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000254_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"efavirenz\" outputclass=\"int-drug\">Efavirenz</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph> and <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"efavirenz\" outputclass=\"int-drug\">efavirenz</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Efavirenz   is predicted to   decrease   the exposure to   pemigatinib  and  pemigatinib   might   decrease   the exposure to   efavirenz .  Manufacturer advises avoid or monitor .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Efavirenz</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000255",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000255_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"enzalutamide\" outputclass=\"int-drug\">Enzalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Enzalutamide   is predicted to   decrease   the exposure to   pemigatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enzalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000256",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000256_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"erythromycin\" outputclass=\"int-drug\">Erythromycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Erythromycin   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Erythromycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000257",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000257_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"esomeprazole\" outputclass=\"int-drug\">Esomeprazole</ph> <ph outputclass=\"int-effectQualifier\">has been reported to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Esomeprazole   has been reported to   decrease   the exposure to   pemigatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Esomeprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000258",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000258_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">Pemigatinib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"everolimus\" outputclass=\"int-drug\">everolimus</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 6 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pemigatinib   might   increase   the exposure to   everolimus .  Manufacturer advises separate administration by at least 6 hours .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Everolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000259",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000259_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fluconazole\" outputclass=\"int-drug\">Fluconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fluconazole   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000260",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000260_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosamprenavir\" outputclass=\"int-drug\">Fosamprenavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/pemigatinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222826\">pemigatinib</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fosamprenavir   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer advises avoid or adjust  pemigatinib  dose .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosamprenavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000261",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000261_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Fosphenytoin   is predicted to   decrease   the exposure to   pemigatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000262",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000262_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"grapefruit\" outputclass=\"int-drug\">Grapefruit</ph> <ph outputclass=\"int-substanceQualifier\">and grapefruit juice</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Grapefruit   and grapefruit juice   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Grapefruit</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000263",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000263_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"idelalisib\" outputclass=\"int-drug\">Idelalisib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/pemigatinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222826\">pemigatinib</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Idelalisib   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer advises avoid or adjust  pemigatinib  dose .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Idelalisib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000264",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000264_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">Pemigatinib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ifosfamide\" outputclass=\"int-drug\">ifosfamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pemigatinib   might   decrease   the exposure to   ifosfamide .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ifosfamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000265",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000265_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"imatinib\" outputclass=\"int-drug\">Imatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Imatinib   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000266",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000266_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"isavuconazole\" outputclass=\"int-drug\">Isavuconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Isavuconazole   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isavuconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000267",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000267_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"itraconazole\" outputclass=\"int-drug\">Itraconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/pemigatinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222826\">pemigatinib</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Itraconazole   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer advises avoid or adjust  pemigatinib  dose .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Itraconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000268",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000268_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ketoconazole\" outputclass=\"int-drug\">Ketoconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/pemigatinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222826\">pemigatinib</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ketoconazole   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer advises avoid or adjust  pemigatinib  dose .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketoconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000269",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000269_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lansoprazole\" outputclass=\"int-drug\">Lansoprazole</ph> <ph outputclass=\"int-effectQualifier\">has been reported to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lansoprazole   has been reported to   decrease   the exposure to   pemigatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lansoprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000270",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000270_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"letermovir\" outputclass=\"int-drug\">Letermovir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Letermovir   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Letermovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000271",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000271_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"lopinavir\" outputclass=\"int-drug\">Lopinavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/pemigatinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222826\">pemigatinib</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Lopinavir   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer advises avoid or adjust  pemigatinib  dose .    \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lopinavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000272",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000272_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">Pemigatinib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"methadone\" outputclass=\"int-drug\">methadone</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pemigatinib   might   decrease   the exposure to   methadone .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methadone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000273",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000273_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"mitotane\" outputclass=\"int-drug\">Mitotane</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Mitotane   is predicted to   decrease   the exposure to   pemigatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitotane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000274",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000274_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"netupitant\" outputclass=\"int-drug\">Netupitant</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Netupitant   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Netupitant</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000275",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000275_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nevirapine\" outputclass=\"int-drug\">Nevirapine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Nevirapine   is predicted to   decrease   the exposure to   pemigatinib .  Manufacturer advises avoid or monitor .    \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nevirapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000276",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000276_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"nilotinib\" outputclass=\"int-drug\">Nilotinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Nilotinib   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nilotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000277",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000277_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"omeprazole\" outputclass=\"int-drug\">Omeprazole</ph> <ph outputclass=\"int-effectQualifier\">has been reported to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Omeprazole   has been reported to   decrease   the exposure to   pemigatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Omeprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000278",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000278_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"pantoprazole\" outputclass=\"int-drug\">Pantoprazole</ph> <ph outputclass=\"int-effectQualifier\">has been reported to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Pantoprazole   has been reported to   decrease   the exposure to   pemigatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pantoprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000279",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000279_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenobarbital   is predicted to   decrease   the exposure to   pemigatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000280",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000280_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Phenytoin   is predicted to   decrease   the exposure to   pemigatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000281",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000281_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">Pemigatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hyperphosphataemia when given with</ph> <ph otherprops=\"phosphate\" outputclass=\"int-drug\">phosphate</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pemigatinib   is predicted to   increase   the risk of hyperphosphataemia when given with   phosphate .  Manufacturer advises monitor .    \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phosphate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000282",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000282_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"posaconazole\" outputclass=\"int-drug\">Posaconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Posaconazole   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Posaconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000283",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000283_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Primidone   is predicted to   decrease   the exposure to   pemigatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000284",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000284_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rabeprazole\" outputclass=\"int-drug\">Rabeprazole</ph> <ph outputclass=\"int-effectQualifier\">has been reported to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Anecdotal",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rabeprazole   has been reported to   decrease   the exposure to   pemigatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rabeprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000285",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000285_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   is predicted to   decrease   the exposure to   pemigatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000286",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000286_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"ritonavir\" outputclass=\"int-drug\">Ritonavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/pemigatinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222826\">pemigatinib</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Ritonavir   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer advises avoid or adjust  pemigatinib  dose .    \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ritonavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000287",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000287_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">Pemigatinib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"rivaroxaban\" outputclass=\"int-drug\">rivaroxaban</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 6 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pemigatinib   might   increase   the exposure to   rivaroxaban .  Manufacturer advises separate administration by at least 6 hours .    \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rivaroxaban</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000288",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000288_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">Pemigatinib</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sirolimus\" outputclass=\"int-drug\">sirolimus</ph>. <ph outputclass=\"int-action\">Manufacturer advises separate administration by at least 6 hours</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Pemigatinib   might   increase   the exposure to   sirolimus .  Manufacturer advises separate administration by at least 6 hours .    \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sirolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000289",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000289_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"St John's wort\" outputclass=\"int-drug\">St John's wort</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "St John's wort   is predicted to   decrease   the exposure to   pemigatinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>St John's wort</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000290",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000290_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"tipranavir\" outputclass=\"int-drug\">Tipranavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/pemigatinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222826\">pemigatinib</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Tipranavir   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer advises avoid or adjust  pemigatinib  dose .    \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tipranavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000291",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000291_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"verapamil\" outputclass=\"int-drug\">Verapamil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Verapamil   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Verapamil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000292",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2#bnf_i1643858000292_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"voriconazole\" outputclass=\"int-drug\">Voriconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\">pemigatinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid or adjust <ph otherprops=\"pemigatinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/pemigatinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222826\">pemigatinib</xref></ph> dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Voriconazole   is predicted to   increase   the exposure to   pemigatinib .  Manufacturer advises avoid or adjust  pemigatinib  dose .    \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Voriconazole</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Pemigatinib  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/pemigatinib-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Pemigatinib </title>"
+			},
+			"rdfs:label": "pemigatinib"
+		}
+	]
+}

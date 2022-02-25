@@ -1,0 +1,1162 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963485",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963485_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">Fedratinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"alfentanil\" outputclass=\"int-drug\">alfentanil</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fedratinib   is predicted to   increase   the exposure to   alfentanil .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alfentanil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963486",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963486_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"apalutamide\" outputclass=\"int-drug\">Apalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Apalutamide   is predicted to   decrease   the exposure to   fedratinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Apalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963487",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963487_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"aprepitant\" outputclass=\"int-drug\">Aprepitant</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Aprepitant   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aprepitant</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963488",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963488_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"atazanavir\" outputclass=\"int-drug\">Atazanavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/fedratinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222706\">fedratinib</xref></ph> dose, but avoid depending on other drugs taken—consult product literature</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Atazanavir   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises adjust  fedratinib  dose, but avoid depending on other drugs taken—consult product literature .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atazanavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963489",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963489_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">Fedratinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"atomoxetine\" outputclass=\"int-drug\">atomoxetine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fedratinib   is predicted to   increase   the exposure to   atomoxetine .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Atomoxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963490",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963490_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"bosentan\" outputclass=\"int-drug\">Bosentan</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Bosentan   is predicted to   decrease   the exposure to   fedratinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosentan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963491",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963491_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"carbamazepine\" outputclass=\"int-drug\">Carbamazepine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Carbamazepine   is predicted to   decrease   the exposure to   fedratinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carbamazepine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963492",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963492_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"clarithromycin\" outputclass=\"int-drug\">Clarithromycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/fedratinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222706\">fedratinib</xref></ph> dose, but avoid depending on other drugs taken—consult product literature</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Clarithromycin   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises adjust  fedratinib  dose, but avoid depending on other drugs taken—consult product literature .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clarithromycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963493",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963493_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"cobicistat\" outputclass=\"int-drug\">Cobicistat</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/fedratinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222706\">fedratinib</xref></ph> dose, but avoid depending on other drugs taken—consult product literature</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Cobicistat   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises adjust  fedratinib  dose, but avoid depending on other drugs taken—consult product literature .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cobicistat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963494",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963494_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"crizotinib\" outputclass=\"int-drug\">Crizotinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Crizotinib   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crizotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963495",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963495_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"dabrafenib\" outputclass=\"int-drug\">Dabrafenib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Dabrafenib   is predicted to   decrease   the exposure to   fedratinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dabrafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963496",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963496_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"darunavir\" outputclass=\"int-drug\">Darunavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/fedratinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222706\">fedratinib</xref></ph> dose, but avoid depending on other drugs taken—consult product literature</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Darunavir   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises adjust  fedratinib  dose, but avoid depending on other drugs taken—consult product literature .    \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Darunavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963497",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963497_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"diltiazem\" outputclass=\"int-drug\">Diltiazem</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Diltiazem   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Diltiazem</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963498",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963498_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"dronedarone\" outputclass=\"int-drug\">Dronedarone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Dronedarone   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dronedarone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963499",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963499_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"efavirenz\" outputclass=\"int-drug\">Efavirenz</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Efavirenz   is predicted to   decrease   the exposure to   fedratinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Efavirenz</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963500",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963500_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">Fedratinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"eliglustat\" outputclass=\"int-drug\">eliglustat</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fedratinib   is predicted to   increase   the exposure to   eliglustat .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eliglustat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963501",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963501_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"enzalutamide\" outputclass=\"int-drug\">Enzalutamide</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Enzalutamide   is predicted to   decrease   the exposure to   fedratinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Enzalutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963502",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963502_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">Fedratinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ergotamine\" outputclass=\"int-drug\">ergotamine</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fedratinib   is predicted to   increase   the exposure to   ergotamine .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ergotamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963503",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963503_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"erythromycin\" outputclass=\"int-drug\">Erythromycin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Erythromycin   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Erythromycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963504",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963504_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">Fedratinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"everolimus\" outputclass=\"int-drug\">everolimus</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fedratinib   is predicted to   increase   the exposure to   everolimus .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Everolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963505",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963505_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fluconazole\" outputclass=\"int-drug\">Fluconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fluconazole   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963506",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963506_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fluoxetine\" outputclass=\"int-drug\">Fluoxetine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid depending on other drugs taken—consult product literature</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fluoxetine   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises avoid depending on other drugs taken—consult product literature .    \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluoxetine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963507",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963507_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fluvoxamine\" outputclass=\"int-drug\">Fluvoxamine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fluvoxamine   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluvoxamine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963508",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963508_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fosamprenavir\" outputclass=\"int-drug\">Fosamprenavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/fedratinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222706\">fedratinib</xref></ph> dose, but avoid depending on other drugs taken—consult product literature</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fosamprenavir   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises adjust  fedratinib  dose, but avoid depending on other drugs taken—consult product literature .    \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosamprenavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963509",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963509_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fosphenytoin\" outputclass=\"int-drug\">Fosphenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fosphenytoin   is predicted to   decrease   the exposure to   fedratinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fosphenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963510",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963510_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"grapefruit\" outputclass=\"int-drug\">Grapefruit</ph> <ph outputclass=\"int-substanceQualifier\">and grapefruit juice</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Grapefruit   and grapefruit juice   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Grapefruit</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963511",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963511_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"idelalisib\" outputclass=\"int-drug\">Idelalisib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/fedratinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222706\">fedratinib</xref></ph> dose, but avoid depending on other drugs taken—consult product literature</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Idelalisib   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises adjust  fedratinib  dose, but avoid depending on other drugs taken—consult product literature .    \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Idelalisib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963512",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963512_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"imatinib\" outputclass=\"int-drug\">Imatinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Imatinib   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963513",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963513_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"isavuconazole\" outputclass=\"int-drug\">Isavuconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Isavuconazole   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Isavuconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963514",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963514_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"itraconazole\" outputclass=\"int-drug\">Itraconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/fedratinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222706\">fedratinib</xref></ph> dose, but avoid depending on other drugs taken—consult product literature</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Itraconazole   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises adjust  fedratinib  dose, but avoid depending on other drugs taken—consult product literature .    \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Itraconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963515",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963515_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ketoconazole\" outputclass=\"int-drug\">Ketoconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/fedratinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222706\">fedratinib</xref></ph> dose, but avoid depending on other drugs taken—consult product literature</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ketoconazole   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises adjust  fedratinib  dose, but avoid depending on other drugs taken—consult product literature .    \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ketoconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963516",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963516_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"letermovir\" outputclass=\"int-drug\">Letermovir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Letermovir   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Letermovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963517",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963517_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"lopinavir\" outputclass=\"int-drug\">Lopinavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/fedratinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222706\">fedratinib</xref></ph> dose, but avoid depending on other drugs taken—consult product literature</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Lopinavir   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises adjust  fedratinib  dose, but avoid depending on other drugs taken—consult product literature .    \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lopinavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963518",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963518_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">Fedratinib</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"metoprolol\" outputclass=\"int-drug\">metoprolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fedratinib   moderately   increases   the exposure to   metoprolol .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Metoprolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963519",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963519_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">Fedratinib</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"midazolam\" outputclass=\"int-drug\">midazolam</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fedratinib   moderately   increases   the exposure to   midazolam .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Midazolam</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963520",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963520_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"mitotane\" outputclass=\"int-drug\">Mitotane</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Mitotane   is predicted to   decrease   the exposure to   fedratinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitotane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963521",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963521_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">Fedratinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"nebivolol\" outputclass=\"int-drug\">nebivolol</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fedratinib   is predicted to   increase   the exposure to   nebivolol .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nebivolol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963522",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963522_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"netupitant\" outputclass=\"int-drug\">Netupitant</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Netupitant   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Netupitant</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963523",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963523_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"nevirapine\" outputclass=\"int-drug\">Nevirapine</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Nevirapine   is predicted to   decrease   the exposure to   fedratinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nevirapine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963524",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963524_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"nilotinib\" outputclass=\"int-drug\">Nilotinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Nilotinib   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nilotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963525",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963525_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">Fedratinib</ph> <ph outputclass=\"int-magnitude\">moderately</ph> <ph outputclass=\"int-effect\">increases</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"omeprazole\" outputclass=\"int-drug\">omeprazole</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fedratinib   moderately   increases   the exposure to   omeprazole .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Omeprazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963526",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963526_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"phenobarbital\" outputclass=\"int-drug\">Phenobarbital</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Phenobarbital   is predicted to   decrease   the exposure to   fedratinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenobarbital</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963527",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963527_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"phenytoin\" outputclass=\"int-drug\">Phenytoin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Phenytoin   is predicted to   decrease   the exposure to   fedratinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Phenytoin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963528",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963528_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"posaconazole\" outputclass=\"int-drug\">Posaconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Posaconazole   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Posaconazole</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963529",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963529_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"primidone\" outputclass=\"int-drug\">Primidone</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Primidone   is predicted to   decrease   the exposure to   fedratinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Primidone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963530",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963530_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"rifampicin\" outputclass=\"int-drug\">Rifampicin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Rifampicin   is predicted to   decrease   the exposure to   fedratinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rifampicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963531",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963531_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"ritonavir\" outputclass=\"int-drug\">Ritonavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/fedratinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222706\">fedratinib</xref></ph> dose, but avoid depending on other drugs taken—consult product literature</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Ritonavir   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises adjust  fedratinib  dose, but avoid depending on other drugs taken—consult product literature .    \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ritonavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963532",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963532_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">Fedratinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"sirolimus\" outputclass=\"int-drug\">sirolimus</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fedratinib   is predicted to   increase   the exposure to   sirolimus .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sirolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963533",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963533_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"St John's wort\" outputclass=\"int-drug\">St John's wort</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises avoid</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "St John's wort   is predicted to   decrease   the exposure to   fedratinib .  Manufacturer advises avoid .    \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>St John's wort</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963534",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963534_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">Fedratinib</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"temsirolimus\" outputclass=\"int-drug\">temsirolimus</ph> <ph outputclass=\"int-substanceQualifier\">(oral)</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Fedratinib   is predicted to   increase   the exposure to   temsirolimus   (oral) .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Temsirolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963535",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963535_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"tipranavir\" outputclass=\"int-drug\">Tipranavir</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/fedratinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222706\">fedratinib</xref></ph> dose, but avoid depending on other drugs taken—consult product literature</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Tipranavir   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises adjust  fedratinib  dose, but avoid depending on other drugs taken—consult product literature .    \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tipranavir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963536",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963536_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"verapamil\" outputclass=\"int-drug\">Verapamil</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Verapamil   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises monitor and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Verapamil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963537",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2#bnf_i1643857963537_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Moderate\" outputclass=\"int-message\">\n  <ph otherprops=\"voriconazole\" outputclass=\"int-drug\">Voriconazole</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\">fedratinib</ph>. <ph outputclass=\"int-action\">Manufacturer advises adjust <ph otherprops=\"fedratinib\" outputclass=\"int-heading-drug\"><xref format=\"dita\" href=\"drug/fedratinib.xml\" type=\"interaction\" rel=\"drug\" bnfid=\"PHP222706\">fedratinib</xref></ph> dose, but avoid depending on other drugs taken—consult product literature</ph>.  </p>"
+							},
+							"hasEvidence": "Study",
+							"hasImportance": "Moderate",
+							"hasOrder": "1",
+							"hasTextContent": "Voriconazole   is predicted to   increase   the exposure to   fedratinib .  Manufacturer advises adjust  fedratinib  dose, but avoid depending on other drugs taken—consult product literature .    \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Voriconazole</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Fedratinib  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/fedratinib-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Fedratinib </title>"
+			},
+			"rdfs:label": "fedratinib"
+		}
+	]
+}

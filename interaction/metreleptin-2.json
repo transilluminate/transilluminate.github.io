@@ -1,0 +1,280 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988028",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988028_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metreleptin\" outputclass=\"int-heading-drug\">Metreleptin</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">alter</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"aminophylline\" outputclass=\"int-drug\">aminophylline</ph>. <ph outputclass=\"int-action\">Manufacturer makes no recommendation</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metreleptin   might   alter   the exposure to   aminophylline .  Manufacturer makes no recommendation .    \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aminophylline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988029",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988029_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metreleptin\" outputclass=\"int-heading-drug\">Metreleptin</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">alter</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"ciclosporin\" outputclass=\"int-drug\">ciclosporin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor concentration and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metreleptin   might   alter   the exposure to   ciclosporin .  Manufacturer advises monitor concentration and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ciclosporin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988030",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988030_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metreleptin\" outputclass=\"int-heading-drug\">Metreleptin</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">decrease</ph> <ph outputclass=\"int-parameter\">the efficacy of</ph> <ph otherprops=\"combined hormonal contraceptives\" outputclass=\"int-drug\">combined hormonal contraceptives</ph>. <ph outputclass=\"int-action\">Manufacturer advises use additional contraceptive precautions</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metreleptin   might   decrease   the efficacy of   combined hormonal contraceptives .  Manufacturer advises use additional contraceptive precautions .    \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Combined hormonal contraceptives</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988031",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988031_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metreleptin\" outputclass=\"int-heading-drug\">Metreleptin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"glibenclamide\" outputclass=\"int-drug\">glibenclamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor blood glucose and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metreleptin   is predicted to   increase   the risk of hypoglycaemia when given with   glibenclamide .  Manufacturer advises monitor blood glucose and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glibenclamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988032",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988032_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metreleptin\" outputclass=\"int-heading-drug\">Metreleptin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"gliclazide\" outputclass=\"int-drug\">gliclazide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor blood glucose and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metreleptin   is predicted to   increase   the risk of hypoglycaemia when given with   gliclazide .  Manufacturer advises monitor blood glucose and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gliclazide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988033",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988033_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metreleptin\" outputclass=\"int-heading-drug\">Metreleptin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"glimepiride\" outputclass=\"int-drug\">glimepiride</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor blood glucose and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metreleptin   is predicted to   increase   the risk of hypoglycaemia when given with   glimepiride .  Manufacturer advises monitor blood glucose and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glimepiride</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988034",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988034_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metreleptin\" outputclass=\"int-heading-drug\">Metreleptin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"glipizide\" outputclass=\"int-drug\">glipizide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor blood glucose and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metreleptin   is predicted to   increase   the risk of hypoglycaemia when given with   glipizide .  Manufacturer advises monitor blood glucose and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Glipizide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988035",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988035_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metreleptin\" outputclass=\"int-heading-drug\">Metreleptin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"insulin\" outputclass=\"int-drug\">insulin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor blood glucose and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metreleptin   is predicted to   increase   the risk of hypoglycaemia when given with   insulin .  Manufacturer advises monitor blood glucose and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Insulin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988036",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988036_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metreleptin\" outputclass=\"int-heading-drug\">Metreleptin</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">alter</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"theophylline\" outputclass=\"int-drug\">theophylline</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor concentration and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metreleptin   might   alter   the exposure to   theophylline .  Manufacturer advises monitor concentration and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Theophylline</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988037",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988037_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metreleptin\" outputclass=\"int-heading-drug\">Metreleptin</ph> <ph outputclass=\"int-effectQualifier\">is predicted to</ph> <ph outputclass=\"int-effect\">increase</ph> <ph outputclass=\"int-parameter\">the risk of hypoglycaemia when given with</ph> <ph otherprops=\"tolbutamide\" outputclass=\"int-drug\">tolbutamide</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor blood glucose and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metreleptin   is predicted to   increase   the risk of hypoglycaemia when given with   tolbutamide .  Manufacturer advises monitor blood glucose and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tolbutamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988038",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2#bnf_i1643857988038_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Severe\" outputclass=\"int-message\">\n  <ph otherprops=\"metreleptin\" outputclass=\"int-heading-drug\">Metreleptin</ph> <ph outputclass=\"int-effectQualifier\">might</ph> <ph outputclass=\"int-effect\">alter</ph> <ph outputclass=\"int-parameter\">the exposure to</ph> <ph otherprops=\"warfarin\" outputclass=\"int-drug\">warfarin</ph>. <ph outputclass=\"int-action\">Manufacturer advises monitor INR and adjust dose</ph>.  </p>"
+							},
+							"hasEvidence": "Theoretical",
+							"hasImportance": "Severe",
+							"hasOrder": "1",
+							"hasTextContent": "Metreleptin   might   alter   the exposure to   warfarin .  Manufacturer advises monitor INR and adjust dose .    \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Warfarin</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Metreleptin  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/metreleptin-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Metreleptin </title>"
+			},
+			"rdfs:label": "metreleptin"
+		}
+	]
+}

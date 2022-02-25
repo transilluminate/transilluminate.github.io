@@ -1,0 +1,2632 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasInteraction": {
+			"@container": "@set"
+		},
+		"hasMessage": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"isInteractionListOf": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [
+		{
+			"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2",
+			"@type": "InteractionList",
+			"hasInteraction": [
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968548",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968548_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"adalimumab\" outputclass=\"int-drug\">adalimumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  adalimumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "1",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Adalimumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968549",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968549_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"aldesleukin\" outputclass=\"int-drug\">aldesleukin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  aldesleukin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "2",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Aldesleukin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968550",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968550_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"alemtuzumab\" outputclass=\"int-drug\">alemtuzumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  alemtuzumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "3",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Alemtuzumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968551",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968551_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"amsacrine\" outputclass=\"int-drug\">amsacrine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  amsacrine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "4",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Amsacrine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968552",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968552_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"arsenic trioxide\" outputclass=\"int-drug\">arsenic trioxide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  arsenic trioxide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "5",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Arsenic trioxide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968553",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968553_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"asparaginase\" outputclass=\"int-drug\">asparaginase</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  asparaginase  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "6",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Asparaginase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968554",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968554_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"axitinib\" outputclass=\"int-drug\">axitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  axitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "7",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Axitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968555",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968555_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"azacitidine\" outputclass=\"int-drug\">azacitidine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  azacitidine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "8",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Azacitidine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968556",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968556_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"azathioprine\" outputclass=\"int-drug\">azathioprine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  azathioprine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "9",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Azathioprine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968557",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968557_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"belatacept\" outputclass=\"int-drug\">belatacept</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  belatacept  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "10",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Belatacept</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968558",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968558_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"bendamustine\" outputclass=\"int-drug\">bendamustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  bendamustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "11",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bendamustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968559",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968559_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"bevacizumab\" outputclass=\"int-drug\">bevacizumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  bevacizumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "12",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bevacizumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968560",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968560_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"bexarotene\" outputclass=\"int-drug\">bexarotene</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  bexarotene  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "13",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bexarotene</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968561",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968561_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"bleomycin\" outputclass=\"int-drug\">bleomycin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  bleomycin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "14",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bleomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968562",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968562_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"blinatumomab\" outputclass=\"int-drug\">blinatumomab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  blinatumomab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "15",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Blinatumomab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968563",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968563_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"bortezomib\" outputclass=\"int-drug\">bortezomib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  bortezomib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "16",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bortezomib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968564",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968564_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"bosutinib\" outputclass=\"int-drug\">bosutinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  bosutinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "17",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Bosutinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968565",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968565_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"brentuximab vedotin\" outputclass=\"int-drug\">brentuximab vedotin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  brentuximab vedotin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "18",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Brentuximab vedotin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968566",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968566_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"busulfan\" outputclass=\"int-drug\">busulfan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  busulfan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "19",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Busulfan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968567",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968567_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"cabazitaxel\" outputclass=\"int-drug\">cabazitaxel</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  cabazitaxel  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "20",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabazitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968568",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968568_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"cabozantinib\" outputclass=\"int-drug\">cabozantinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  cabozantinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "21",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cabozantinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968569",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968569_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"canakinumab\" outputclass=\"int-drug\">canakinumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  canakinumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "22",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Canakinumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968570",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968570_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"capecitabine\" outputclass=\"int-drug\">capecitabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  capecitabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "23",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Capecitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968571",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968571_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"carboplatin\" outputclass=\"int-drug\">carboplatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  carboplatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "24",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carboplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968572",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968572_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"carfilzomib\" outputclass=\"int-drug\">carfilzomib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  carfilzomib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "25",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carfilzomib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968573",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968573_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"carmustine\" outputclass=\"int-drug\">carmustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  carmustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "26",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Carmustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968574",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968574_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"ceritinib\" outputclass=\"int-drug\">ceritinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  ceritinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "27",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ceritinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968575",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968575_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"certolizumab pegol\" outputclass=\"int-drug\">certolizumab pegol</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  certolizumab pegol  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "28",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Certolizumab pegol</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968576",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968576_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"chlorambucil\" outputclass=\"int-drug\">chlorambucil</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  chlorambucil  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "29",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Chlorambucil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968577",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968577_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"cisplatin\" outputclass=\"int-drug\">cisplatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  cisplatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "30",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cisplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968578",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968578_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"cladribine\" outputclass=\"int-drug\">cladribine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  cladribine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "31",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cladribine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968579",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968579_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"clofarabine\" outputclass=\"int-drug\">clofarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  clofarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "32",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Clofarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968580",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968580_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"crisantaspase\" outputclass=\"int-drug\">crisantaspase</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  crisantaspase  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "33",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Crisantaspase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968581",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968581_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"cyclophosphamide\" outputclass=\"int-drug\">cyclophosphamide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  cyclophosphamide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "34",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cyclophosphamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968582",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968582_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"cytarabine\" outputclass=\"int-drug\">cytarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  cytarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "35",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Cytarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968583",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968583_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"dacarbazine\" outputclass=\"int-drug\">dacarbazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  dacarbazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "36",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dacarbazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968584",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968584_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"dactinomycin\" outputclass=\"int-drug\">dactinomycin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  dactinomycin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "37",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dactinomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968585",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968585_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"daratumumab\" outputclass=\"int-drug\">daratumumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  daratumumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "38",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Daratumumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968586",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968586_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"dasatinib\" outputclass=\"int-drug\">dasatinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  dasatinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "39",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dasatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968587",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968587_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"daunorubicin\" outputclass=\"int-drug\">daunorubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  daunorubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "40",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Daunorubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968588",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968588_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"decitabine\" outputclass=\"int-drug\">decitabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  decitabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "41",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Decitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968589",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968589_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"dexrazoxane\" outputclass=\"int-drug\">dexrazoxane</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  dexrazoxane  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "42",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dexrazoxane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968590",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968590_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"dinutuximab\" outputclass=\"int-drug\">dinutuximab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  dinutuximab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "43",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Dinutuximab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968591",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968591_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"docetaxel\" outputclass=\"int-drug\">docetaxel</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  docetaxel  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "44",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Docetaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968592",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968592_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"doxorubicin\" outputclass=\"int-drug\">doxorubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  doxorubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "45",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Doxorubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968593",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968593_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"epirubicin\" outputclass=\"int-drug\">epirubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  epirubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "46",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Epirubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968594",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968594_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"eribulin\" outputclass=\"int-drug\">eribulin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  eribulin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "47",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Eribulin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968595",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968595_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"estramustine\" outputclass=\"int-drug\">estramustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  estramustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "48",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Estramustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968596",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968596_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"etoposide\" outputclass=\"int-drug\">etoposide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  etoposide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "49",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Etoposide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968597",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968597_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"fludarabine\" outputclass=\"int-drug\">fludarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  fludarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "50",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fludarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968598",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968598_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"fluorouracil\" outputclass=\"int-drug\">fluorouracil</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  fluorouracil  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "51",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Fluorouracil</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968599",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968599_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"ganciclovir\" outputclass=\"int-drug\">ganciclovir</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  ganciclovir  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "52",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968600",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968600_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"gemcitabine\" outputclass=\"int-drug\">gemcitabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  gemcitabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "53",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Gemcitabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968601",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968601_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"golimumab\" outputclass=\"int-drug\">golimumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  golimumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "54",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Golimumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968602",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968602_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"hydroxycarbamide\" outputclass=\"int-drug\">hydroxycarbamide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  hydroxycarbamide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "55",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Hydroxycarbamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968603",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968603_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"ibrutinib\" outputclass=\"int-drug\">ibrutinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  ibrutinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "56",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ibrutinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968604",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968604_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"idarubicin\" outputclass=\"int-drug\">idarubicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  idarubicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "57",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Idarubicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968605",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968605_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"ifosfamide\" outputclass=\"int-drug\">ifosfamide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  ifosfamide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "58",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ifosfamide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968606",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968606_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"imatinib\" outputclass=\"int-drug\">imatinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  imatinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "59",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Imatinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968607",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968607_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"infliximab\" outputclass=\"int-drug\">infliximab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  infliximab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "60",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Infliximab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968608",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968608_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"inotuzumab ozogamicin\" outputclass=\"int-drug\">inotuzumab ozogamicin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  inotuzumab ozogamicin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "61",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Inotuzumab ozogamicin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968609",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968609_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"ipilimumab\" outputclass=\"int-drug\">ipilimumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  ipilimumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "62",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ipilimumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968610",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968610_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"irinotecan\" outputclass=\"int-drug\">irinotecan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  irinotecan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "63",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Irinotecan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968611",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968611_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"leflunomide\" outputclass=\"int-drug\">leflunomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  leflunomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "64",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Leflunomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968612",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968612_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"lenalidomide\" outputclass=\"int-drug\">lenalidomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  lenalidomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "65",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lenalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968613",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968613_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"lomustine\" outputclass=\"int-drug\">lomustine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  lomustine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "66",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Lomustine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968614",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968614_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"melphalan\" outputclass=\"int-drug\">melphalan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  melphalan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "67",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Melphalan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968615",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968615_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"mercaptopurine\" outputclass=\"int-drug\">mercaptopurine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  mercaptopurine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "68",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mercaptopurine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968616",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968616_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"methotrexate\" outputclass=\"int-drug\">methotrexate</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  methotrexate  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "69",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Methotrexate</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968617",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968617_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"mifamurtide\" outputclass=\"int-drug\">mifamurtide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  mifamurtide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "70",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mifamurtide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968618",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968618_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"mitomycin\" outputclass=\"int-drug\">mitomycin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  mitomycin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "71",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitomycin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968619",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968619_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"mitotane\" outputclass=\"int-drug\">mitotane</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  mitotane  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "72",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitotane</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968620",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968620_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"mitoxantrone\" outputclass=\"int-drug\">mitoxantrone</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  mitoxantrone  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "73",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mitoxantrone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968621",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968621_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"mogamulizumab\" outputclass=\"int-drug\">mogamulizumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  mogamulizumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "74",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Mogamulizumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968622",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968622_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"nelarabine\" outputclass=\"int-drug\">nelarabine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  nelarabine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "75",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nelarabine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968623",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968623_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"nilotinib\" outputclass=\"int-drug\">nilotinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  nilotinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "76",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nilotinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968624",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968624_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"niraparib\" outputclass=\"int-drug\">niraparib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  niraparib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "77",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Niraparib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968625",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968625_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"nivolumab\" outputclass=\"int-drug\">nivolumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  nivolumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "78",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Nivolumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968626",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968626_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"obinutuzumab\" outputclass=\"int-drug\">obinutuzumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  obinutuzumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "79",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Obinutuzumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968627",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968627_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"olaparib\" outputclass=\"int-drug\">olaparib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  olaparib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "80",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Olaparib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968628",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968628_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"oxaliplatin\" outputclass=\"int-drug\">oxaliplatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  oxaliplatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "81",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Oxaliplatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968629",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968629_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"paclitaxel\" outputclass=\"int-drug\">paclitaxel</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  paclitaxel  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "82",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Paclitaxel</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968630",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968630_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"palbociclib\" outputclass=\"int-drug\">palbociclib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  palbociclib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "83",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Palbociclib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968631",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968631_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"panobinostat\" outputclass=\"int-drug\">panobinostat</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  panobinostat  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "84",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Panobinostat</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968632",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968632_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"pegaspargase\" outputclass=\"int-drug\">pegaspargase</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  pegaspargase  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "85",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pegaspargase</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968633",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968633_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"peginterferon alfa\" outputclass=\"int-drug\">peginterferon alfa</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  peginterferon alfa  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "86",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Peginterferon alfa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968634",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968634_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"pembrolizumab\" outputclass=\"int-drug\">pembrolizumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  pembrolizumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "87",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pembrolizumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968635",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968635_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"pemetrexed\" outputclass=\"int-drug\">pemetrexed</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  pemetrexed  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "88",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pemetrexed</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968636",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968636_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"pentostatin\" outputclass=\"int-drug\">pentostatin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  pentostatin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "89",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pentostatin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968637",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968637_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"pixantrone\" outputclass=\"int-drug\">pixantrone</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  pixantrone  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "90",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pixantrone</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968638",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968638_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"pomalidomide\" outputclass=\"int-drug\">pomalidomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  pomalidomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "91",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Pomalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968639",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968639_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"procarbazine\" outputclass=\"int-drug\">procarbazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  procarbazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "92",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Procarbazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968640",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968640_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"raltitrexed\" outputclass=\"int-drug\">raltitrexed</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  raltitrexed  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "93",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Raltitrexed</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968641",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968641_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"ramucirumab\" outputclass=\"int-drug\">ramucirumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  ramucirumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "94",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ramucirumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968642",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968642_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"regorafenib\" outputclass=\"int-drug\">regorafenib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  regorafenib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "95",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Regorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968643",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968643_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"ribociclib\" outputclass=\"int-drug\">ribociclib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  ribociclib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "96",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ribociclib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968644",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968644_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"rituximab\" outputclass=\"int-drug\">rituximab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  rituximab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "97",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rituximab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968645",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968645_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"ropeginterferon alfa\" outputclass=\"int-drug\">ropeginterferon alfa</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  ropeginterferon alfa  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "98",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ropeginterferon alfa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968646",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968646_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"rucaparib\" outputclass=\"int-drug\">rucaparib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  rucaparib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "99",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Rucaparib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968647",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968647_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"ruxolitinib\" outputclass=\"int-drug\">ruxolitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  ruxolitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "100",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Ruxolitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968648",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968648_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"sorafenib\" outputclass=\"int-drug\">sorafenib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  sorafenib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "101",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sorafenib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968649",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968649_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"streptozocin\" outputclass=\"int-drug\">streptozocin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  streptozocin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "102",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Streptozocin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968650",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968650_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"sulfasalazine\" outputclass=\"int-drug\">sulfasalazine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  sulfasalazine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "103",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sulfasalazine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968651",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968651_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"sunitinib\" outputclass=\"int-drug\">sunitinib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  sunitinib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "104",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Sunitinib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968652",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968652_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"talazoparib\" outputclass=\"int-drug\">talazoparib</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  talazoparib  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "105",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Talazoparib</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968653",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968653_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"tegafur\" outputclass=\"int-drug\">tegafur</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  tegafur  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "106",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tegafur</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968654",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968654_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"temozolomide\" outputclass=\"int-drug\">temozolomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  temozolomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "107",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Temozolomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968655",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968655_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"temsirolimus\" outputclass=\"int-drug\">temsirolimus</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  temsirolimus  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "108",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Temsirolimus</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968656",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968656_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"thalidomide\" outputclass=\"int-drug\">thalidomide</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  thalidomide  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "109",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thalidomide</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968657",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968657_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"thiotepa\" outputclass=\"int-drug\">thiotepa</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  thiotepa  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "110",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Thiotepa</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968658",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968658_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"tioguanine\" outputclass=\"int-drug\">tioguanine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  tioguanine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "111",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Tioguanine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968659",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968659_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"topotecan\" outputclass=\"int-drug\">topotecan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  topotecan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "112",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Topotecan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968660",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968660_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"trabectedin\" outputclass=\"int-drug\">trabectedin</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  trabectedin  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "113",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trabectedin</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968661",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968661_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"trastuzumab\" outputclass=\"int-drug\">trastuzumab</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  trastuzumab  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "114",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trastuzumab</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968662",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968662_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"trastuzumab deruxtecan\" outputclass=\"int-drug\">trastuzumab deruxtecan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  trastuzumab deruxtecan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "115",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trastuzumab deruxtecan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968663",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968663_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"trastuzumab emtansine\" outputclass=\"int-drug\">trastuzumab emtansine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  trastuzumab emtansine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "116",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Trastuzumab emtansine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968664",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968664_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"treosulfan\" outputclass=\"int-drug\">treosulfan</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  treosulfan  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "117",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Treosulfan</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968665",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968665_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"valganciclovir\" outputclass=\"int-drug\">valganciclovir</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  valganciclovir  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "118",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Valganciclovir</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968666",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968666_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"vinblastine\" outputclass=\"int-drug\">vinblastine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  vinblastine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "119",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinblastine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968667",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968667_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"vincristine\" outputclass=\"int-drug\">vincristine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  vincristine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "120",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vincristine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968668",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968668_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"vindesine\" outputclass=\"int-drug\">vindesine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  vindesine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "121",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vindesine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968669",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968669_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"vinflunine\" outputclass=\"int-drug\">vinflunine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  vinflunine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "122",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinflunine</title>"
+					}
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968670",
+					"hasMessage": [
+						{
+							"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2#bnf_i1643857968670_message_0",
+							"hasDitaContent": {
+								"@type": "rdf:XMLLiteral",
+								"@value": "<p otherprops=\"Normal\" outputclass=\"int-message\">Both <ph otherprops=\"gemtuzumab ozogamicin\" outputclass=\"int-heading-drug\">gemtuzumab ozogamicin</ph> and <ph otherprops=\"vinorelbine\" outputclass=\"int-drug\">vinorelbine</ph> can increase the risk of myelosuppression.</p>"
+							},
+							"hasEvidence": "NotSet",
+							"hasImportance": "NotSet",
+							"hasOrder": "1",
+							"hasTextContent": "Both  gemtuzumab ozogamicin  and  vinorelbine  can increase the risk of myelosuppression. \n\n"
+						}
+					],
+					"hasOrder": "123",
+					"hasTitle": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<title>Vinorelbine</title>"
+					}
+				}
+			],
+			"hasSearchLabel": " Gemtuzumab ozogamicin  | Interactions",
+			"hasSearchLink": {
+				"@id": "http://bnf.nice.org.uk/interaction/gemtuzumab-ozogamicin-2.html"
+			},
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Gemtuzumab ozogamicin </title>"
+			},
+			"rdfs:label": "gemtuzumab ozogamicin"
+		}
+	]
+}
