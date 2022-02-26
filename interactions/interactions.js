@@ -5,7 +5,7 @@ jQuery(document).ready( function(){
 // add selected medication
 function AddMedication(Medication) {
 	if (Medication && inAvailableMedications(Medication) && !inDisplayMedications(Medication)){
-		var filepath = 'interaction/';
+		var filepath = '/interaction/';
 		var filename = MedicationDetails[Medication]['json'];
 		var url = [filepath,filename].join('');
 		console.log("adding:" + url);
