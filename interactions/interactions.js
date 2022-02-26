@@ -5,7 +5,7 @@ jQuery(document).ready( function(){
 // add selected medication
 function AddMedication(Medication) {
 	if (Medication && inAvailableMedications(Medication) && !inDisplayMedications(Medication)){
-		var filepath = '/interaction/';
+		var filepath = '../interaction/';
 		var filename = MedicationDetails[Medication]['json'];
 		var url = [filepath,filename].join('');
 		console.log("adding:" + url);
@@ -58,6 +58,12 @@ function DeleteMedication(Medication){
 	};
 }
 
+// delete all medications
+function DeleteAllMedications() {
+	DisplayMedications = [];
+	RefreshView();
+}
+
 // checkers
 function inDisplayMedications(string){
 	return ($.inArray( string, DisplayMedications ) >= 0);
@@ -68,7 +74,20 @@ function inAvailableMedications(string){
 
 // view stuff
 function RefreshView() {
+
+	// disable the delete all button if there's no medications to display
+	if (DisplayMedications.length > 0) {
+		$("#deleteAllButton").prop('disabled', false);
+		$("#deleteAllButton").removeClass('disabled');
+	} else {
+		$("#deleteAllButton").prop('disabled', true);
+		$("#deleteAllButton").addClass('disabled');
+	}
+
+	// one line does not make a table
 	var tableSize = (DisplayMedications.length + 1);
+
+	// redraw from scratch
 	$("#interactionsTable").empty().hide();
 	$("#interactionDetails").empty().hide();
 	$("#stoppDetails").empty().hide();	
@@ -291,7 +310,6 @@ function StoppInfo(Medication) {
 	return info;
 }
 
-
 function visualFeedback() {	// conditional formatting of the submitButton and searchBox text
 	var searchTerm = $("#searchBox").val().toLowerCase();
 	if (searchTerm) {		// we have a non-empty box...
@@ -450,10 +468,16 @@ $("#searchForm").submit( function(event) {
 	$("#submitButton").click();
 });
 
+// Bind the delete all button
+$("#deleteAllButton").click( function(event){	// now we can assign actions to the delete button
+	event.preventDefault();									// stop the form from properly firing
+  	DeleteAllMedications();
+});
+
 // bind the  tooltip to all the dynamically created items with 'data-toggle' properties
 $('body').tooltip({ selector: '[data-toggle="tooltip"]', delay: { 'show':300, 'hide':100 } });
 
-// redraw the page
+// draw the page
 RefreshView();
 
 // nab the focus to the searchbox
