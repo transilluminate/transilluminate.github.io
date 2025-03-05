@@ -1,149 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="author" content="Adrian Robinson">
-		<title>~/</title>
-
-		<!-- Google analytics -->
-		<script type="application/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-100645523-1', 'auto');ga('send', 'pageview');</script>
-
-		<!-- Icons -->
-		<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
-		<link rel="manifest" href="/icons/site.webmanifest">
-		<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2d89ef">
-		<link rel="shortcut icon" href="/icons/favicon.ico">
-		<meta name="msapplication-TileColor" content="#2d89ef">
-		<meta name="msapplication-config" content="/icons/browserconfig.xml">
-		<meta name="theme-color" content="#ffffff">
-
-		<!-- Local hosted css with custom classes to avoid adblocking social icons -->
-		<link rel="stylesheet" href="fontawesome-4.7.0.css">
-
-		<!-- jQuery and Velocity.js javascript libraries -->
-		<script type="application/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-		<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
-
-		<style type="text/css">
-			html { height: 100%; width: 100%; } // fixing background gradient bug on chrome
-			* { margin: 0px; padding: 0px; border:0px; overflow: visible; }
-			body {
-				height: 100%; width: 100%; margin:0px; padding: 0px; border: 0px;
-				background-repeat: no-repeat;
-				background-attachment: fixed;
-				background: rgba(115,167,221,1);
-				background: -moz-linear-gradient(top, rgba(115,167,221,1) 0%, rgba(204,225,245,1) 100%);
-				background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(115,167,221,1)), color-stop(100%, rgba(204,225,245,1)));
-				background: -webkit-linear-gradient(top, rgba(115,167,221,1) 0%, rgba(204,225,245,1) 100%);
-				background: -o-linear-gradient(top, rgba(115,167,221,1) 0%, rgba(204,225,245,1) 100%);
-				background: -ms-linear-gradient(top, rgba(115,167,221,1) 0%, rgba(204,225,245,1) 100%);
-				background: linear-gradient(to bottom, rgba(115,167,221,1) 0%, rgba(204,225,245,1) 100%);
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73a7dd', endColorstr='#cce1f5', GradientType=0 );
-			}
-			#bottomBar { position:fixed; width:100%; height:126px; bottom:-100px; background:#0f0f0f; }
-			#bottomBarText {
-				position:absolute; top:0; width: auto; right: 384px; left: 0px; height: 26px;
-				font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px; text-align: left; padding-left: 20px; color:rgba(115,167,221,1);
-			}
-			a { color:rgba(145,197,251,1); text-decoration:none; border-bottom:none; }
-			#lookingUp img { position:fixed; width:284px; height:284px; bottom:0px; right:100px; }
-			#cloudContainer { position: absolute; width: auto; height: auto; left: 100px; right: 100px; top: 50px; bottom: 200px; }
-			#cloudDiv { position: absolute; width:20px; height:20px; margin-left:-10px; margin-top:-10px; }
-			#cloudImg { position: absolute; width: 256px; height: 256px; margin-left: -128px; margin-top: -128px; }
-			#cloudTxt { position: absolute; width: 80px; height: 80px; margin-top:-40px; margin-left:-40px; font-size:80px; line-height:0px; top: 0px; }
-		</style>
-
-		<script type="application/javascript">
-			function addCloud(positionX,positionY,density,scale) {
-				var cloudDiv = document.createElement("div");
-				$(cloudDiv).attr("id","cloudDiv");
-				$(cloudDiv).css( {left: positionX+"%"} );
-				$(cloudDiv).css( {top: positionY+"%"} );
-				$(cloudContainer).append(cloudDiv);
-				for( var i = 0; i < density; i++ ) {
-					var cloudImg = document.createElement("img");
-					$(cloudImg).attr("id","cloudImg");
-					$(cloudImg).attr("src","cloud_transparent.png"); // hard code the .png with transparency at 20%
-					var x = (50 - (Math.floor( Math.random() * 100))) * scale;
-					var y = (50 - (Math.floor( Math.random() * 100))) * scale;
-					var z = ( Math.floor( Math.random() * 360 ));
-					$(cloudImg).css("transform","translateX("+x+"px) translateY("+y+"px) rotate("+z+"deg) scale("+scale+","+scale+")");
-					$(cloudDiv).append(cloudImg);
-				};
-			};
-			function addText(positionX,positionY,html) {
-				var cloudTxt = document.createElement("div");
-				$(cloudTxt).attr("id","cloudTxt");
-				$(cloudTxt).css( {left: positionX+"%"} );
-				$(cloudTxt).css( {top: positionY+"%"} );
-				$(cloudTxt).css("opacity","0.6");
-				$(cloudTxt).html(html);
-				$(cloudContainer).append(cloudTxt);
-			};
-			function buildClouds() {
-				// 2 thought bubbles
-				addCloud(80,90,8,0.3);
-				addCloud(70,70,8,0.7);
-				// some random 'fluffiness'
-				addCloud(0,10,4,0.5);
-				addCloud(30,20,4,2.0);
-				addCloud(50,35,4,1.6);
-				addCloud(40,30,4,1.2);
-				addCloud(50,20,4,1.2);
-				addCloud(70,20,4,0.8);
-				addCloud(80,25,4,1.4);
-				// dense clouds covering the social media places
-				addCloud(10,24,8,1); // twitter
-				addCloud(25,38,8,1); // facebook
-				addCloud(33,13,8,1); // instagram
-				addCloud(40,45,8,1); // reddit
-				addCloud(54,25,8,1); // linkedin
-				addCloud(68,15,8,1); // github
-				addCloud(90,20,8,1); // keybase
-			};
-			function buildIcons() {
-				var facebookHTML = "<a href='https://facebook.com/transilluminate' target='_blank'><i class='fa fa-ffaacceebbooookk-official' aria-hidden='true' title='Facebook: facebook.com/transilluminate' aria-label='Facebook'></i></a>";
-				var twitterHTML = "<a href='https://twitter.com/transilluminate' target='_blank'><i class='fa fa-ttwwiitttteerr' aria-hidden='true' title='Twitter: twitter.com/transilluminate' aria-label='Twitter'></i></a>";
-				var instagramHTML = "<a href='https://www.instagram.com/transilluminate/' target='_blank'><i class='fa fa-iinnssttaaggrraamm' aria-hidden='true' title='Instagram: instagram.com/transilluminate' aria-label='Instagram'></i></a>";
-				var githubHTML = "<a href='https://github.com/transilluminate' target='_blank'><i class='fa fa-ggiitthhuubb' aria-hidden='true' title='Github: github.com/transilluminate' aria-label='Github'></i></a>";
-				var linkedinHTML = "<a href='https://www.linkedin.com/in/transilluminate/' target='_blank'><i class='fa fa-lliinnkkeeddiinn-square' aria-hidden='true' title='LinkedIn linkedin.com/in/transilluminate' aria-label='LinkedIn'></i></a>";
-				var keybaseHTML = "<a href='https://keybase.io/transilluminate' target='_blank' title='Keybase'><i class='fa fa-lock' aria-hidden='true' title='Keybase: keybase.io/transilluminate' aria-label='Keybase'></i></a>";
-				var redditHTML = "<a href='https://www.reddit.com/user/transilluminate' target='_blank' title='Reddit'><i class='fa fa-reddit-alien' aria-hidden='true' title='Reddit: reddit.com/u/transilluminate' aria-label='Reddit'></i></a>";
-				var mediumHTML = "<a href='https://medium.com/@transilluminate' target='_blank' title='Medium'><i class='fa fa-medium' aria-hidden='true' title='Medium: medium.com/@transilluminate' aria-label='Medium'></i></a>";
-				// social icons
-				addText(10,24,twitterHTML);
-				addText(25,38,facebookHTML);
-				addText(33,13,instagramHTML);
-				addText(40,45,redditHTML);
-				addText(54,25,linkedinHTML);
-				addText(68,15,githubHTML);
-				addText(90,20,keybaseHTML);
-			};
-			$(document).ready(function(){
-				buildClouds();
-				buildIcons();
-
-				$(cloudContainer).hide().velocity("fadeIn", {duration: 1500} );
-
-				$(cloudTxt).hover(zoomIn,zoomOut);
-				function zoomIn(){ $(this).velocity( {opacity:1, scale: 1.6} ); };
-				function zoomOut(){ $(this).velocity("reverse") };
-			});
-		</script>
-	</head>
-	<body>
-		<div id="cloudContainer"></div>
-		<div id="bottomBar"><div id="bottomBarText"><a href="https://transilluminate.org">transilluminate.org</a></div></div>
-		<div id="lookingUp"><img alt="@transilluminate looking up" src="lookingUp.png"/></div>
-	</body>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transilluminate.org</title>
+    <meta name="author" content="Adrian Robinson">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div id="particles-js"></div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="picture">
+                <img class="button" src="https://avatars.githubusercontent.com/u/2166003?v=4" width="40px" height="40px" alt="Avatar" />
+                <span class="tooltip">
+                    <p>
+                        Mr <strong>Adrian Robinson</strong> (he/him) BMedSci <em>(hons)</em> MSc <a href="https://www.advance-he.ac.uk/fellowship/fellowship" target="_blank">FHEA</a>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-graduation-cap"></i> Senior Lecturer, <a href="https://kingston.ac.uk"><strong>Kingston University</strong> London</a>
+                        <br />Module Lead for Non-Medical Prescribing (<a href="https://www.wfdkingston.co.uk/course?id=117969" target="_blank">NW7033</a> / <a href="https://www.wfdkingston.co.uk/course?id=117970" target="_blank">NW6033</a>)
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-hospital"></i> Lead for Advanced and Enhanced Practice, <a href="https://swlstg.nhs.uk/">SWLStG Trust</a>
+                    </p>
+                    <p>
+                        <em><strong><i class="fa-solid fa-robot"></i> The interface of medical education and technology:</strong></em>
+                        <br />Contact me for consulting with curriculum design, technology enhanced learning, coaching, and how to use generative AI to support the success of students and faculty.
+                    </p>
+                </span>
+            </div>
+            <div class="footer-right">
+                <a href="https://www.linkedin.com/in/transilluminate/" target="_blank" class="button"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/transilluminate" target="_blank" class="button"><i class="fab fa-github"></i></a>
+                <a href="https://bsky.app/profile/transilluminate.bsky.social" target="_blank" class="button"><i class="fab fa-bluesky"></i></a>
+                <!-- I do not support nazis: https://x.com/transilluminate -->
+                <a href="https://medium.com/@transilluminate" target="_blank" class="button"><i class="fab fa-medium"></i></a>
+                <a href="https://www.reddit.com/user/transilluminate/" target="_blank" class="button"><i class="fab fa-reddit"></i></a>
+                <a href="https://www.instagram.com/transilluminate/" target="_blank" class="button"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!--
+        particles.js is (c) 2015 Vincent Garreau
+        MIT License, see particles.js.license.md
+        https://vincentgarreau.com/particles.js/
+    -->
+    <script type="text/javascript" src="js/particles.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
 </html>
-<!--
-Thanks for looking! I used inspiration from a CSS 3D clouds tutorial from https://www.clicktorelease.com/code/css3dclouds/,
-but with many modifications mostly to use jQuery instead of a DOM model. The background gradient was generated using the
-http://www.cssmatic.com/gradient-generator, the social media icons are from http://fontawesome.io, and the PNG cloud
-was used from http://www.scri8e.com/stars/PNG_Clouds/. As they don't have any copyright info on scri8e and the cloud is
-drastically changed from the original, I believe this to be fair use! Any issues, please get in contact on any of the social
-media sites above. Images were optimised with http://tinypng.com, hosted on http://github.com pages. Much love <3
--->
