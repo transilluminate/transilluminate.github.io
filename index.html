@@ -14,7 +14,7 @@
         <div class="footer-split">
 
             <div class="footer-left">
-                <button class="btn" onmouseover="showTooltip()" onmouseout="hideTooltip()">
+                <button class="btn" onmouseover="showTooltip()" onmouseout="hideTooltip()" onclick="toggleTooltip()">
                     <img src="https://avatars.githubusercontent.com/u/2166003?v=4" width="40" height="40" alt="Adrian" />
                 </button>
                 <div class="tooltip">
@@ -80,6 +80,9 @@
         function hideTooltip() {
             tooltip.style.visibility = "hidden";
             tooltip.style.opacity = '0';
+        }
+        function toggleTooltip() {
+            tooltip.style.visibility === "visible" ? hideTooltip() : showTooltip();
         }
     </script>
 </body>
