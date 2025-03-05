@@ -49,5 +49,19 @@
     -->
     <script type="text/javascript" src="js/particles.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript">
+        const tooltipImage = document.querySelector('.picture img');
+        tooltipImage.addEventListener('click', toggleTooltip);
+        function toggleTooltip() {
+                const tooltip = this.nextElementSibling;
+                if (tooltip.style.visibility === 'visible') {
+                    tooltip.style.visibility = 'hidden';
+                    tooltip.style.opacity = '0';
+                } else {
+                    tooltip.style.visibility = 'visible';
+                    tooltip.style.opacity = '1';
+                }
+            }
+    </script>
 </body>
 </html>
