@@ -51,7 +51,10 @@ particlesJS('background', {
       "onhover": {
         "enable": true,
         "mode": "bubble"
-      }
+      },
+      "onclick": {
+        "enable": false,
+      },      
     },
     "modes": {
       "bubble": {
