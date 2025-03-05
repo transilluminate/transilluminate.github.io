@@ -1,4 +1,4 @@
-particlesJS('particles-js', {
+particlesJS('background', {
   "particles": {
     "number": {
       "value": 128,
